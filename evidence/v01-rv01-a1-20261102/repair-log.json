@@ -1,0 +1,86 @@
+[
+  {
+    "id": "RVP-01",
+    "problem": "Synthetic formation input serialized as an object rather than the array expected by historical_document.",
+    "disposition": "smoke: consumed claim retained as UNKNOWN 1.00; closed unused allowance; fresh hosts use an array.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-02",
+    "problem": "Selection input references lacked raw_sha256.",
+    "disposition": "contention (unnumbered): no measured work; bootstrap 1.75 remains charged. Use public event_ref over exact returned records.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-03",
+    "problem": "Early parallel assertions proved accounting but did not prove the coordinator completed resumed branches.",
+    "disposition": "Earlier success replay is historical. Added actual LangGraph resume, blocked interrupt and replacement journal reconstruction; final successful and blocked graph witnesses passed.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-04",
+    "problem": "Evaluator needed to report scientific inability for an exact formation reference unavailable in the immutable snapshot.",
+    "disposition": "Report NOT DETERMINABLE/STOP for that real missing input; never forge a passing criterion. Retain before source in repairs/002.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-05",
+    "problem": "Known half-unit receipt left unsettled when check-commit raised UNFUNDED_CHECK.",
+    "disposition": "Fix lifecycle to settle/close even if Check commit refuses. Reopen cs-d2b93351; original pending attempt 50 settled 0.50 from registered receipt, reservation closed, no Check fabricated. Before/after and exact settlement refs retained.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-06",
+    "problem": "CS fixture omitted historical_document import.",
+    "disposition": "Preserve cs-c8d44d70 with CK 4.00, G-BR 1.75, G-R funding allowance 0.50; repair import and rerun fresh.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-07",
+    "problem": "Service events reset on process restart; journal writes did not use durable replace.",
+    "disposition": "Use fsync plus atomic replace; retain event/forward counters across restart. Refreshed CS-06 passed. This does not claim arbitrary storage-fault or kill-at-every-instruction verification.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-08",
+    "problem": "Per-mode result file overwrote preceding outcomes and early starts retained hashes without complete source copies.",
+    "disposition": "Persist results, assert aggregate against actual exports, copy source at each final start. Restore earlier required source bytes by exact pre-run hash where necessary; source-coverage.json has complete required-family code and metadata coverage. Historical hashes/repair copies remain.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-09",
+    "problem": "Combined custodian/controller instrumentation retained a Principal client and could not establish the intended TC boundary.",
+    "disposition": "Add separate BC worker that provisions service and exits; independent TC reads only its caller credential, uses service and proves refusals. Same-UID Principal file remains readable; no isolation claim. Final boundary witness passed.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-10",
+    "problem": "Accounting reopens initially reused obsolete private socket endpoints, then get lacked exact sha256.",
+    "disposition": "Refresh narrow actor connection views on host reopen and use public exact history. These read errors dispatched no tools and changed no balances; final exports completed.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-11",
+    "problem": "Late teardown of first boundary run found host already unavailable after the test session ended.",
+    "disposition": "Preserve first boundary records; final source performs custodian export/stop before controller session ends. Fresh public reopen exported both runs without charges.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  },
+  {
+    "id": "RVP-12",
+    "problem": "Draft amendment text assumed free bootstrap research although dispatched plans included real rejected-history computations.",
+    "disposition": "Retain original draft in repairs/005, verified against its pre-run hash. Correct successor explanation to bootstrap T 0.75 / R 1.00 and conservative maximum 2.00 each. No authority, budget, scope or acceptance change.",
+    "acceptance_relaxed": false,
+    "ARH_modified": false
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "apply": {
+    "code": "COMMITTED",
+    "forwarded": true,
+    "request_id": "29bc6706-4576-47fa-8a8e-9259c6d29024",
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 39,
+          "sha256": "acae896e174f308945a197c108bb004918844ad0359e7de175004d4b2e28b076"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  "bc_pid": 74944,
+  "bc_terminated_before_tc_requests": true,
+  "credential_scope": "broad; allowlist is application code",
+  "obligations": {
+    "code": "OBSERVED",
+    "forwarded": true,
+    "request_id": "8c7e6e2e-c432-4ed4-a603-4d66b3217dcf",
+    "upstream": {
+      "E": 53,
+      "N": 9,
+      "bindings": {
+        "53": "CONSUMED"
+      },
+      "decided_unapplied": [],
+      "no_authority_conferred": true,
+      "pending_attempts": []
+    }
+  },
+  "os_isolation": false,
+  "policy": {
+    "code": "COMMITTED",
+    "forwarded": true,
+    "request_id": "9fa4be56-8eb7-430c-ac10-fc7fd2bb4ded",
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 38,
+          "sha256": "b5dc956756fb2cae24c10640da2fb6c02b940d11ef72872d2568f75876feb3f3"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  "refusals": [
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "c09502db-a2a5-473e-9b9e-ad585dc4c38e"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "679ae328-7683-4cbe-b063-efec75ec6858"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "ba951472-8259-45bd-ba25-f255da4c2174"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "a30f2e86-68d5-4667-8854-19be31f9216f"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "c0f6f2ef-b3e4-474d-be01-275c4a82fd78"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "2a85d69b-d2f2-462b-9cc2-86106a82688f"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "4811b3ed-e8a5-4292-a628-f05966028810"
+    },
+    {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "f64393d4-7219-4ea1-b819-cebd1bdc2e99"
+    }
+  ],
+  "same_uid_raw_credential_readable": true,
+  "service_actor": "Principal",
+  "status": "PASS",
+  "status_before": {
+    "code": "HOST_RESPONSE",
+    "forwarded": true,
+    "request_id": "7f5c9b25-ac69-4368-9cd3-3b1bbf5781b8",
+    "upstream": {
+      "inventory_sha256": "d605aa9f33e3cad6b95c4481d69e56b60783dc395d0939e35db34bbe62cf7e14",
+      "processes": [
+        {
+          "alive": true,
+          "label": null,
+          "mode": "core",
+          "pid": 74952
+        }
+      ],
+      "run_id": "2e0f699a9bdf41d08015490030504083",
+      "state": "/private/tmp/murmur-rv01.bV2lvE/runtime/boundary-2d63ce76/state"
+    }
+  },
+  "tc_inputs_have_no_principal_credential": true,
+  "tc_pid": 74943
+}

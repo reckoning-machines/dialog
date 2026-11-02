@@ -1,0 +1,16 @@
+{
+  "__interrupt__": [
+    "Interrupt(value={'actor': 'R-R', 'operation': 'R-R-parallel', 'requires': 'authoritative quiescence/replacement', 'status': 'blocked'}, id='6ecc4014fa9c86cb0ebdab101cda70af', response_schema=None)"
+  ],
+  "trend": {
+    "attempt": 50,
+    "execution": "registered",
+    "record": {
+      "ledger": "E",
+      "sequence": 52,
+      "sha256": "d07755ec4d1611fec81a51932eee7bcc13dc03e1ca81f37735213887643aacc4"
+    },
+    "reservation": 48,
+    "status": "recorded"
+  }
+}

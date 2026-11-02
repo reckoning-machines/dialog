@@ -1,0 +1,22 @@
+[
+  {
+    "caller": "TC",
+    "code": "REFUSED",
+    "forwarded": true,
+    "operation": "policy-decide",
+    "request_id": "0bee91bd-2a0a-408c-815d-339da76c68bf",
+    "service_pid": 67748,
+    "upstream": {
+      "detail": "",
+      "reason": "POLICY_SUSPENDED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 45,
+          "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "93d1c5b0-d056-4498-81b3-f1f39d9e23c9",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "8981fd8a-0a9c-4509-b307-9730fe77e6ee",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "f9327cff-c51e-4e7f-abd2-df9b22f54911",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "decide",
+    "request_id": "d4f23d1c-abec-4f7c-b5a8-d9ec8db295a2",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "539e976f-7114-4be5-a248-cd563b8a5856",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "limits",
+    "request_id": "04b425e4-d6f6-408d-9a3b-1f644d14db90",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "standard",
+    "request_id": "437ed07b-1de6-4e3f-85fe-2053073af6df",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "99179081-0289-4f8f-a5b5-348511cca145",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "tick",
+    "request_id": "ada0cd8c-646b-4728-a0fc-6774e0ce8e3f",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "token-export",
+    "request_id": "85f2ce86-df75-477d-beac-9deccbc2a55a",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "scope-extension",
+    "request_id": "c6e0e04e-d052-4697-828a-458b6637725c",
+    "service_pid": 54694
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "status",
+    "request_id": "21365f68-6bac-424e-8366-5c67783fa4cd",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "4970fcba-de38-4a9f-9a0f-727ed2bf1c53",
+    "service_pid": 54694
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_REQUEST_MISMATCH",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "4970fcba-de38-4a9f-9a0f-727ed2bf1c53",
+    "service_pid": 54694
+  }
+]

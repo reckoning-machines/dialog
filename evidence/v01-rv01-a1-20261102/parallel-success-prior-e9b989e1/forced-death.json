@@ -1,0 +1,17 @@
+{
+  "coordinator_pid": 53441,
+  "coordinator_returncode": -9,
+  "workers": {
+    "R-R": {
+      "attempt": 50,
+      "boundary": "claimed-no-receipt",
+      "pid": 53450
+    },
+    "R-T": {
+      "attempt": 51,
+      "boundary": "durable-local-receipt",
+      "pid": 53449
+    }
+  },
+  "workers_reaped_before_proof": true
+}

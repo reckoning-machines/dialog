@@ -1,0 +1,82 @@
+[
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 45,
+      "sha256": "1d5cc9f0fb06b3394a4206675968dc43131159e4dc5a9a397f69f5118af69547"
+    },
+    "result": "FAIL",
+    "transition": "P-FAIL"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 48,
+      "sha256": "b72ebaa0f7cd12a50b3943c2dc64f722a046c06481c2d33d5a8de01b677b1f03"
+    },
+    "result": "STOP",
+    "transition": "P-STOP"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 50,
+      "sha256": "cf33e4c0751c722c13ff90af22cc6e8d665823cfbab3ca5125efd75da0d5a917"
+    },
+    "result": "PASS",
+    "transition": "P-STALE"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 52,
+      "sha256": "566b0166fc0d02b29cd10fdeef5ecd0a3ffd78a05ca10f8cee99153e09830e03"
+    },
+    "result": "PASS",
+    "transition": "P-RAW"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 56,
+      "sha256": "dda3895b0c80e2c04f46eb8535c337d53ea5672a2ff99aef9935d6f1c64033b6"
+    },
+    "result": "PASS",
+    "transition": "P-STALE"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 59,
+      "sha256": "361eeabd9e14017c66ccaee5f05e55689d7a36c68987529f273958a0a4d11bb4"
+    },
+    "result": "PASS",
+    "transition": "P-DRIFT"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 61,
+      "sha256": "e1338ff3a85fcd2fed0063567817abefbb6c5d14bc5c77fcda07ccde6227f4f5"
+    },
+    "result": "PASS",
+    "transition": "P-S19"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 64,
+      "sha256": "f639fc52f7a2989a5d1539beb0040004e5bffa99435c379ddf3246f359451139"
+    },
+    "result": "PASS",
+    "transition": "P-DRIFT"
+  }
+]

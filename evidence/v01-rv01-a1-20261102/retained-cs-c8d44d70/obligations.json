@@ -1,0 +1,10 @@
+{
+  "E": 86,
+  "N": 9,
+  "bindings": {
+    "74": "CONSUMED"
+  },
+  "decided_unapplied": [],
+  "no_authority_conferred": true,
+  "pending_attempts": []
+}

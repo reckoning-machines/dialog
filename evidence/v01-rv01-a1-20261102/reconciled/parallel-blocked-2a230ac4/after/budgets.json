@@ -1,0 +1,35 @@
+{
+  "AU-CK-V": {
+    "E": 56,
+    "N": 8,
+    "committed": "2.00",
+    "grant": "AU-CK-V",
+    "headroom": "10.00",
+    "overspent": false,
+    "reserved": "2.00",
+    "spendable": "10.00",
+    "time_ms": 1793232001000
+  },
+  "G-BR": {
+    "E": 56,
+    "N": 8,
+    "committed": "1.75",
+    "grant": "G-BR",
+    "headroom": "8.25",
+    "overspent": false,
+    "reserved": "1.75",
+    "spendable": "8.25",
+    "time_ms": 1793232001000
+  },
+  "G-R": {
+    "E": 56,
+    "N": 8,
+    "committed": "1.75",
+    "grant": "G-R",
+    "headroom": "8.25",
+    "overspent": false,
+    "reserved": "2.75",
+    "spendable": "7.25",
+    "time_ms": 1793232001000
+  }
+}

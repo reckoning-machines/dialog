@@ -1,0 +1,41 @@
+[
+  {
+    "caller": "TC",
+    "code": "SERVICE_REQUEST_MISMATCH",
+    "forwarded": false,
+    "operation": "apply",
+    "request_id": "bce86920-3368-4db5-b1be-813f2db2b6df",
+    "service_pid": 61490
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "apply",
+    "request_id": "b85119ff-7f7f-45d9-b851-d811a4c443cb",
+    "service_pid": 61490,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 66,
+          "sha256": "4e985a77abcc364656ac8853a5f0fe05e9e3a0f26264782fef2bacdbd3e4e65d"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "HOST_RESPONSE",
+    "forwarded": true,
+    "operation": "quiesce",
+    "request_id": "9fa61567-f039-4b9e-9cfa-74b645947f83",
+    "service_pid": 61490,
+    "upstream": {
+      "proofs": [
+        "/private/tmp/murmur-rv01.bV2lvE/runtime/cs-24fc32c4/state/supervisor/4ea9fdc6ffbc2fa106ea47c4688b7383dd902705669f6dee4107abde3b9950bc.json"
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "check": {
+    "ledger": "T",
+    "sequence": 44,
+    "sha256": "0cc033eef90e79627b0bec07fad54b480fb9ca06345e59681cd3770f0bf77046"
+  },
+  "service": {
+    "code": "REFUSED",
+    "forwarded": true,
+    "request_id": "0bee91bd-2a0a-408c-815d-339da76c68bf",
+    "upstream": {
+      "detail": "",
+      "reason": "POLICY_SUSPENDED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 45,
+          "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  }
+}

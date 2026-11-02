@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "24579f1dfe6f20099b4e42a7e653446e9c6c846798836a5d6dc7d4c8cab73aab",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 74826
+    }
+  ],
+  "run_id": "e3ee18c6283e4a7081526ce90ed21d93",
+  "state": "/private/tmp/murmur-rv01.bV2lvE/runtime/smoke/state"
+}

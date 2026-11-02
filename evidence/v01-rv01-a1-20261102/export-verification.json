@@ -1,0 +1,9 @@
+{
+  "G_CONSUMER": "FAIL",
+  "LangGraph": "UNSELECTED",
+  "boundary": "Cooperative separation observed; same-UID credential access remains possible.",
+  "failed": 2,
+  "kind": "assertions against retained exports, not a new host run",
+  "passed": 12,
+  "required": 14
+}

@@ -1,0 +1,12 @@
+{
+  "detail": "",
+  "reason": "P1_CLASS",
+  "refs": [
+    {
+      "ledger": "T",
+      "sequence": 38,
+      "sha256": "211cf2e4c7ec5c53afbee871f8d7693b08d5bf553da3af5e5ab08f707c253135"
+    }
+  ],
+  "status": "REFUSED"
+}

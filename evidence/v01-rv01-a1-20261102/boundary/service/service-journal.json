@@ -1,0 +1,141 @@
+{
+  "0bffc308-a1f0-4995-a0e0-e2b3ad0800ef": {
+    "fingerprint": "e40cf7b375e17754a0836a0a557f9d68ce906b68b2d7c081bc3b3e980ed64a42",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "0bffc308-a1f0-4995-a0e0-e2b3ad0800ef"
+    }
+  },
+  "0dcb85e7-8af2-483e-b269-5fab59110bed": {
+    "fingerprint": "ad8c80b4a9228731f1e67b52b09c58f35f59bc30c279fd3b2899bf6866069495",
+    "response": {
+      "code": "OBSERVED",
+      "forwarded": true,
+      "request_id": "0dcb85e7-8af2-483e-b269-5fab59110bed",
+      "upstream": {
+        "E": 53,
+        "N": 9,
+        "bindings": {
+          "53": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      }
+    }
+  },
+  "271c58e0-8b46-4309-a11c-4054921a292a": {
+    "fingerprint": "fc637b60c5878dc19afa4fa053fbae96489607d8d2513d9ef1960b60587d7c5f",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "271c58e0-8b46-4309-a11c-4054921a292a"
+    }
+  },
+  "3544f008-b1bc-4375-9041-2cc3e31e9c9a": {
+    "fingerprint": "9cd3d17eb2789270de585e8c40c3113356384b43964ef0276182852e48d4a2b7",
+    "response": {
+      "code": "HOST_RESPONSE",
+      "forwarded": true,
+      "request_id": "3544f008-b1bc-4375-9041-2cc3e31e9c9a",
+      "upstream": {
+        "inventory_sha256": "d605aa9f33e3cad6b95c4481d69e56b60783dc395d0939e35db34bbe62cf7e14",
+        "processes": [
+          {
+            "alive": true,
+            "label": null,
+            "mode": "core",
+            "pid": 75606
+          }
+        ],
+        "run_id": "40742441e63f47019a78ba5e1d224a47",
+        "state": "/private/tmp/murmur-rv01.bV2lvE/runtime/boundary-53c71217/state"
+      }
+    }
+  },
+  "3c1d11a2-83ce-43fd-8e33-822f108620d1": {
+    "fingerprint": "f83c7acd5230e1771b77fa8ecf706ac5c42f2903ac8eab17a05735f4e9008f69",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "3c1d11a2-83ce-43fd-8e33-822f108620d1"
+    }
+  },
+  "68629342-8c9b-48d7-af65-1bc01cac0d9f": {
+    "fingerprint": "b223f68b7b1d95f03395fca624d9b0a9f93d62b1f3007991dcf0ace3edba3d97",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "68629342-8c9b-48d7-af65-1bc01cac0d9f"
+    }
+  },
+  "6961b2d6-e3a7-4190-82a0-035af89f4785": {
+    "fingerprint": "cc1519dafad340c1a38d168964d81dfca9b7f0d7551dae67db12288dd446de12",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "6961b2d6-e3a7-4190-82a0-035af89f4785",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 38,
+            "sha256": "b5dc956756fb2cae24c10640da2fb6c02b940d11ef72872d2568f75876feb3f3"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "7365653d-a808-40c7-bf68-6a23f1c0b950": {
+    "fingerprint": "340af65b5f0657c63f28bc4d222ba8e3bd0f65cebeb3d1300484d12f1dedc9c7",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "7365653d-a808-40c7-bf68-6a23f1c0b950"
+    }
+  },
+  "d761d4ef-cd17-41e4-a51a-abbb50836960": {
+    "fingerprint": "43360e62c72f9802ecc9bd50dfcfd710b4637d1bb60b479bb11d75f73b0b0df0",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "d761d4ef-cd17-41e4-a51a-abbb50836960"
+    }
+  },
+  "e1ed768d-2038-4b60-855b-ee7b776ca638": {
+    "fingerprint": "3416dd409aa04764e2c559a7a3dd2a5863429d336211ffcf5a10f2f70137636a",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "e1ed768d-2038-4b60-855b-ee7b776ca638"
+    }
+  },
+  "f39363e0-fd02-4904-bb40-e162ecfe876a": {
+    "fingerprint": "035b1ef61b4cee4d42d249a27c46bfbc374f719e96d615b343d6a949d4800137",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "f39363e0-fd02-4904-bb40-e162ecfe876a",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 39,
+            "sha256": "acae896e174f308945a197c108bb004918844ad0359e7de175004d4b2e28b076"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "f816131b-27b7-4dd8-b6f3-43bb4885c5a3": {
+    "fingerprint": "47215a61676f7b2c5af9cbc63742a8f495913d4391615ba212abd93596cbf848",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "f816131b-27b7-4dd8-b6f3-43bb4885c5a3"
+    }
+  }
+}

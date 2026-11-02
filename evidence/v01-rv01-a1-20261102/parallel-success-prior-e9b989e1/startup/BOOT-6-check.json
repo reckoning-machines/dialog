@@ -1,0 +1,1121 @@
+{
+  "attempt": 23,
+  "base": 5,
+  "closure": {
+    "E": 23,
+    "F": "N/A \u2014 no Paper Book",
+    "N": 5,
+    "time_ms": 1793232001000
+  },
+  "constitution": 1,
+  "context": {
+    "checker": {
+      "design": "AD-CK-V1.0",
+      "grant": "AU-CK-V",
+      "identity": "AD-CK-V1.0",
+      "provenance": {
+        "execution_kind": "deterministic synthetic program",
+        "model": null,
+        "model_version": null,
+        "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+        "provider": null,
+        "spec_version": "generated-design-v1",
+        "training_cutoff": null
+      }
+    },
+    "class": "AUTHORIZATION",
+    "classification": "Synthetic Historical Reconstruction; authored knowing the period",
+    "funding": {
+      "checker_attempt": 23,
+      "proposer": "N/A",
+      "separate": true
+    },
+    "proposal": {
+      "ledger": "T",
+      "sequence": 24,
+      "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+    },
+    "proposer": {
+      "authority": "Principal",
+      "identity": "Principal",
+      "provenance": null
+    },
+    "provider_exception": "A1 synthetic-only; no provider provenance claimed",
+    "subject": "G-R"
+  },
+  "criteria": {
+    "authority": {
+      "reason": "Direct Principal control or active exact proposer grant at closure",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "closure": {
+      "reason": "Exact committed closure; authored knowing the period; synthetic history earns no forward standing",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "current_base": {
+      "reason": "Checked base is the authoritative head",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "funding": {
+      "reason": "N/A for Principal; otherwise literal named open/unfenced reservation, amount and purpose; Checker cost separate",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "grant_content": {
+      "reason": "All grant fields, registered grantees, synthetic scope and applicable funding fields evaluated",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "independence": {
+      "reason": "Separate eligible CHECKER lineage/grant; protected CV1; A1 no-model provenance; own-subject restrictions",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "prior_fence": {
+      "reason": "Exact predecessor and prior Principal fence for Research/Checker supersession/revocation",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "registration_difference": {
+      "reason": "Concrete instruction/question/tool difference; IDs alone do not supply a difference",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "source_declarations": {
+      "reason": "Source meanings, revisions, grace, extraction and feed completeness; synthetic sources declare enumeration",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    },
+    "tool_permissions": {
+      "reason": "Own declared capped synthetic tools only, no foreign-grant tool consumption",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 24,
+          "sha256": "99f6b81e69a3e92016f7e8dca0860f8b142e0820d043065baef372769b342113"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "0770da736b50f2b6aefbd89ae27acf651839d7e2817bcc0d754c1833d48b4f94"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "T",
+          "sequence": 23,
+          "sha256": "368c8b26c3d76cb4b61b64d03c4bb10a225c679eb02d11a624f0bdcb6e8a947d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "ac98006d96b9be976f7c0fed94f9942ca83fcd0048143e9f81c37e13a522d4b6"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "2f814177b07727049b981a73db592b9a64c0a03ce8741e774b5918a8233f1450"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6f3329e5b8a0ad61490e7044328176ce326519581346eeefccefe5250072490b"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "4349792655d102c41727db4770bc970dd3452fb6a9af9ba9ef4ae93d94f2cea3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "88f1f7e742c9373ed84ba559497fc02c39e45903b565c1a86c97b575fb66fbc8"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "f1e9b21ee8855b4236d204b36a740ec8f352d9e76f69a1105fd6adfefbd8a884"
+        },
+        {
+          "ledger": "E",
+          "sequence": 22,
+          "sha256": "a49c43e58ddf2301340667785f498f52f53ea4c8ae9d21f3609ac7c1533d1891"
+        },
+        {
+          "ledger": "E",
+          "sequence": 23,
+          "sha256": "e86ee20e2cf198053536a1134dd7abac34801503f77c9dfc47d9cb2b6eac57cc"
+        }
+      ],
+      "status": "MET"
+    }
+  },
+  "es": "ES-1.0",
+  "grant": "AU-CK-V",
+  "provenance": {
+    "execution_kind": "deterministic synthetic program",
+    "model": null,
+    "model_version": null,
+    "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+    "provider": null,
+    "spec_version": "generated-design-v1",
+    "training_cutoff": null
+  },
+  "result": "PASS",
+  "transition_id": "BOOT-6"
+}

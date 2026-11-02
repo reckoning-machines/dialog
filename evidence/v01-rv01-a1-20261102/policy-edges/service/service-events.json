@@ -1,0 +1,30 @@
+[
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "7c321afb-cd23-42bc-bd09-7d02ea28684e",
+    "service_pid": 75710
+  },
+  {
+    "caller": "TC",
+    "code": "REFUSED",
+    "forwarded": true,
+    "operation": "policy-decide",
+    "request_id": "315ac9ff-4f95-4865-b898-0b698b8a7a15",
+    "service_pid": 75710,
+    "upstream": {
+      "detail": "",
+      "reason": "POLICY_SUSPENDED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 45,
+          "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  }
+]

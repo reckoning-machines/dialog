@@ -1,0 +1,104 @@
+[
+  {
+    "identical": true,
+    "installed_sha256": "6cf30a3cdc1da72302113fddff0ee1dd69ee535601f9d28be7fe102b0ac4a510",
+    "module": "principal.py",
+    "source_sha256": "6cf30a3cdc1da72302113fddff0ee1dd69ee535601f9d28be7fe102b0ac4a510"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "da61207d56e3d7c692f449d43bfa8c4b0d2ac545f4a489b6bb6eb02c4133f05b",
+    "module": "analysis.py",
+    "source_sha256": "da61207d56e3d7c692f449d43bfa8c4b0d2ac545f4a489b6bb6eb02c4133f05b"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "075fa7eab28058339e941ee82864a39d4f069c2d5dad9ed5938f3e9cf267b56f",
+    "module": "research.py",
+    "source_sha256": "075fa7eab28058339e941ee82864a39d4f069c2d5dad9ed5938f3e9cf267b56f"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "c658ab87f0b1a8b567e100a71df193903aafc888b1b6f53859602ba9494b8f3f",
+    "module": "results.py",
+    "source_sha256": "c658ab87f0b1a8b567e100a71df193903aafc888b1b6f53859602ba9494b8f3f"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "c299eb31cfff1e403b17860e21f38853de5cb5b225579e2b61360741e0582f47",
+    "module": "host.py",
+    "source_sha256": "c299eb31cfff1e403b17860e21f38853de5cb5b225579e2b61360741e0582f47"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "bf896fae55c511214da6695fb2e60ce77096b24d124835f8fb1c6ec4da38c384",
+    "module": "langgraph_adapter.py",
+    "source_sha256": "bf896fae55c511214da6695fb2e60ce77096b24d124835f8fb1c6ec4da38c384"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "5c9fe0953f4818a7d650673f090a9f86b142a75416d3018cadadb524f869af3c",
+    "module": "protocol.py",
+    "source_sha256": "5c9fe0953f4818a7d650673f090a9f86b142a75416d3018cadadb524f869af3c"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "25f2c7608ce95235ac4b6503b17769b2ffe9c18b1b88741b559aa511ac900860",
+    "module": "__init__.py",
+    "source_sha256": "25f2c7608ce95235ac4b6503b17769b2ffe9c18b1b88741b559aa511ac900860"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "47ca91e1b904afc50438f5df1821d2100d027de6730d29a74eed3cd4d3da0362",
+    "module": "checking.py",
+    "source_sha256": "47ca91e1b904afc50438f5df1821d2100d027de6730d29a74eed3cd4d3da0362"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "c9db8dbaaaa2c4a8f1d70942f4501cdaa4a3f6ee0d2f268ef9d17f64c325a795",
+    "module": "api.py",
+    "source_sha256": "c9db8dbaaaa2c4a8f1d70942f4501cdaa4a3f6ee0d2f268ef9d17f64c325a795"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "9942966456923c3ecc298e5621ad859dc364503b578f40600c0d5957f393173a",
+    "module": "operations.py",
+    "source_sha256": "9942966456923c3ecc298e5621ad859dc364503b578f40600c0d5957f393173a"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "dd7e4dd0008585b17c9fea830a554a01c27601fe9021ab0b9d84f7c71d0edb99",
+    "module": "connection.py",
+    "source_sha256": "dd7e4dd0008585b17c9fea830a554a01c27601fe9021ab0b9d84f7c71d0edb99"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "8c8a1393d48e50079c957422203bdbe243df0fd101a18a6a761271f55084732d",
+    "module": "setup.py",
+    "source_sha256": "8c8a1393d48e50079c957422203bdbe243df0fd101a18a6a761271f55084732d"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "6f6c6ce6546eeb24a37bcd5ffe08d82a58734bfdc47e5fe24ddd950d91088ec9",
+    "module": "refusals.py",
+    "source_sha256": "6f6c6ce6546eeb24a37bcd5ffe08d82a58734bfdc47e5fe24ddd950d91088ec9"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "c0c3934eb2c9cb69dfba6ae77a0aaa42a6233098731a657cd08533d829e93309",
+    "module": "langgraph_nodes.py",
+    "source_sha256": "c0c3934eb2c9cb69dfba6ae77a0aaa42a6233098731a657cd08533d829e93309"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "616b128b2a2478f09277a06b0f6a1332f1a42d5aab4e1ba06139439ec3efe587",
+    "module": "dev.py",
+    "source_sha256": "616b128b2a2478f09277a06b0f6a1332f1a42d5aab4e1ba06139439ec3efe587"
+  },
+  {
+    "identical": true,
+    "installed_sha256": "4692e146e4702b91d5e87ee6b8a32e28cfe0ccc338d156c7bc144a76741bab0a",
+    "module": "project.py",
+    "source_sha256": "4692e146e4702b91d5e87ee6b8a32e28cfe0ccc338d156c7bc144a76741bab0a"
+  }
+]

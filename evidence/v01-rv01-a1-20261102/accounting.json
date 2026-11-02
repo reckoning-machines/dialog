@@ -1,0 +1,321 @@
+{
+  "notice": "Independent disposable run ceilings are not a single replenishable pool. Unsettled allowance includes deliberately blocked recovery and retained funding, not unpaid charges. Public budget.reserved means usage including settled charges.",
+  "predecessor_at_ccf31b4": {
+    "checker_settled": "1.25",
+    "not_reused": true,
+    "research_settled": "0.00"
+  },
+  "runs": [
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.25",
+      "decided_unapplied": [],
+      "export": "reconciled/boundary-2d63ce76/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.75",
+      "measured_unsettled_allowance": "0.25",
+      "measured_usage": "0.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "boundary-2d63ce76"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.25",
+      "decided_unapplied": [],
+      "export": "reconciled/boundary-53c71217/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.75",
+      "measured_unsettled_allowance": "0.25",
+      "measured_usage": "0.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "boundary-53c71217"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/contention/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "10.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "0.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "contention"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/contention-3fadcff5/after",
+      "measured_research_settled": "9.00",
+      "measured_spendable": "1.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "9.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "5.50",
+        "R-T": "5.25"
+      },
+      "run": "contention-3fadcff5"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/contention-7c7e6936/after",
+      "measured_research_settled": "9.00",
+      "measured_spendable": "1.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "9.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "5.50",
+        "R-T": "5.25"
+      },
+      "run": "contention-7c7e6936"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "4.50",
+      "decided_unapplied": [],
+      "export": "reconciled/cs-24fc32c4/after",
+      "measured_research_settled": "2.25",
+      "measured_spendable": "7.00",
+      "measured_unsettled_allowance": "0.75",
+      "measured_usage": "3.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "3.25",
+        "R-T": "0.75"
+      },
+      "run": "cs-24fc32c4"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "4.50",
+      "decided_unapplied": [],
+      "export": "reconciled/cs-9acf1742/after",
+      "measured_research_settled": "2.25",
+      "measured_spendable": "7.00",
+      "measured_unsettled_allowance": "0.75",
+      "measured_usage": "3.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "3.25",
+        "R-T": "0.75"
+      },
+      "run": "cs-9acf1742"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "4.00",
+      "decided_unapplied": [],
+      "export": "reconciled/cs-c8d44d70/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.50",
+      "measured_unsettled_allowance": "0.50",
+      "measured_usage": "0.50",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "cs-c8d44d70"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.50",
+      "decided_unapplied": [],
+      "export": "reconciled/cs-d2b93351/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.75",
+      "measured_unsettled_allowance": "0.25",
+      "measured_usage": "0.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "cs-d2b93351"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/parallel-blocked-2a230ac4/after",
+      "measured_research_settled": "1.75",
+      "measured_spendable": "7.25",
+      "measured_unsettled_allowance": "1.00",
+      "measured_usage": "2.75",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "2.00",
+        "R-T": "1.50"
+      },
+      "run": "parallel-blocked-2a230ac4"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/parallel-blocked-9b9d1901/after",
+      "measured_research_settled": "1.75",
+      "measured_spendable": "7.25",
+      "measured_unsettled_allowance": "1.00",
+      "measured_usage": "2.75",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "2.00",
+        "R-T": "1.50"
+      },
+      "run": "parallel-blocked-9b9d1901"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/parallel-success-94c70ae2/after",
+      "measured_research_settled": "2.25",
+      "measured_spendable": "7.75",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "2.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "2.50",
+        "R-T": "1.50"
+      },
+      "run": "parallel-success-94c70ae2"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/parallel-success-99332cbc/after",
+      "measured_research_settled": "2.25",
+      "measured_spendable": "7.75",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "2.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "2.50",
+        "R-T": "1.50"
+      },
+      "run": "parallel-success-99332cbc"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/parallel-success-c1db5c71/after",
+      "measured_research_settled": "2.25",
+      "measured_spendable": "7.75",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "2.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "2.50",
+        "R-T": "1.50"
+      },
+      "run": "parallel-success-c1db5c71"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.75",
+      "decided_unapplied": [],
+      "export": "reconciled/policy-edges-9371133c/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.75",
+      "measured_unsettled_allowance": "0.25",
+      "measured_usage": "0.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "policy-edges-9371133c"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.75",
+      "decided_unapplied": [],
+      "export": "reconciled/policy-edges-d48dfdcd/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "9.75",
+      "measured_unsettled_allowance": "0.25",
+      "measured_usage": "0.25",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "policy-edges-d48dfdcd"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/reopen-898eda65/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "10.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "0.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "reopen-898eda65"
+    },
+    {
+      "bootstrap_research_settled": "1.75",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/reopen-b1168ff6/after",
+      "measured_research_settled": "0.00",
+      "measured_spendable": "10.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "0.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "1.00",
+        "R-T": "0.75"
+      },
+      "run": "reopen-b1168ff6"
+    },
+    {
+      "bootstrap_research_settled": "0.00",
+      "checker_settled": "2.00",
+      "decided_unapplied": [],
+      "export": "reconciled/smoke/after",
+      "measured_research_settled": "1.00",
+      "measured_spendable": "9.00",
+      "measured_unsettled_allowance": "0.00",
+      "measured_usage": "1.00",
+      "pending_attempts": [],
+      "research_settled_by_actor_across_grants": {
+        "R-R": "0.00",
+        "R-T": "1.00"
+      },
+      "run": "smoke"
+    }
+  ],
+  "successor_totals": {
+    "bootstrap_research_settled": "31.50",
+    "checker_settled": "47.50",
+    "measured_research_settled": "33.75",
+    "measured_unsettled_allowance": "5.25"
+  },
+  "unit": "simulated_research_units"
+}

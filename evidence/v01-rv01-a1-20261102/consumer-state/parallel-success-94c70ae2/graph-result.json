@@ -1,0 +1,22 @@
+{
+  "reversal": {
+    "attempt": 57,
+    "record": {
+      "ledger": "E",
+      "sequence": 58,
+      "sha256": "66c978ad9ac8a1cf880ac647183b3fb57cdca0be4f0ec92a4fa2f3e7ab56dc5f"
+    },
+    "status": "recorded"
+  },
+  "trend": {
+    "attempt": 51,
+    "execution": "registered",
+    "record": {
+      "ledger": "E",
+      "sequence": 52,
+      "sha256": "6b594eee7e6e533da7c1d1fa276f289efd8109a86dac7efc6b547abebe9da13b"
+    },
+    "reservation": 49,
+    "status": "recorded"
+  }
+}

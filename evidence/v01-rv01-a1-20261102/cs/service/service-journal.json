@@ -1,0 +1,189 @@
+{
+  "0ff92bd8-9a38-40be-adcc-edb3f9a049f5": {
+    "fingerprint": "226fb6b283d8eae63d54feeb492e7cdf867662e8a1cb944a59102fb5feecbc7a",
+    "response": {
+      "code": "HOST_RESPONSE",
+      "forwarded": true,
+      "request_id": "0ff92bd8-9a38-40be-adcc-edb3f9a049f5",
+      "upstream": {
+        "proofs": [
+          "/private/tmp/murmur-rv01.bV2lvE/runtime/cs-9acf1742/state/supervisor/a4eab14c12a7a19f6d3995a1c48e5c7ddfa00e9e947130f8c4a2d649be8cbae0.json"
+        ]
+      }
+    }
+  },
+  "189b5905-006e-45d4-8d6d-d942e1a00a4a": {
+    "fingerprint": "d83569e395bdeb8b2261d9e8398048caf72e0e86422d1cc7269f23d6c6af73c2",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "189b5905-006e-45d4-8d6d-d942e1a00a4a"
+    }
+  },
+  "19cc3d14-c25e-458f-b783-a9d6d702cea7": {
+    "fingerprint": "23756f6a7ae529f5ec5e8bb655016c7ee67039cf3dfe185701720c9276b48f0e",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "19cc3d14-c25e-458f-b783-a9d6d702cea7"
+    }
+  },
+  "2fc4905b-236c-4057-8075-2a74c1ac3446": {
+    "fingerprint": "a8b3f2199862a88c07f60b1c6d215b582ec42f285cfeb96494a5655133cf7bd7",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "2fc4905b-236c-4057-8075-2a74c1ac3446"
+    }
+  },
+  "361152fa-8869-4bc7-b0e6-b9ef35ddf968": {
+    "fingerprint": "24c29df01bcd65954607666894adfe17a01cbd4931ce016d47286cd3d03da9e0",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "361152fa-8869-4bc7-b0e6-b9ef35ddf968"
+    }
+  },
+  "3d7b131a-995a-466a-89bc-cce7dc940f2c": {
+    "fingerprint": "561600dce028465e6cf0368b67d47d54b019b7e0202d587d1610b08922a5ab04",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "3d7b131a-995a-466a-89bc-cce7dc940f2c"
+    }
+  },
+  "4e8b219d-7fea-41f3-a461-83751e8588eb": {
+    "fingerprint": "2f986d212db16ec863d21b31578ff1af67ae79b030d715658e3cf368a7cd7ee5",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "4e8b219d-7fea-41f3-a461-83751e8588eb"
+    }
+  },
+  "4ed61c69-003d-4926-a196-f0df0ea8aaed": {
+    "fingerprint": "137c541cc6772987ec60f6f8dcc96ec410aa7e548836a2540c990e0dc1228cac",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "4ed61c69-003d-4926-a196-f0df0ea8aaed"
+    }
+  },
+  "58064eb5-35ab-4aee-95fd-2f4f22356698": {
+    "fingerprint": "65c463625d3541fabf2f6eb054b230e4df7f4f698bb7f3f2845541b804a1abb1",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "58064eb5-35ab-4aee-95fd-2f4f22356698",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 62,
+            "sha256": "7984709354ba9a76119c188ad951cfc19adcf73f6a84a0e81db3c77ebd52ec20"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "6014b021-cab9-40e1-ad1a-295af7aacd1a": {
+    "fingerprint": "9304e6637f89db5252750d6be4588207cc3091acf85c14c06d281991559f4111",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "6014b021-cab9-40e1-ad1a-295af7aacd1a"
+    }
+  },
+  "6ebd147e-e101-441a-8e59-e860045a4ca0": {
+    "fingerprint": "3ba579c55274ab289f40b9a69f60cbd1c7fbfa93d2be3d6219d55a90444a0e52",
+    "response": {
+      "code": "SERVICE_REQUEST_MISMATCH",
+      "forwarded": false,
+      "request_id": "6ebd147e-e101-441a-8e59-e860045a4ca0"
+    }
+  },
+  "7f16b1d0-0ed8-49ab-a999-ba11495fa3c6": {
+    "fingerprint": "3b88106b758ff4a4f0a59dca601f2f14b83a96ead134b48724b796fa5c1a2619",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "7f16b1d0-0ed8-49ab-a999-ba11495fa3c6"
+    }
+  },
+  "95889cbf-b134-4f24-b10e-ef3b6715b78b": {
+    "fingerprint": "b1ddedc62f3be86ec7b0567b4bc632c91a31adf4d17b3d23d1efce61b15f98aa",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "95889cbf-b134-4f24-b10e-ef3b6715b78b",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 66,
+            "sha256": "4e985a77abcc364656ac8853a5f0fe05e9e3a0f26264782fef2bacdbd3e4e65d"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "9b46a609-12da-4ca3-8113-147e6f9d35c8": {
+    "fingerprint": "e4faa2ef398c590a783e062f972541eded44b6e39789037c7e5e3c6f866fb93b",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "9b46a609-12da-4ca3-8113-147e6f9d35c8"
+    }
+  },
+  "ac0f5a8e-ac28-4da3-afa4-e2a9d4a5aafd": {
+    "fingerprint": "654a44a1a1964874d99f358b253db41af719dc732b4f98b4c32a7f0005c15c01",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "ac0f5a8e-ac28-4da3-afa4-e2a9d4a5aafd"
+    }
+  },
+  "b2f9a6ad-3d10-4cb1-b999-4a89303c6369": {
+    "fingerprint": "692eb57f1bea861946cb8bc009c182fe9f45c4b76ead31daffacac00d174a3fc",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "b2f9a6ad-3d10-4cb1-b999-4a89303c6369",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 63,
+            "sha256": "86afbe1d15c5b4f84becc2cd9b4b5d4a1ba0e3c051b3d0b7a05c29b48cd21357"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "bdf44788-fa30-4f70-87bb-ff5e15765902": {
+    "fingerprint": "b288f00d3563d631f279a8d619d6436ed56f3c394e988b3ad8df767df06b5c77",
+    "response": {
+      "code": "SERVICE_REQUEST_MISMATCH",
+      "forwarded": false,
+      "request_id": "bdf44788-fa30-4f70-87bb-ff5e15765902"
+    }
+  },
+  "c2af2572-f4ac-4e69-be69-ba00d53b70b0": {
+    "fingerprint": "f15a1563d480b0e4f3c3f4950e0b8b86566fb5009b74f6cb6960d69cd983e3aa",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "c2af2572-f4ac-4e69-be69-ba00d53b70b0"
+    }
+  },
+  "e0458472-08d2-4b4d-8c5e-5b78a00ce97b": {
+    "fingerprint": "bcd8e1c8bf47fed7c7e9778c574a65195bb57ea72c23f530ab129ae1bfaf24c5",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "e0458472-08d2-4b4d-8c5e-5b78a00ce97b"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "24579f1dfe6f20099b4e42a7e653446e9c6c846798836a5d6dc7d4c8cab73aab",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 74819
+    }
+  ],
+  "run_id": "c015fd476e07418cb099adbff3f86f8d",
+  "state": "/private/tmp/murmur-rv01.bV2lvE/runtime/parallel-success-c1db5c71/state"
+}

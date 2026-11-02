@@ -1,0 +1,7 @@
+{
+  "host_returncode": 1,
+  "live_reopen": false,
+  "mode": "live mutation refused; retained history remains inspection evidence",
+  "no_ledger_access": true,
+  "reason": "ARTIFACT_CHANGED"
+}

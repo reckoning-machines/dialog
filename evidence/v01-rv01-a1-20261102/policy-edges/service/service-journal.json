@@ -1,0 +1,30 @@
+{
+  "315ac9ff-4f95-4865-b898-0b698b8a7a15": {
+    "fingerprint": "47c235b4660163af0c54dd8cde95aaf941e3e5702b70fbda1e3970248dabc826",
+    "response": {
+      "code": "REFUSED",
+      "forwarded": true,
+      "request_id": "315ac9ff-4f95-4865-b898-0b698b8a7a15",
+      "upstream": {
+        "detail": "",
+        "reason": "POLICY_SUSPENDED",
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 45,
+            "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+          }
+        ],
+        "status": "REFUSED"
+      }
+    }
+  },
+  "7c321afb-cd23-42bc-bd09-7d02ea28684e": {
+    "fingerprint": "34e26629fec4c0e660d0085a4cff450a4336014d0ce573d1aefc5c80b2af5b9d",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "7c321afb-cd23-42bc-bd09-7d02ea28684e"
+    }
+  }
+}

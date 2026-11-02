@@ -1,0 +1,34 @@
+{
+  "proofs": [
+    {
+      "proofs": [
+        "/private/tmp/murmur-rv01.bV2lvE/runtime/parallel-success-99332cbc/state/supervisor/ee369e3665e4e5149e4b216ecbf5372f8711da85966cf3805b354ce472b7f44f.json"
+      ]
+    },
+    {
+      "proofs": [
+        "/private/tmp/murmur-rv01.bV2lvE/runtime/parallel-success-99332cbc/state/supervisor/beb226767b6fa6f8100e72125e1cc6101f3a4f3e3f78b0b3636617bc0082e4f3.json"
+      ]
+    }
+  ],
+  "replacement": {
+    "attempt": 57,
+    "record": {
+      "ledger": "E",
+      "sequence": 58,
+      "sha256": "83a54c61bdba1de4b50d950514bf7ff4ca5618f20229efd6513555d7b7768c61"
+    },
+    "status": "recorded"
+  },
+  "replayed_trend": {
+    "attempt": 50,
+    "execution": "registered",
+    "record": {
+      "ledger": "E",
+      "sequence": 52,
+      "sha256": "56308d8cdfe4d316d312fa063ac1aa4f8006eee1ccdbe6006a5a079a75f66727"
+    },
+    "reservation": 48,
+    "status": "recorded"
+  }
+}

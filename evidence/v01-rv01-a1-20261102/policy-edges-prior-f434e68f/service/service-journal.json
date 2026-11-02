@@ -1,0 +1,22 @@
+{
+  "0bee91bd-2a0a-408c-815d-339da76c68bf": {
+    "fingerprint": "fc8c795af5403295bc8d3b88138729e56fb6bea73f1cf8e7b1aa8a73a26d2bc4",
+    "response": {
+      "code": "REFUSED",
+      "forwarded": true,
+      "request_id": "0bee91bd-2a0a-408c-815d-339da76c68bf",
+      "upstream": {
+        "detail": "",
+        "reason": "POLICY_SUSPENDED",
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 45,
+            "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+          }
+        ],
+        "status": "REFUSED"
+      }
+    }
+  }
+}

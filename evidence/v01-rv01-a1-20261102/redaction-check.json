@@ -1,0 +1,12 @@
+{
+  "exact_secret_values_compared": 103,
+  "files_scanned": 1427,
+  "host_48_hex_token_candidates": 0,
+  "limitation": "Exact comparison covers currently provisioned secrets available before deletion. Earlier rotated host tokens were not retained; structural JSON/host token-format audits cover all retained artifacts.",
+  "matches": 0,
+  "nonempty_credential_fields_found": 0,
+  "runtime_credentials_deleted": true,
+  "scheme": "No HTTP headers, secret config or connection files exported. Byte comparison against runtime provisioned secrets includes consumer checkpoints.",
+  "structural_JSON_files_checked": 1196,
+  "token_values_or_token_hashes_retained": false
+}

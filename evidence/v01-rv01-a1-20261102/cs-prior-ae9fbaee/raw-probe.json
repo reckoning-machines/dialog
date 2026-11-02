@@ -1,0 +1,26 @@
+{
+  "actor": "Principal",
+  "apply": {
+    "refs": [
+      {
+        "ledger": "T",
+        "sequence": 54,
+        "sha256": "b38419c0bc6b1dd14373a02e03ea0a44cf926031120d0f7bd22f272ffc22a5c5"
+      }
+    ],
+    "status": "COMMITTED"
+  },
+  "decision": {
+    "refs": [
+      {
+        "ledger": "T",
+        "sequence": 53,
+        "sha256": "49bddfd82ea4a3326bc5b22576e0a6c5c80399958ce47859b53c0faf939fb260"
+      }
+    ],
+    "status": "COMMITTED"
+  },
+  "narrow_credential_enforcement": false,
+  "pid": 61269,
+  "separate_from_TC": true
+}
