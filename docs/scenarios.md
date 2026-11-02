@@ -6,7 +6,9 @@ The integrated product journey is [W-2](desk-walkthrough.md). Its nine successiv
 
 Common fixture: M-1/ES-M1 in [C-01–C-03](contracts.md), cooperative local identities R-T, R-R, CK, owner O; one ARH run ARH-X; shared researcher grant G-R=10.00, Checker G-C=2.00; all operations have durable distinct keys and frozen hashes. All scenarios assume proposed authority for paper reasoning only. Each row's resulting state follows only the stated records; no unstated agent memory is available. Cases are independent except named W-1 continuation.
 
-## S-01 — complete cycle and subsequent choice
+## S-01 — complete cycle and subsequent choice (historical W-1 mapping)
+
+B-02: the explicit next-Theme choice below is retained historical fixture behavior, not the recommended ordinary path. S-19/W-4 govern same-root continuation; S-20/21 govern changed/ambiguous scope.
 
 - Initial: CY-1 not dispatched, M-1 active in fixture, $100,000 cash, no positions; W-1 manifests and method versions pinned, shared budgets untouched.
 - Actor/authority: scheduler under C-01; R-T/R-R under G-R; CK under G-C; O for research decisions and strategy eligibility; allocator/executor under M-1.
@@ -36,28 +38,28 @@ Common fixture: M-1/ES-M1 in [C-01–C-03](contracts.md), cooperative local iden
 
 ## S-04 — budget exhausted before execution
 
-- Initial: G-R cap10, usage10 including unsettled maximum; no reservation for proposed new work.
+- Initial: G-R cap 10, usage 10 including unsettled maximum; no reservation for proposed new work.
 - Actor/authority: R-T requests reserve under existing G-R.
 - Inputs: request 1.00, new durable key.
 - Sequence: submit reserve → ARH reads current totals → refuses BUDGET_EXCEEDED; never dispatch.
-- Records/result: ARH refusal, Murmur cycle blocked-budget reference; no attempt/provider call/order. Research spent remains10, capital remains untouched.
+- Records/result: ARH refusal, Murmur cycle blocked-budget reference; no attempt/provider call/order. Research spent remains 10, capital remains untouched.
 - Recovery: fresh process reads same refusal; no automatic new grant or rollover. **COHERENT** against inspected reserve logic.
 
 ## S-05 — simultaneous spending on the same shared budget
 
-- Initial: G-R cap10, committed9, no open allowance, remaining1; R-T and R-R distinct grantees/lineages under that same grant, each lineage cap permits1. CK separately funded.
+- Initial: G-R cap 10, committed 9, no open allowance, remaining 1; R-T and R-R distinct grantees/lineages under that same grant, each lineage cap permits 1. CK separately funded.
 - Actor/authority: each researcher has Research only; ARH owns admission serialization.
-- Inputs: two different operation/key pairs each request1.00, submitted concurrently using the same pre-race display.
-- Sequence: whichever reservation commits first consumes remaining allowance; second sees usage10 and refuses. If first is R-T, R-T may execute one attempt; reverse order has symmetric result.
-- Responses/records: exactly one RESERVATION and one budget refusal; no predetermined winner; no second execution, negative balance or local budget “repair”. Result spendable0, first reservation pending liability retained until settlement/close.
-- Recovery: lost winner reply resolved by key; loser retries only after a real budget change with new intent, not because dashboard still says1. **COHERENT** at source-level core contract; external shared-grant setup/runtime not validated (F-04). This scenario is a mandatory runtime gate, not a claim of simultaneous execution testing.
+- Inputs: two different operation/key pairs each request 1.00, submitted concurrently using the same pre-race display.
+- Sequence: whichever reservation commits first consumes remaining allowance; second sees usage 10 and refuses. If first is R-T, R-T may execute one attempt; reverse order has symmetric result.
+- Responses/records: exactly one RESERVATION and one budget refusal; no predetermined winner; no second execution, negative balance or local budget “repair”. Result spendable 0, first reservation pending liability retained until settlement/close.
+- Recovery: lost winner reply resolved by key; loser retries only after a real budget change with new intent, not because dashboard still says 1. **COHERENT** at source-level core contract; external shared-grant setup/runtime not validated (F-04). This scenario is a mandatory runtime gate, not a claim of simultaneous execution testing.
 
 ## S-06 — timeout with uncertain completion
 
-- Initial: R-T attempt A6 maximum1.00 claimed; journal/key durable; provider stand-in may have run; no saved/registered receipt.
+- Initial: R-T attempt A6 maximum 1.00 claimed; journal/key durable; provider stand-in may have run; no saved/registered receipt.
 - Actor/authority: R-T may settle its liability; authorized operator requests host quiescence; no permission comes from timeout.
 - Inputs: lost response; process may still exist.
-- Sequence: inspect outcome and registered receipt; if exact receipt found recover it, otherwise classify uncertain → settle UNKNOWN at1.00 → request replacement before proven death.
+- Sequence: inspect outcome and registered receipt; if exact receipt found recover it, otherwise classify uncertain → settle UNKNOWN at 1.00 → request replacement before proven death.
 - Responses/records: settlement records full maximum, replacement refuses WORKER_NOT_QUIESCENT; original claim cannot dispatch again. Result uncertain result, settled liability; no conclusion invented.
 - Recovery: after host proves old holder gone (and disposition if outliving caller is declared), explicit replacement is a new charged attempt if budget remains. No receipt and unavailable host keeps blocked. **COHERENT** for bounded synthetic trust model; recovery runtime gate outstanding.
 
@@ -65,9 +67,9 @@ Common fixture: M-1/ES-M1 in [C-01–C-03](contracts.md), cooperative local iden
 
 - Initial: W-1 after ARH Apply and local order O-1 accepted, F-1=60 committed; responses lost before queue/checkpoint acknowledges. Request IDs and exact records durable.
 - Actor/authority: fresh scheduler/owner operator/executor under current grants and M-1.
-- Inputs: same cycle, operation/command keys, ARH references, O-1, adapter status with40 unfilled.
-- Sequence: process death → reopen exact run → public inspect/obligations → recover existing Apply → query O-1 → ingest repeated F-1 once → continue remaining40 → second death/reopen → verify history.
-- Responses/records: old ARH outcome reused; no extra attempt, settlement or decision; fill ID dedup leaves60 until F-2; only one100-share order. Final100 AAA/$90,000 cash.
+- Inputs: same cycle, operation/command keys, ARH references, O-1, adapter status with 40 unfilled.
+- Sequence: process death → reopen exact run → public inspect/obligations → recover existing Apply → query O-1 → ingest repeated F-1 once → continue remaining 40 → second death/reopen → verify history.
+- Responses/records: old ARH outcome reused; no extra attempt, settlement or decision; fill ID dedup leaves 60 until F-2; only one 100-share order. Final 100 AAA/$90,000 cash.
 - Recovery/refusal: missing journal/ambiguous order refuses new dispatch; does not allocate new identity. **COHERENT documentary CPOC journey**; no runtime CPOC standing.
 
 ## S-08 — revoked authority and stale decisions
@@ -90,29 +92,29 @@ Common fixture: M-1/ES-M1 in [C-01–C-03](contracts.md), cooperative local iden
 
 ## S-10 — historical reuse and unavailable information
 
-- Initial: DR-1 used window W; R-T wants to reuse W as “new validation”; revision of one AAA observation published day4, decision cutoff day2.
+- Initial: DR-1 used window W; R-T wants to reuse W as “new validation”; revision of one AAA observation published day 4, decision cutoff day 2.
 - Actor/authority: researcher proposes; intake/evaluator enforce C-03; ARH records supplied research but does not prove all timing claims.
-- Inputs: access history, manifest revision availability day4, cutoff day2, same historical rows.
+- Inputs: access history, manifest revision availability day 4, cutoff day 2, same historical rows.
 - Sequence: mark reuse explored → reject untouched-validation claim → exclude unavailable revision; if original point-in-time value missing, invalidate replay rather than impute later value.
 - Responses/records: Murmur intake/dossier refusals and ARH retained failed research references; no fresh/forward support or qualified strategy.
 - Result/recovery: prior records unchanged; successor needs lawful data and fresh design. **COHERENT refusal**; general ARH reuse/availability governance remains F-05, future forward path **BLOCKED F-03**.
 
 ## S-11 — overlapping underlying exposures
 
-- Initial: $100,000 cash, two eligible strategy versions, no orders; turnover bound temporarily owner-fixtured at40% to isolate underlying constraint (all other M-1 limits unchanged).
+- Initial: $100,000 cash, two eligible strategy versions, no orders; turnover bound temporarily owner-fixtured at 40% to isolate underlying constraint (all other M-1 limits unchanged).
 - Actor/authority: deterministic allocator under that explicit fixture mandate version M-1b.
-- Inputs: SV-T1 requests200 AAA, SV-R2 requests200 AAA, AAA=$100, fees0.
-- Sequence: each is20% and individually legal; aggregate40% exceeds AAA25%; scale proportionally to125 shares each; commit one AL-11 with exact strategy attribution; before orders recheck portfolio revision.
-- Responses/records: requested400, admitted250, constraint AAA25%; two attributed125 orders; gross25%, cash75%, both strategy weights12.5%. Under unmodified M-1 turnover20%, final admission instead100 each; keep these distinct expected outcomes.
+- Inputs: SV-T1 requests 200 AAA, SV-R2 requests 200 AAA, AAA=$100, fees 0.
+- Sequence: each is20% and individually legal; aggregate 40% exceeds AAA 25%; scale proportionally to 125 shares each; commit one AL-11 with exact strategy attribution; before orders recheck portfolio revision.
+- Responses/records: requested 400, admitted 250, constraint AAA 25%; two attributed 125 orders; gross 25%, cash 75%, both strategy weights 12.5%. Under unmodified M-1 turnover 20%, final admission instead 100 each; keep these distinct expected outcomes.
 - Recovery: existing pending buys included; duplicate batch key reuses outcome. **COHERENT**, no claim that composition checking is CPOC.
 
 ## S-12 — suspension and retirement with open positions
 
-- Initial: SV-T1 active,100 AAA confirmed and pending buy20; owner requests retirement at current revision.
+- Initial: SV-T1 active,100 AAA confirmed and pending buy 20; owner requests retirement at current revision.
 - Actor/authority: owner retires; executor has standing cancel/reduce permission under M-1.
-- Inputs: O-buy20 status unknown initially, mark100; flat exit instruction.
-- Sequence: retiring → stop increases → query/cancel buy → reconcile actual filled quantity. Fixture buy had filled5 before cancel, so position105 → issue sell105 → partial fill60 → process death → reopen sell remaining45 → fill45 → verify no executable orders/liabilities → retired.
-- Responses/records: retirement event, cancel confirmation, buy fill5, exit order and fills60/45; derived position105→45→0. Suspension uses same exit obligation but ends suspended-flat, never retired automatically.
+- Inputs: O-buy 20 status unknown initially, mark 100; flat exit instruction.
+- Sequence: retiring → stop increases → query/cancel buy → reconcile actual filled quantity. Fixture buy had filled 5 before cancel, so position 105 → issue sell 105 → partial fill 60 → process death → reopen sell remaining 45 → fill 45 → verify no executable orders/liabilities → retired.
+- Responses/records: retirement event, cancel confirmation, buy fill 5, exit order and fills 60/45; derived position 105→45→0. Suspension uses same exit obligation but ends suspended-flat, never retired automatically.
 - Recovery: unknown cancellation blocks replacement sizing; mark/adapter unavailable leaves retiring with visible residual, not false flat. **COHERENT**, adapter runtime acceptance required.
 
 ## S-13 — pending or stale workspace
@@ -137,7 +139,7 @@ Common fixture: M-1/ES-M1 in [C-01–C-03](contracts.md), cooperative local iden
 
 S-15A and S-15B are separate runs with definite outcomes. Both must meet their own expected result before LangGraph can be selected. A refusal is failure in S-15A's success path; a replacement dispatch is failure in S-15B's blocked path. These are documentary expectations, **UNRESOLVED F-02/F-04** until independently executed through supported interfaces. The narrow consumer profile is V-01 in [build gate](build-gate.md); no portfolio mandate is needed.
 
-Common initial state and inputs: shared G-R cap10.00 with zero preexisting charges or reservations in this measurement interval; separate G-C unchanged. Two independent journals/namespaces, one scheduler writer, distinct R-T/R-R lineages and CK/owner identities. Prior rejected variants are retained and publicly readable in the run; any setup/history charges are separately itemized before the fresh G-R activation and cannot be silently omitted from run totals. Neither researcher has check or decision rights. Pin profile, methods, exact inputs and graph checkpoints. Both researchers reserve **2.00 each**. Each original attempt has **maximum 1.00**, not 2.00. R-T's durable receipt reports **0.75 actual**; R-R has consumed its claim with no recoverable receipt, so its UNKNOWN settlement must be **1.00**. The fixture tool cannot outlive its caller. A lawful R-R replacement uses the still-open original 2.00 reservation, has **maximum 1.00** and reports **0.50 actual**. No further metered analysis or checking occurs within this accounting fixture.
+Common initial state and inputs: shared G-R cap 10.00 with zero preexisting charges or reservations in this measurement interval; separate G-C unchanged. Two independent journals/namespaces, one scheduler writer, distinct R-T/R-R lineages and CK/owner identities. Prior rejected variants are retained and publicly readable in the run; any setup/history charges are separately itemized before the fresh G-R activation and cannot be silently omitted from run totals. Neither researcher has check or decision rights. Pin profile, methods, exact inputs and graph checkpoints. Both researchers reserve **2.00 each**. Each original attempt has **maximum 1.00**, not 2.00. R-T's durable receipt reports **0.75 actual**; R-R has consumed its claim with no recoverable receipt, so its UNKNOWN settlement must be **1.00**. The fixture tool cannot outlive its caller. A lawful R-R replacement uses the still-open original 2.00 reservation, has **maximum 1.00** and reports **0.50 actual**. No further metered analysis or checking occurs within this accounting fixture.
 
 Actors/authority: researchers settle their own attempts; the operator obtains host quiescence through its public interface; ARH alone admits replacement. Kill both active workers and the coordinator after R-T durably saves its receipt but before settlement, and after R-R loses its receipt. Graph checkpoints lag both. Fresh processes re-establish authority, recover R-T without another execution, settle R-R at its maximum, and take the fixture-specific branch below. No execution permission survives in graph state.
 
@@ -149,23 +151,23 @@ Accounting vocabulary for both tables: **S** = cumulative settled charges; **P**
 | Both reservations committed | 2 / 2 | 0 | 0 | 4 | 6 | 0 |
 | Both maximum-1 attempts admitted/claimed | 2 / 2 | 0 | 2 | 4 | 6 | 0 |
 | T receipt saved, R receipt lost; kill/reopen | 2 / 2 | 0 | 2 | 4 | 6 | 0 |
-| T settled at0.75 | 2 / 2 | 0.75 | 1 | 4 | 6 | 0 |
-| T closed, unused1.25 released | closed / 2 | 0.75 | 1 | 2.75 | 7.25 | 1.25 |
-| R UNKNOWN settled at maximum1 | closed / 2 | 1.75 | 0 | 2.75 | 7.25 | 1.25 |
+| T settled at 0.75 | 2 / 2 | 0.75 | 1 | 4 | 6 | 0 |
+| T closed, unused 1.25 released | closed / 2 | 0.75 | 1 | 2.75 | 7.25 | 1.25 |
+| R UNKNOWN settled at maximum 1 | closed / 2 | 1.75 | 0 | 2.75 | 7.25 | 1.25 |
 
 ### S-15A — successful recovery with proven quiescence
 
-Input condition: the host successfully records both old workers gone; R's original reservation is active, unfenced, unexpired and holds1.00 unused allowance. No other writer consumes it. Current grants/profile remain compatible.
+Input condition: the host successfully records both old workers gone; R's original reservation is active, unfenced, unexpired and holds 1.00 unused allowance. No other writer consumes it. Current grants/profile remain compatible.
 
 | Success boundary | Open reservation amounts T / R | S | P | U | Spendable | Cumulative allowance released |
 |---|---:|---:|---:|---:|---:|---:|
 | Host quiescence recorded | closed / 2 | 1.75 | 0 | 2.75 | 7.25 | 1.25 |
-| R replacement admitted at maximum1 | closed / 2 | 1.75 | 1 | 2.75 | 7.25 | 1.25 |
-| Replacement settled at actual0.50 | closed / 2 | 2.25 | 0 | 2.75 | 7.25 | 1.25 |
-| R closed, unused0.50 released | closed / closed | 2.25 | 0 | 2.25 | 7.75 | 1.75 |
+| R replacement admitted at maximum 1 | closed / 2 | 1.75 | 1 | 2.75 | 7.25 | 1.25 |
+| Replacement settled at actual 0.50 | closed / 2 | 2.25 | 0 | 2.75 | 7.25 | 1.25 |
+| R closed, unused 0.50 released | closed / closed | 2.25 | 0 | 2.25 | 7.75 | 1.75 |
 | Second death/reopen and history read | closed / closed | 2.25 | 0 | 2.25 | 7.75 | 1.75 |
 
-Expected responses/authoritative records: recover T's exact receipt; one T settlement/close; one R UNKNOWN settlement; public quiescence record; exactly one admitted replacement attempt with dispatch index1, its receipt/settlement, then R close. Both result records and both prior rejected variants remain readable by both researchers. Graph branches reach **recorded results awaiting separate review**, not admitted research; CK budget is untouched. Exactly three attempt admissions exist (two originals, one replacement), with no repeat of either original claim, charge, result or close on replay. R's original outcome remains unknown, never rewritten by its replacement. Final research charge2.25, unsettled maxima0, unused released1.75; there are no open reservations or dispatch obligations. Any deviation fails this fixture; do not relabel it a permissible blocked result.
+Expected responses/authoritative records: recover T's exact receipt; one T settlement/close; one R UNKNOWN settlement; public quiescence record; exactly one admitted replacement attempt with dispatch index 1, its receipt/settlement, then R close. Both result records and both prior rejected variants remain readable by both researchers. Graph branches reach **recorded results awaiting separate review**, not admitted research; CK budget is untouched. Exactly three attempt admissions exist (two originals, one replacement), with no repeat of either original claim, charge, result or close on replay. R's original outcome remains unknown, never rewritten by its replacement. Final research charge 2.25, unsettled maxima 0, unused released 1.75; there are no open reservations or dispatch obligations. Any deviation fails this fixture; do not relabel it a permissible blocked result.
 
 ### S-15B — blocked recovery without quiescence proof
 
@@ -189,23 +191,25 @@ Expected authoritative records/state: T's single result/settlement/close, R UNKN
 - Responses/records: authoritative ARH startup/checked control records, exact run/profile and refusals; local mapping references only. Result either supported consumer run or explicit unsupported setup finding.
 - Recovery: no modifying ARH to make test pass, no copying examples' governance internals. **UNRESOLVED F-01/F-04/F-07**; no claim it ran.
 
-## S-17 — method succession, owner change and scheduled next cycle
+## S-17 — method succession, owner change and scheduled next cycle (historical mapping)
+
+B-02 supersedes the assumption below that quiet-regime follow-up requires a new Theme. It is a same-root experiment under confirmed V-01 scope (S-19); actual scope change is S-20 and ambiguity S-21. Existing historical records are preserved.
 
 - Initial: CY-1 complete, Q-R2 pending, MV-R1 failures/cost visible; finite two-slot mandate active, no second cycle yet.
 - Actor/authority: owner may admit MV-R2 and new Theme using separate boundaries; scheduler may dispatch CY-2 only after both complete.
 - Inputs: low-volatility question, new untouched partition, explicit predecessor/candidate exclusions; duplicate trigger for same slot.
-- Sequence: record method successor/delta0 instance under unchanged ontology → independent ARH check/owner apply Theme → scheduler records one CY-2 → duplicate trigger returns same cycle. Missed slot records missed, no backfilled anonymous cycle.
-- Responses/records: Murmur method/version decision and cycle; ARH Theme/selection ancestry; rejected alternatives retained. Method report counts old and new cost in lineage, new forward support remains0.
+- Sequence: record method successor/delta 0 instance under unchanged ontology → independent ARH check/owner apply Theme → scheduler records one CY-2 → duplicate trigger returns same cycle. Missed slot records missed, no backfilled anonymous cycle.
+- Responses/records: Murmur method/version decision and cycle; ARH Theme/selection ancestry; rejected alternatives retained. Method report counts old and new cost in lineage, new forward support remains 0.
 - Result/recovery: new investigation learns from failure without rewriting DR-1; owner change to evaluation meaning instead requires constitutional decision/new standard and rerun. **COHERENT**, setup validation subject to S-16.
 
 ## S-18 — required exit exceeds ordinary turnover
 
-- Initial: proposed M-1 exit rule C-05; opening-day NAV and pre-exit NAV both $100,000; current position300 AAA at$100 and cash$70,000; no open orders. Prior ordinary filled turnover today is$20,000 (20%, fully consumed), with no outstanding ordinary allowance. The concentrated30% position has a recorded limit breach; no new allocation is implied by this initial fixture. Owner's exit E-X18 requires flat; its pinned cost envelope is$250 (0.25% of pre-exit NAV).
+- Initial: proposed M-1 exit rule C-05; opening-day NAV and pre-exit NAV both $100,000; current position 300 AAA at $100 and cash $70,000; no open orders. Prior ordinary filled turnover today is$20,000 (20%, fully consumed), with no outstanding ordinary allowance. The concentrated 30% position has a recorded limit breach; no new allocation is implied by this initial fixture. Owner's exit E-X18 requires flat; its pinned cost envelope is$250 (0.25% of pre-exit NAV).
 - Actor/authority: owner issues exact retirement/exit instruction under the proposed mandate; portfolio boundary validates the distinct exit exception; executor may only reduce this obligation. This documentary scenario is outside V-01 consumer validation and authorizes nothing.
-- Inputs: current AAA mark$100, minimum sale price$100, maximum fee$0.10/share, no slippage in this fixture; cost estimate/reservation$30, uncommitted envelope headroom$220. Cash$70,000 prefunds the entire$250 envelope. Sell300 has$30,000 exit turnover, exceeding the ordinary remaining allowance of0.
-- Sequence: record retiring/exit obligation → admit sell300 under required-exit authority, not ordinary turnover → fill100 at$100 fee$10 → die/reopen → recover same order's200 remainder → fill200 fee$20 → reconcile no remaining order/liability → retire.
-- Expected responses/authoritative records: Murmur exit decision, pinned envelope, separate turnover reservations, order, fill IDs and fee/cash events. Exposure at common marks300→200→0 shares and$30,000→$20,000→0; all other underlying/strategy exposures remain0. Cash$70,000→$79,990→$99,970; final NAV$99,970. Cost consumed0→10→30, reserved30→20→0, envelope headroom220 unchanged until completion releases it. Ordinary used turnover stays$20,000; exit filled turnover0→$10,000→$30,000 with remainder reserved$30,000→$20,000→0. Total day turnover ends50%; no ordinary allowance is restored. NAV loss$30 is reported, not treated as failure of the exposure-reduction predicate.
-- Recovery/refusal: same order and fixed$250 envelope after restart; no second sell300 or refreshed cost envelope. A fresh opening buy refuses the stop/ordinary turnover cap. An exit with projected total cost>$250, insufficient prefunded cash, stale marks, unknown cancellation or no exact exit authority refuses and retains the position/obligation for owner resolution. No unbounded discretionary override.
+- Inputs: current AAA mark $100, minimum sale price $100, maximum fee $0.10/share, no slippage in this fixture; cost estimate/reservation $30, uncommitted envelope headroom $220. Cash $70,000 prefunds the entire $250 envelope. Sell 300 has $30,000 exit turnover, exceeding the ordinary remaining allowance of 0.
+- Sequence: record retiring/exit obligation → admit sell 300 under required-exit authority, not ordinary turnover → fill 100 at $100 fee $10 → die/reopen → recover same order's200 remainder → fill 200 fee $20 → reconcile no remaining order/liability → retire.
+- Expected responses/authoritative records: Murmur exit decision, pinned envelope, separate turnover reservations, order, fill IDs and fee/cash events. Exposure at common marks 300→200→0 shares and $30,000→$20,000→0; all other underlying/strategy exposures remain 0. Cash $70,000→$79,990→$99,970; final NAV $99,970. Cost consumed 0→10→30, reserved 30→20→0, envelope headroom 220 unchanged until completion releases it. Ordinary used turnover stays $20,000; exit filled turnover 0→$10,000→$30,000 with remainder reserved $30,000→$20,000→0. Total day turnover ends 50%; no ordinary allowance is restored. NAV loss $30 is reported, not treated as failure of the exposure-reduction predicate.
+- Recovery/refusal: same order and fixed $250 envelope after restart; no second sell 300 or refreshed cost envelope. A fresh opening buy refuses the stop/ordinary turnover cap. An exit with projected total cost>$250, insufficient prefunded cash, stale marks, unknown cancellation or no exact exit authority refuses and retains the position/obligation for owner resolution. No unbounded discretionary override.
 - Documentary result: **COHERENT** under proposed repaired C-05. Necessary exit is admitted despite increasing turnover/fees; this does not admit broader portfolio semantics or demonstrate runtime execution.
 
 ## Traceability closure
@@ -240,3 +244,59 @@ Delegation traceability: W3-01/02→C-12/I-02/03/04/06; W3-03→C-05/07/I-08/09/
 
 
 Final narrow acceptance: B-01 NC-02 inside/outside fixtures and NC-04 record trace cover I-01/02/04/07/12 through C-02/C-12. Inside case preserves exact Theme and uses public records; outside/uncertain case stops for owner/legitimate scope change. NC-05 CS-01–06 define service permission/refusal and credential-perimeter runtime witnesses. Earlier W-2/W-3 explicit Theme-proposal fixtures remain separate historical design cases; they are not proof all ordinary work needs DA-T.
+
+## S-19 — same-root follow-up (current recommended path)
+
+- Initial: V-01 TH-V-T/TH-V-R exact original registrations applied; grants explicitly permit their roots; both researchers see retained failed variants, and V2 cohort has never been exposed. DA-1 research grammar accepted for the fixture; no portfolio permission implied.
+- Actor/authority: R-R proposes quiet-regime experiment under TH-V-R; CK independently checks the later hypothesis using G-C; CS-V1 requests only valid public P-1 continuation; ARH owns acceptance.
+- Inputs: exact original Theme/grant refs, failed R1 history, V2 declaration, immutable design/expectation and request keys.
+- Sequence: resolve current scope → public selection Research Record → new design/revision linked to R1 → reserve 2.00, admit maximum 1.00 attempt → retain result/receipt, settle 0.75, close releases 1.25 → fund hypothesis proposal from its separate 0.25 measured G-R transition reservation → CK maximum/actual 0.25 → keyed P-1 decision/BIND/Apply.
+- Expected responses/records: same original ThemeId/content/hash/standing; new selection/design/attempt/result/settlement/close, independent CHECK and P-1 DECISION/APPLIED. No THEME proposal/decision or fake CHECK on a nonexistent transition. Any transition reservation funding remains separately visible, closes/releases through supported rules and is not a second analysis charge.
+- Result: one recorded follow-up; G-R analysis settled 0.75/pending 0; with retained 0.25 transition allowance usage 1.00/spendable 9.00; G-C check 0.25. No human Theme approval. Profile's actual total includes other CS work, as budgeted in build-gate.
+- Recovery/refusal: replay same keys/refs; stale check must recheck with recorded cost; invalid/missing authority uses actual upstream refusal (SCOPE_VIOLATION, AUTHORIZATION_INACTIVE or STALE_CHECK as applicable). No presumed automatic scope interpretation by ARH.
+- Disposition: COHERENT documentary path; public external setup/funding/runtime still unvalidated.
+
+## S-20 — follow-up outside original Theme or mandate
+
+- Initial: same applied V-01 roots/grants; no CCC/source credit-flow permission.
+- Actor/authority: R-R proposes adding CCC or new credit-flow source; Murmur precondition boundary may refuse its own dispatch, not decide ARH standing.
+- Inputs: exact proposal diff and original Theme/grant/mandate refs.
+- Sequence: compare scope → retain proposed question and local refusal TB_SCOPE_CHANGE_REQUIRED → show owner change options. If an unauthorized hypothesis request actually reaches core, expect its actual SCOPE_VIOLATION/UNAUTHORIZED; if a new THEME is proposed and P-1 requested, expect P1_CLASS. These are separate requests, not one universal refusal code.
+- Records/result: immutable proposal/exception, genuine upstream refusals where sent; no attempt, new exposure, scope mutation or successor funding.
+- Owner: decline, or separately authorize legitimate successor Theme/grant path; existing hypotheses are not reparented. New scope cannot be supplied by a service allowlist or broad Principal token.
+- Recovery: pending/refused remains pending/refused after reopen; missing owner response leaves work stopped.
+- Disposition: COHERENT refusal; autonomous scope expansion unsupported and unnecessary for the ordinary path.
+
+## S-21 — ambiguous or unresolved scope
+
+- Initial: original Theme reference cannot be retrieved/hash-verified, or wording excludes/does not determine the proposed filter; no new attempt.
+- Actor/authority: intake/operator retrieves exact records; owner resolves remaining judgment, not by changing past bytes.
+- Inputs: original ref and proposed next question; last-known cache is explicitly nonauthoritative.
+- Sequence: public get/authority read → on missing/hash mismatch preserve actual upstream error (retain the exact observed code; do not fabricate a code for transport failure) → local TB_SCOPE_UNRESOLVED blocks dispatch. If retrieved but ambiguous, preserve wording and ask owner.
+- Records/result: lookup/error receipt and local scope exception with exact input; zero analysis/check charge, no Theme/grant change, pending design only.
+- Refusal/recovery: recover exact original content then rerun scope test; if outside use S-20. A new retrospective Theme wording is forbidden. Owner acceptance of future revised scope is prospective only.
+- Disposition: COHERENT safe stop, incomplete product workflow until original evidence/judgment is resolved.
+
+## W-4 — narrow in-scope follow-up desk trace
+
+This is the recommended path under the prospective V-01 roots; it is separate from W-2/W-3's formal Theme fixtures and from the whole CS run budget. No portfolio implementation or new broad replay is asserted.
+
+> **Follow-up slot ready**
+>
+> Quiet-regime question remains inside TH-V-R. Original R1 net−50 is retained. V2 is sealed.
+>
+> Shared Research cap 10.00, settled 0; Checker cap 12.00 with setup b=8.00, spendable 4.00.
+>
+> **Needs owner:0.** Scope evidence and original grants confirmed. Sources: TH-V-R/grant refs and S-19 design intent.
+
+R-R records selection/revised design; original TH-V-R unchanged. Reserve 2.00 → attempt maximum 1.00 → result gross 80/base net 50/stress net 20 on three declared outcomes 30/25/25 at costs 10/20 per trade → settle 0.75 → close 1.25. G-R usage 2 during work, then 0.75; spendable 8 during reservation, then 9.25. CK reserves 0.25, checks at current base, settles 0.25/closes 0. Funding for the hypothesis is supplied through the existing legitimate transition reservation path: explicitly record its amount, binding/disposition and any additional metered charges; no fabricated free proposal. In this textual fixture its allowance is0.25 from G-R, with no tool attempt/charge on that allowance; while bound it consumes allowance 0.25, after lawful release/subject-binding disposition preserve its actual upstream standing. External feasibility of that minimal amount remains a runtime question, not assumed new spend.
+
+> **Follow-up checked and recorded**
+>
+> Quiet-regime result passes the declared toy arithmetic/cost criteria. Research hypothesis registered only after independent CHECK and P-1 Apply; no Theme approval or new ThemeId.
+>
+> Analysis charge 0.75; check charge 0.25; pending monetary maxima 0. Retain 0.25 transition allowance for this fixture: G-R usage 1.00/spendable 9.00. No release is assumed. Do not call bound allowance released cash.
+>
+> **Needs owner:0 for inside-scope work.** Portfolio and its previously governed holdings are unchanged. Sources: selection/design/result/settlement/CHECK/P-1/APPLIED and exact funding disposition.
+
+Behavior: no new Theme transition; evidence sufficiency does not follow from arithmetic alone. Continuity: exact root, keys, research/check records and binding reconstruct state. Clarity: owner sees new result, inherited failures, remaining authority and no false approval task. If the public interface cannot support the declared funding/record shape, the positive test fails and reports the gap. W-4 does not invent a passing runtime result.

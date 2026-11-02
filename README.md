@@ -1,6 +1,6 @@
 # Reckoning Machines Murmuration
 
-**B-01 — documentary baseline frozen for review.** Read the [final Theme comparison and freeze](docs/baseline-review.md), then [C-12/C-13](docs/contracts.md) and [CL-04/CL-05](docs/review.md). Ordinary in-scope follow-ups need no new Theme approval; exact initial Theme/grant fit is a precondition. DA-T is optional for autonomous scope changes, not required by these routine questions. This corrects the earlier replay’s architectural inference without rewriting its records or totals.
+**B-02 — named documentary revision for owner review.** Read the [final Theme comparison and freeze](docs/baseline-review.md), then [C-12/C-13](docs/contracts.md) and [CL-04/CL-05](docs/review.md). Ordinary in-scope follow-ups need no new Theme approval; exact initial Theme/grant fit is a precondition. DA-T is optional for autonomous scope changes, not required by these routine questions. This corrects the earlier replay’s architectural inference without rewriting its records or totals.
 
 
 **Murmur** is a proposed adaptive trading research and paper-trading application, presented as IRIS’s sibling. It owns its swarm, trading-domain decisions, shared paper portfolio and visual workspace. Adaptive Research Harness (ARH) supplies the research governance it actually implements, through its public client and host interfaces.
@@ -16,18 +16,21 @@ The proposed first slice is two competing research approaches (trend persistence
 
 Read in order:
 
-1. [Proposed constitution](docs/constitution.md): terms, ownership, invariants and authority.
-2. [Behavioral contracts](docs/contracts.md): research, strategy, portfolio and recovery.
-3. [ARH assessment](docs/arh-assessment.md): inspected implementation and integration gaps.
-4. [Workspace and worked example](docs/workspace.md).
-   Then [operate the desk for two cycles](docs/desk-walkthrough.md): successive workspace cards, exact records, disrupted research/orders, exits and evidence-informed next choices.
-5. [Documentary scenarios and traceability](docs/scenarios.md).
-6. [Review, CPOC and findings](docs/review.md).
-7. [Implementation sequence and proposed build gate](docs/build-gate.md).
-8. [Current work](docs/current-work.md): resumption instructions.
+1. [Owner decision sheet](docs/owner-decisions.md).
+2. [Final Theme comparison and baseline](docs/baseline-review.md).
+3. [Proposed constitution](docs/constitution.md).
+4. [Behavioral contracts, including C-12/C-13](docs/contracts.md).
+5. [ARH assessment](docs/arh-assessment.md).
+6. [Workspace](docs/workspace.md) and [manual two-cycle baseline](docs/desk-walkthrough.md).
+7. [Owner-away replay](docs/away-replay.md), with B-01/B-02 scope correction.
+8. [Scenarios and recommended in-scope trace W-4](docs/scenarios.md).
+9. [Review/closure](docs/review.md) and [single current findings register](docs/findings.md).
+10. [B-02 authorization, V-01 and gates](docs/build-gate.md).
+11. [Current work/handoff](docs/current-work.md).
+12. [Verified content manifest](docs/baseline-manifest.md).
 
 The paper design is coherent within the proposed ownership split. Python and ARH's public Python client are the foundation; LangGraph is the orchestration candidate pending the worked two-researcher validation gates. The complete slice is **not ready for unconditional implementation authorization**: owner admission, externally composed multi-researcher setup, and consumer recovery/compatibility questions remain open. ARH roadmap overlap alone does not block the design. Documentary closure does not close upstream findings or demonstrate runtime behavior.
 
 The next request is narrower than accepting the full design: accept the ownership boundary and standalone synthetic consumer profile V-01 in the build gate. Portfolio semantics and broader delegation remain proposed. The reviewed repairs specify separate successful/blocked parallel-recovery fixtures with exact accounting, and a required-exit scenario exceeding ordinary turnover under an explicit cost envelope.
 
-The latest product test is [W-3: owner-away replay](docs/away-replay.md), with proposed standing authority in C-12/C-13 and closure CL-04. Current ARH still requires one batched successor-Theme approval interruption on this exact journey; zero routine interruptions is conditional on a documented upstream policy extension. Research schedules and position lifetimes are separate. W-2 remains the retained manual-owner comparison.
+Current owner-workload result: zero routine in-run interruptions for confirmed in-scope work, conditional on accepted DA-1, the trusted control service, complete independent checks and exact original Theme/grant fit. Current ARH does not require new Theme approval for those follow-ups. W-3’s explicit-Theme branch is historical; actual scope changes still require owner decisions or a separately authorized policy. Research schedules and holding periods remain separate. Runtime validation has not run.

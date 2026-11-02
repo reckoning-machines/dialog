@@ -1,4 +1,6 @@
-# B-01 — final Theme comparison and documentary freeze
+# B-01 — final Theme comparison (retained in B-02)
+
+B-01 freeze commit: be12c89d23e69856f5d5047971d43fb00476f3df. B-02 supersedes authorization/profile, inventory and freeze identity; the scope comparison remains applicable. Current signing scope is build-gate.md and owner-decisions.md.
 
 **Frozen for owner review, not admitted or implementation-authorized.** This is the current conclusion after W-2/CL-03 and W-3/CL-04. Those earlier fixtures/records remain unchanged evidence of their design choices. This narrow comparison supersedes the inference that ordinary adaptive work necessarily needs DA-T. It is not another full-system redesign.
 
@@ -6,7 +8,7 @@ Review entry points: [C-12/C-13](contracts.md), [W-3](away-replay.md), [CL-04 an
 
 ## NC-01 — actual ARH definition and supported path
 
-Inspected ARH commit93436406c8a1fd2c06e5713b1def09d90104db54 again; no tracked changes. CV1 §III.1 defines a Theme as a developing research domain directing attention and explaining why. Its content is immutable; a scope change creates a successor Theme citing the predecessor, whose retirement belongs to the same transition. Hypotheses are not reparented. A Theme makes no testable claim or evidentiary score. Its registration includes motivation and selection basis, proposed experiment, horizon and stopping rule. Therefore the actual registered content matters, not merely a label such as “trend.”
+Inspected ARH commit 93436406c8a1fd2c06e5713b1def09d90104db54 again; no tracked changes. CV1 §III.1 defines a Theme as a developing research domain directing attention and explaining why. Its content is immutable; a scope change creates a successor Theme citing the predecessor, whose retirement belongs to the same transition. Hypotheses are not reparented. A Theme makes no testable claim or evidentiary score. Its registration includes motivation and selection basis, proposed experiment, horizon and stopping rule. Therefore the actual registered content matters, not merely a label such as “trend.”
 
 Source checks: model.View.scope/proposal_scope validates named Theme/SearchFamily grants; analysis.AnalysisResearcher.design/run/select and Researcher.research_commit support experiment/selection records; AnalysisResearcher.propose separately proposes a Theme. API Research.select convenience goes on to propose a Theme: its convenience workflow must not determine domain ontology. Use supported lower-level selection/record/design methods when no Theme transition is required; never use private imports or direct ledgers. Ordinary records remain funded/scoped; they are not a local duplicate of ARH admission.
 
@@ -46,7 +48,7 @@ Conclusion: **DA-T is unnecessary for ordinary operation under the proposed init
 
 ## NC-04 — exact trace for the inside case
 
-Initial: roots/grants above are legitimately approved/current and cover both slots; W-3's retained cycle1 failures/fees available. Actors: researchers choose, CK independently checks, deterministic policy/owners decide only their scoped facts.
+Initial: roots/grants above are legitimately approved/current and cover both slots; W-3's retained cycle 1 failures/fees available. Actors: researchers choose, CK independently checks, deterministic policy/owners decide only their scoped facts.
 
 1. Public read resolves exact root Theme content, active grants, mandate and data access. Preserve hashes/IDs and current bases.
 2. Record supported SELECTION evidence for next volatility/quiet investigation, linking both researchers' history and excluded reused validation candidates.
@@ -57,7 +59,7 @@ Initial: roots/grants above are legitimately approved/current and cover both slo
 
 Expected: zero routine Theme approvals in this in-scope path; one initial mandate group still required, and all other DA-1/trusted-service assumptions remain. No claim that the application or its external setup is runtime validated.
 
-Accounting integrity: W-2/W-3 preserve their two explicit Theme proposals and paid Theme checks as historical fixture choices; nothing is deleted/refunded. The efficient inside path omits those unnecessary transitions. It must not forge CHECK records on a transition that does not exist or claim the old seven-unit total as its measured cost. If only the two0.25 Theme checks are removed and no other work changes, the conditional arithmetic would be6.50 spent/18.50 unspent from25.00; real independent-check needs/costs must still be measured. This narrow comparison does not run or certify a newly costed complete cycle. The two original full-cycle ledgers retain7.00/18.00 and their separate conditions.
+Accounting integrity: W-2/W-3 preserve their two explicit Theme proposals and paid Theme checks as historical fixture choices; nothing is deleted/refunded. The efficient inside path omits those unnecessary transitions. It must not forge CHECK records on a transition that does not exist or claim the old seven-unit total as its measured cost. If only the two 0.25 Theme checks are removed and no other work changes, the conditional arithmetic would be6.50 spent/18.50 unspent from 25.00; real independent-check needs/costs must still be measured. This narrow comparison does not run or certify a newly costed complete cycle. The two original full-cycle ledgers retain 7.00/18.00 and their separate conditions.
 
 ## NC-05 — next runtime test: privileged control service
 
