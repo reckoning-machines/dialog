@@ -1,0 +1,31 @@
+[
+  {
+    "status": "RECOVERED_APPLIED",
+    "subject": "AU-OBS-V",
+    "transition": "BOOT-1"
+  },
+  {
+    "class": "LIMITS",
+    "result": "PASS",
+    "subject": "initial_limits",
+    "transition": "BOOT-2"
+  },
+  {
+    "class": "AGENT_DESIGN",
+    "result": "PASS",
+    "subject": "R-T",
+    "transition": "BOOT-3"
+  },
+  {
+    "class": "AGENT_DESIGN",
+    "result": "PASS",
+    "subject": "R-R",
+    "transition": "BOOT-4"
+  },
+  {
+    "class": "AUTHORIZATION",
+    "result": "FAIL",
+    "subject": "G-BR",
+    "transition": "BOOT-5"
+  }
+]

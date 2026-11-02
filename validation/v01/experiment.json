@@ -1,0 +1,95 @@
+{
+  "ExperimentId": "MURMUR-V01",
+  "description": "Bounded continuation/reversal research on synthetic AAA/BBB.",
+  "genesis": {
+    "design": "AD-CK-V1.0",
+    "grant": "AU-CK-V"
+  },
+  "sources": {
+    "SRC-V-DATA": {
+      "document": {
+        "class": "synthetic",
+        "max_bytes": 4194304,
+        "synthetic": true
+      },
+      "extraction": {
+        "validator": "none"
+      },
+      "item_id": {
+        "per_period": "many",
+        "prefix": "v-"
+      },
+      "period_ms": 86400000,
+      "window": {
+        "end": "2027-04-30T00:00:00.000Z",
+        "start": "2026-10-28T00:00:00.000Z"
+      }
+    }
+  },
+  "steps": [
+    {
+      "input_limit_bytes": 16777216,
+      "inputs": [
+        {
+          "form": "DOCUMENT",
+          "kind": "OBSERVATION",
+          "max": 1,
+          "min": 1
+        }
+      ],
+      "kind": "research",
+      "name": "research",
+      "parameters": {
+        "fixture": "V01"
+      },
+      "tariff": {
+        "limit": 1,
+        "measure": "documents",
+        "per_unit": "1.00"
+      },
+      "tools": [
+        "CALC-V"
+      ]
+    },
+    {
+      "kind": "check",
+      "maximum": "0.25",
+      "name": "check-transition",
+      "tools": [
+        "CHECK-V-1"
+      ]
+    },
+    {
+      "kind": "check",
+      "maximum": "0.50",
+      "name": "check-half",
+      "tools": [
+        "CHECK-V-1-HALF"
+      ]
+    }
+  ],
+  "tools": {
+    "CALC-V": {
+      "callable": "calculate",
+      "execution": "caller",
+      "label": "calc-v",
+      "module": "tools.py",
+      "provider_work": "ends_with_caller"
+    },
+    "CHECK-V-1": {
+      "callable": "evaluate",
+      "execution": "caller",
+      "label": "check-v-1",
+      "module": "evaluator.py",
+      "provider_work": "ends_with_caller"
+    },
+    "CHECK-V-1-HALF": {
+      "callable": "evaluate",
+      "execution": "caller",
+      "label": "check-half",
+      "module": "evaluator.py",
+      "provider_work": "ends_with_caller"
+    }
+  },
+  "version": 1
+}

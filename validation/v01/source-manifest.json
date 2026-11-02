@@ -1,0 +1,87 @@
+[
+  {
+    "path": "validation/v01/AUTHORIZATION.md",
+    "bytes": 398,
+    "sha256": "f32bc4e8f7f61e1ee722d30d8f4db050a3ddbc93716de7671d91fe5dd5d0abde"
+  },
+  {
+    "path": "validation/v01/REPORT.md",
+    "bytes": 10024,
+    "sha256": "622f6030776830b86d9a593e1d8af91ffe4e58179010bdb20031a926f2bf1d97"
+  },
+  {
+    "path": "validation/v01/bootstrap_probe.py",
+    "bytes": 3970,
+    "sha256": "592318b8d90f608f0e1b04ff721fbb41853c969d073d0ce9f94f2ac4b9022701"
+  },
+  {
+    "path": "validation/v01/commands.md",
+    "bytes": 1864,
+    "sha256": "5509bb80001d5dd514fe17d86ef50d543fca1f9bfa6a3111187490980761a7b3"
+  },
+  {
+    "path": "validation/v01/control_service.py",
+    "bytes": 3999,
+    "sha256": "df7376487900779aed09d7994cc5ef5cbc781ffcb61e0fea70085db9637fa8be"
+  },
+  {
+    "path": "validation/v01/designs_and_methods.json",
+    "bytes": 9099,
+    "sha256": "518271efed85915772e23b6c88f2ffc1c5dd1d4089e01bc2ea4b5972f12ae740"
+  },
+  {
+    "path": "validation/v01/evaluator.py",
+    "bytes": 262,
+    "sha256": "e7700430794849b80119ed5561312d1b88fb4db2a547a2c90d51dc7f6d2fe00d"
+  },
+  {
+    "path": "validation/v01/experiment.json",
+    "bytes": 1972,
+    "sha256": "167ab70afa25a26fb81c7049d645f740d34b5d4fbc3a94992b1da09fb67a7abf"
+  },
+  {
+    "path": "validation/v01/lifecycle.py",
+    "bytes": 1022,
+    "sha256": "48e0564624f75321ea29ae42efc22bbb238c1d53f21c847f524a460535a2edf8"
+  },
+  {
+    "path": "validation/v01/profile.py",
+    "bytes": 5909,
+    "sha256": "bb3646959678a26073b094eafc452ae0ce8681cf4def43bcb82ff25b761613ab"
+  },
+  {
+    "path": "validation/v01/project.json",
+    "bytes": 2114,
+    "sha256": "f86ed4d45533ba643feed19ea592fa399599bd7fd1b5b8ee8a2efbd552a0a926"
+  },
+  {
+    "path": "validation/v01/retain.py",
+    "bytes": 4052,
+    "sha256": "6815bb459841438edb3ff8773365f1a38ac4a80eb608134d156b69140b6c6cb3"
+  },
+  {
+    "path": "validation/v01/service_tests.py",
+    "bytes": 3095,
+    "sha256": "cef73324481bef4ac41441cbb71de7f6b147230129d2b4a69c6e9c102079f065"
+  },
+  {
+    "path": "validation/v01/setup.json",
+    "bytes": 11714,
+    "sha256": "19bb8dc1ff0e3fdc5417a91ba95ade82b9e4f53970d9f867fb01870f6dc08b53"
+  },
+  {
+    "path": "validation/v01/startup.py",
+    "bytes": 5630,
+    "sha256": "47feee10758b630ebc78c100830470aa34f52b26843be56ce7298c81d3858661"
+  },
+  {
+    "path": "validation/v01/tools.py",
+    "bytes": 332,
+    "sha256": "3b7420c3cd065071d2d92fcccc1506a05831bd9b0f39e7aae9fa50ef5e93330e"
+  },
+  {
+    "path": "validation/v01/v01.json",
+    "bytes": 743,
+    "sha256": "66b08b0afab051dda393fce6933b07932529546a6c478dc2f235492547e47d37"
+  }
+]

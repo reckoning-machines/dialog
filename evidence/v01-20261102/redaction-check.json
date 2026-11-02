@@ -1,0 +1,7 @@
+{
+  "exact_runtime_secrets_scanned": 10,
+  "files_scanned": 108,
+  "limitation": "No OS isolation; runtime secret files remain private outside retained evidence.",
+  "matches": 0,
+  "secret_values_or_hashes_retained": false
+}

@@ -1,0 +1,99 @@
+{
+  "criteria": {
+    "grant_content": {
+      "reason": "All grant fields, registered grantees, synthetic scope and applicable funding fields evaluated",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 20,
+          "sha256": "2e934874e8e10af5e6ad62225033a070615a1a129532ff8cefbade5e97abc997"
+        },
+        {
+          "ledger": "T",
+          "sequence": 3,
+          "sha256": "4ac7182eab092caa08a3c2795a0db4b55cff5e4f609960a30c0ae4ea689ae2b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 7,
+          "sha256": "d38d5e799ea62c48c89c7ed6ec1b29b427f2a76d83036dcfe425a274978543c6"
+        },
+        {
+          "ledger": "T",
+          "sequence": 11,
+          "sha256": "89ebe9fe062bfad44ec7926bd0c45a00a10f432439616df66c9ba78d700a2915"
+        },
+        {
+          "ledger": "T",
+          "sequence": 15,
+          "sha256": "d135bbd46979b659448cc30beddfbe30da1dd3659d6e50db2229ca13afc464b4"
+        },
+        {
+          "ledger": "T",
+          "sequence": 19,
+          "sha256": "02f67424b81f085cdcd2604a37c8743e79dde3b2b6d01313ccf54e5858ba2387"
+        },
+        {
+          "ledger": "E",
+          "sequence": 1,
+          "sha256": "27c5f6306d12d8cbbcc85ca7b0cfdb5db2e2b0e62a3b091c67c13338cfce5843"
+        },
+        {
+          "ledger": "E",
+          "sequence": 2,
+          "sha256": "32d68f3659941ce7f474471b8fc926a6a5c6755ad904897e261fb13d357fa19a"
+        },
+        {
+          "ledger": "E",
+          "sequence": 5,
+          "sha256": "ccd3796fe123b4199cc15d5f4282188b90e2432226ba955a73a94d993111927a"
+        },
+        {
+          "ledger": "E",
+          "sequence": 6,
+          "sha256": "f2bdbd7019630f82a4302845a3d5bb4ffd113b9cdb7ebcba5f294eb9b027169c"
+        },
+        {
+          "ledger": "E",
+          "sequence": 7,
+          "sha256": "6766249c9c89489165150f35c5546cfcc966e03ddd0d4d555af11ab7a89bfaa4"
+        },
+        {
+          "ledger": "E",
+          "sequence": 10,
+          "sha256": "87c0ce2b3bd1e355f2931788f60ca2a48802fe5bede4bfde2515d18e2e2d112e"
+        },
+        {
+          "ledger": "E",
+          "sequence": 11,
+          "sha256": "ef76813fdd86f20cb1325e5d285b9b247ddf9b5a6c2fd4ee79df40628ce85821"
+        },
+        {
+          "ledger": "E",
+          "sequence": 14,
+          "sha256": "6fbfedae397767b26cfa2a6dc6a0af25439f6933c7dcc6febae70f7ef4624d27"
+        },
+        {
+          "ledger": "E",
+          "sequence": 15,
+          "sha256": "5756d22c78396492e371eed13206d62a8a13627bee9a4ac5ef92e2bcdfb5df06"
+        },
+        {
+          "ledger": "E",
+          "sequence": 18,
+          "sha256": "04dc4485ecf9da23eb64a5fc1636c7fcca047d9993ea456b63118ec3411c4fd0"
+        },
+        {
+          "ledger": "E",
+          "sequence": 19,
+          "sha256": "983d5ff3c5cbb613cc5e710efccea23a23da90ca4c225465d4ca7dd4b5e8f7f1"
+        }
+      ],
+      "status": "NOT MET"
+    }
+  },
+  "no_profile_or_upstream_change": true,
+  "standing": "STOPPED_DEPENDENT_STARTUP",
+  "subject": "G-BR",
+  "transition": "BOOT-5"
+}

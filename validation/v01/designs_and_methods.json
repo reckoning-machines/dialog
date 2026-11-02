@@ -1,0 +1,228 @@
+{
+  "designs": [
+    {
+      "content": {
+        "AgentDesignLineageId": "L-T",
+        "AgentDesignVersionId": "R-T",
+        "entrypoint": "tools:researcher",
+        "evaluation_inputs": [
+          "own Research Records",
+          "active grant and population",
+          "declared source observations"
+        ],
+        "evidence_outputs": [
+          "EXPERIMENT DESIGN",
+          "plain Research Record",
+          "SELECTION"
+        ],
+        "initial_method": {
+          "id": "MC-RESEARCH-V1",
+          "sha256": "9255e8f41fa493d238f291e971ba86d0d1877e7266598d12448b9329bf77f4be"
+        },
+        "instructions": "Research only within declared original Theme and grant; record all revisions; never check or approve.",
+        "method_class": "RESEARCH",
+        "ordinary_cycle_enabled": true,
+        "predecessor": null,
+        "program": "tools.py",
+        "proposable_outputs": [
+          "Theme registration",
+          "Agent Design successor registration without grant request"
+        ],
+        "provenance": {
+          "execution_kind": "deterministic synthetic program",
+          "model": null,
+          "model_version": null,
+          "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+          "provider": null,
+          "spec_version": "generated-design-v1",
+          "training_cutoff": null
+        },
+        "research_question": {
+          "difference_basis": "Each design states its own question and expectation.",
+          "predicate": "declared per design record",
+          "scope": "TH-V0",
+          "target": "Bounded continuation/reversal research on synthetic AAA/BBB."
+        },
+        "scope_profile": "TH-V-T",
+        "tool_specs": {
+          "CALC-V": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+        }
+      },
+      "content_sha256": "af6a619164829a1ca8696f164b66527cb6bbf013ec65a07004c8bdd896844307"
+    },
+    {
+      "content": {
+        "AgentDesignLineageId": "AD-CK-V1",
+        "AgentDesignVersionId": "AD-CK-V1.0",
+        "entrypoint": "evaluator:evaluate",
+        "evaluation_inputs": [
+          "exact proposal",
+          "Transition lifecycle and Applied History",
+          "Evidence closure",
+          "pinned CV1 and ES-1.0",
+          "own grant",
+          "referenced artifacts"
+        ],
+        "evidence_outputs": [
+          "verification Research Record",
+          "own reservation/attempt/settlement/close"
+        ],
+        "initial_method": {
+          "id": "MC-CHECKER-V1",
+          "sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+        },
+        "instructions": "Execute every common and class criterion on a committed closure through the client checking toolkit. Public independent full criteria evaluator, with exact sum recomputation. Fund verification from own Checker grant. Never propose, decide or waive a criterion. Missing capability never becomes PASS.",
+        "method_class": "CHECKER",
+        "predecessor": null,
+        "program": "evaluator.py",
+        "proposable_outputs": [
+          "own Agent Design successor"
+        ],
+        "provenance": {
+          "execution_kind": "deterministic synthetic program",
+          "model": null,
+          "model_version": null,
+          "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+          "provider": null,
+          "spec_version": "generated-design-v1",
+          "training_cutoff": null
+        },
+        "tool_specs": {
+          "CHECK-V-1": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+          "CHECK-V-1-HALF": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+        }
+      },
+      "content_sha256": "3be1b318ddd241e06f0680e7ad073aa39fbd4788db2fe2074bd7c54f06e053b2"
+    },
+    {
+      "content": {
+        "AgentDesignLineageId": "L-R",
+        "AgentDesignVersionId": "R-R",
+        "entrypoint": "tools:researcher",
+        "evaluation_inputs": [
+          "own Research Records",
+          "active grant and population",
+          "declared source observations"
+        ],
+        "evidence_outputs": [
+          "EXPERIMENT DESIGN",
+          "plain Research Record",
+          "SELECTION"
+        ],
+        "initial_method": {
+          "id": "MC-RESEARCH-V1",
+          "sha256": "9255e8f41fa493d238f291e971ba86d0d1877e7266598d12448b9329bf77f4be"
+        },
+        "instructions": "Investigate negative-return reversal and predeclared quiet regimes on AAA/BBB, record failures/revisions, never check or admit.",
+        "method_class": "RESEARCH",
+        "ordinary_cycle_enabled": true,
+        "predecessor": null,
+        "program": "tools.py",
+        "proposable_outputs": [
+          "Theme registration",
+          "Agent Design successor registration without grant request"
+        ],
+        "provenance": {
+          "execution_kind": "deterministic synthetic program",
+          "model": null,
+          "model_version": null,
+          "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+          "provider": null,
+          "spec_version": "generated-design-v1",
+          "training_cutoff": null
+        },
+        "research_question": {
+          "difference_basis": "Each design states its own question and expectation.",
+          "predicate": "declared per design record",
+          "scope": "TH-V0",
+          "target": "Bounded continuation/reversal research on synthetic AAA/BBB."
+        },
+        "scope_profile": "TH-V-R",
+        "tool_specs": {
+          "CALC-V": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+        }
+      },
+      "content_sha256": "ba4079a117f8bab191aba27c43739a5427745c9f3963f9d2cebc33868adf8fa3"
+    }
+  ],
+  "formation_cohort": {
+    "content": {
+      "claimed_publication_time": "2026-10-29T00:00:00.000Z",
+      "class": "synthetic",
+      "item_id": "v-2026-10-28-charter",
+      "period_end": "2026-10-29T00:00:00.000Z",
+      "period_start": "2026-10-28T00:00:00.000Z",
+      "rows": [
+        {
+          "instrument": "AAA",
+          "quiet": true,
+          "return_bp": 30,
+          "row_id": "AAA-DEV"
+        },
+        {
+          "instrument": "BBB",
+          "quiet": false,
+          "return_bp": -10,
+          "row_id": "BBB-DEV"
+        }
+      ],
+      "synthetic": true
+    },
+    "content_sha256": "ba351b65258cd0998315cd71bda19758ef30735f0b0a52cca2e51c7210d5e2fc",
+    "source": "SRC-V-DATA"
+  },
+  "methods": {
+    "MC-CHECKER-V1": {
+      "content": {
+        "limits": "Absence of a later defect finding is not proof of correctness.",
+        "meaning": "Verification contribution, not permission.",
+        "measure": "Defects later established in passed subjects and refusals later shown unwarranted, divided by settled Checker units.",
+        "version": 1
+      },
+      "content_sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+    },
+    "MC-RESEARCH-V1": {
+      "content": {
+        "forward_contribution": "Admitted investigations that later produced a finalized forward Outcome, divided by settled research units; zero denominator NOT_ESTIMABLE.",
+        "limits": "No profitability credit; reconstruction carries no forward standing.",
+        "meaning": "Contribution report only; no standing or grant.",
+        "version": 1
+      },
+      "content_sha256": "9255e8f41fa493d238f291e971ba86d0d1877e7266598d12448b9329bf77f4be"
+    }
+  },
+  "status": "BUILT_PRIVATE_NOT_INITIALIZED",
+  "tools": {
+    "CALC-V": {
+      "content": {
+        "algorithm": "Sum synthetic returns over the exact committed rows; no provider.",
+        "cost": "Maximum1.00; caller receipts report fixed fixture actual costs.",
+        "failure": "A malformed input returns failure with diagnostic and the same charge.",
+        "inputs": "Committed documents and one EXPERIMENT DESIGN record by the same researcher.",
+        "kind": "deterministic calculator run by the researcher",
+        "version": 1
+      },
+      "content_sha256": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+    },
+    "CHECK-V-1": {
+      "content": {
+        "algorithm": "Public independent full criteria evaluator, with exact sum recomputation.",
+        "cost": "0.25 units per full Check attempt including a failing or incomplete Check; zero external billing.",
+        "input_limit_bytes": 33554432,
+        "kind": "deterministic Checker",
+        "version": 1
+      },
+      "content_sha256": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b"
+    },
+    "CHECK-V-1-HALF": {
+      "content": {
+        "algorithm": "Public independent full criteria evaluator, with exact sum recomputation.",
+        "cost": "0.50 units per full funded check.",
+        "input_limit_bytes": 33554432,
+        "kind": "deterministic Checker",
+        "version": 1
+      },
+      "content_sha256": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "refs": [
+    {
+      "ledger": "T",
+      "sequence": 1,
+      "sha256": "d5dc909e97c615995727a243c797b673812f0f29ebfbc894f0c4dfd7586de405"
+    },
+    {
+      "ledger": "T",
+      "sequence": 2,
+      "sha256": "807db7c50b06f36b594782eae15421baea9a8d532bfb7732d5755c372c775744"
+    },
+    {
+      "ledger": "T",
+      "sequence": 3,
+      "sha256": "c88580109470ca12130e01cea7c36aeff33fb91525394a4ac6c57a33c67f132a"
+    }
+  ],
+  "status": "COMMITTED"
+}

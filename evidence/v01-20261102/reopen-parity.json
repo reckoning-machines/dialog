@@ -1,0 +1,13 @@
+{
+  "old_processes": [
+    {
+      "gone": true,
+      "pid": 41371
+    }
+  ],
+  "same_budget": true,
+  "same_closure": true,
+  "same_obligations": true,
+  "same_state": true,
+  "scope": "Blocked-startup reconstruction only; not S-15 parallel work or complete S-16"
+}

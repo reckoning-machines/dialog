@@ -1,0 +1,26 @@
+{
+  "assurance": "Cooperative same-user workflow; not OS isolation. Full host credential file remains privileged runtime material.",
+  "custodian_pid": 39138,
+  "permissions": {
+    "checker": "0o600",
+    "reversal": "0o600",
+    "service": "0o600",
+    "trend": "0o600"
+  },
+  "service_actor_upstream": "Principal",
+  "test_controller_receives_principal": false,
+  "views": {
+    "checker": [
+      "AD-CK-V1.0"
+    ],
+    "reversal": [
+      "R-R"
+    ],
+    "service": [
+      "Principal"
+    ],
+    "trend": [
+      "R-T"
+    ]
+  }
+}

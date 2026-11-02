@@ -1,0 +1,10 @@
+{
+  "refs": [
+    {
+      "ledger": "E",
+      "sequence": 3,
+      "sha256": "d44f55098bb1f347423ecdc9d6b0ee43b8d9eb2dd9ce8c6deec304624b28d468"
+    }
+  ],
+  "status": "COMMITTED"
+}

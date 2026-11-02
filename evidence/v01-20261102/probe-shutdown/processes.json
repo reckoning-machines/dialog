@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "205bb02629cd0a8d011abe22fd780766f1e942b6641c0c96e7f084a3bbd19c32",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 13810
+    }
+  ],
+  "run_id": "8adde536ee1f4b739770f00a1885cbcc",
+  "state": "/private/tmp/murmur-v01.1dUJI5/runtime/probe/state"
+}

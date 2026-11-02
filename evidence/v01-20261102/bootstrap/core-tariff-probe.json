@@ -1,0 +1,12 @@
+{
+  "detail": "",
+  "reason": "INVALID_ESTIMATE",
+  "refs": [
+    {
+      "ledger": "E",
+      "sequence": 2,
+      "sha256": "43c6a26a493f842c05c3b9866253efda1608bf7e1a2001c330ce01823b38b560"
+    }
+  ],
+  "status": "REFUSED"
+}

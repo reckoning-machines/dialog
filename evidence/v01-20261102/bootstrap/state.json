@@ -1,0 +1,113 @@
+{
+  "N": 0,
+  "active": [
+    "AU-CK-V"
+  ],
+  "designs": {
+    "AD-CK-V1.0": {
+      "AgentDesignLineageId": "AD-CK-V1",
+      "AgentDesignVersionId": "AD-CK-V1.0",
+      "entrypoint": "evaluator:evaluate",
+      "evaluation_inputs": [
+        "exact proposal",
+        "Transition lifecycle and Applied History",
+        "Evidence closure",
+        "pinned CV1 and ES-1.0",
+        "own grant",
+        "referenced artifacts"
+      ],
+      "evidence_outputs": [
+        "verification Research Record",
+        "own reservation/attempt/settlement/close"
+      ],
+      "executable_closure_sha256": "05536cdefec116cd7e469649eacc6b918386d1ea0bcad754b54f42bd008500ab",
+      "initial_method": {
+        "id": "MC-CHECKER-V1",
+        "sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+      },
+      "instructions": "Execute every common and class criterion on a committed closure through the client checking toolkit. Public independent full criteria evaluator, with exact sum recomputation. Fund verification from own Checker grant. Never propose, decide or waive a criterion. Missing capability never becomes PASS.",
+      "method_class": "CHECKER",
+      "predecessor": null,
+      "program": "evaluator.py",
+      "program_sha256": "7fac31d8f2472581d3d7f9e3fed1a214209d76fa8fe908e1eb4ef866a81c8e67",
+      "proposable_outputs": [
+        "own Agent Design successor"
+      ],
+      "provenance": {
+        "execution_kind": "deterministic synthetic program",
+        "model": null,
+        "model_version": null,
+        "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+        "provider": null,
+        "spec_version": "generated-design-v1",
+        "training_cutoff": null
+      },
+      "step_catalog": [
+        "check-transition",
+        "check-half"
+      ],
+      "tool_specs": {
+        "CHECK-V-1": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+        "CHECK-V-1-HALF": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+      }
+    }
+  },
+  "grants": {
+    "AU-CK-V": {
+      "AuthorizationId": "AU-CK-V",
+      "binding_interval_ms": null,
+      "capital_permission": false,
+      "class": "Checker",
+      "constitutional_budget": {
+        "delta_A": 0,
+        "delta_O": 0,
+        "delta_S": 0
+      },
+      "default_reservation_duration_ms": 604800000,
+      "expiry": "2027-04-30T00:00:00.000Z",
+      "forbidden_subjects": [
+        "AD-CK-V1 lineage and every successor",
+        "AU-CK-V and its successor chain"
+      ],
+      "grantee": [
+        "AD-CK-V1.0"
+      ],
+      "grantor": "Principal",
+      "may_check": [
+        "every supported Transition class except own subjects"
+      ],
+      "may_commit_evidence": [
+        "Research Record for verification",
+        "RESERVATION",
+        "attempt",
+        "settlement",
+        "CLOSED"
+      ],
+      "may_propose": [
+        "own Agent Design successor",
+        "Constitutional proposal STOPPED until Principal decides"
+      ],
+      "per_lineage_cap_units": "12.00",
+      "provider_calls_permitted": false,
+      "provider_diversity": "No provider diversity claimed: deterministic program under the A1 synthetic-only exception.",
+      "research_budget_units": "12.00",
+      "tools": [
+        {
+          "id": "CHECK-V-1",
+          "spec_sha256": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+          "tier": 1
+        },
+        {
+          "id": "CHECK-V-1-HALF",
+          "spec_sha256": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18",
+          "tier": 1
+        }
+      ],
+      "uncapped_calls_permitted": false
+    }
+  },
+  "hypotheses": {},
+  "limits": null,
+  "suspended": [],
+  "themes": {}
+}

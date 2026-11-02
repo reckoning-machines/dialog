@@ -1,0 +1,90 @@
+[
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "decide",
+    "request_id": "3f314b25-ce1a-4510-89a5-da754db1afe4",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "22156109-5660-4f21-b524-73640cb5afa7",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "limits",
+    "request_id": "0fa67be8-77e9-4548-8dfc-ae011808a7dd",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "standard",
+    "request_id": "47223453-fd21-4a94-b00e-849d85244bfd",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "34d34220-93be-4e5a-999c-865cda4f2b1a",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "tick",
+    "request_id": "41363858-6e5c-4fa6-9a3e-21eca95964c0",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "token-export",
+    "request_id": "38ef3483-5826-415a-b6fe-96665dd82140",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "scope-extension",
+    "request_id": "3945923b-1ebc-44f2-9f5e-61dfa848d18e",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "f87c6fba-6490-4372-a1a9-1cc514461e6d",
+    "service_pid": 42228
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_REQUEST_MISMATCH",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "f87c6fba-6490-4372-a1a9-1cc514461e6d",
+    "service_pid": 42228
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "status",
+    "request_id": "f0f441c7-93a0-46d8-b36b-2d3cacb513c8",
+    "service_pid": 42228
+  }
+]

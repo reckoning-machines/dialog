@@ -1,0 +1,115 @@
+{
+  "controller_pid": 41983,
+  "count": 10,
+  "passed": 10,
+  "results": [
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "0e3b7229-5c7b-465c-bc9f-b4b59796870b"
+      },
+      "op": "decide",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "d4d016e0-3400-4505-8462-2eb839ccf170"
+      },
+      "op": "grant",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "78683f84-76bd-4905-a6bc-f6749cf4e04a"
+      },
+      "op": "limits",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "daa0b705-fae9-46c7-b1c8-542180789176"
+      },
+      "op": "standard",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "ac21ec95-0d90-41c7-91ec-dfc28bce9929"
+      },
+      "op": "fence",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "d9546250-1b65-45f6-9c4d-048f06b52e4e"
+      },
+      "op": "tick",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "574bbd52-3450-4245-9888-66097df4d56f"
+      },
+      "op": "token-export",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_OPERATION_REFUSED",
+      "observed": {
+        "code": "SERVICE_OPERATION_REFUSED",
+        "forwarded": false,
+        "request_id": "3d29c37c-c73a-4823-b19a-4e6d6c01c5ed"
+      },
+      "op": "scope-extension",
+      "pass": true,
+      "witness": "CS-04"
+    },
+    {
+      "expected": "SERVICE_REQUEST_MISMATCH",
+      "observed": {
+        "code": "SERVICE_REQUEST_MISMATCH",
+        "forwarded": false,
+        "request_id": "d2dce115-cf8a-4352-9849-99a32ef5a5be"
+      },
+      "pass": true,
+      "witness": "CS-06-partial"
+    },
+    {
+      "expected": "SERVICE_CALLER_REFUSED",
+      "observed": {
+        "code": "SERVICE_CALLER_REFUSED",
+        "forwarded": false,
+        "request_id": "78c82b6c-5a8d-426c-969e-4e13d2851292"
+      },
+      "pass": true,
+      "witness": "CS-04"
+    }
+  ]
+}

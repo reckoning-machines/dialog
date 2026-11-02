@@ -1,0 +1,6 @@
+{
+  "action": "stop",
+  "actor": "Principal",
+  "pid": 42646,
+  "runtime_only_credential": true
+}

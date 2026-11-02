@@ -1,0 +1,1 @@
+{"rows": [{"instrument": "AAA", "quiet": true, "return_bp": 30, "row_id": "AAA-DEV"}, {"instrument": "BBB", "quiet": false, "return_bp": -10, "row_id": "BBB-DEV"}]}

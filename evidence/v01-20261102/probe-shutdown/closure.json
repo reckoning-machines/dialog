@@ -1,0 +1,478 @@
+{
+  "E": 3,
+  "F": "N/A \u2014 no Paper Book",
+  "N": 0,
+  "evidence": [
+    {
+      "actor": "AD-CK-V1.0",
+      "body": {
+        "actor": "AD-CK-V1.0",
+        "amount": "0.25",
+        "expiry_ms": 1793836800000,
+        "grant": "AU-CK-V",
+        "lineage": "AD-CK-V1",
+        "purpose": {
+          "id": "V01-BOOT-OBS",
+          "kind": "Check"
+        },
+        "witness": {
+          "E": null,
+          "N": 0
+        }
+      },
+      "command": {
+        "actor": "AD-CK-V1.0",
+        "position": 0,
+        "request_hash": "aee404d94d5d98898138b40645909f082bd4cc25b464c6d7235f634c6daacc14",
+        "request_id": "b57461c2-6481-413d-aaeb-fe22f517dced"
+      },
+      "kind": "RESERVATION",
+      "seq": 1,
+      "sha256": "5c004286ba32ec0a7425c1e42cbb89916378d24ea3cbd4f3eb09e14fa2d66842",
+      "time_ms": 1793232000000
+    },
+    {
+      "actor": "AD-CK-V1.0",
+      "body": {
+        "E": 1,
+        "N": 0,
+        "detail": "",
+        "op": "attempt",
+        "reason": "INVALID_ESTIMATE",
+        "request": {
+          "dispatch_index": 0,
+          "input": {
+            "executable_hash": "7fac31d8f2472581d3d7f9e3fed1a214209d76fa8fe908e1eb4ef866a81c8e67",
+            "input_refs": [
+              {
+                "ledger": "T",
+                "raw_sha256": "df245d284c500f11e5e5ed8423b1298d9ea45627f72a5bd004aee1bff0644e34",
+                "sequence": 4,
+                "sha256": "df245d284c500f11e5e5ed8423b1298d9ea45627f72a5bd004aee1bff0644e34"
+              }
+            ],
+            "parameters": {
+              "transition_id": "V01-BOOT-OBS"
+            },
+            "schema_version": 1,
+            "step": "check-half",
+            "tool_id": "CHECK-V-1-HALF",
+            "tool_spec_hash": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+          },
+          "maximum": "0.25",
+          "reservation": 1,
+          "step": "check-half",
+          "tier": 1
+        }
+      },
+      "command": {
+        "actor": "AD-CK-V1.0",
+        "position": 0,
+        "request_hash": "55ccf55ceb86af9c17157e601de82810a24ce16276296fa0fd122c783b8b787c",
+        "request_id": "936da1d8-a8d9-4814-9ccf-0f3c53a78d5b"
+      },
+      "kind": "REFUSAL",
+      "seq": 2,
+      "sha256": "43c6a26a493f842c05c3b9866253efda1608bf7e1a2001c330ce01823b38b560",
+      "time_ms": 1793232000000
+    },
+    {
+      "actor": "AD-CK-V1.0",
+      "body": {
+        "released_allowance": "0.25",
+        "reservation": 1,
+        "witness": {
+          "E": 2,
+          "N": 0
+        }
+      },
+      "command": {
+        "actor": "AD-CK-V1.0",
+        "position": 0,
+        "request_hash": "9f753e54c93f0aaaff5d9fd7592cb6484ea739aa8a83bc13df25abb0e1867c22",
+        "request_id": "0cd23eef-abb6-4dce-8e57-74a6bf68b72f"
+      },
+      "kind": "CLOSED",
+      "seq": 3,
+      "sha256": "d44f55098bb1f347423ecdc9d6b0ee43b8d9eb2dd9ce8c6deec304624b28d468",
+      "time_ms": 1793232000000
+    }
+  ],
+  "time_ms": 1793232000000,
+  "transitions": [
+    {
+      "actor": "Principal",
+      "body": {
+        "base": null,
+        "budget": "0.00",
+        "class": "GENESIS",
+        "content": {
+          "constitution_sha256": "c56a9cf50a7e9efadad8f2f2be6605e82c758f18d4096ba07eaaf86a8f8b7a64",
+          "design": {
+            "AgentDesignLineageId": "AD-CK-V1",
+            "AgentDesignVersionId": "AD-CK-V1.0",
+            "entrypoint": "evaluator:evaluate",
+            "evaluation_inputs": [
+              "exact proposal",
+              "Transition lifecycle and Applied History",
+              "Evidence closure",
+              "pinned CV1 and ES-1.0",
+              "own grant",
+              "referenced artifacts"
+            ],
+            "evidence_outputs": [
+              "verification Research Record",
+              "own reservation/attempt/settlement/close"
+            ],
+            "executable_closure_sha256": "05536cdefec116cd7e469649eacc6b918386d1ea0bcad754b54f42bd008500ab",
+            "initial_method": {
+              "id": "MC-CHECKER-V1",
+              "sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+            },
+            "instructions": "Execute every common and class criterion on a committed closure through the client checking toolkit. Public independent full criteria evaluator, with exact sum recomputation. Fund verification from own Checker grant. Never propose, decide or waive a criterion. Missing capability never becomes PASS.",
+            "method_class": "CHECKER",
+            "predecessor": null,
+            "program": "evaluator.py",
+            "program_sha256": "7fac31d8f2472581d3d7f9e3fed1a214209d76fa8fe908e1eb4ef866a81c8e67",
+            "proposable_outputs": [
+              "own Agent Design successor"
+            ],
+            "provenance": {
+              "execution_kind": "deterministic synthetic program",
+              "model": null,
+              "model_version": null,
+              "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+              "provider": null,
+              "spec_version": "generated-design-v1",
+              "training_cutoff": null
+            },
+            "step_catalog": [
+              "check-transition",
+              "check-half"
+            ],
+            "tool_specs": {
+              "CHECK-V-1": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+              "CHECK-V-1-HALF": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+            }
+          },
+          "grant": {
+            "AuthorizationId": "AU-CK-V",
+            "binding_interval_ms": null,
+            "capital_permission": false,
+            "class": "Checker",
+            "constitutional_budget": {
+              "delta_A": 0,
+              "delta_O": 0,
+              "delta_S": 0
+            },
+            "default_reservation_duration_ms": 604800000,
+            "expiry": "2027-04-30T00:00:00.000Z",
+            "forbidden_subjects": [
+              "AD-CK-V1 lineage and every successor",
+              "AU-CK-V and its successor chain"
+            ],
+            "grantee": [
+              "AD-CK-V1.0"
+            ],
+            "grantor": "Principal",
+            "may_check": [
+              "every supported Transition class except own subjects"
+            ],
+            "may_commit_evidence": [
+              "Research Record for verification",
+              "RESERVATION",
+              "attempt",
+              "settlement",
+              "CLOSED"
+            ],
+            "may_propose": [
+              "own Agent Design successor",
+              "Constitutional proposal STOPPED until Principal decides"
+            ],
+            "per_lineage_cap_units": "12.00",
+            "provider_calls_permitted": false,
+            "provider_diversity": "No provider diversity claimed: deterministic program under the A1 synthetic-only exception.",
+            "research_budget_units": "12.00",
+            "tools": [
+              {
+                "id": "CHECK-V-1",
+                "spec_sha256": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+                "tier": 1
+              },
+              {
+                "id": "CHECK-V-1-HALF",
+                "spec_sha256": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18",
+                "tier": 1
+              }
+            ],
+            "uncapped_calls_permitted": false
+          }
+        },
+        "delta": {
+          "A": 0,
+          "O": 0,
+          "S": 0
+        },
+        "funding_ref": null,
+        "grant": null,
+        "subject": "CV1",
+        "transition_id": "TR-0"
+      },
+      "command": {
+        "actor": "Principal",
+        "position": 0,
+        "request_hash": "6d17979138af7c1517d8c9f7229a4e7aaeda24a6fb182178a02e5b4d2a911165",
+        "request_id": "4ee93661-b26e-4b19-8082-90412a9e5545"
+      },
+      "kind": "PROPOSED",
+      "seq": 1,
+      "sha256": "d5dc909e97c615995727a243c797b673812f0f29ebfbc894f0c4dfd7586de405",
+      "time_ms": 1793232000000,
+      "transition_id": "TR-0"
+    },
+    {
+      "actor": "Principal",
+      "body": {
+        "decider": "Principal",
+        "decision": "ADMITTED",
+        "proposal": {
+          "ledger": "T",
+          "sequence": 1,
+          "sha256": "d5dc909e97c615995727a243c797b673812f0f29ebfbc894f0c4dfd7586de405"
+        },
+        "waiver": "CV1 Part V exact sequence-zero only"
+      },
+      "command": {
+        "actor": "Principal",
+        "position": 1,
+        "request_hash": "6d17979138af7c1517d8c9f7229a4e7aaeda24a6fb182178a02e5b4d2a911165",
+        "request_id": "4ee93661-b26e-4b19-8082-90412a9e5545"
+      },
+      "kind": "DECISION",
+      "seq": 2,
+      "sha256": "807db7c50b06f36b594782eae15421baea9a8d532bfb7732d5755c372c775744",
+      "time_ms": 1793232000000,
+      "transition_id": "TR-0"
+    },
+    {
+      "actor": "Principal",
+      "body": {
+        "bind": null,
+        "constitution": 1,
+        "decision": 2,
+        "es": "ES-1.0",
+        "genesis": {
+          "constitution_sha256": "c56a9cf50a7e9efadad8f2f2be6605e82c758f18d4096ba07eaaf86a8f8b7a64",
+          "design": {
+            "AgentDesignLineageId": "AD-CK-V1",
+            "AgentDesignVersionId": "AD-CK-V1.0",
+            "entrypoint": "evaluator:evaluate",
+            "evaluation_inputs": [
+              "exact proposal",
+              "Transition lifecycle and Applied History",
+              "Evidence closure",
+              "pinned CV1 and ES-1.0",
+              "own grant",
+              "referenced artifacts"
+            ],
+            "evidence_outputs": [
+              "verification Research Record",
+              "own reservation/attempt/settlement/close"
+            ],
+            "executable_closure_sha256": "05536cdefec116cd7e469649eacc6b918386d1ea0bcad754b54f42bd008500ab",
+            "initial_method": {
+              "id": "MC-CHECKER-V1",
+              "sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+            },
+            "instructions": "Execute every common and class criterion on a committed closure through the client checking toolkit. Public independent full criteria evaluator, with exact sum recomputation. Fund verification from own Checker grant. Never propose, decide or waive a criterion. Missing capability never becomes PASS.",
+            "method_class": "CHECKER",
+            "predecessor": null,
+            "program": "evaluator.py",
+            "program_sha256": "7fac31d8f2472581d3d7f9e3fed1a214209d76fa8fe908e1eb4ef866a81c8e67",
+            "proposable_outputs": [
+              "own Agent Design successor"
+            ],
+            "provenance": {
+              "execution_kind": "deterministic synthetic program",
+              "model": null,
+              "model_version": null,
+              "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+              "provider": null,
+              "spec_version": "generated-design-v1",
+              "training_cutoff": null
+            },
+            "step_catalog": [
+              "check-transition",
+              "check-half"
+            ],
+            "tool_specs": {
+              "CHECK-V-1": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+              "CHECK-V-1-HALF": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+            }
+          },
+          "grant": {
+            "AuthorizationId": "AU-CK-V",
+            "binding_interval_ms": null,
+            "capital_permission": false,
+            "class": "Checker",
+            "constitutional_budget": {
+              "delta_A": 0,
+              "delta_O": 0,
+              "delta_S": 0
+            },
+            "default_reservation_duration_ms": 604800000,
+            "expiry": "2027-04-30T00:00:00.000Z",
+            "forbidden_subjects": [
+              "AD-CK-V1 lineage and every successor",
+              "AU-CK-V and its successor chain"
+            ],
+            "grantee": [
+              "AD-CK-V1.0"
+            ],
+            "grantor": "Principal",
+            "may_check": [
+              "every supported Transition class except own subjects"
+            ],
+            "may_commit_evidence": [
+              "Research Record for verification",
+              "RESERVATION",
+              "attempt",
+              "settlement",
+              "CLOSED"
+            ],
+            "may_propose": [
+              "own Agent Design successor",
+              "Constitutional proposal STOPPED until Principal decides"
+            ],
+            "per_lineage_cap_units": "12.00",
+            "provider_calls_permitted": false,
+            "provider_diversity": "No provider diversity claimed: deterministic program under the A1 synthetic-only exception.",
+            "research_budget_units": "12.00",
+            "tools": [
+              {
+                "id": "CHECK-V-1",
+                "spec_sha256": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+                "tier": 1
+              },
+              {
+                "id": "CHECK-V-1-HALF",
+                "spec_sha256": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18",
+                "tier": 1
+              }
+            ],
+            "uncapped_calls_permitted": false
+          }
+        },
+        "n": 0
+      },
+      "command": {
+        "actor": "Principal",
+        "position": 2,
+        "request_hash": "6d17979138af7c1517d8c9f7229a4e7aaeda24a6fb182178a02e5b4d2a911165",
+        "request_id": "4ee93661-b26e-4b19-8082-90412a9e5545"
+      },
+      "kind": "APPLIED",
+      "seq": 3,
+      "sha256": "c88580109470ca12130e01cea7c36aeff33fb91525394a4ac6c57a33c67f132a",
+      "time_ms": 1793232000000,
+      "transition_id": "TR-0"
+    },
+    {
+      "actor": "Principal",
+      "body": {
+        "base": 0,
+        "budget": "0.00",
+        "class": "AUTHORIZATION",
+        "content": {
+          "action": "GRANT",
+          "grant": {
+            "AuthorizationId": "AU-OBS-V",
+            "capital_permission": false,
+            "class": "Observation",
+            "constitutional_budget": {
+              "delta_A": 0,
+              "delta_O": 0,
+              "delta_S": 0
+            },
+            "expiry": "2027-04-30T00:00:00.000Z",
+            "grantee": [
+              "Observation function"
+            ],
+            "grantor": "Principal",
+            "may_check": [],
+            "may_commit_evidence": [
+              "DOCUMENT Observation",
+              "feed retrieval COMPLETE/PARTIAL/RETRIEVAL_FAILED",
+              "Market Observation VALUE/ABSENT/NOT_EXTRACTABLE/RETRIEVAL_FAILED"
+            ],
+            "may_propose": [],
+            "observation_plan": {
+              "SRC-V-DATA": {
+                "period_dates_inclusive": [
+                  "2026-10-28",
+                  "2027-04-29"
+                ],
+                "retrieval_slot": "when the Principal imports a file",
+                "stop_rule": "No slot at or after grant expiry."
+              }
+            },
+            "provider_calls_permitted": false,
+            "source_declarations": [
+              {
+                "SourceId": "SRC-V-DATA",
+                "SourceRevision": "cf285783109dfeaf3ebb7c32a3594ca69a459b8ea29c00ee91a50532e7510a1f",
+                "content": {
+                  "SourceId": "SRC-V-DATA",
+                  "access_method": "Read from the local filesystem by the Observation function; no network",
+                  "claimed_time_field": "claimed_publication_time",
+                  "dataset": "Immutable synthetic AAA/BBB DEV/V1/V2 inputs.",
+                  "endpoint": "file://local/{sha256}",
+                  "enumeration_contract": {
+                    "complete_set": "Every file the generator produced.",
+                    "completeness": "Not listed; many items per period.",
+                    "item_identity": "v-YYYY-MM-DD-<content hash>",
+                    "window": "Daily periods in the declared window."
+                  },
+                  "extraction_rule": "None. Documents are inputs to declared analyses.",
+                  "field": "document",
+                  "field_definition": "One committed file with its rows or text.",
+                  "parsing": "UTF-8 text; CSV, TSV and JSON parsed to rows with exact integers.",
+                  "print_rule": "FIRST_RELEASE",
+                  "provider": "A deterministic generator in the experiment directory",
+                  "resolution_grace_ms": 600000,
+                  "source_kind": "DOCUMENT_FEED",
+                  "structural_availability_bound": "Available from the declared receipt time.",
+                  "synthetic": true,
+                  "unit": "one file"
+                }
+              }
+            ],
+            "tools": [],
+            "uncapped_calls_permitted": false
+          },
+          "predecessor": null
+        },
+        "delta": {
+          "A": 0,
+          "O": 0,
+          "S": 0
+        },
+        "funding_ref": null,
+        "grant": null,
+        "subject": "AU-OBS-V",
+        "transition_id": "V01-BOOT-OBS"
+      },
+      "command": {
+        "actor": "Principal",
+        "position": 0,
+        "request_hash": "b182e02eb4ce2c1685fce90c67b38ad96f2c3c983580a99a4ae468df00c8fb00",
+        "request_id": "116f3e9e-41aa-49af-bf76-2958bb64314e"
+      },
+      "kind": "PROPOSED",
+      "seq": 4,
+      "sha256": "df245d284c500f11e5e5ed8423b1298d9ea45627f72a5bd004aee1bff0644e34",
+      "time_ms": 1793232000000,
+      "transition_id": "V01-BOOT-OBS"
+    }
+  ]
+}

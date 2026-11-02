@@ -1,0 +1,7 @@
+{
+  "TC_arguments": "endpoint, TC-specific-auth-file, output; no Principal credential",
+  "controller_separate": true,
+  "custodian_launcher_pid": 42155,
+  "full_connection_not_supplied_to_TC": true,
+  "service_pid": 42228
+}

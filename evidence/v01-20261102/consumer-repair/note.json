@@ -1,0 +1,8 @@
+{
+  "initial_failure": "KeyError: file in Observer.observe; own fixture missing file metadata",
+  "repair": "Use public historical_document over retained synthetic JSON bytes; resume applied controls",
+  "snapshot_provenance": "Pre-repair source reconstructed from recorded edit delta; not independently timestamped before execution",
+  "charges_before_repair": "0.25",
+  "charges_final": "1.25",
+  "BOOT-1": "recovered, not rerun"
+}

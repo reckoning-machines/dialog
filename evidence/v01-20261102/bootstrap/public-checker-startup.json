@@ -1,0 +1,7 @@
+{
+  "boundary": "Public Checker.check -> checker_context; two matching declared check steps, no step selection argument",
+  "code": "CAPABILITY_UNSUPPORTED",
+  "detail": "CAPABILITY_UNSUPPORTED: one check step expected",
+  "no_private_evaluator_fallback": true,
+  "status": "BLOCKED"
+}

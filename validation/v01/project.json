@@ -1,0 +1,75 @@
+{
+  "analyses": [
+    {
+      "callable": "calculate",
+      "cost": "Maximum1.00; caller receipts report fixed fixture actual costs.",
+      "description": "Sum synthetic returns over the exact committed rows; no provider.",
+      "execution": "caller",
+      "id": "CALC-V",
+      "inputs": [
+        {
+          "form": "DOCUMENT",
+          "kind": "OBSERVATION",
+          "max": 1,
+          "min": 1
+        }
+      ],
+      "kind": "v01-calculation",
+      "module": "tools.py",
+      "parameters": {
+        "fixture": "V01"
+      },
+      "provider_work": "ends_with_caller",
+      "step": "research",
+      "tariff": {
+        "limit": 1,
+        "measure": "documents",
+        "per_unit": "1.00"
+      }
+    }
+  ],
+  "budget": "12.00",
+  "evaluator": {
+    "description": "Public independent full criteria evaluator, with exact sum recomputation.",
+    "entrypoint": "evaluator:evaluate",
+    "module": "evaluator.py"
+  },
+  "experiment_id": "MURMUR-V01",
+  "formation": {
+    "claimed_publication_time": "2026-10-29T00:00:00.000Z",
+    "class": "synthetic",
+    "item_id": "v-2026-10-28-charter",
+    "period_end": "2026-10-29T00:00:00.000Z",
+    "period_start": "2026-10-28T00:00:00.000Z",
+    "rows": [
+      {
+        "instrument": "AAA",
+        "quiet": true,
+        "return_bp": 30,
+        "row_id": "AAA-DEV"
+      },
+      {
+        "instrument": "BBB",
+        "quiet": false,
+        "return_bp": -10,
+        "row_id": "BBB-DEV"
+      }
+    ],
+    "synthetic": true
+  },
+  "question": "Bounded continuation/reversal research on synthetic AAA/BBB.",
+  "researcher": {
+    "entrypoint": "tools:researcher",
+    "program": "tools.py"
+  },
+  "short": "V",
+  "sources": [
+    {
+      "class": "synthetic",
+      "description": "Immutable synthetic AAA/BBB DEV/V1/V2 inputs.",
+      "id": "SRC-V-DATA",
+      "prefix": "v-"
+    }
+  ],
+  "theme": "Research price-return continuation on synthetic AAA/BBB at the declared toy-trade horizon, including predeclared volatility cohorts DEV/V1/V2, unchanged feature availability, cost and validation rules; stop after the two named research slots."
+}
