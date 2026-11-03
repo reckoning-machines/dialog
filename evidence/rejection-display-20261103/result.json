@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "displayed_rejection": "STRATEGY REJECTED\nR1 · CYCLE 1\nDo negative returns reverse?\nReversal researcher · R-R\n-$50.00\nBASE NET\n-$80.00\nDOUBLE COST\n5.0%\nDRAWDOWN\n\nCalculation PASS · Calculations correct; strategy admission rules failed.\n\nWhy this strategy was rejected\nNet result after normal costs: -$50.00. Required: above $0.\nLargest decline from a prior peak: 5.0%. Limit: 2%.\nNet result with doubled costs: -$80.00. Required: above $0.\nEvidence & ancestry ↗",
+  "failed_rule_count": 3,
+  "accepted_card_has_no_rejection": true,
+  "mobile_overflow": false,
+  "drawer_works": true,
+  "page_errors": [],
+  "live_mutations": 0,
+  "fixture": "Retained authoritative step-02 dossier; browser visual replay"
+}

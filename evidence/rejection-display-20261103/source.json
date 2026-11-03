@@ -1,0 +1,10 @@
+{
+  "workspace_sha256": "954994651347b24c70e3825c1056e9cd95044e1cbcbddb69f77c4b6164dcb9ff",
+  "display_sources": [
+    "dossier.criteria",
+    "dossier.result",
+    "dossier.standard"
+  ],
+  "evaluation_rules_changed": false,
+  "portfolio_behavior_changed": false
+}
