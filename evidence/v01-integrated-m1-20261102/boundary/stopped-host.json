@@ -1,0 +1,19 @@
+{
+  "custodian_pid": 51585,
+  "status_before": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 51579
+      }
+    ],
+    "run_id": "0e34de23455447299564e019a3d1dd27",
+    "state": "/private/tmp/zugot-integrated-v01/runtime/boundary-e2ffd9e4/state"
+  },
+  "stop": {
+    "status": "STOPPING"
+  }
+}

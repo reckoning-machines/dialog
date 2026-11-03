@@ -1,0 +1,17 @@
+{
+  "errors": [],
+  "overflow": false,
+  "cycle2": {
+    "cash": "80140.40",
+    "quantity": 198,
+    "fees": "59.60"
+  },
+  "final": {
+    "step": 17,
+    "cash": "99920.60",
+    "quantity": 0,
+    "fees": "79.40"
+  },
+  "browser": "156.0.8078.80",
+  "final_assertions_passed": true
+}

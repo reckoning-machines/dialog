@@ -1,0 +1,8 @@
+{
+  "exact_secret_values_compared": 38,
+  "files_scanned": 766,
+  "matches": 0,
+  "runtime_credentials_deleted": true,
+  "scheme": "No HTTP headers, secret config or connection files exported. Byte comparison against currently available provisioned secrets includes consumer checkpoints. Earlier rotated secrets are not retained; separate structural and token-format audit covers every retained file.",
+  "token_values_or_token_hashes_retained": false
+}

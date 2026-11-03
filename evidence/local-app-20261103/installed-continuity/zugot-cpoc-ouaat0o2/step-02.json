@@ -1,0 +1,871 @@
+{
+  "allocations": [],
+  "arh": {
+    "E": 71,
+    "N": 13,
+    "asof": 1793701126.001232,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "c421d4fe95c04bc1bcfd390026155b61",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "100000.00",
+    "cash_after_commitments": "100000.00",
+    "commitments": "0.00",
+    "exit_turnover": {},
+    "fees": "0.00",
+    "nav": "100000.00",
+    "orders": [],
+    "ordinary_turnover": {},
+    "pnl": "0.00",
+    "positions": {},
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 71,
+      "N": 13,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793296800000
+    },
+    "G-C1": {
+      "E": 71,
+      "N": 13,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793296800000
+    },
+    "G-C2": {
+      "E": 71,
+      "N": 13,
+      "committed": "0.00",
+      "grant": "G-C2",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793296800000
+    },
+    "G-R1": {
+      "E": 71,
+      "N": 13,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793296800000
+    },
+    "G-R2": {
+      "E": 71,
+      "N": 13,
+      "committed": "0.00",
+      "grant": "G-R2",
+      "headroom": "10.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "10.00",
+      "time_ms": 1793296800000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "owner",
+      "body": {
+        "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+        "cash": "100000.00",
+        "cash_floor": "0.60",
+        "checker_per_cycle": "2.00",
+        "cooperative_identity": true,
+        "evidence_class": "Historical Reconstruction",
+        "exit_cost_fraction": "0.0025",
+        "fee_per_share": "0.10",
+        "forward_observations": 0,
+        "gross": "0.40",
+        "holding_deadlines": {
+          "R2": "D3 20:00",
+          "T1": "D1 20:00",
+          "T2": "D3 20:00"
+        },
+        "id": "Z-M1",
+        "mark_stale_minutes": 30,
+        "monitor_minutes": 5,
+        "name": "Two-cycle synthetic desk",
+        "opening_expiry": "D2 21:00",
+        "ordinary_turnover": "0.20",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "price": "100.00",
+        "research_expiry": [
+          "D1 23:00",
+          "D2 23:00"
+        ],
+        "research_lineage_combined_cap": "10.00",
+        "research_per_cycle": "10.00",
+        "setup_checker_cap": "8.00",
+        "slots": [
+          "D1 18:00",
+          "D2 18:00"
+        ],
+        "strategy": "0.20",
+        "underlying": "0.25",
+        "universe": [
+          "AAA",
+          "BBB"
+        ]
+      },
+      "created": 1793701119.21764,
+      "key": "mandate",
+      "kind": "MANDATE",
+      "seq": 1,
+      "sha256": "fc3705b388630a87b0ed988a96ed031eaf27d90059b8fea32d2faa953829605c"
+    },
+    {
+      "actor": "owner",
+      "body": {
+        "amount": "100000.00",
+        "reason": "Synthetic paper opening capital"
+      },
+      "created": 1793701119.219211,
+      "key": "opening",
+      "kind": "CASH",
+      "seq": 2,
+      "sha256": "f4b021f67c90732b7804bfdea47c0448d5f77a579ef00f8ddc1d3eb51dc6441d"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "checker_grants": [
+          "G-C1",
+          "G-C2"
+        ],
+        "future_slot_withheld": true,
+        "historical_reconstruction": true,
+        "mandate": "Z-M1",
+        "research_grants": [
+          "G-R1",
+          "G-R2"
+        ]
+      },
+      "created": 1793701119.243317,
+      "key": "opened",
+      "kind": "DESK_OPENED",
+      "seq": 3,
+      "sha256": "ce8509727e008dde984c52106760b8faa5274a37e5780ae0b6337b8989888a2f"
+    },
+    {
+      "actor": "R-T",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 52,
+          "sha256": "18387d2741b630ba6f016297dfedbd038571e05c67fb27385da624d7d61a96ac"
+        },
+        "name": "T1",
+        "original_attempt": 52,
+        "parent": null,
+        "question": "Do positive returns persist?",
+        "record": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "33fd7e84620cad6125ecb8e631cf1cb8952972b6dc3caceb88b211febd481229"
+        },
+        "recovered": false,
+        "replacement": false,
+        "researcher": "R-T",
+        "result": {
+          "base_net": "70",
+          "drawdown": "0",
+          "equity": [
+            "1030",
+            "1030",
+            "1070"
+          ],
+          "gross": "100",
+          "n": 3,
+          "stress_net": "40",
+          "sum_bp": 1000
+        }
+      },
+      "created": 1793701121.730174,
+      "key": "research/T1",
+      "kind": "RESEARCH_RESULT",
+      "seq": 4,
+      "sha256": "1ef2a14796a123d1eb1551e3389d183588e8cabf959fa961c4a2f1465be7cc35"
+    },
+    {
+      "actor": "R-R",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 53,
+          "sha256": "f49e0a08cdf889be231163cb2ee6f6d79aea166044ef5788b8e0ff2a24588256"
+        },
+        "name": "R1",
+        "original_attempt": 53,
+        "parent": null,
+        "question": "Do negative returns reverse?",
+        "record": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "6fb55bd1c2e26c722a8233b51c46066ef20f11c26189eae261218ceddced55f1"
+        },
+        "recovered": false,
+        "replacement": false,
+        "researcher": "R-R",
+        "result": {
+          "base_net": "-50",
+          "drawdown": "0.05",
+          "equity": [
+            "970",
+            "970",
+            "950"
+          ],
+          "gross": "-20",
+          "n": 3,
+          "stress_net": "-80",
+          "sum_bp": -200
+        }
+      },
+      "created": 1793701121.744855,
+      "key": "research/R1",
+      "kind": "RESEARCH_RESULT",
+      "seq": 5,
+      "sha256": "fc0cb71bab1d53ac9f431bad3256554b7c71ef2782c01712b7fbf3e5e96fff26"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Competing research",
+        "step": 1,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793701121.8888571,
+      "key": "step/1",
+      "kind": "STEP",
+      "seq": 6,
+      "sha256": "1e8e0ea31883e4cfc405f9d1e090b6a4afea290b125473cdd092d753ed527c6b"
+    },
+    {
+      "actor": "strategy-boundary",
+      "body": {
+        "code": "MISSING_PRECOMMITTED_SPLIT",
+        "criteria": {
+          "availability_valid": false,
+          "base_positive": true,
+          "drawdown_within_2_percent": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": false,
+          "stress_positive": true,
+          "unexposed_partition": true
+        },
+        "reason": "First dossier has no partition reference: arithmetic PASS is insufficient. Intake recovers the exact precommitted ARH design; no new split written.",
+        "resolved_by": {
+          "ledger": "E",
+          "sequence": 47,
+          "sha256": "fcbe06cae4e37578f72efd173fc16e513f17509d1cb722fff8f6b958e0dfd170"
+        }
+      },
+      "created": 1793701123.835576,
+      "key": "missing-partition/T1",
+      "kind": "REFUSAL",
+      "seq": 7,
+      "sha256": "3486e20a04a32a281330badd8537d180480733d5ab09ce5e9875cbc6e99bdbe8"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D1 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "T1",
+        "instrument": "AAA",
+        "label": "Trend",
+        "method": "MV-T1",
+        "parent": null,
+        "question": "Do positive returns persist?",
+        "requested_quantity": 200
+      },
+      "created": 1793701123.841161,
+      "key": "candidate/T1",
+      "kind": "STRATEGY",
+      "seq": 8,
+      "sha256": "20fab03f731926bf33e21d403e0c4d81ae7ec6451b88a43607306071050ec752"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": true,
+          "drawdown_within_2_percent": true,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": true,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 47,
+          "sha256": "fcbe06cae4e37578f72efd173fc16e513f17509d1cb722fff8f6b958e0dfd170"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 51,
+            "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 49,
+            "sha256": "f989819932095c244d300e541ab8e89ef9f9eca169d441271900d6b201bafd76"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 50,
+            "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 60,
+            "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 54,
+            "sha256": "33fd7e84620cad6125ecb8e631cf1cb8952972b6dc3caceb88b211febd481229"
+          },
+          "run": "c421d4fe95c04bc1bcfd390026155b61"
+        },
+        "no_forward_support": true,
+        "partition": "V1T",
+        "researcher": "R-T",
+        "result": {
+          "base_net": "70",
+          "drawdown": "0",
+          "equity": [
+            "1030",
+            "1030",
+            "1070"
+          ],
+          "gross": "100",
+          "n": 3,
+          "stress_net": "40",
+          "sum_bp": 1000
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "T1"
+      },
+      "created": 1793701123.844494,
+      "key": "dossier/T1",
+      "kind": "DOSSIER",
+      "seq": 9,
+      "sha256": "6d73ce5c5d1eefbdc60d42b0ae12fbfd1dbe41c65ed8e2810a651bc185f234eb"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793701123.8483992,
+      "key": "evaluated/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 10,
+      "sha256": "3896d2356ea19e0937b68db7c8c4302a600d3ec9e332995bd5863262215c1a8b"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+        "status": "eligible"
+      },
+      "created": 1793701123.851957,
+      "key": "admission/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 11,
+      "sha256": "2f8f452eb91f23e25c7febbdd57a74e591287faec108e16db6e86c7baba8c588"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V1T",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793701123.854748,
+      "key": "exposed/T1",
+      "kind": "COHORT_EXPOSED",
+      "seq": 12,
+      "sha256": "066c0cbcefb5b7f048d1985187d3c33e7720503dfcc49c3956f0c4b4e88ee1e6"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D1 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "R1",
+        "instrument": "AAA",
+        "label": "Reversal",
+        "method": "MV-R1",
+        "parent": null,
+        "question": "Do negative returns reverse?",
+        "requested_quantity": 200
+      },
+      "created": 1793701124.831033,
+      "key": "candidate/R1",
+      "kind": "STRATEGY",
+      "seq": 13,
+      "sha256": "c11cf38a7dad413ccad01883c53a0923454b206974e3ea269b652fc9503c20f3"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": false,
+          "drawdown_within_2_percent": false,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": false,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 49,
+          "sha256": "ea0816f79c52301114a5f038b3b2e32828387ebd55a3579be195810d275f9800"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 55,
+            "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 53,
+            "sha256": "0902d7f676518e1a88fb3d9b243422fd3f91162573dd18a4f24c71012068957a"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 54,
+            "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 66,
+            "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "6fb55bd1c2e26c722a8233b51c46066ef20f11c26189eae261218ceddced55f1"
+          },
+          "run": "c421d4fe95c04bc1bcfd390026155b61"
+        },
+        "no_forward_support": true,
+        "partition": "V1R",
+        "researcher": "R-R",
+        "result": {
+          "base_net": "-50",
+          "drawdown": "0.05",
+          "equity": [
+            "970",
+            "970",
+            "950"
+          ],
+          "gross": "-20",
+          "n": 3,
+          "stress_net": "-80",
+          "sum_bp": -200
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "R1"
+      },
+      "created": 1793701124.8361979,
+      "key": "dossier/R1",
+      "kind": "DOSSIER",
+      "seq": 14,
+      "sha256": "342b849ce639a2a9a8ac93c5a2d5ad4e009450a78e45263cacfd83de07975b7a"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793701124.839253,
+      "key": "evaluated/R1",
+      "kind": "STRATEGY_STATE",
+      "seq": 15,
+      "sha256": "a9b8b1b802da66453b50e09f6c340eec3d5803fa350a707308917febeebf489c"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+        "status": "rejected"
+      },
+      "created": 1793701124.842978,
+      "key": "admission/R1",
+      "kind": "STRATEGY_STATE",
+      "seq": 16,
+      "sha256": "4fbf7bdc5a5c4d2ae817bd98f840470ef680e98ce51075bd9c8d2a940cce99d4"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V1R",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793701124.8448682,
+      "key": "exposed/R1",
+      "kind": "COHORT_EXPOSED",
+      "seq": 17,
+      "sha256": "e075be6e22713bdeae0499f2f4b410c64f8f3a27a0ff2d3e7ab9cf54fbb3d55b"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Independent checks and admission",
+        "step": 2,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793701125.060819,
+      "key": "step/2",
+      "kind": "STEP",
+      "seq": 18,
+      "sha256": "91bcec9f0b3346093acbac8e21771470deb39fd9c9ac6575d9e744e3914812f2"
+    }
+  ],
+  "clock": "D1 18:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "fcbe06cae4e37578f72efd173fc16e513f17509d1cb722fff8f6b958e0dfd170"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "f989819932095c244d300e541ab8e89ef9f9eca169d441271900d6b201bafd76"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "33fd7e84620cad6125ecb8e631cf1cb8952972b6dc3caceb88b211febd481229"
+        },
+        "run": "c421d4fe95c04bc1bcfd390026155b61"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "ea0816f79c52301114a5f038b3b2e32828387ebd55a3579be195810d275f9800"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "0902d7f676518e1a88fb3d9b243422fd3f91162573dd18a4f24c71012068957a"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "6fb55bd1c2e26c722a8233b51c46066ef20f11c26189eae261218ceddced55f1"
+        },
+        "run": "c421d4fe95c04bc1bcfd390026155b61"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    }
+  ],
+  "error": null,
+  "exits": [],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Shared allocation",
+  "obligations": {
+    "E": 71,
+    "N": 13,
+    "bindings": {
+      "65": "CONSUMED",
+      "71": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "18387d2741b630ba6f016297dfedbd038571e05c67fb27385da624d7d61a96ac"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "33fd7e84620cad6125ecb8e631cf1cb8952972b6dc3caceb88b211febd481229"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "f49e0a08cdf889be231163cb2ee6f6d79aea166044ef5788b8e0ff2a24588256"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "6fb55bd1c2e26c722a8233b51c46066ef20f11c26189eae261218ceddced55f1"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    }
+  ],
+  "revision": 18,
+  "selections": [],
+  "stage": "Independent checks and admission",
+  "step": 2,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 11,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+      "requested_quantity": 200,
+      "status": "eligible"
+    }
+  }
+}

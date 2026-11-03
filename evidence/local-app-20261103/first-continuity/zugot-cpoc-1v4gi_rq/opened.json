@@ -1,0 +1,233 @@
+{
+  "allocations": [],
+  "arh": {
+    "E": 45,
+    "N": 11,
+    "asof": 1793700136.340566,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "85c9f6db04af463a9649c544159d2829",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "100000.00",
+    "cash_after_commitments": "100000.00",
+    "commitments": "0.00",
+    "exit_turnover": {},
+    "fees": "0.00",
+    "nav": "100000.00",
+    "orders": [],
+    "ordinary_turnover": {},
+    "pnl": "0.00",
+    "positions": {},
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 45,
+      "N": 11,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793296800000
+    },
+    "G-C1": {
+      "E": 45,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-C1",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793296800000
+    },
+    "G-C2": {
+      "E": 45,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-C2",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793296800000
+    },
+    "G-R1": {
+      "E": 45,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-R1",
+      "headroom": "10.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "10.00",
+      "time_ms": 1793296800000
+    },
+    "G-R2": {
+      "E": 45,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-R2",
+      "headroom": "10.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "10.00",
+      "time_ms": 1793296800000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "owner",
+      "body": {
+        "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+        "cash": "100000.00",
+        "cash_floor": "0.60",
+        "checker_per_cycle": "2.00",
+        "cooperative_identity": true,
+        "evidence_class": "Historical Reconstruction",
+        "exit_cost_fraction": "0.0025",
+        "fee_per_share": "0.10",
+        "forward_observations": 0,
+        "gross": "0.40",
+        "holding_deadlines": {
+          "R2": "D3 20:00",
+          "T1": "D1 20:00",
+          "T2": "D3 20:00"
+        },
+        "id": "Z-M1",
+        "mark_stale_minutes": 30,
+        "monitor_minutes": 5,
+        "name": "Two-cycle synthetic desk",
+        "opening_expiry": "D2 21:00",
+        "ordinary_turnover": "0.20",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "price": "100.00",
+        "research_expiry": [
+          "D1 23:00",
+          "D2 23:00"
+        ],
+        "research_lineage_combined_cap": "10.00",
+        "research_per_cycle": "10.00",
+        "setup_checker_cap": "8.00",
+        "slots": [
+          "D1 18:00",
+          "D2 18:00"
+        ],
+        "strategy": "0.20",
+        "underlying": "0.25",
+        "universe": [
+          "AAA",
+          "BBB"
+        ]
+      },
+      "created": 1793700135.8667579,
+      "key": "mandate",
+      "kind": "MANDATE",
+      "seq": 1,
+      "sha256": "fc3705b388630a87b0ed988a96ed031eaf27d90059b8fea32d2faa953829605c"
+    },
+    {
+      "actor": "owner",
+      "body": {
+        "amount": "100000.00",
+        "reason": "Synthetic paper opening capital"
+      },
+      "created": 1793700135.868761,
+      "key": "opening",
+      "kind": "CASH",
+      "seq": 2,
+      "sha256": "f4b021f67c90732b7804bfdea47c0448d5f77a579ef00f8ddc1d3eb51dc6441d"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "checker_grants": [
+          "G-C1",
+          "G-C2"
+        ],
+        "future_slot_withheld": true,
+        "historical_reconstruction": true,
+        "mandate": "Z-M1",
+        "research_grants": [
+          "G-R1",
+          "G-R2"
+        ]
+      },
+      "created": 1793700135.8934999,
+      "key": "opened",
+      "kind": "DESK_OPENED",
+      "seq": 3,
+      "sha256": "ce8509727e008dde984c52106760b8faa5274a37e5780ae0b6337b8989888a2f"
+    }
+  ],
+  "clock": "D1 18:00",
+  "decisions": [],
+  "dossiers": [],
+  "error": null,
+  "exits": [],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Competing research",
+  "obligations": {
+    "E": 45,
+    "N": 11,
+    "bindings": {},
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [],
+  "revision": 3,
+  "selections": [],
+  "stage": "Open desk",
+  "step": 0,
+  "strategies": {}
+}

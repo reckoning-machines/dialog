@@ -1,0 +1,141 @@
+{
+  "1ff0197a-8d8d-4c0b-a78b-a42eebbbe01a": {
+    "fingerprint": "bfae84631c606d2b9316bc7efeff3c4e18c85120b32ac0f8623385ddd1ac6b80",
+    "response": {
+      "code": "OBSERVED",
+      "forwarded": true,
+      "request_id": "1ff0197a-8d8d-4c0b-a78b-a42eebbbe01a",
+      "upstream": {
+        "E": 53,
+        "N": 9,
+        "bindings": {
+          "53": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      }
+    }
+  },
+  "663bf7bc-592c-40ee-92cd-bac5674592b8": {
+    "fingerprint": "4f5fd22e3ae449241a5d504be692d64b8e66d972e432b453aa13828957f5cdcb",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "663bf7bc-592c-40ee-92cd-bac5674592b8",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 38,
+            "sha256": "b5dc956756fb2cae24c10640da2fb6c02b940d11ef72872d2568f75876feb3f3"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "79045033-785b-4849-8e54-3048db784d93": {
+    "fingerprint": "806545b4e39c84a8f47fc87c246f784810b15448d3d7d02b562b81aea9ef18ac",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "79045033-785b-4849-8e54-3048db784d93"
+    }
+  },
+  "79a2724f-fe70-4f15-93c8-2b5ff22f9fa9": {
+    "fingerprint": "b562de4542b0af8b2831bb664b3c86b4af91bbb712226c4c1cca5620a6cbcecd",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "79a2724f-fe70-4f15-93c8-2b5ff22f9fa9"
+    }
+  },
+  "87aa5133-3f09-4c84-9353-0fa1804032db": {
+    "fingerprint": "b94ae449c655496ee8a927a14d576b2f5483fd362467c2482131149394ccc045",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "87aa5133-3f09-4c84-9353-0fa1804032db",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 39,
+            "sha256": "acae896e174f308945a197c108bb004918844ad0359e7de175004d4b2e28b076"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "bcdb8dbd-433c-4b41-82fe-ba985286d57c": {
+    "fingerprint": "533324e19946871ba9212e8f604d08e05d20115655cd92feb7e214abfe9315e4",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "bcdb8dbd-433c-4b41-82fe-ba985286d57c"
+    }
+  },
+  "bd58468c-90c9-46d5-a7b2-d693cc71b0b4": {
+    "fingerprint": "57e3ccc0fd3ccf2c66def2ac03508737e60ee7aaaf7ea4efbf9e03590b798f7d",
+    "response": {
+      "code": "HOST_RESPONSE",
+      "forwarded": true,
+      "request_id": "bd58468c-90c9-46d5-a7b2-d693cc71b0b4",
+      "upstream": {
+        "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+        "processes": [
+          {
+            "alive": true,
+            "label": null,
+            "mode": "core",
+            "pid": 51579
+          }
+        ],
+        "run_id": "0e34de23455447299564e019a3d1dd27",
+        "state": "/private/tmp/zugot-integrated-v01/runtime/boundary-e2ffd9e4/state"
+      }
+    }
+  },
+  "be837350-49c7-4001-88ed-fee873d60c73": {
+    "fingerprint": "bf4277746a7c6c4900f6f9251e9302aa9d576d9e628f924a0c3365574edf9d12",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "be837350-49c7-4001-88ed-fee873d60c73"
+    }
+  },
+  "c51d82b9-41a0-42e9-a657-1d2cd2c016b6": {
+    "fingerprint": "670a00e80170d3fe48951a344174721de3c3a9f75f817e02635818981079ca81",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "c51d82b9-41a0-42e9-a657-1d2cd2c016b6"
+    }
+  },
+  "c7a19be6-4f4d-427e-a1e2-a25ab7c2a1cb": {
+    "fingerprint": "9f3d119e8ea56ab9e4d2549321f3ca941de8594d73cbdbdf1729903da9b6cc5d",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "c7a19be6-4f4d-427e-a1e2-a25ab7c2a1cb"
+    }
+  },
+  "d4ffc692-6bc0-48c3-8643-abb08d5c342e": {
+    "fingerprint": "3660a0e3e83282faeb406b359ff7e5196dbf6a6e9fbd7fc6504abffd1bdccc1c",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "d4ffc692-6bc0-48c3-8643-abb08d5c342e"
+    }
+  },
+  "fa15627d-f592-4e06-9b94-5f6e569b2038": {
+    "fingerprint": "4e93cb55b2204ad976ee8f91eacafd581f3a4ed06015cad998787b7241afee08",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "fa15627d-f592-4e06-9b94-5f6e569b2038"
+    }
+  }
+}

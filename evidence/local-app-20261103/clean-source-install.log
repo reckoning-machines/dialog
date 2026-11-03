@@ -1,0 +1,23 @@
+Processing /var/folders/ly/h93dpfrj6mg2d4vcccvc_h440000gn/T/zugot-client-source-3nu_n81d
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: adaptive-research-harness-client
+  Building wheel for adaptive-research-harness-client (pyproject.toml): started
+  Building wheel for adaptive-research-harness-client (pyproject.toml): finished with status 'done'
+  Created wheel for adaptive-research-harness-client: filename=adaptive_research_harness_client-0.1.0-py3-none-any.whl size=70941 sha256=ac556f8cff26d4250ad9c2f860866cf8471e3ef0a2865e7a4eadc9e231cbf3d8
+  Stored in directory: /private/var/folders/ly/h93dpfrj6mg2d4vcccvc_h440000gn/T/pip-ephem-wheel-cache-97u6bo67/wheels/33/fb/fc/3a56f269f5424e1cdbf49720c44e984f18c384da8be7d446ee
+Successfully built adaptive-research-harness-client
+Installing collected packages: adaptive-research-harness-client
+  Attempting uninstall: adaptive-research-harness-client
+    Found existing installation: adaptive-research-harness-client 0.1.0
+    Uninstalling adaptive-research-harness-client-0.1.0:
+      Successfully uninstalled adaptive-research-harness-client-0.1.0
+Successfully installed adaptive-research-harness-client-0.1.0
+
+[notice] A new release of pip is available: 24.0 -> 26.3
+[notice] To update, run: /Users/jedgore/dev/murmuration/.venv/bin/python -m pip install --upgrade pip
+Installed exact public client bytes from 76234ff1816d95432a87de69b3337db5401349d4

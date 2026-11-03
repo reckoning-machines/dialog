@@ -1,0 +1,8 @@
+{
+  "disposable_credential_files_removed": 44,
+  "disposable_credentials_removed": true,
+  "exact_secrets_compared": 48,
+  "live_credentials_kept_private": true,
+  "matches": 0,
+  "notice": "No secrets, secret hashes or connection files retained; source/public output only."
+}

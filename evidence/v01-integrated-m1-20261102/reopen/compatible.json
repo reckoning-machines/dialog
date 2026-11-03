@@ -1,0 +1,31 @@
+{
+  "head": 8,
+  "new_processes": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 51600
+      }
+    ],
+    "run_id": "7538619a7dd64c5da8d13a0381f99ac9",
+    "state": "/private/tmp/zugot-integrated-v01/runtime/reopen-d6f19d62/state"
+  },
+  "old_processes": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 51596
+      }
+    ],
+    "run_id": "5e70a03cd7b5471fa3983268ec8f4cbe",
+    "state": "/private/tmp/zugot-integrated-v01/runtime/reopen-d6f19d62/state"
+  },
+  "same_budgets": true,
+  "same_closure": true
+}

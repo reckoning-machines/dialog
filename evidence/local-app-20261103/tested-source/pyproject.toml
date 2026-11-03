@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zugot"
+version = "0.1.0"
+description = "A local synthetic research and paper-trading desk using public ARH governance"
+requires-python = ">=3.12"
+dependencies = ["adaptive-research-harness-client==0.1.0", "langgraph==1.2.19", "langgraph-checkpoint-sqlite==3.1.3"]
+
+[project.scripts]
+zugot = "zugot.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+zugot = ["workspace.html", "spec/*.json", "spec/*.py"]

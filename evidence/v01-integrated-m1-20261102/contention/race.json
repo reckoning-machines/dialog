@@ -1,0 +1,24 @@
+[
+  {
+    "refs": [
+      {
+        "ledger": "E",
+        "sequence": 138,
+        "sha256": "a9f5155655b7cd34acef7e0ab0139e36e3644c2ec5faebe219e3b388fe9f71c8"
+      }
+    ],
+    "status": "COMMITTED"
+  },
+  {
+    "detail": "",
+    "reason": "BUDGET_EXCEEDED",
+    "refs": [
+      {
+        "ledger": "E",
+        "sequence": 139,
+        "sha256": "a32d96794b2c02f21b01b528c3deb017ad6e76fe4549ca78a11c0a6b8773822a"
+      }
+    ],
+    "status": "REFUSED"
+  }
+]

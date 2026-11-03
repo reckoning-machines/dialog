@@ -1,0 +1,98 @@
+[
+  {
+    "actor": "R-T",
+    "operation": "check-commit",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 38,
+          "sha256": "510a2f00af49547f6c2132aaae6b4f778551b4bac5214f0d4935d2b2cd19ba44"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  },
+  {
+    "actor": "R-T",
+    "operation": "decide",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 39,
+          "sha256": "a7756f400118e3e04e49159e6b884caf0d70c741310b05ba69920aff3cbbedb4"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  },
+  {
+    "actor": "R-T",
+    "operation": "policy-decide",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 40,
+          "sha256": "5c73cb1515fbe7d0bcd61995d02113d33dd2a31f5269f893d322cc225feebff1"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  },
+  {
+    "actor": "R-R",
+    "operation": "check-commit",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 41,
+          "sha256": "510a2f00af49547f6c2132aaae6b4f778551b4bac5214f0d4935d2b2cd19ba44"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  },
+  {
+    "actor": "R-R",
+    "operation": "decide",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 42,
+          "sha256": "a7756f400118e3e04e49159e6b884caf0d70c741310b05ba69920aff3cbbedb4"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  },
+  {
+    "actor": "R-R",
+    "operation": "policy-decide",
+    "response": {
+      "detail": "",
+      "reason": "UNAUTHORIZED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 43,
+          "sha256": "5c73cb1515fbe7d0bcd61995d02113d33dd2a31f5269f893d322cc225feebff1"
+        }
+      ],
+      "status": "REFUSED"
+    }
+  }
+]

@@ -1,0 +1,955 @@
+{
+  "allocations": [
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "T1": 199
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D1",
+      "denominator": "99980.00000",
+      "excluded": {
+        "R1": "Strategy is rejected"
+      },
+      "fee_ceiling": "19.90",
+      "id": "AL-1",
+      "opening_nav": "100000.00",
+      "portfolio_revision": 18,
+      "requested": {
+        "R1": 200,
+        "T1": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    }
+  ],
+  "arh": {
+    "E": 71,
+    "N": 13,
+    "asof": 1793699465.6757271,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "1b499a24d9744c84bf098a4ab4903277",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "99960.20",
+    "cash_after_commitments": "99960.20",
+    "commitments": "0.00",
+    "exit_turnover": {
+      "D1": "19900.00"
+    },
+    "fees": "39.80",
+    "nav": "99960.20",
+    "orders": [
+      {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 20,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 30,
+        "side": "SELL",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      }
+    ],
+    "ordinary_turnover": {
+      "D1": "19900.00"
+    },
+    "pnl": "-39.80",
+    "positions": {
+      "T1": 0
+    },
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 71,
+      "N": 13,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793304000000
+    },
+    "G-C1": {
+      "E": 71,
+      "N": 13,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793304000000
+    },
+    "G-C2": {
+      "E": 71,
+      "N": 13,
+      "committed": "0.00",
+      "grant": "G-C2",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793304000000
+    },
+    "G-R1": {
+      "E": 71,
+      "N": 13,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793304000000
+    },
+    "G-R2": {
+      "E": 71,
+      "N": 13,
+      "committed": "0.00",
+      "grant": "G-R2",
+      "headroom": "10.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "10.00",
+      "time_ms": 1793304000000
+    }
+  },
+  "changes": [
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D1 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "R1",
+        "instrument": "AAA",
+        "label": "Reversal",
+        "method": "MV-R1",
+        "parent": null,
+        "question": "Do negative returns reverse?",
+        "requested_quantity": 200
+      },
+      "created": 1793699463.8075452,
+      "key": "candidate/R1",
+      "kind": "STRATEGY",
+      "seq": 13,
+      "sha256": "c11cf38a7dad413ccad01883c53a0923454b206974e3ea269b652fc9503c20f3"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": false,
+          "drawdown_within_2_percent": false,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": false,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 49,
+          "sha256": "538af90ada51d1976ff1d52c765656a929a52f0927250c2529d9094127535d92"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 55,
+            "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 53,
+            "sha256": "9ab6f614a6b750535727251b4a37bc263296c58601aaa2c7752ff5d659150d2e"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 54,
+            "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 66,
+            "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+          },
+          "run": "1b499a24d9744c84bf098a4ab4903277"
+        },
+        "no_forward_support": true,
+        "partition": "V1R",
+        "researcher": "R-R",
+        "result": {
+          "base_net": "-50",
+          "drawdown": "0.05",
+          "equity": [
+            "970",
+            "970",
+            "950"
+          ],
+          "gross": "-20",
+          "n": 3,
+          "stress_net": "-80",
+          "sum_bp": -200
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "R1"
+      },
+      "created": 1793699463.810418,
+      "key": "dossier/R1",
+      "kind": "DOSSIER",
+      "seq": 14,
+      "sha256": "a7c2efde8e6c2d88570425fb23c7ecdfd19b77a57c86e254b7ea1d402738fce9"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793699463.813348,
+      "key": "evaluated/R1",
+      "kind": "STRATEGY_STATE",
+      "seq": 15,
+      "sha256": "a9b8b1b802da66453b50e09f6c340eec3d5803fa350a707308917febeebf489c"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+        "status": "rejected"
+      },
+      "created": 1793699463.81643,
+      "key": "admission/R1",
+      "kind": "STRATEGY_STATE",
+      "seq": 16,
+      "sha256": "4fbf7bdc5a5c4d2ae817bd98f840470ef680e98ce51075bd9c8d2a940cce99d4"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V1R",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793699463.8183029,
+      "key": "exposed/R1",
+      "kind": "COHORT_EXPOSED",
+      "seq": 17,
+      "sha256": "e075be6e22713bdeae0499f2f4b410c64f8f3a27a0ff2d3e7ab9cf54fbb3d55b"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Independent checks and admission",
+        "step": 2,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699464.0339909,
+      "key": "step/2",
+      "kind": "STEP",
+      "seq": 18,
+      "sha256": "91bcec9f0b3346093acbac8e21771470deb39fd9c9ac6575d9e744e3914812f2"
+    },
+    {
+      "actor": "allocator",
+      "body": {
+        "absolute_targets": true,
+        "admitted": {
+          "T1": 199
+        },
+        "constraints": [
+          {
+            "quantities": {
+              "T1": "199.96000"
+            },
+            "rule": "strategy 20%"
+          },
+          {
+            "quantities": {
+              "T1": "199.96000"
+            },
+            "rule": "AAA aggregate 25%"
+          },
+          {
+            "quantities": {
+              "T1": "199.96000"
+            },
+            "rule": "gross / cash / daily turnover"
+          }
+        ],
+        "day": "D1",
+        "denominator": "99980.00000",
+        "excluded": {
+          "R1": "Strategy is rejected"
+        },
+        "fee_ceiling": "19.90",
+        "id": "AL-1",
+        "opening_nav": "100000.00",
+        "portfolio_revision": 18,
+        "requested": {
+          "R1": 200,
+          "T1": 200
+        },
+        "rounding": "Down once to whole shares; residual remains cash"
+      },
+      "created": 1793699464.077399,
+      "key": "AL-1",
+      "kind": "ALLOCATION",
+      "seq": 19,
+      "sha256": "f3669320979cdfbb4be57aefbf00553770e69e3b943b47cc50eb68cfcb9516fe"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "First lawful allocation under DA-O",
+        "status": "active"
+      },
+      "created": 1793699464.080808,
+      "key": "AL-1/active/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 20,
+      "sha256": "16e7df5250b5e09c65e7c213c2cfe0d42e92860e896a042d8bfb1f55da0c47b6"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "revision": 20,
+        "side": "BUY",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699464.0857239,
+      "key": "order/AL-1/T1/BUY",
+      "kind": "ORDER",
+      "seq": 21,
+      "sha256": "996637e7ec9ee3797cdaeed44b5069171b1e63a4c1cc6ed80fca229c4abd3994"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Shared allocation",
+        "step": 3,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699464.2984152,
+      "key": "step/3",
+      "kind": "STEP",
+      "seq": 22,
+      "sha256": "cb2709dab479cd1a2848d9b3873cfd31c5006beb65c890519e9594ecf17a6331"
+    },
+    {
+      "actor": "operator",
+      "body": {
+        "order": "AL-1/T1/BUY",
+        "reason": "Adapter accepted; caller response lost. Query original ID; no replacement."
+      },
+      "created": 1793699464.346408,
+      "key": "lost/AL-1/T1/BUY",
+      "kind": "INTERRUPTION",
+      "seq": 23,
+      "sha256": "9a3694d51750a254c81d94664ccebb4e532c9800645100b2f48ed03c60359048"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Order response lost",
+        "step": 4,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699464.559017,
+      "key": "step/4",
+      "kind": "STEP",
+      "seq": 24,
+      "sha256": "35c27ae15bda65c87a9990fe9a779d74c6aba9c370d594bf268e99842a964476"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": null,
+        "fee": "8.00",
+        "id": "AL-1/T1/BUY/F80",
+        "model": "synthetic-fixed-price-v1",
+        "order": "AL-1/T1/BUY",
+        "price": "100.00",
+        "quantity": 80,
+        "side": "BUY",
+        "strategy": "T1",
+        "timestamp": "D1 18:00"
+      },
+      "created": 1793699464.596111,
+      "key": "fill/AL-1/T1/BUY/F80",
+      "kind": "FILL",
+      "seq": 25,
+      "sha256": "5f0319d2c462e86ffdd144899309b891168d6d2b256fbacb1c9cb9532c34f66b"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Recover original partial fill",
+        "step": 5,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699464.8109848,
+      "key": "step/5",
+      "kind": "STEP",
+      "seq": 26,
+      "sha256": "f87a6dc44a601b9ec4927e500aa93a74bdbeffe3ac83dcf9d228525e6c62b6ba"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": null,
+        "fee": "11.90",
+        "id": "AL-1/T1/BUY/F199",
+        "model": "synthetic-fixed-price-v1",
+        "order": "AL-1/T1/BUY",
+        "price": "100.00",
+        "quantity": 119,
+        "side": "BUY",
+        "strategy": "T1",
+        "timestamp": "D1 18:00"
+      },
+      "created": 1793699464.856179,
+      "key": "fill/AL-1/T1/BUY/F199",
+      "kind": "FILL",
+      "seq": 27,
+      "sha256": "57dd885aee4324c8db374e16b75e8bae21e48ec924bd41e97f081cda7dc18ffa"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Complete opening fill",
+        "step": 6,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793699465.0710819,
+      "key": "step/6",
+      "kind": "STEP",
+      "seq": 28,
+      "sha256": "4a0b4ecbcbfdf77322908b2f39f24f6086b00fb03bdb982d684f9437621ee7ec"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Immutable holding window ended; DA-X; exit-only authority survives research/opening expiry",
+        "status": "retiring"
+      },
+      "created": 1793699465.140553,
+      "key": "retiring/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 29,
+      "sha256": "8c090a69370d490ad9f5b71174721a1721c0df40e2f33d2b6869859912661d70"
+    },
+    {
+      "actor": "portfolio",
+      "body": {
+        "authority": "DA-X / C-05",
+        "deadline": "D1 20:00",
+        "envelope": "249.95",
+        "pre_exit_nav": "99980.10",
+        "quantity": 199,
+        "revision": 29,
+        "strategy": "T1",
+        "target": 0
+      },
+      "created": 1793699465.144846,
+      "key": "EXIT/T1",
+      "kind": "EXIT",
+      "seq": 30,
+      "sha256": "5b0d83d180f4145c2104052aa9aa97e5c803bb4b8a2da848320fb121d74ed707"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "revision": 30,
+        "side": "SELL",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793699465.1529212,
+      "key": "order/EXIT/T1/SELL",
+      "kind": "ORDER",
+      "seq": 31,
+      "sha256": "ea253214fd8b23d138134afcc2eed4fd7b6fc890febab2aac0b8d4da853c4275"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": "EXIT/T1",
+        "fee": "7.90",
+        "id": "EXIT/T1/SELL/F79",
+        "model": "synthetic-fixed-price-v1",
+        "order": "EXIT/T1/SELL",
+        "price": "100.00",
+        "quantity": 79,
+        "side": "SELL",
+        "strategy": "T1",
+        "timestamp": "D1 20:00"
+      },
+      "created": 1793699465.1788,
+      "key": "fill/EXIT/T1/SELL/F79",
+      "kind": "FILL",
+      "seq": 32,
+      "sha256": "c125f11abaf6031598a13623df615fba655853bb071bc389d969dbafb65a1273"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Scheduled exit begins",
+        "step": 7,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793699465.400078,
+      "key": "step/7",
+      "kind": "STEP",
+      "seq": 33,
+      "sha256": "48dae8a1974e32821d798aea5d2b844d02027ee874438138505f80d9eab8d46f"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": "EXIT/T1",
+        "fee": "12.00",
+        "id": "EXIT/T1/SELL/F199",
+        "model": "synthetic-fixed-price-v1",
+        "order": "EXIT/T1/SELL",
+        "price": "100.00",
+        "quantity": 120,
+        "side": "SELL",
+        "strategy": "T1",
+        "timestamp": "D1 20:00"
+      },
+      "created": 1793699465.45202,
+      "key": "fill/EXIT/T1/SELL/F199",
+      "kind": "FILL",
+      "seq": 34,
+      "sha256": "54008957b66e0716c8b7866e70250601dd64e37bad7985038b444492cb5346d4"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Flat, no executable order, all receipts reconciled",
+        "status": "retired"
+      },
+      "created": 1793699465.473771,
+      "key": "retired/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 35,
+      "sha256": "d53b640be2c9086cf1924d153dfa8fcf1fd42750befefd4e9ff73c17e905b1be"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Recover exit remainder",
+        "step": 8,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793699465.687407,
+      "key": "step/8",
+      "kind": "STEP",
+      "seq": 36,
+      "sha256": "fed8e0849cffb0fd952bd331faeb5ccfdb96e6dab36a2ac23f726cdbe0f2257b"
+    }
+  ],
+  "clock": "D1 20:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "c017842684ce600271061944a842a329143050562fe408ea096f81e07cf55a7a"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "94a2012583cf5f4df683a49b67ca58c2e8f6ca578a84130854483a2f39996ea5"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "538af90ada51d1976ff1d52c765656a929a52f0927250c2529d9094127535d92"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "9ab6f614a6b750535727251b4a37bc263296c58601aaa2c7752ff5d659150d2e"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    }
+  ],
+  "error": null,
+  "exits": [
+    {
+      "authority": "DA-X / C-05",
+      "deadline": "D1 20:00",
+      "envelope": "249.95",
+      "pre_exit_nav": "99980.10",
+      "quantity": 199,
+      "revision": 29,
+      "strategy": "T1",
+      "target": 0
+    }
+  ],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Close first research cycle",
+  "obligations": {
+    "E": 71,
+    "N": 13,
+    "bindings": {
+      "65": "CONSUMED",
+      "71": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "124f33d24f58eff95f7a4a37ec5d0ae7f99e248fec4851eaf8858c3ccd1890d7"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "4fcca518df8ece162085d2a02f44948c1961bbbf376c1c5cdec3d259b24e66d3"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    }
+  ],
+  "revision": 36,
+  "selections": [],
+  "stage": "Recover exit remainder",
+  "step": 8,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 35,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "Flat, no executable order, all receipts reconciled",
+      "requested_quantity": 200,
+      "status": "retired"
+    }
+  }
+}

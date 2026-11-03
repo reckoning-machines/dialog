@@ -1,0 +1,1345 @@
+{
+  "allocations": [
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "T1": 199
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D1",
+      "denominator": "99980.00000",
+      "excluded": {
+        "R1": "Strategy is rejected"
+      },
+      "fee_ceiling": "19.90",
+      "id": "AL-1",
+      "opening_nav": "100000.00",
+      "portfolio_revision": 18,
+      "requested": {
+        "R1": 200,
+        "T1": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    }
+  ],
+  "arh": {
+    "E": 102,
+    "N": 15,
+    "asof": 1793700172.451052,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "d9ca6d0657774f3aa7de493fdd4f6323",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "99960.20",
+    "cash_after_commitments": "99960.20",
+    "commitments": "0.00",
+    "exit_turnover": {
+      "D1": "19900.00"
+    },
+    "fees": "39.80",
+    "nav": "99960.20",
+    "orders": [
+      {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 20,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 54,
+        "side": "SELL",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      }
+    ],
+    "ordinary_turnover": {
+      "D1": "19900.00"
+    },
+    "pnl": "-39.80",
+    "positions": {
+      "T1": 0
+    },
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 102,
+      "N": 15,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793383200000
+    },
+    "G-C1": {
+      "E": 102,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793383200000
+    },
+    "G-C2": {
+      "E": 102,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C2",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793383200000
+    },
+    "G-R1": {
+      "E": 102,
+      "N": 15,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793383200000
+    },
+    "G-R2": {
+      "E": 102,
+      "N": 15,
+      "committed": "2.25",
+      "grant": "G-R2",
+      "headroom": "7.75",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "7.25",
+      "time_ms": 1793383200000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-T",
+        "cycle": 1,
+        "next_question": "Does trend persist across volatility conditions?",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+          },
+          {
+            "ledger": "E",
+            "sequence": 54,
+            "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 72,
+          "sha256": "315d92312d9c42ad3c35420c4f8655aefc5f6bf513978fdea949c23f51840a95"
+        }
+      },
+      "created": 1793700158.150354,
+      "key": "selection/R-T1",
+      "kind": "SELECTION",
+      "seq": 61,
+      "sha256": "c1f1cbd87ef42f2835d3a97474c7f741347e9c69f17a85d48ade35ed689ab050"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-R",
+        "cycle": 1,
+        "next_question": "Does reversal work in quiet regimes?",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+          },
+          {
+            "ledger": "E",
+            "sequence": 54,
+            "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 73,
+          "sha256": "b0a8cc158df57801f68160b0505320483e78d9e2ce81570639a7f3bafb317ccf"
+        }
+      },
+      "created": 1793700158.3384871,
+      "key": "selection/R-R1",
+      "kind": "SELECTION",
+      "seq": 62,
+      "sha256": "ceeeace582266a7240615cdc6875254f674428529858e5125e342acf1346b811"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "cycle": 1,
+        "local_dispatch_stopped": true,
+        "no_fence_or_refill": true,
+        "research_expiry": "D1 23:00"
+      },
+      "created": 1793700158.3525162,
+      "key": "closed/1",
+      "kind": "CYCLE_CLOSED",
+      "seq": 63,
+      "sha256": "39c9206dbf57275dfc13b7b33ab14a2847eeaff3d108881e9a7752a15e8177d2"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Close first research cycle",
+        "step": 9,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793700158.570009,
+      "key": "step/9",
+      "kind": "STEP",
+      "seq": 64,
+      "sha256": "8e9ddd81081df2771bcd164f32007711e70685c67ac2ca0464d0d7c3b89463ae"
+    },
+    {
+      "actor": "operator",
+      "body": {
+        "reason": "Both research workers terminated: trend has durable receipt; reversal claim has no receipt. Maximum liabilities remain authoritative in ARH.",
+        "recovery": "Resolve original attempts, settle unknown maximum; require host proof before one replacement.",
+        "returncodes": {
+          "R2": -9,
+          "T2": -9
+        },
+        "workers": {
+          "R2": {
+            "attempt": 81,
+            "boundary": "claimed-no-receipt",
+            "pid": 76693,
+            "run": "85c9f6db04af463a9649c544159d2829"
+          },
+          "T2": {
+            "attempt": 80,
+            "boundary": "durable-receipt",
+            "pid": 76692,
+            "run": "85c9f6db04af463a9649c544159d2829"
+          }
+        }
+      },
+      "created": 1793700161.229623,
+      "key": "parallel-interrupted",
+      "kind": "INTERRUPTION",
+      "seq": 65,
+      "sha256": "473c3a1b37c9e50d28dc5b4e85927bf89f06336eb4bfd46fee81c95806ecd69f"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Parallel research interrupted",
+        "step": 10,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793700161.4455,
+      "key": "step/10",
+      "kind": "STEP",
+      "seq": 66,
+      "sha256": "dce3e4d10c9ecc0af039f3724a41ada31c94f045973b7b784a76e0ecd08a04a1"
+    },
+    {
+      "actor": "operator",
+      "body": {
+        "code": "WORKER_NOT_QUIESCENT",
+        "reason": "No replacement until original workers cannot act",
+        "upstream": {
+          "detail": "",
+          "input": {
+            "executable_hash": "c78f92d3e5ab75a955bcc4b56039f9f8a1cf37735a6cb5473506cefcf0ffeea8",
+            "input_refs": [
+              {
+                "ledger": "E",
+                "raw_sha256": "5ea028ab18d72637da1ad6568886a58c2dba30866c138bd730f314e12bceb8c3",
+                "sequence": 76,
+                "sha256": "5d886f714134a6cd441c86045c4c02edbbe2d07957841364e1c26d4811c88f35"
+              },
+              {
+                "ledger": "E",
+                "raw_sha256": "165f9f5e321d8fd9dd9db25a75236ba85f1084bdd0d3485205319fb96162eff3",
+                "sequence": 77,
+                "sha256": "165f9f5e321d8fd9dd9db25a75236ba85f1084bdd0d3485205319fb96162eff3"
+              }
+            ],
+            "parameters": {
+              "fixture": "V01"
+            },
+            "schema_version": 1,
+            "step": "research",
+            "tool_id": "CALC-V",
+            "tool_spec_hash": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+          },
+          "reason": "WORKER_NOT_QUIESCENT",
+          "refs": [
+            {
+              "ledger": "E",
+              "sequence": 86,
+              "sha256": "8a7ee6e33f549e703d2613bdc8cf1acef40e13e4855c9855632b0f768aca0723"
+            }
+          ],
+          "status": "REFUSED"
+        }
+      },
+      "created": 1793700166.110376,
+      "key": "replacement-refusal",
+      "kind": "REFUSAL",
+      "seq": 67,
+      "sha256": "ac9062008e0297878d201ef781bc70eb20fd4a118871264416a72b63a51d6884"
+    },
+    {
+      "actor": "trusted-control-service",
+      "body": {
+        "proofs": [
+          "/private/tmp/zugot-cpoc-1v4gi_rq/arh/state/supervisor/0226da156d42da0ddca3d5265d4e8e6cf43878b3c007324edc885866a5ea4161.json"
+        ]
+      },
+      "created": 1793700166.1155279,
+      "key": "proof/R2",
+      "kind": "QUIESCENCE",
+      "seq": 68,
+      "sha256": "fcf69eb21b52c0595e96fd07293a9df4689b3533cbd9faea7aca0d8761fc0c54"
+    },
+    {
+      "actor": "trusted-control-service",
+      "body": {
+        "proofs": [
+          "/private/tmp/zugot-cpoc-1v4gi_rq/arh/state/supervisor/994e21d630c98bf2868a46d169df9c37850a02ed1e80e5bbdac081bb4c448b8a.json"
+        ]
+      },
+      "created": 1793700166.1195881,
+      "key": "proof/T2",
+      "kind": "QUIESCENCE",
+      "seq": 69,
+      "sha256": "461f0e3523b17bf63d42eac0463b47b93822d98645cc842230b97a989a8f2128"
+    },
+    {
+      "actor": "R-T",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 80,
+          "sha256": "329f127f4e092d28f5053984e5952207dbb3b0caf79c6f8eb2beb895ad793fff"
+        },
+        "name": "T2",
+        "original_attempt": 80,
+        "parent": "T1",
+        "question": "Does trend persist across volatility conditions?",
+        "record": {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "e72b53247a982d01715b9f505ce073c35bd0e368aa6a8ce91c4f1387d86cf346"
+        },
+        "recovered": false,
+        "replacement": false,
+        "researcher": "R-T",
+        "result": {
+          "base_net": "40",
+          "drawdown": "0",
+          "equity": [
+            "1015",
+            "1025",
+            "1040"
+          ],
+          "gross": "70",
+          "n": 3,
+          "stress_net": "10",
+          "sum_bp": 700
+        }
+      },
+      "created": 1793700166.802232,
+      "key": "research/T2",
+      "kind": "RESEARCH_RESULT",
+      "seq": 70,
+      "sha256": "1f592352a434d9e7166e061d0d2c5e48faae5897ae2258509742c5c17c877ca2"
+    },
+    {
+      "actor": "R-R",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 87,
+          "sha256": "557a70143480f3032bf44e2c140ddaf6ef8a8ca75e97683b6831d5b1f61aa391"
+        },
+        "name": "R2",
+        "original_attempt": 81,
+        "parent": "R1",
+        "question": "Does reversal work in quiet regimes?",
+        "record": {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "2c27c4cbd113adc4eda79effbf3b97dfc16b1740b8a4f343452837b75c46aa22"
+        },
+        "recovered": true,
+        "replacement": true,
+        "researcher": "R-R",
+        "result": {
+          "base_net": "50",
+          "drawdown": "0",
+          "equity": [
+            "1020",
+            "1035",
+            "1050"
+          ],
+          "gross": "80",
+          "n": 3,
+          "stress_net": "20",
+          "sum_bp": 800
+        }
+      },
+      "created": 1793700166.808974,
+      "key": "research/R2",
+      "kind": "RESEARCH_RESULT",
+      "seq": 71,
+      "sha256": "07a05c920896a318ca884d1887207c3cd9de43eae88288f975a87e5980fe42e2"
+    },
+    {
+      "actor": "operator",
+      "body": {
+        "charged": "2.25",
+        "pending": "0.00",
+        "reason": "Trend receipt reused; reversal UNKNOWN 1.00 retained; one new 0.50 replacement after host proof"
+      },
+      "created": 1793700166.8118541,
+      "key": "research-recovered",
+      "kind": "RECOVERY",
+      "seq": 72,
+      "sha256": "d0275616727fe2dc2ff0ceec7a920f452b28e5f3e7ebf1f7c3894212d1053e34"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Recover both researchers",
+        "step": 11,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793700167.039737,
+      "key": "step/11",
+      "kind": "STEP",
+      "seq": 73,
+      "sha256": "2e41d1c90ac8a59e12960ab7c3be6e98cecfee1906f6c4148a285880e91837dc"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D3 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "T2",
+        "instrument": "AAA",
+        "label": "Trend",
+        "method": "MV-T2",
+        "parent": "T1",
+        "question": "Does trend persist across volatility conditions?",
+        "requested_quantity": 200
+      },
+      "created": 1793700169.658991,
+      "key": "candidate/T2",
+      "kind": "STRATEGY",
+      "seq": 74,
+      "sha256": "0ff8038447699f858f926500848b24850abbe764d71dec596fb42f2446954945"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": true,
+          "drawdown_within_2_percent": true,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": true,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 75,
+          "sha256": "a29419c751764cedcf8c1c7cc172dd71fe433a116a8d2a4ff2a249944d920459"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 59,
+            "sha256": "8294a3c5226cf62198401225abb5ff7454a8746926d438c19733edcf7455bb0b"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 57,
+            "sha256": "f8e88952c014d5f74a40a5d5f0abdfdb0b9659eb82ac0ab739f1bcae79b52c8e"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 58,
+            "sha256": "4bf1bbf9d48ec50a4702a6ba2df5cbb659a2738118c2ce4a88900bfdc07350b6"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 91,
+            "sha256": "ebd71a4ea4d00ac9a0cbec7678db322b622192ab42302c04815533e08c2fac72"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 82,
+            "sha256": "e72b53247a982d01715b9f505ce073c35bd0e368aa6a8ce91c4f1387d86cf346"
+          },
+          "run": "d9ca6d0657774f3aa7de493fdd4f6323"
+        },
+        "no_forward_support": true,
+        "partition": "V2T",
+        "researcher": "R-T",
+        "result": {
+          "base_net": "40",
+          "drawdown": "0",
+          "equity": [
+            "1015",
+            "1025",
+            "1040"
+          ],
+          "gross": "70",
+          "n": 3,
+          "stress_net": "10",
+          "sum_bp": 700
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "T2"
+      },
+      "created": 1793700169.665507,
+      "key": "dossier/T2",
+      "kind": "DOSSIER",
+      "seq": 75,
+      "sha256": "b4848b97f54234703de9d541994b78c8094aa83188e30588e2007e05836c930e"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793700169.6693,
+      "key": "evaluated/T2",
+      "kind": "STRATEGY_STATE",
+      "seq": 76,
+      "sha256": "35c803ed5bc68374660c0eec8985f32653a5129e45dfb2dbf9a28032a2cc1c76"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+        "status": "eligible"
+      },
+      "created": 1793700169.6702878,
+      "key": "admission/T2",
+      "kind": "STRATEGY_STATE",
+      "seq": 77,
+      "sha256": "cacb7d544ead64ea49c354c88e29d02c46d58669c9a4b108934a35c2f8c50d87"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V2T",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793700169.670447,
+      "key": "exposed/T2",
+      "kind": "COHORT_EXPOSED",
+      "seq": 78,
+      "sha256": "63921b3951758e269527e9e2f601a08637092ef07ee2be14dd1dfac7befa055c"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D3 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "R2",
+        "instrument": "AAA",
+        "label": "Quiet reversal",
+        "method": "MV-R2",
+        "parent": "R1",
+        "question": "Does reversal work in quiet regimes?",
+        "requested_quantity": 200
+      },
+      "created": 1793700171.0881631,
+      "key": "candidate/R2",
+      "kind": "STRATEGY",
+      "seq": 79,
+      "sha256": "71d667b4541b5f143258622e6ac34455166e5c53c79dc991e2e2d79fc8a34a76"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": true,
+          "drawdown_within_2_percent": true,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": true,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 77,
+          "sha256": "165f9f5e321d8fd9dd9db25a75236ba85f1084bdd0d3485205319fb96162eff3"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 63,
+            "sha256": "a77eeb3ff3b70cb18d515c00374905d0b7ffe38daed338a49bf3c29669fcd526"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 61,
+            "sha256": "655a1227426102547a9babc44baa158b8966b483c970883ee35769cb994c63b8"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 62,
+            "sha256": "a3b87d1fbbc609b18fcacbffd7436e52cf81f0d5bb80d7308c20ffb2dd52b450"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 97,
+            "sha256": "639aa045271331067da8fa5f30ffe5a3a2ac3a5e4c71803f9ee95826493bfc46"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 88,
+            "sha256": "2c27c4cbd113adc4eda79effbf3b97dfc16b1740b8a4f343452837b75c46aa22"
+          },
+          "run": "d9ca6d0657774f3aa7de493fdd4f6323"
+        },
+        "no_forward_support": true,
+        "partition": "V2R",
+        "researcher": "R-R",
+        "result": {
+          "base_net": "50",
+          "drawdown": "0",
+          "equity": [
+            "1020",
+            "1035",
+            "1050"
+          ],
+          "gross": "80",
+          "n": 3,
+          "stress_net": "20",
+          "sum_bp": 800
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "R2"
+      },
+      "created": 1793700171.092443,
+      "key": "dossier/R2",
+      "kind": "DOSSIER",
+      "seq": 80,
+      "sha256": "cb13fba3ea0c9e1e333fed70ae998c265261ecbabf42ff23ce2b856f49299a03"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793700171.096683,
+      "key": "evaluated/R2",
+      "kind": "STRATEGY_STATE",
+      "seq": 81,
+      "sha256": "372b5150f0df6483ae333dce8cf9fac549b3392a3e728faebaecfb724daf9990"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+        "status": "eligible"
+      },
+      "created": 1793700171.100811,
+      "key": "admission/R2",
+      "kind": "STRATEGY_STATE",
+      "seq": 82,
+      "sha256": "fe007571769e601036aae4e83a97f78a3c30dffc5823550afd67c6e1ab5d3d35"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V2R",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793700171.103808,
+      "key": "exposed/R2",
+      "kind": "COHORT_EXPOSED",
+      "seq": 83,
+      "sha256": "e0b68a5e965e7030291d41ac183214654ec9569d6be424836dd0f85b7a1c8312"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Evaluate revised strategies",
+        "step": 12,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793700171.42362,
+      "key": "step/12",
+      "kind": "STEP",
+      "seq": 84,
+      "sha256": "24ac1accbd7c56a964a5cb9cfc2de1749269ace9216efee04fcbd3e91b40f534"
+    }
+  ],
+  "clock": "D2 18:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "dc1fe65dbf0394919c31d43d283cd1a6674312aa88a160b99f2ee365177accd5"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "1f0dabe8c0d1b804b150383ef86758953c6c53955c63e466ba4de3d7a012fb71"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+        },
+        "run": "85c9f6db04af463a9649c544159d2829"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "316a5f802dd2635244502474772913e323ffae124342e0db953411da20153d62"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "316bc42e41eb2b3b396c8a83e0038f3514fb21fb5c7f949a11ce1dcbd4e2a562"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+        },
+        "run": "85c9f6db04af463a9649c544159d2829"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 75,
+        "sha256": "a29419c751764cedcf8c1c7cc172dd71fe433a116a8d2a4ff2a249944d920459"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 59,
+          "sha256": "8294a3c5226cf62198401225abb5ff7454a8746926d438c19733edcf7455bb0b"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 57,
+          "sha256": "f8e88952c014d5f74a40a5d5f0abdfdb0b9659eb82ac0ab739f1bcae79b52c8e"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 58,
+          "sha256": "4bf1bbf9d48ec50a4702a6ba2df5cbb659a2738118c2ce4a88900bfdc07350b6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 91,
+          "sha256": "ebd71a4ea4d00ac9a0cbec7678db322b622192ab42302c04815533e08c2fac72"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "e72b53247a982d01715b9f505ce073c35bd0e368aa6a8ce91c4f1387d86cf346"
+        },
+        "run": "d9ca6d0657774f3aa7de493fdd4f6323"
+      },
+      "no_forward_support": true,
+      "partition": "V2T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T2"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 77,
+        "sha256": "165f9f5e321d8fd9dd9db25a75236ba85f1084bdd0d3485205319fb96162eff3"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 63,
+          "sha256": "a77eeb3ff3b70cb18d515c00374905d0b7ffe38daed338a49bf3c29669fcd526"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 61,
+          "sha256": "655a1227426102547a9babc44baa158b8966b483c970883ee35769cb994c63b8"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 62,
+          "sha256": "a3b87d1fbbc609b18fcacbffd7436e52cf81f0d5bb80d7308c20ffb2dd52b450"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 97,
+          "sha256": "639aa045271331067da8fa5f30ffe5a3a2ac3a5e4c71803f9ee95826493bfc46"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "2c27c4cbd113adc4eda79effbf3b97dfc16b1740b8a4f343452837b75c46aa22"
+        },
+        "run": "d9ca6d0657774f3aa7de493fdd4f6323"
+      },
+      "no_forward_support": true,
+      "partition": "V2R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R2"
+    }
+  ],
+  "error": null,
+  "exits": [
+    {
+      "authority": "DA-X / C-05",
+      "deadline": "D1 20:00",
+      "envelope": "249.95",
+      "pre_exit_nav": "99980.10",
+      "quantity": 199,
+      "revision": 53,
+      "strategy": "T1",
+      "target": 0
+    }
+  ],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Allocate overlapping requests",
+  "obligations": {
+    "E": 102,
+    "N": 15,
+    "bindings": {
+      "102": "CONSUMED",
+      "65": "CONSUMED",
+      "71": "CONSUMED",
+      "96": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "e846d52203b120f66280906e59602edf44404a939472635f990f9020fc75c71d"
+      },
+      "name": "T1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "289b2a75d8e0e5a060097907f28be5f22aa966f0556973b49bca4111dffdac62"
+      },
+      "name": "R1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 80,
+        "sha256": "329f127f4e092d28f5053984e5952207dbb3b0caf79c6f8eb2beb895ad793fff"
+      },
+      "name": "T2",
+      "original_attempt": 80,
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "record": {
+        "ledger": "E",
+        "sequence": 82,
+        "sha256": "e72b53247a982d01715b9f505ce073c35bd0e368aa6a8ce91c4f1387d86cf346"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 87,
+        "sha256": "557a70143480f3032bf44e2c140ddaf6ef8a8ca75e97683b6831d5b1f61aa391"
+      },
+      "name": "R2",
+      "original_attempt": 81,
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "record": {
+        "ledger": "E",
+        "sequence": 88,
+        "sha256": "2c27c4cbd113adc4eda79effbf3b97dfc16b1740b8a4f343452837b75c46aa22"
+      },
+      "recovered": true,
+      "replacement": true,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      }
+    }
+  ],
+  "revision": 84,
+  "selections": [
+    {
+      "actor": "R-T",
+      "cycle": 1,
+      "next_question": "Does trend persist across volatility conditions?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+        },
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 72,
+        "sha256": "315d92312d9c42ad3c35420c4f8655aefc5f6bf513978fdea949c23f51840a95"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 1,
+      "next_question": "Does reversal work in quiet regimes?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "fc6bbfaec143a956aeea489070b184dcf147530d3fed075be473a0c00e3e6968"
+        },
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "251c7c0e0d39f9b5a1945ab964c45c0dcfaef3c8471d502e5f9ac76637a66325"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 73,
+        "sha256": "b0a8cc158df57801f68160b0505320483e78d9e2ce81570639a7f3bafb317ccf"
+      }
+    }
+  ],
+  "stage": "Evaluate revised strategies",
+  "step": 12,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "R2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 82,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R2",
+      "instrument": "AAA",
+      "label": "Quiet reversal",
+      "method": "MV-R2",
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+      "requested_quantity": 200,
+      "status": "eligible"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 59,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "Flat, no executable order, all receipts reconciled",
+      "requested_quantity": 200,
+      "status": "retired"
+    },
+    "T2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 77,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T2",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T2",
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+      "requested_quantity": 200,
+      "status": "eligible"
+    }
+  }
+}

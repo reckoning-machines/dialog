@@ -1,0 +1,1368 @@
+{
+  "allocations": [
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "T1": 199
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D1",
+      "denominator": "99980.00000",
+      "excluded": {
+        "R1": "Strategy is rejected"
+      },
+      "fee_ceiling": "19.90",
+      "id": "AL-1",
+      "opening_nav": "100000.00",
+      "portfolio_revision": 18,
+      "requested": {
+        "R1": 200,
+        "T1": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    },
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "R2": 99,
+        "T2": 99
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "R2": "199.84040",
+            "T2": "199.84040"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "R2": "124.90025000",
+            "T2": "124.90025000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "R2": "99.96020000000000000000000000",
+            "T2": "99.96020000000000000000000000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D2",
+      "denominator": "99920.20000",
+      "excluded": {},
+      "fee_ceiling": "19.80",
+      "id": "AL-2",
+      "opening_nav": "99960.20",
+      "portfolio_revision": 60,
+      "requested": {
+        "R2": 200,
+        "T2": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    }
+  ],
+  "arh": {
+    "E": 104,
+    "N": 15,
+    "asof": 1793699474.573994,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "1b499a24d9744c84bf098a4ab4903277",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "80140.40",
+    "cash_after_commitments": "80140.40",
+    "commitments": "0.00",
+    "exit_turnover": {
+      "D1": "19900.00"
+    },
+    "fees": "59.60",
+    "nav": "99940.40",
+    "orders": [
+      {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 20,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 30,
+        "side": "SELL",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      },
+      {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 99,
+        "id": "AL-2/T2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "remaining": 0,
+        "revision": 62,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T2",
+        "virtual_time": "D2 18:00"
+      },
+      {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 99,
+        "id": "AL-2/R2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "remaining": 0,
+        "revision": 64,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "R2",
+        "virtual_time": "D2 18:00"
+      }
+    ],
+    "ordinary_turnover": {
+      "D1": "19900.00",
+      "D2": "19800.00"
+    },
+    "pnl": "-59.60",
+    "positions": {
+      "R2": 99,
+      "T1": 0,
+      "T2": 99
+    },
+    "quantity": 198
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793394000000
+    },
+    "G-C1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793394000000
+    },
+    "G-C2": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C2",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793394000000
+    },
+    "G-R1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793394000000
+    },
+    "G-R2": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.25",
+      "grant": "G-R2",
+      "headroom": "7.75",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "7.25",
+      "time_ms": 1793394000000
+    }
+  },
+  "changes": [
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793699470.6877718,
+      "key": "evaluated/T2",
+      "kind": "STRATEGY_STATE",
+      "seq": 52,
+      "sha256": "35c803ed5bc68374660c0eec8985f32653a5129e45dfb2dbf9a28032a2cc1c76"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+        "status": "eligible"
+      },
+      "created": 1793699470.690758,
+      "key": "admission/T2",
+      "kind": "STRATEGY_STATE",
+      "seq": 53,
+      "sha256": "cacb7d544ead64ea49c354c88e29d02c46d58669c9a4b108934a35c2f8c50d87"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V2T",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793699470.692395,
+      "key": "exposed/T2",
+      "kind": "COHORT_EXPOSED",
+      "seq": 54,
+      "sha256": "63921b3951758e269527e9e2f601a08637092ef07ee2be14dd1dfac7befa055c"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "deadline": "D3 20:00",
+        "evidence_class": "Historical Reconstruction",
+        "forward_observations": 0,
+        "id": "R2",
+        "instrument": "AAA",
+        "label": "Quiet reversal",
+        "method": "MV-R2",
+        "parent": "R1",
+        "question": "Does reversal work in quiet regimes?",
+        "requested_quantity": 200
+      },
+      "created": 1793699472.0764081,
+      "key": "candidate/R2",
+      "kind": "STRATEGY",
+      "seq": 55,
+      "sha256": "71d667b4541b5f143258622e6ac34455166e5c53c79dc991e2e2d79fc8a34a76"
+    },
+    {
+      "actor": "domain-evaluator",
+      "body": {
+        "criteria": {
+          "availability_valid": true,
+          "base_positive": true,
+          "drawdown_within_2_percent": true,
+          "exact_input": true,
+          "independent_arithmetic": true,
+          "predeclared_partition": true,
+          "stress_positive": true,
+          "unexposed_partition": true
+        },
+        "design": {
+          "ledger": "E",
+          "sequence": 77,
+          "sha256": "d241e79c3e5e73a82d117280844918e7add42317dcb8eb3f9fca19829b268d23"
+        },
+        "independent_check": {
+          "applied": {
+            "ledger": "T",
+            "sequence": 63,
+            "sha256": "a77eeb3ff3b70cb18d515c00374905d0b7ffe38daed338a49bf3c29669fcd526"
+          },
+          "arithmetic": "PASS",
+          "check": {
+            "ledger": "T",
+            "sequence": 61,
+            "sha256": "51af5059446ca745af828c5f869c62ea8844bed4ccd44d4c75f75e3d077d46c0"
+          },
+          "decision": {
+            "ledger": "T",
+            "sequence": 62,
+            "sha256": "a3b87d1fbbc609b18fcacbffd7436e52cf81f0d5bb80d7308c20ffb2dd52b450"
+          },
+          "funding": {
+            "ledger": "E",
+            "sequence": 97,
+            "sha256": "639aa045271331067da8fa5f30ffe5a3a2ac3a5e4c71803f9ee95826493bfc46"
+          },
+          "research": {
+            "ledger": "E",
+            "sequence": 88,
+            "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+          },
+          "run": "1b499a24d9744c84bf098a4ab4903277"
+        },
+        "no_forward_support": true,
+        "partition": "V2R",
+        "researcher": "R-R",
+        "result": {
+          "base_net": "50",
+          "drawdown": "0",
+          "equity": [
+            "1020",
+            "1035",
+            "1050"
+          ],
+          "gross": "80",
+          "n": 3,
+          "stress_net": "20",
+          "sum_bp": 800
+        },
+        "reviewer": "AD-CK-D1.0",
+        "standard": "ES-M1",
+        "strategy": "R2"
+      },
+      "created": 1793699472.080996,
+      "key": "dossier/R2",
+      "kind": "DOSSIER",
+      "seq": 56,
+      "sha256": "b96e6e1f8e5f2e4a486c26d9bbd1f65064eef9126cbce166ef251f7e97b7d253"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Independent arithmetic and complete dossier assessed",
+        "status": "evaluated"
+      },
+      "created": 1793699472.0851579,
+      "key": "evaluated/R2",
+      "kind": "STRATEGY_STATE",
+      "seq": 57,
+      "sha256": "372b5150f0df6483ae333dce8cf9fac549b3392a3e728faebaecfb724daf9990"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "DA-S admits bounded paper-exploratory use; no alpha qualification",
+        "status": "eligible"
+      },
+      "created": 1793699472.089016,
+      "key": "admission/R2",
+      "kind": "STRATEGY_STATE",
+      "seq": 58,
+      "sha256": "fe007571769e601036aae4e83a97f78a3c30dffc5823550afd67c6e1ab5d3d35"
+    },
+    {
+      "actor": "data-intake",
+      "body": {
+        "never_untouched_again": true,
+        "partition": "V2R",
+        "shared_with": [
+          "R-T",
+          "R-R"
+        ]
+      },
+      "created": 1793699472.0912619,
+      "key": "exposed/R2",
+      "kind": "COHORT_EXPOSED",
+      "seq": 59,
+      "sha256": "e0b68a5e965e7030291d41ac183214654ec9569d6be424836dd0f85b7a1c8312"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Evaluate revised strategies",
+        "step": 12,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699472.408759,
+      "key": "step/12",
+      "kind": "STEP",
+      "seq": 60,
+      "sha256": "24ac1accbd7c56a964a5cb9cfc2de1749269ace9216efee04fcbd3e91b40f534"
+    },
+    {
+      "actor": "allocator",
+      "body": {
+        "absolute_targets": true,
+        "admitted": {
+          "R2": 99,
+          "T2": 99
+        },
+        "constraints": [
+          {
+            "quantities": {
+              "R2": "199.84040",
+              "T2": "199.84040"
+            },
+            "rule": "strategy 20%"
+          },
+          {
+            "quantities": {
+              "R2": "124.90025000",
+              "T2": "124.90025000"
+            },
+            "rule": "AAA aggregate 25%"
+          },
+          {
+            "quantities": {
+              "R2": "99.96020000000000000000000000",
+              "T2": "99.96020000000000000000000000"
+            },
+            "rule": "gross / cash / daily turnover"
+          }
+        ],
+        "day": "D2",
+        "denominator": "99920.20000",
+        "excluded": {},
+        "fee_ceiling": "19.80",
+        "id": "AL-2",
+        "opening_nav": "99960.20",
+        "portfolio_revision": 60,
+        "requested": {
+          "R2": 200,
+          "T2": 200
+        },
+        "rounding": "Down once to whole shares; residual remains cash"
+      },
+      "created": 1793699472.464732,
+      "key": "AL-2",
+      "kind": "ALLOCATION",
+      "seq": 61,
+      "sha256": "c653a2b2e984790d1722807a0de46f222235fb3dd64c1b21066aac95ebf2edf8"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "First lawful allocation under DA-O",
+        "status": "active"
+      },
+      "created": 1793699472.4692428,
+      "key": "AL-2/active/T2",
+      "kind": "STRATEGY_STATE",
+      "seq": 62,
+      "sha256": "4754d38bf7c23301b15cc32833e68cb6322f4b51a8c7ed4313c0ccc169f6d350"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "id": "AL-2/T2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "revision": 62,
+        "side": "BUY",
+        "strategy": "T2",
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699472.475519,
+      "key": "order/AL-2/T2/BUY",
+      "kind": "ORDER",
+      "seq": 63,
+      "sha256": "d7e2582f306b1c349d7791a7fcf058cc28113bd3481fbc135a7e7643b4705291"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "R2",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "First lawful allocation under DA-O",
+        "status": "active"
+      },
+      "created": 1793699472.478264,
+      "key": "AL-2/active/R2",
+      "kind": "STRATEGY_STATE",
+      "seq": 64,
+      "sha256": "2aa1ec088224f4c0c4c6a201ea3d80fbfe8f9b940bf134355196273fc5976cca"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "id": "AL-2/R2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "revision": 64,
+        "side": "BUY",
+        "strategy": "R2",
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699472.4850821,
+      "key": "order/AL-2/R2/BUY",
+      "kind": "ORDER",
+      "seq": 65,
+      "sha256": "4f242ffa37391af9de0f5a5426b1ed0754c0945896d5ea32618cda5b790612c4"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Allocate overlapping requests",
+        "step": 13,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699472.8044858,
+      "key": "step/13",
+      "kind": "STEP",
+      "seq": 66,
+      "sha256": "6db5d74a2a53d3f3ef3a715f5d7001bd2b12508b27d67470e45cb3019e8bac61"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D2",
+        "exit": null,
+        "fee": "9.90",
+        "id": "AL-2/T2/BUY/F99",
+        "model": "synthetic-fixed-price-v1",
+        "order": "AL-2/T2/BUY",
+        "price": "100.00",
+        "quantity": 99,
+        "side": "BUY",
+        "strategy": "T2",
+        "timestamp": "D2 18:00"
+      },
+      "created": 1793699472.876836,
+      "key": "fill/AL-2/T2/BUY/F99",
+      "kind": "FILL",
+      "seq": 67,
+      "sha256": "298e5497a94e036abe1613456aa6fd5672cb6b8b9e59cd3b40dcccf356dbfdff"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D2",
+        "exit": null,
+        "fee": "9.90",
+        "id": "AL-2/R2/BUY/F99",
+        "model": "synthetic-fixed-price-v1",
+        "order": "AL-2/R2/BUY",
+        "price": "100.00",
+        "quantity": 99,
+        "side": "BUY",
+        "strategy": "R2",
+        "timestamp": "D2 18:00"
+      },
+      "created": 1793699472.9083588,
+      "key": "fill/AL-2/R2/BUY/F99",
+      "kind": "FILL",
+      "seq": 68,
+      "sha256": "c208ba62bf1a48be60c3cd8c15d5fb50f987efb135e7cecf8668d93b27c76b74"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Fill shared paper portfolio",
+        "step": 14,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699473.232147,
+      "key": "step/14",
+      "kind": "STEP",
+      "seq": 69,
+      "sha256": "6c9c8009bacb259ab567542238439797078713869357cccf90acebf636315749"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-T",
+        "cycle": 2,
+        "next_question": "No third research slot authorized; monitor current holdings",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 82,
+            "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+          },
+          {
+            "ledger": "E",
+            "sequence": 88,
+            "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 103,
+          "sha256": "fb9edf6b796764455ffa15ec3034dd5fb525fefcea792d60e53d6f37db528fcc"
+        }
+      },
+      "created": 1793699473.5665998,
+      "key": "selection/R-T2",
+      "kind": "SELECTION",
+      "seq": 70,
+      "sha256": "5c15e8ac2787441e4dbd2985e4f5f1a95f882bbbab6e72dd15b865cf14866f11"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-R",
+        "cycle": 2,
+        "next_question": "No third research slot authorized; monitor current holdings",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 82,
+            "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+          },
+          {
+            "ledger": "E",
+            "sequence": 88,
+            "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 104,
+          "sha256": "c3c5bcd2a7341881c13fded53212244505bb9d6d1692184eb7cc35168833a7ce"
+        }
+      },
+      "created": 1793699473.844182,
+      "key": "selection/R-R2",
+      "kind": "SELECTION",
+      "seq": 71,
+      "sha256": "73348bd0d130d876515f3c26078d94a31e046ef5c0a19e879f0e86bae2dacfb1"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "cycle": 2,
+        "local_dispatch_stopped": true,
+        "no_fence_or_refill": true,
+        "research_expiry": "D2 23:00"
+      },
+      "created": 1793699473.865939,
+      "key": "closed/2",
+      "kind": "CYCLE_CLOSED",
+      "seq": 72,
+      "sha256": "dd7dba76cacb9e1261c43066a56bd2d590b0477d6f4bdd12d239e041a09c2ac4"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Close second research cycle",
+        "step": 15,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793699474.183027,
+      "key": "step/15",
+      "kind": "STEP",
+      "seq": 73,
+      "sha256": "39f8c996e09b3bec2aa18ebd1c2a065fe969e9c2bc9ca20efcaccbfce845b18d"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "exit_only_preserved": true,
+        "opening": true,
+        "reason": "Research schedules do not define holding periods"
+      },
+      "created": 1793699474.273036,
+      "key": "opening-expired",
+      "kind": "AUTHORITY_EXPIRED",
+      "seq": 74,
+      "sha256": "a8badb31871253789e3d94faaadc9421054404b31f36300b9578db002dbaa98f"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Opening authority expires",
+        "step": 16,
+        "virtual_time": "D2 21:00"
+      },
+      "created": 1793699474.589364,
+      "key": "step/16",
+      "kind": "STEP",
+      "seq": 75,
+      "sha256": "f010df5fb3f8689561556d0e44962618cb5974bb121ddc12fd11e0f5b914fcf6"
+    }
+  ],
+  "clock": "D2 21:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "c017842684ce600271061944a842a329143050562fe408ea096f81e07cf55a7a"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "94a2012583cf5f4df683a49b67ca58c2e8f6ca578a84130854483a2f39996ea5"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "538af90ada51d1976ff1d52c765656a929a52f0927250c2529d9094127535d92"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "9ab6f614a6b750535727251b4a37bc263296c58601aaa2c7752ff5d659150d2e"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 75,
+        "sha256": "7bf31985ac112649db4f03ef384e5c99ebbdab3d0a1ff6c883910f1a54f96f8a"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 59,
+          "sha256": "8294a3c5226cf62198401225abb5ff7454a8746926d438c19733edcf7455bb0b"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 57,
+          "sha256": "fe20a3874394d594f3e43fbaa5650f577d47383621105e79acb78d3ceec1d4ef"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 58,
+          "sha256": "4bf1bbf9d48ec50a4702a6ba2df5cbb659a2738118c2ce4a88900bfdc07350b6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 91,
+          "sha256": "ebd71a4ea4d00ac9a0cbec7678db322b622192ab42302c04815533e08c2fac72"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V2T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T2"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 77,
+        "sha256": "d241e79c3e5e73a82d117280844918e7add42317dcb8eb3f9fca19829b268d23"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 63,
+          "sha256": "a77eeb3ff3b70cb18d515c00374905d0b7ffe38daed338a49bf3c29669fcd526"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 61,
+          "sha256": "51af5059446ca745af828c5f869c62ea8844bed4ccd44d4c75f75e3d077d46c0"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 62,
+          "sha256": "a3b87d1fbbc609b18fcacbffd7436e52cf81f0d5bb80d7308c20ffb2dd52b450"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 97,
+          "sha256": "639aa045271331067da8fa5f30ffe5a3a2ac3a5e4c71803f9ee95826493bfc46"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+        },
+        "run": "1b499a24d9744c84bf098a4ab4903277"
+      },
+      "no_forward_support": true,
+      "partition": "V2R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R2"
+    }
+  ],
+  "error": null,
+  "exits": [
+    {
+      "authority": "DA-X / C-05",
+      "deadline": "D1 20:00",
+      "envelope": "249.95",
+      "pre_exit_nav": "99980.10",
+      "quantity": 199,
+      "revision": 29,
+      "strategy": "T1",
+      "target": 0
+    }
+  ],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Scheduled final exits",
+  "obligations": {
+    "E": 104,
+    "N": 15,
+    "bindings": {
+      "102": "CONSUMED",
+      "65": "CONSUMED",
+      "71": "CONSUMED",
+      "96": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": true,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "124f33d24f58eff95f7a4a37ec5d0ae7f99e248fec4851eaf8858c3ccd1890d7"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "4fcca518df8ece162085d2a02f44948c1961bbbf376c1c5cdec3d259b24e66d3"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 81,
+        "sha256": "edd815caf3a5c9663a9ad4a0099ff8c80db6f27d2b1332d7dba534c4634774c5"
+      },
+      "name": "T2",
+      "original_attempt": 81,
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "record": {
+        "ledger": "E",
+        "sequence": 82,
+        "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 87,
+        "sha256": "7696cbdc46e5a4c3f276b81258ce33d1272aa02e0f494ae8fbbcc35a093c8249"
+      },
+      "name": "R2",
+      "original_attempt": 80,
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "record": {
+        "ledger": "E",
+        "sequence": 88,
+        "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+      },
+      "recovered": true,
+      "replacement": true,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      }
+    }
+  ],
+  "revision": 75,
+  "selections": [
+    {
+      "actor": "R-T",
+      "cycle": 1,
+      "next_question": "Does trend persist across volatility conditions?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 72,
+        "sha256": "96607c2b3870951fbf1e2711917d578657e8ab902e5e433e4b073b632113920a"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 1,
+      "next_question": "Does reversal work in quiet regimes?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "01afa2d092d51d684c7892d02e3d77f3091925a612610ebe36f42f706492c828"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "79421b156bc7ebf26234891cd927154ea9d7e45c2839d03d074f7373e394e826"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 73,
+        "sha256": "40d58e96ad91eb3fbbaad8c174edc9e9d4d926dc2885f7248baf0d95df5d8aa6"
+      }
+    },
+    {
+      "actor": "R-T",
+      "cycle": 2,
+      "next_question": "No third research slot authorized; monitor current holdings",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+        },
+        {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 103,
+        "sha256": "fb9edf6b796764455ffa15ec3034dd5fb525fefcea792d60e53d6f37db528fcc"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 2,
+      "next_question": "No third research slot authorized; monitor current holdings",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "211214c02f63e562d88efbe4cb60a247385c22e0d4b41ebba70873640e07dafb"
+        },
+        {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "e6eaa498443da68806e9095c726c3605bd5a8e39af02e772d48f7c64d73b554a"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 104,
+        "sha256": "c3c5bcd2a7341881c13fded53212244505bb9d6d1692184eb7cc35168833a7ce"
+      }
+    }
+  ],
+  "stage": "Opening authority expires",
+  "step": 16,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "R2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 64,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R2",
+      "instrument": "AAA",
+      "label": "Quiet reversal",
+      "method": "MV-R2",
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "reason": "First lawful allocation under DA-O",
+      "requested_quantity": 200,
+      "status": "active"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 35,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "Flat, no executable order, all receipts reconciled",
+      "requested_quantity": 200,
+      "status": "retired"
+    },
+    "T2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 62,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T2",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T2",
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "reason": "First lawful allocation under DA-O",
+      "requested_quantity": 200,
+      "status": "active"
+    }
+  }
+}

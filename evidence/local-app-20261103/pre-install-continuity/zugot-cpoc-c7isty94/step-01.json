@@ -1,0 +1,392 @@
+{
+  "allocations": [],
+  "arh": {
+    "E": 59,
+    "N": 11,
+    "asof": 1793700643.728621,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "3482119ee13646458475b082755f473c",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "100000.00",
+    "cash_after_commitments": "100000.00",
+    "commitments": "0.00",
+    "exit_turnover": {},
+    "fees": "0.00",
+    "nav": "100000.00",
+    "orders": [],
+    "ordinary_turnover": {},
+    "pnl": "0.00",
+    "positions": {},
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 59,
+      "N": 11,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793296800000
+    },
+    "G-C1": {
+      "E": 59,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-C1",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793296800000
+    },
+    "G-C2": {
+      "E": 59,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-C2",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793296800000
+    },
+    "G-R1": {
+      "E": 59,
+      "N": 11,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "1.75",
+      "spendable": "8.25",
+      "time_ms": 1793296800000
+    },
+    "G-R2": {
+      "E": 59,
+      "N": 11,
+      "committed": "0.00",
+      "grant": "G-R2",
+      "headroom": "10.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "10.00",
+      "time_ms": 1793296800000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "owner",
+      "body": {
+        "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+        "cash": "100000.00",
+        "cash_floor": "0.60",
+        "checker_per_cycle": "2.00",
+        "cooperative_identity": true,
+        "evidence_class": "Historical Reconstruction",
+        "exit_cost_fraction": "0.0025",
+        "fee_per_share": "0.10",
+        "forward_observations": 0,
+        "gross": "0.40",
+        "holding_deadlines": {
+          "R2": "D3 20:00",
+          "T1": "D1 20:00",
+          "T2": "D3 20:00"
+        },
+        "id": "Z-M1",
+        "mark_stale_minutes": 30,
+        "monitor_minutes": 5,
+        "name": "Two-cycle synthetic desk",
+        "opening_expiry": "D2 21:00",
+        "ordinary_turnover": "0.20",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "price": "100.00",
+        "research_expiry": [
+          "D1 23:00",
+          "D2 23:00"
+        ],
+        "research_lineage_combined_cap": "10.00",
+        "research_per_cycle": "10.00",
+        "setup_checker_cap": "8.00",
+        "slots": [
+          "D1 18:00",
+          "D2 18:00"
+        ],
+        "strategy": "0.20",
+        "underlying": "0.25",
+        "universe": [
+          "AAA",
+          "BBB"
+        ]
+      },
+      "created": 1793700640.165662,
+      "key": "mandate",
+      "kind": "MANDATE",
+      "seq": 1,
+      "sha256": "fc3705b388630a87b0ed988a96ed031eaf27d90059b8fea32d2faa953829605c"
+    },
+    {
+      "actor": "owner",
+      "body": {
+        "amount": "100000.00",
+        "reason": "Synthetic paper opening capital"
+      },
+      "created": 1793700640.167733,
+      "key": "opening",
+      "kind": "CASH",
+      "seq": 2,
+      "sha256": "f4b021f67c90732b7804bfdea47c0448d5f77a579ef00f8ddc1d3eb51dc6441d"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "checker_grants": [
+          "G-C1",
+          "G-C2"
+        ],
+        "future_slot_withheld": true,
+        "historical_reconstruction": true,
+        "mandate": "Z-M1",
+        "research_grants": [
+          "G-R1",
+          "G-R2"
+        ]
+      },
+      "created": 1793700640.1926022,
+      "key": "opened",
+      "kind": "DESK_OPENED",
+      "seq": 3,
+      "sha256": "ce8509727e008dde984c52106760b8faa5274a37e5780ae0b6337b8989888a2f"
+    },
+    {
+      "actor": "R-T",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 52,
+          "sha256": "aa5b3e937b83e8824240995a8392b1274dc240e53826355f8e5c8f49624ffe95"
+        },
+        "name": "T1",
+        "original_attempt": 52,
+        "parent": null,
+        "question": "Do positive returns persist?",
+        "record": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+        },
+        "recovered": false,
+        "replacement": false,
+        "researcher": "R-T",
+        "result": {
+          "base_net": "70",
+          "drawdown": "0",
+          "equity": [
+            "1030",
+            "1030",
+            "1070"
+          ],
+          "gross": "100",
+          "n": 3,
+          "stress_net": "40",
+          "sum_bp": 1000
+        }
+      },
+      "created": 1793700642.754855,
+      "key": "research/T1",
+      "kind": "RESEARCH_RESULT",
+      "seq": 4,
+      "sha256": "df6090977e3459c1411ae44bc841d0036528a1e37baba4316bd6debcaa57ee46"
+    },
+    {
+      "actor": "R-R",
+      "body": {
+        "attempt": {
+          "ledger": "E",
+          "sequence": 53,
+          "sha256": "8f44381dc16cae7d90ae96c911d9067274b3c027c6bd5a081ed63a2867cdf975"
+        },
+        "name": "R1",
+        "original_attempt": 53,
+        "parent": null,
+        "question": "Do negative returns reverse?",
+        "record": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+        },
+        "recovered": false,
+        "replacement": false,
+        "researcher": "R-R",
+        "result": {
+          "base_net": "-50",
+          "drawdown": "0.05",
+          "equity": [
+            "970",
+            "970",
+            "950"
+          ],
+          "gross": "-20",
+          "n": 3,
+          "stress_net": "-80",
+          "sum_bp": -200
+        }
+      },
+      "created": 1793700642.7579288,
+      "key": "research/R1",
+      "kind": "RESEARCH_RESULT",
+      "seq": 5,
+      "sha256": "e81e67e275a5971d3f84ea8490b6d443315cd6c1338b4120c5c0591e8cdc0d72"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Competing research",
+        "step": 1,
+        "virtual_time": "D1 18:00"
+      },
+      "created": 1793700642.9033651,
+      "key": "step/1",
+      "kind": "STEP",
+      "seq": 6,
+      "sha256": "1e8e0ea31883e4cfc405f9d1e090b6a4afea290b125473cdd092d753ed527c6b"
+    }
+  ],
+  "clock": "D1 18:00",
+  "decisions": [],
+  "dossiers": [],
+  "error": null,
+  "exits": [],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Independent checks and admission",
+  "obligations": {
+    "E": 59,
+    "N": 11,
+    "bindings": {},
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "aa5b3e937b83e8824240995a8392b1274dc240e53826355f8e5c8f49624ffe95"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "8f44381dc16cae7d90ae96c911d9067274b3c027c6bd5a081ed63a2867cdf975"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    }
+  ],
+  "revision": 6,
+  "selections": [],
+  "stage": "Competing research",
+  "step": 1,
+  "strategies": {}
+}

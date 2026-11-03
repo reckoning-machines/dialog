@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"controls\": [{\"transition\": \"BOOT-1\", \"class\": \"AUTHORIZATION\", \"subject\": \"AU-OBS-V\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-2\", \"class\": \"LIMITS\", \"subject\": \"initial_limits\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-3\", \"class\": \"AGENT_DESIGN\", \"subject\": \"R-T\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-4\", \"class\": \"AGENT_DESIGN\", \"subject\": \"R-R\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-5\", \"class\": \"AUTHORIZATION\", \"subject\": \"G-BR\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-6\", \"class\": \"AUTHORIZATION\", \"subject\": \"G-R\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-7\", \"class\": \"THEME\", \"subject\": \"TH-V-R\", \"result\": \"PASS\"}, {\"transition\": \"BOOT-8\", \"class\": \"THEME\", \"subject\": \"TH-V-T\", \"result\": \"PASS\"}], \"budget\": \"2.00\", \"evidence\": \"/private/tmp/zugot-integrated-v01/evidence/parallel-success/startup\"}\n"
+}

@@ -1,0 +1,16 @@
+{
+  "check_grant": "AU-CK-V",
+  "check_tools": {
+    "0.25": "CHECK-V-1",
+    "0.50": "CHECK-V-1-HALF"
+  },
+  "checker": "AD-CK-V1.0",
+  "researchers": [
+    "R-T",
+    "R-R"
+  ],
+  "themes": {
+    "TH-V-R": "Research recovery after negative price returns on synthetic AAA/BBB at the same declared horizon, including the predeclared quiet-regime filter and DEV/V1/V2 cohorts, unchanged feature availability, cost and validation rules; stop after the two named research slots.",
+    "TH-V-T": "Research price-return continuation on synthetic AAA/BBB at the declared toy-trade horizon, including predeclared volatility cohorts DEV/V1/V2, unchanged feature availability, cost and validation rules; stop after the two named research slots."
+  }
+}

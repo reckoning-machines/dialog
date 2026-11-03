@@ -1,0 +1,30 @@
+{
+  "ARH_checkout": "/Users/jedgore/dev/speedway",
+  "ARH_commit": "76234ff1816d95432a87de69b3337db5401349d4",
+  "client_distribution": "adaptive-research-harness-client",
+  "client_source_sha256": {
+    "__init__.py": "25f2c7608ce95235ac4b6503b17769b2ffe9c18b1b88741b559aa511ac900860",
+    "analysis.py": "da61207d56e3d7c692f449d43bfa8c4b0d2ac545f4a489b6bb6eb02c4133f05b",
+    "api.py": "c9db8dbaaaa2c4a8f1d70942f4501cdaa4a3f6ee0d2f268ef9d17f64c325a795",
+    "checking.py": "47ca91e1b904afc50438f5df1821d2100d027de6730d29a74eed3cd4d3da0362",
+    "connection.py": "dd7e4dd0008585b17c9fea830a554a01c27601fe9021ab0b9d84f7c71d0edb99",
+    "dev.py": "616b128b2a2478f09277a06b0f6a1332f1a42d5aab4e1ba06139439ec3efe587",
+    "host.py": "c299eb31cfff1e403b17860e21f38853de5cb5b225579e2b61360741e0582f47",
+    "langgraph_adapter.py": "bf896fae55c511214da6695fb2e60ce77096b24d124835f8fb1c6ec4da38c384",
+    "langgraph_nodes.py": "c0c3934eb2c9cb69dfba6ae77a0aaa42a6233098731a657cd08533d829e93309",
+    "operations.py": "9942966456923c3ecc298e5621ad859dc364503b578f40600c0d5957f393173a",
+    "principal.py": "6cf30a3cdc1da72302113fddff0ee1dd69ee535601f9d28be7fe102b0ac4a510",
+    "project.py": "4692e146e4702b91d5e87ee6b8a32e28cfe0ccc338d156c7bc144a76741bab0a",
+    "protocol.py": "5c9fe0953f4818a7d650673f090a9f86b142a75416d3018cadadb524f869af3c",
+    "refusals.py": "6f6c6ce6546eeb24a37bcd5ffe08d82a58734bfdc47e5fe24ddd950d91088ec9",
+    "research.py": "075fa7eab28058339e941ee82864a39d4f069c2d5dad9ed5938f3e9cf267b56f",
+    "results.py": "c658ab87f0b1a8b567e100a71df193903aafc888b1b6f53859602ba9494b8f3f",
+    "setup.py": "8c8a1393d48e50079c957422203bdbe243df0fd101a18a6a761271f55084732d"
+  },
+  "client_version": "0.1.0",
+  "dependency_lock_sha256": "5909b4c7af849976795e2fd392b1a3fc3664d225530237c427e54df2d40e5bfe",
+  "previous_commit": "301492667eeaaeaf34c93daaad4cef375c2d04fe",
+  "profile_revision": "RV-01-A1",
+  "rules_sha256": "d5c92289c3ac53ab30b76f0c12ed6556ca5e08723c55c2806e81dad474cb8c01",
+  "validation_successor": "Z-V01-M1"
+}

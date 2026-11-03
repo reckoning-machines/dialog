@@ -1,0 +1,159 @@
+[
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "contention"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 4.626,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673150.2724988,
+    "stderr": "01-orchestrate-contention.stderr.log",
+    "stdout": "01-orchestrate-contention.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "parallel-success"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 4.271,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673154.899178,
+    "stderr": "02-orchestrate-parallel-success.stderr.log",
+    "stdout": "02-orchestrate-parallel-success.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "parallel-blocked"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 4.056,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673159.1703942,
+    "stderr": "03-orchestrate-parallel-blocked.stderr.log",
+    "stdout": "03-orchestrate-parallel-blocked.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "cs"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 14.084,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673163.226617,
+    "stderr": "04-orchestrate-cs.stderr.log",
+    "stdout": "04-orchestrate-cs.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "policy-edges"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 3.067,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673177.311237,
+    "stderr": "05-orchestrate-policy-edges.stderr.log",
+    "stdout": "05-orchestrate-policy-edges.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/boundary_test.py"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 2.46,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673180.3791308,
+    "stderr": "06-boundary_test.stderr.log",
+    "stdout": "06-boundary_test.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/orchestrate.py",
+      "reopen"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 22.612,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793673182.839589,
+    "stderr": "07-orchestrate-reopen.stderr.log",
+    "stdout": "07-orchestrate-reopen.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/reconcile_runs.py"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 3.453,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793699375.246664,
+    "stderr": "08-reconcile_runs.stderr.log",
+    "stdout": "08-reconcile_runs.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/verify_evidence.py"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 0.044,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793699378.725169,
+    "stderr": "09-verify_evidence.stderr.log",
+    "stdout": "09-verify_evidence.stdout.log"
+  },
+  {
+    "argv": [
+      "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+      "/private/tmp/zugot-integrated-v01/source/finish_evidence.py",
+      "export"
+    ],
+    "cwd": "/private/tmp/zugot-integrated-v01/source",
+    "elapsed_seconds": 0.206,
+    "env_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "returncode": 0,
+    "started_unix": 1793699378.790478,
+    "stderr": "10-finish_evidence-export.stderr.log",
+    "stdout": "10-finish_evidence-export.stdout.log"
+  }
+]

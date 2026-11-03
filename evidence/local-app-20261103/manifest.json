@@ -1,0 +1,842 @@
+[
+  {
+    "bytes": 12665,
+    "path": "evidence/local-app-20261103/accounting.json",
+    "sha256": "616f4cfc168bb212514c2c4c08e34aee5711536efdb95e17f5e8d4709e1508c9"
+  },
+  {
+    "bytes": 681,
+    "path": "evidence/local-app-20261103/arh-integrated/acceptance/command.json",
+    "sha256": "9cd86de5173f7afe84f0f860ee31af6a511fc98573b83cef4c414085f1d9e1ab"
+  },
+  {
+    "bytes": 1413,
+    "path": "evidence/local-app-20261103/arh-integrated/acceptance/output.txt",
+    "sha256": "165670ba3175740e4828018ee2a887d9decb7d07e19a2caccbf10ff3ae7bffc1"
+  },
+  {
+    "bytes": 628,
+    "path": "evidence/local-app-20261103/arh-integrated/full-unit/command.json",
+    "sha256": "4db6aa9235450b93f9a634ac0252819778a0e853992f0be1cbaf972e2a149dea"
+  },
+  {
+    "bytes": 16522,
+    "path": "evidence/local-app-20261103/arh-integrated/full-unit/output.txt",
+    "sha256": "cf34d325f27bfe26d888935fb531f81b7cac06ae4d299ac4b5cd220ac4e84dc6"
+  },
+  {
+    "bytes": 1148,
+    "path": "evidence/local-app-20261103/arh-integrated/run_arh_checks.py",
+    "sha256": "f8891682574fbbef6c09e3e963e5ddde0ea5133d14de362caebf97e4c63ff247"
+  },
+  {
+    "bytes": 2416,
+    "path": "evidence/local-app-20261103/browser/check-original.cjs",
+    "sha256": "6cd3976c0ef4ada58f4860884b09df7b6070a7d6ea6758978d8fd0ffefe87fd9"
+  },
+  {
+    "bytes": 2474,
+    "path": "evidence/local-app-20261103/browser/check.cjs",
+    "sha256": "e2379318f6467b774ab33aaad4cfb8dd72be2a94fd6f080f87e0e8f79748f1b3"
+  },
+  {
+    "bytes": 80,
+    "path": "evidence/local-app-20261103/browser/check.log",
+    "sha256": "abb3158f02de61dd09bc60459c2b23a1fa5e12103b773852b45f495f623fb723"
+  },
+  {
+    "bytes": 1749466,
+    "path": "evidence/local-app-20261103/browser/evidence.json",
+    "sha256": "b0dfc8ab4b5cbe426384ce5ed9d4a8e8699c84cf7d02c760c87d3c618b763962"
+  },
+  {
+    "bytes": 409713,
+    "path": "evidence/local-app-20261103/browser/final.png",
+    "sha256": "59bd540eafef278fab9b170b6828fae73d0c21b53cd7b46cffb88b9479e4ce51"
+  },
+  {
+    "bytes": 1123,
+    "path": "evidence/local-app-20261103/browser/finish.cjs",
+    "sha256": "8158c9f6707393f82d4e70f9b1bf21942ebcc71ac0875702ba5f8bfce96b3187"
+  },
+  {
+    "bytes": 397806,
+    "path": "evidence/local-app-20261103/browser/mobile.png",
+    "sha256": "de0864ba26ada12ce7ae9803ebc3dbafb917af80116aef15c5c3f6a0c05a9d76"
+  },
+  {
+    "bytes": 322108,
+    "path": "evidence/local-app-20261103/browser/open.png",
+    "sha256": "f5f3c19bf4e6c77383c08c18818e84b772023d6d26ef9234685e5af08b4310e9"
+  },
+  {
+    "bytes": 1597,
+    "path": "evidence/local-app-20261103/browser/package-lock.json",
+    "sha256": "554ed905564ff50d7af180b3c5889f4bb2f683a730fb8d63de37803540478d38"
+  },
+  {
+    "bytes": 56,
+    "path": "evidence/local-app-20261103/browser/package.json",
+    "sha256": "a3dc2e326147f1f0d86f51569f5496aebca80467d87099904771ceaf0fc6d5c3"
+  },
+  {
+    "bytes": 236,
+    "path": "evidence/local-app-20261103/browser/result-incomplete.json",
+    "sha256": "9be18a5178d693be01b9a153a5f42babe6d923d2b19fe30cabe33533306f4eeb"
+  },
+  {
+    "bytes": 285,
+    "path": "evidence/local-app-20261103/browser/result.json",
+    "sha256": "e66c84fb8032865ab7f6ced80aaeb5bd0943cf839fa48c34d35713a2a0923d50"
+  },
+  {
+    "bytes": 408781,
+    "path": "evidence/local-app-20261103/browser/two-cycles.png",
+    "sha256": "bec5dccaf3cf44d5cdfb34dbda72f76bf97b85d7dd5499471789ca8eb117aa48"
+  },
+  {
+    "bytes": 1728,
+    "path": "evidence/local-app-20261103/clean-source-install.log",
+    "sha256": "cde44b02b951196f9f812e465eb982ea4dd8ab66e37afc8b8abc2b58337178bf"
+  },
+  {
+    "bytes": 1991,
+    "path": "evidence/local-app-20261103/client-install.json",
+    "sha256": "bef7a9371f9ca5788a1a19cf2d3b0f3f4e59a86a0cb29947d5175217e60d49e2"
+  },
+  {
+    "bytes": 3127,
+    "path": "evidence/local-app-20261103/environment.json",
+    "sha256": "452a84b8b64d5d71fd599e705c949ad40d8f10fed8561eba6d467af001636382"
+  },
+  {
+    "bytes": 2843,
+    "path": "evidence/local-app-20261103/failed-vcs-install-tests.txt",
+    "sha256": "80076dba14fdb3c2d479fed80157b7530e71181586bfb6a582b83e1b586e8b66"
+  },
+  {
+    "bytes": 12458,
+    "path": "evidence/local-app-20261103/failed-vcs-install.log",
+    "sha256": "4283b41d409c9c51d5e20147fd62e3ad85f52b3fc0bf7f072309677293d09223"
+  },
+  {
+    "bytes": 530,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/boundaries.json",
+    "sha256": "99cada185ab81a73c6562166806a934708b8450fb9651ab608c40cba958f195f"
+  },
+  {
+    "bytes": 3281412,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/evidence.json",
+    "sha256": "16d315181ef7f7e6e537208b3e240e598a442a3de50c5f74c899d9cd30690957"
+  },
+  {
+    "bytes": 5718,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/opened.json",
+    "sha256": "cb8304f812f656ad869e68beef0d428ecd52e6e0a4709a9281116c440949d58a"
+  },
+  {
+    "bytes": 298,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/result.json",
+    "sha256": "be637b6a36d40d63c1f198811f9a0a13167a94c3d29361ff821b97871fa2c32c"
+  },
+  {
+    "bytes": 9877,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-01.json",
+    "sha256": "afc7444292b8c032910133df48f3cdd0091e9163ae71436ab5549a0066340b94"
+  },
+  {
+    "bytes": 24216,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-02.json",
+    "sha256": "8b2d320e5fd928fb7c2b59995782dd03686b27457da5f128d611a1dfba1b7b7d"
+  },
+  {
+    "bytes": 28045,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-03.json",
+    "sha256": "2a293962e095693b97033813d2c8f10620cad8293387a497f3a4b83ca22ea10f"
+  },
+  {
+    "bytes": 28826,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-04.json",
+    "sha256": "bc3cb898b7129e9c95569ba526a9b932628fb54348ccf6dde3946834daf2ccbc"
+  },
+  {
+    "bytes": 27994,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-05.json",
+    "sha256": "8b3f56d13a4d2e0cb629c0aa58243fa49e14f6e2464c5b6de134b7d69296e9de"
+  },
+  {
+    "bytes": 27336,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-06.json",
+    "sha256": "55e2a8055a5dcee004587bb9d2e11e6993bab092c55f7ea549349f9ebac4cb89"
+  },
+  {
+    "bytes": 28682,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-07.json",
+    "sha256": "7c4c8cb34bac3eea194ab0303f203c92d1dae2e4e1a3495eaec4b5aff09749d4"
+  },
+  {
+    "bytes": 27753,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-08.json",
+    "sha256": "c968bf0490008a71a5f2a75a63b5ca24c856ab5dadfc4e3630a03279c0ab3fcf"
+  },
+  {
+    "bytes": 28627,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-09.json",
+    "sha256": "d2fa5566b6fcc403e125a16475e5cdc6258bbc80da0f1a39c02b686e628f0eb2"
+  },
+  {
+    "bytes": 28536,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-10.json",
+    "sha256": "66ec6c6801967bd33bda2065620b6b483e55768a7d135640c75cb39103b23ccc"
+  },
+  {
+    "bytes": 30426,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-11.json",
+    "sha256": "497408d5933eda7a2fc864a95df304a51edce1cc1aad89c9af27fb295d7cf96d"
+  },
+  {
+    "bytes": 37702,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-12.json",
+    "sha256": "02d6d0a36997fc2eee0371462a483e9aa94fac833773fca06cd2327e6b0b4410"
+  },
+  {
+    "bytes": 39111,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-13.json",
+    "sha256": "8d4879f7ea6a174ea937908d5f93361438a6dabf6b28638a6aa7257048de6541"
+  },
+  {
+    "bytes": 38086,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-14.json",
+    "sha256": "ea8d3df65a1d3647794142b5c481d3c045863a494ba3867632b62aced27a0e00"
+  },
+  {
+    "bytes": 39036,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-15.json",
+    "sha256": "e2ec5e7323d2303101c05d75c049bdcd35a9f92aae8aa30d5347c763111ba256"
+  },
+  {
+    "bytes": 40847,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-16.json",
+    "sha256": "6cfb11f2f15b4bb4bb7553b70150307e7344795a8d8ef86b3e370d4dae9b07db"
+  },
+  {
+    "bytes": 39659,
+    "path": "evidence/local-app-20261103/first-continuity/zugot-cpoc-1v4gi_rq/step-17.json",
+    "sha256": "4f9fe12dfd2c2097ff7f34ef79769c4b0cc8534043c89015b839a01c94fd6178"
+  },
+  {
+    "bytes": 2823210,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/public-final.json",
+    "sha256": "2fd2afde3be32585686e86ee4e0a66e3ae0f148157b1bafe28e84c6804db500f"
+  },
+  {
+    "bytes": 66,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/__init__.py",
+    "sha256": "6c6bcdb142d2258deac7e1028fb6ec0f921f78103d484f8b56c7c0341e9a2dfe"
+  },
+  {
+    "bytes": 5326,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/__main__.py",
+    "sha256": "f5483aab40ca405881b64cec68fb586e4491033daa5a4e7bec99a87bedd0d9df"
+  },
+  {
+    "bytes": 11374,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/book.py",
+    "sha256": "e826def70b63995555e09db808af145e8797ac49c049ef65e6a294fa20b7435d"
+  },
+  {
+    "bytes": 13094,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/desk.py",
+    "sha256": "365ea6b6cf8bc5a0272eecd656d249fd7ed7bd28263efb7556cf5c7d22fc1e2e"
+  },
+  {
+    "bytes": 2388,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/execution.py",
+    "sha256": "f35a7b3a791fef4e0f1b08b6fc1efcf8ba2f262164dee280d8a4d18077701ad1"
+  },
+  {
+    "bytes": 2512,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/fixtures.py",
+    "sha256": "4cc88eabed9eb3dca7c1fbcf25b3f38ae24f8530239e3ec75cc082c4e495785b"
+  },
+  {
+    "bytes": 13180,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/governance.py",
+    "sha256": "e6d84cffdfc92d110310d744735268b430e84b998ae6b7321e5a69b944350a05"
+  },
+  {
+    "bytes": 13449,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/designs_and_methods.json",
+    "sha256": "04e34b16c8f176f7f3fc962f75d5629fb63a640f01eb898170b5218a012af586"
+  },
+  {
+    "bytes": 1078,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/evaluator.py",
+    "sha256": "c1620f03e2b3a5b4a9ffe25217a026d221bb656f599d4e31caa43c9507f5bfd8"
+  },
+  {
+    "bytes": 2115,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/experiment.json",
+    "sha256": "ab5b14170548ef574660950e20adc65dba2fa6f8d063cd358bf461fee8c52719"
+  },
+  {
+    "bytes": 11757,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/setup.json",
+    "sha256": "acb4968ae293212357f87627419d7fde91c95e64cf336df68ae484e0da228316"
+  },
+  {
+    "bytes": 206,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/tools.py",
+    "sha256": "c78f92d3e5ab75a955bcc4b56039f9f8a1cf37735a6cb5473506cefcf0ffeea8"
+  },
+  {
+    "bytes": 743,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/spec/v01.json",
+    "sha256": "66b08b0afab051dda393fce6933b07932529546a6c478dc2f235492547e47d37"
+  },
+  {
+    "bytes": 3808,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/store.py",
+    "sha256": "ec8ebfc8401e1708993c908639dce876c1f10fa2ac82004571af696e4efd2bad"
+  },
+  {
+    "bytes": 5081,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/worker.py",
+    "sha256": "355e7b9d335abcce003944c8d5ed2f5c06ca21b44a2eb5d50963ccd3c8214703"
+  },
+  {
+    "bytes": 18724,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/source/zugot/workspace.html",
+    "sha256": "b7b3a40c08c2082da3718c21e5c55b4591567dbd8f9188b3b74daf442d1d2614"
+  },
+  {
+    "bytes": 9855,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-01.json",
+    "sha256": "32ee3e99d76ddf460342ed65e0a1d05c405ee6af104050815a90fb698093f50a"
+  },
+  {
+    "bytes": 23870,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-02.json",
+    "sha256": "54b5cb1f26c04419e430565516dde31c769f0198ce1c6758cd85a12f6e1fb449"
+  },
+  {
+    "bytes": 27701,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-03.json",
+    "sha256": "3b13fd4d19656b84771f312b8937b8eac5b5b64f5a6a45efae0ad29917bcdfa9"
+  },
+  {
+    "bytes": 28482,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-04.json",
+    "sha256": "6159d0c956b88f84dbf04c93ed52ac270e1b11c1d9ea78831381b2703757155c"
+  },
+  {
+    "bytes": 27652,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-05.json",
+    "sha256": "69a7ac7574f2901c267e1a2baec45f2017a7f5b42ab68f7045ce3c1801366537"
+  },
+  {
+    "bytes": 26997,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-06.json",
+    "sha256": "8cb1a2990a25f0c4e310e59ae532fe9447ace6a0078522b75690baada47c8d7f"
+  },
+  {
+    "bytes": 25275,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-07.json",
+    "sha256": "5fd17931655b0e2785d43a4037c5e984a35fcc9cc2215851bd6fa71f383fc8d0"
+  },
+  {
+    "bytes": 25353,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-08.json",
+    "sha256": "6b4afea28e6e898314a8e1633563205bc41cd22bfd33033d13241e8647a0f3d6"
+  },
+  {
+    "bytes": 25542,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-09.json",
+    "sha256": "d0d5d7cd0bca36c250c23f0dc0c033daf6e48e6f6b412a3fdbe154d50237fe16"
+  },
+  {
+    "bytes": 26181,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-10.json",
+    "sha256": "1b98f2629d5f9a218d97773c1d73973946a54187dcbb762580386a12ed2cf609"
+  },
+  {
+    "bytes": 29471,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-11.json",
+    "sha256": "ab106ac4f58a2421fad3fcf2ada6f11433884e7b83869083bce09bb02b828c67"
+  },
+  {
+    "bytes": 37692,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-12.json",
+    "sha256": "bbfe9f651b0f60c1b0cf501c8f36ecb8c4667b6af53fe84e5944bb27ee1959bd"
+  },
+  {
+    "bytes": 39102,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-13.json",
+    "sha256": "153b8d798c36d8ba2b3e5f60a3c6d4a7c8d80624dcfcf3b7f77489c3a041891c"
+  },
+  {
+    "bytes": 38077,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-14.json",
+    "sha256": "8dcd694bbe019c56ea44f36da588fc8ee8b08e9b35a006c6b4b255f54f0c86d7"
+  },
+  {
+    "bytes": 39025,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-15.json",
+    "sha256": "526314ae070fe4a7480be23775e7ffd4b3130519477477ae7b452f0bf2bff918"
+  },
+  {
+    "bytes": 36939,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-16.json",
+    "sha256": "4807a331ce3b41530057f9671bdc4fe895e905c893ddcef0bc47f23186db217b"
+  },
+  {
+    "bytes": 36203,
+    "path": "evidence/local-app-20261103/first-smoke/zugot-smoke-39mb7y72/step-17.json",
+    "sha256": "8f40b0d43cfbde1b90456531641fea684bf7df1e952b7201e51669b7febc2b17"
+  },
+  {
+    "bytes": 530,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/boundaries.json",
+    "sha256": "e2a255b62960cec95275658d0ebc50f9786cf001992d73f9c4a177d7c223760d"
+  },
+  {
+    "bytes": 3281457,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/evidence.json",
+    "sha256": "1a0d62aef60da37b11bbdaac75ffd7d5dc2c2870d1d4e12d7524dfd745497057"
+  },
+  {
+    "bytes": 5715,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/opened.json",
+    "sha256": "b1ff64e94da373334c13ca6286581b64531f7f2ddd7d041104f025a2ed9fbfcd"
+  },
+  {
+    "bytes": 298,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/result.json",
+    "sha256": "c4bbc0ae276c1447415aa2f07541c9e68327d8a8d07766d6fa0a914e62f85c83"
+  },
+  {
+    "bytes": 9873,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-01.json",
+    "sha256": "46c80aaf543f0ec944af045dc4138303a440a1edcc4838a7297b1e68cd6fdfb7"
+  },
+  {
+    "bytes": 24213,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-02.json",
+    "sha256": "a925cd3bea67a764a139041c42d62f18841e1b0b7f4304c9fbb77c9087bd726a"
+  },
+  {
+    "bytes": 28043,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-03.json",
+    "sha256": "fa660c7fd70770c8279e856f74becfd5c1badeee2b7baaeeb4b484032391c9ed"
+  },
+  {
+    "bytes": 28824,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-04.json",
+    "sha256": "e02a384546bc983e2ed0c0c04c9fabe863795fc152cc2f72e8de3cea18ccda24"
+  },
+  {
+    "bytes": 27993,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-05.json",
+    "sha256": "2a8b9e4e999fd802b8251bd95950ce5e85e94074a05f6800be2cb74ea2430143"
+  },
+  {
+    "bytes": 27338,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-06.json",
+    "sha256": "1f12a1f6501cd25f5d18d9af4ba451d1da81238362a3ff5262ad07694602243f"
+  },
+  {
+    "bytes": 28685,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-07.json",
+    "sha256": "fd5a85e0e40639e5831d64489b1b6054547e65ac77c3ac3d623beef219b391ff"
+  },
+  {
+    "bytes": 27753,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-08.json",
+    "sha256": "bfb7ab477675932373241a8a5ea6dd2d0cbe6cc8f30fe0f7cb43ffe83599a54e"
+  },
+  {
+    "bytes": 28627,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-09.json",
+    "sha256": "30d94b8bc1c7af77879199a9f12cf710898564ea3deb28c4e1c16459de8bc0eb"
+  },
+  {
+    "bytes": 28537,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-10.json",
+    "sha256": "506c6242aed7397fa1f9322abd2342f34e9029a45c21b92224a900e3bdc55670"
+  },
+  {
+    "bytes": 30422,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-11.json",
+    "sha256": "6871221a7e43b2dadaa0aa68edac82160925c981cbb0de0ca7512810b53bbef9"
+  },
+  {
+    "bytes": 37703,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-12.json",
+    "sha256": "fd343adb2864f7b6fc2226de972c00bc72f5ad2b99bc834ab1cc07908d40a1cc"
+  },
+  {
+    "bytes": 39112,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-13.json",
+    "sha256": "9c49386495bb435a9a3ec696357c45fa55b50518e091e20e839441b5d5dd7182"
+  },
+  {
+    "bytes": 38088,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-14.json",
+    "sha256": "c8e735c224b02ae13054e78278bd326eebba3b3341b70f517b19c3c9f2c29afe"
+  },
+  {
+    "bytes": 39040,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-15.json",
+    "sha256": "2c1598283d943934140c6e70de90596b14104a8b1e34dc74a18f6aff3892ba0b"
+  },
+  {
+    "bytes": 40851,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-16.json",
+    "sha256": "ff3244c3076f6d1bcc1b5bfd3bbc92b7af0f62024905a7163f6447a6905f1810"
+  },
+  {
+    "bytes": 39656,
+    "path": "evidence/local-app-20261103/installed-continuity/zugot-cpoc-ouaat0o2/step-17.json",
+    "sha256": "74dcc49326637e22b161756edf73a24d533c243dc2d4d49b00c4f3b8f190f4cd"
+  },
+  {
+    "bytes": 1709,
+    "path": "evidence/local-app-20261103/installed-tests.txt",
+    "sha256": "dfd7b75e89fe46a7016e2144233af3c82ba47d1100602a0cd849ebde446f37a3"
+  },
+  {
+    "bytes": 530,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/boundaries.json",
+    "sha256": "dcfe1f19717c5d8c711eb67b405f0db9f1d37235c6ea8b2e82f27469212661f3"
+  },
+  {
+    "bytes": 3281436,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/evidence.json",
+    "sha256": "65488e3ac215e66d4816999d8395abddd3a31d851a52063eb097ce7b70acb160"
+  },
+  {
+    "bytes": 5717,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/opened.json",
+    "sha256": "23ad1b74bb75916ba22c7b78b8d1c3f02f40415d0aabec64921a71e31e441d78"
+  },
+  {
+    "bytes": 298,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/result.json",
+    "sha256": "5f90d069e007a9b090172bfc829156b658fb92519c6f7c87e5186ae76ca210cc"
+  },
+  {
+    "bytes": 9875,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-01.json",
+    "sha256": "012823db551fddcf219cb9c0a8a963ea593048d11219aad4b81ae856ef8cfe3e"
+  },
+  {
+    "bytes": 24216,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-02.json",
+    "sha256": "c254293fcdad2963e2bd5e23b0c0b496f4bd125c9d96ee46cf82d0b95cc428ee"
+  },
+  {
+    "bytes": 28046,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-03.json",
+    "sha256": "73ccb4a1dec1e920638c59b5efa416669bce561ce38c7ed0001ab708d2b2c964"
+  },
+  {
+    "bytes": 28826,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-04.json",
+    "sha256": "9bf34ae969ddcb637199c3c5b75d316986795cdc60091b033085ec3ec7bff0c0"
+  },
+  {
+    "bytes": 27995,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-05.json",
+    "sha256": "7a290f4481dc177c008cb675ff4bfbaf8b9e1e9670487f90f0a9de077f9fb59a"
+  },
+  {
+    "bytes": 27339,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-06.json",
+    "sha256": "f2cfe1cf36d32322fc4d307b78774c54e47081954e51cffb5546b968c4409aaf"
+  },
+  {
+    "bytes": 28682,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-07.json",
+    "sha256": "306ada36b70ae25053b16eaf3ca47f0e5696faec2a90e31e8f7eecdaea4af7ac"
+  },
+  {
+    "bytes": 27747,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-08.json",
+    "sha256": "b24bd8c0b0ea12dc33893d3ad74f2d79e04397b16feaecfd79f194d87467039e"
+  },
+  {
+    "bytes": 28621,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-09.json",
+    "sha256": "533be22ec058d2a5dc527d2313509eefe257f431c27f3dbd47ea3d19b326f733"
+  },
+  {
+    "bytes": 28534,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-10.json",
+    "sha256": "abeb48eb008a6c55ac4510f4e26f82957ebbd1045dd5391af6995edc1d32688f"
+  },
+  {
+    "bytes": 30424,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-11.json",
+    "sha256": "5a409b24c2fb4f61c9cdf50c35072df17ee93b5b66087f5bd8af4526bcc3d3e8"
+  },
+  {
+    "bytes": 37709,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-12.json",
+    "sha256": "5230b7ee57c64f0ed8d13af0758bb5c573253690e72c426474852001349ae5f1"
+  },
+  {
+    "bytes": 39116,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-13.json",
+    "sha256": "8f57bb0c145dbeb322779150ea02d9bb05aee4ab19907098c4bf503cc4dd1659"
+  },
+  {
+    "bytes": 38091,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-14.json",
+    "sha256": "9349e7a32b5e792b68bb236af43f6bf100244c3e6f1c221b860adda7678ae9be"
+  },
+  {
+    "bytes": 39041,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-15.json",
+    "sha256": "e74c3033ed0ce62e150e73163d6cc4b8129f43b206da31fa605db52604ce2ba1"
+  },
+  {
+    "bytes": 40846,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-16.json",
+    "sha256": "1a1659a4f87a1dc3a6c0c6d95267b86852ea859babd9649ef5cb90628736f015"
+  },
+  {
+    "bytes": 39660,
+    "path": "evidence/local-app-20261103/pre-install-continuity/zugot-cpoc-c7isty94/step-17.json",
+    "sha256": "9326ae88893b53d442c2f25e3231cf7dff7ea404990f4a3969e920f94e5d8e5c"
+  },
+  {
+    "bytes": 1556,
+    "path": "evidence/local-app-20261103/pre-install-tests.txt",
+    "sha256": "f38f068f602e1cd96544d8507f63266e6054c5449b8a93e59e40c666f535fb18"
+  },
+  {
+    "bytes": 277,
+    "path": "evidence/local-app-20261103/redaction.json",
+    "sha256": "f1eb3ef2ed49a399e91af460f0ed2a2ffb97cd20fe3367ed699875158e3a624b"
+  },
+  {
+    "bytes": 66,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/__init__.py",
+    "sha256": "6c6bcdb142d2258deac7e1028fb6ec0f921f78103d484f8b56c7c0341e9a2dfe"
+  },
+  {
+    "bytes": 11374,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/book.py",
+    "sha256": "e826def70b63995555e09db808af145e8797ac49c049ef65e6a294fa20b7435d"
+  },
+  {
+    "bytes": 12998,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/desk.py",
+    "sha256": "2d40bb2ed7e5b79bdb7a998c51a4ee334b0a3d48bf662ab0491e276def171934"
+  },
+  {
+    "bytes": 2388,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/execution.py",
+    "sha256": "f35a7b3a791fef4e0f1b08b6fc1efcf8ba2f262164dee280d8a4d18077701ad1"
+  },
+  {
+    "bytes": 2512,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/fixtures.py",
+    "sha256": "4cc88eabed9eb3dca7c1fbcf25b3f38ae24f8530239e3ec75cc082c4e495785b"
+  },
+  {
+    "bytes": 12653,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/governance.py",
+    "sha256": "7aaf35ac328cf22f8eca50b2724bc1fbd2a8d6ac4199061d1843e2aafd928c69"
+  },
+  {
+    "bytes": 13449,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/designs_and_methods.json",
+    "sha256": "04e34b16c8f176f7f3fc962f75d5629fb63a640f01eb898170b5218a012af586"
+  },
+  {
+    "bytes": 1078,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/evaluator.py",
+    "sha256": "c1620f03e2b3a5b4a9ffe25217a026d221bb656f599d4e31caa43c9507f5bfd8"
+  },
+  {
+    "bytes": 2115,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/experiment.json",
+    "sha256": "ab5b14170548ef574660950e20adc65dba2fa6f8d063cd358bf461fee8c52719"
+  },
+  {
+    "bytes": 11757,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/setup.json",
+    "sha256": "acb4968ae293212357f87627419d7fde91c95e64cf336df68ae484e0da228316"
+  },
+  {
+    "bytes": 206,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/tools.py",
+    "sha256": "c78f92d3e5ab75a955bcc4b56039f9f8a1cf37735a6cb5473506cefcf0ffeea8"
+  },
+  {
+    "bytes": 743,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/spec/v01.json",
+    "sha256": "66b08b0afab051dda393fce6933b07932529546a6c478dc2f235492547e47d37"
+  },
+  {
+    "bytes": 3607,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/store.py",
+    "sha256": "654918214533e3782e4e8ff90506d0957578fe012cfdc07f4a55c712db7f157e"
+  },
+  {
+    "bytes": 5081,
+    "path": "evidence/local-app-20261103/repair-history/01-request-key/source/zugot/worker.py",
+    "sha256": "355e7b9d335abcce003944c8d5ed2f5c06ca21b44a2eb5d50963ccd3c8214703"
+  },
+  {
+    "bytes": 341323,
+    "path": "evidence/local-app-20261103/repair-history/02-checker-registration/failed-public.json",
+    "sha256": "cfdcf1b590c8c571462746bc43223dcc09a3633330aba65665d277c426aafe0a"
+  },
+  {
+    "bytes": 176,
+    "path": "evidence/local-app-20261103/repair-history/03-unit-accounting.md",
+    "sha256": "f71874dc09c458cb7d09ca2ed8c7f2cc6cd19ff4176b99c77dea1d0d53cab757"
+  },
+  {
+    "bytes": 1187169,
+    "path": "evidence/local-app-20261103/repair-history/zugot-smoke-jr906xhr/public-before.json",
+    "sha256": "b2ff069a4b91f4641277b9881b99cb32b8222ac5acc2155361b0bfea5d076aa7"
+  },
+  {
+    "bytes": 344,
+    "path": "evidence/local-app-20261103/tested-source/arh-dependency.json",
+    "sha256": "879b59824d0cb73e2f859203d37f9f58f021a9d2dfe047ec7c382f7b3ca2b608"
+  },
+  {
+    "bytes": 553,
+    "path": "evidence/local-app-20261103/tested-source/pyproject.toml",
+    "sha256": "0ba6551ef88778f820aace85f01b26bb0475d0a73c80ae4ec8985c1cc379a450"
+  },
+  {
+    "bytes": 894,
+    "path": "evidence/local-app-20261103/tested-source/requirements.lock",
+    "sha256": "896697ede6766639fbd28ebe8456c38063009f189fbea8a4a751400602f7a8c2"
+  },
+  {
+    "bytes": 371,
+    "path": "evidence/local-app-20261103/tested-source/run.py",
+    "sha256": "4334e792e3bdca6147ed2e974f4f82086aa2637363d296039ab3b2127b6a428e"
+  },
+  {
+    "bytes": 2295,
+    "path": "evidence/local-app-20261103/tested-source/scripts/install_arh_client.py",
+    "sha256": "5eab28296b5a39ef6d7888d2c389dd137f8a027460bcf7b4775f3b0a0cce23f0"
+  },
+  {
+    "bytes": 66,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/__init__.py",
+    "sha256": "6c6bcdb142d2258deac7e1028fb6ec0f921f78103d484f8b56c7c0341e9a2dfe"
+  },
+  {
+    "bytes": 5326,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/__main__.py",
+    "sha256": "7ad086bea0199b637114f9870b3e9242858f72d1a0a06d4c1b3150143a6bce53"
+  },
+  {
+    "bytes": 12174,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/book.py",
+    "sha256": "835e804254c78ec324b63448472aa19607da5c694079a6f8fa4ebfc29849e703"
+  },
+  {
+    "bytes": 14282,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/desk.py",
+    "sha256": "142d8c5be3dfb5ff6e90fd2ae83b998f748862743cdde63ef1aeb45205139d78"
+  },
+  {
+    "bytes": 746,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/evidence.py",
+    "sha256": "c4ac97890735d7ac9ee1beb98130cd10eef8456e89d4075554a89227b485a04d"
+  },
+  {
+    "bytes": 2388,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/execution.py",
+    "sha256": "f35a7b3a791fef4e0f1b08b6fc1efcf8ba2f262164dee280d8a4d18077701ad1"
+  },
+  {
+    "bytes": 2512,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/fixtures.py",
+    "sha256": "4cc88eabed9eb3dca7c1fbcf25b3f38ae24f8530239e3ec75cc082c4e495785b"
+  },
+  {
+    "bytes": 13635,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/governance.py",
+    "sha256": "3835cdf49f5e4a4e54cd53d6b8eb65d44015c2b0492773f2806416e198275767"
+  },
+  {
+    "bytes": 13449,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/designs_and_methods.json",
+    "sha256": "04e34b16c8f176f7f3fc962f75d5629fb63a640f01eb898170b5218a012af586"
+  },
+  {
+    "bytes": 1078,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/evaluator.py",
+    "sha256": "c1620f03e2b3a5b4a9ffe25217a026d221bb656f599d4e31caa43c9507f5bfd8"
+  },
+  {
+    "bytes": 2115,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/experiment.json",
+    "sha256": "ab5b14170548ef574660950e20adc65dba2fa6f8d063cd358bf461fee8c52719"
+  },
+  {
+    "bytes": 11757,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/setup.json",
+    "sha256": "acb4968ae293212357f87627419d7fde91c95e64cf336df68ae484e0da228316"
+  },
+  {
+    "bytes": 206,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/tools.py",
+    "sha256": "c78f92d3e5ab75a955bcc4b56039f9f8a1cf37735a6cb5473506cefcf0ffeea8"
+  },
+  {
+    "bytes": 743,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/spec/v01.json",
+    "sha256": "66b08b0afab051dda393fce6933b07932529546a6c478dc2f235492547e47d37"
+  },
+  {
+    "bytes": 3807,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/store.py",
+    "sha256": "bf041eb0f9a8cd676511abbcdde4c682a6fb3460bff4225079987c8f07da7664"
+  },
+  {
+    "bytes": 5081,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/worker.py",
+    "sha256": "355e7b9d335abcce003944c8d5ed2f5c06ca21b44a2eb5d50963ccd3c8214703"
+  },
+  {
+    "bytes": 18724,
+    "path": "evidence/local-app-20261103/tested-source/src/zugot/workspace.html",
+    "sha256": "b7b3a40c08c2082da3718c21e5c55b4591567dbd8f9188b3b74daf442d1d2614"
+  },
+  {
+    "bytes": 6047,
+    "path": "evidence/local-app-20261103/tested-source/tests/test_book.py",
+    "sha256": "bbd4308e2426e4358fb6a602612651fba5bf74457cc3325cabae8859fef2a924"
+  },
+  {
+    "bytes": 4923,
+    "path": "evidence/local-app-20261103/tested-source/tests/test_continuity.py",
+    "sha256": "feb1db439c43348f2a0dec72f52aaadc37ba4daa506495f7837edc6fe8988658"
+  },
+  {
+    "bytes": 1573,
+    "path": "evidence/local-app-20261103/unit-tests.txt",
+    "sha256": "bac3aba62da5adb9f3555178d474d7558f283d84474b68b1886f1fc84cb7021f"
+  },
+  {
+    "bytes": 8791,
+    "path": "validation/local_app/REPORT.md",
+    "sha256": "ca5dd2ba8763ab7363a17cef869af7bc17bfdab8e7dc8ffea6888b14645ab3fb"
+  },
+  {
+    "bytes": 873,
+    "path": "validation/local_app/audit.py",
+    "sha256": "76a6dd26ab6e7cf6588b2fe75794f7ef1508056c9c5f93ec3bd52bfb14eaabf9"
+  }
+]

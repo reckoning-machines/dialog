@@ -1,0 +1,33 @@
+test_allocation_survives_death_between_batch_and_children (test_book.BookContracts.test_allocation_survives_death_between_batch_and_children) ... ok
+test_authority_expiry_and_unknown_order_prevent_new_exposure (test_book.BookContracts.test_authority_expiry_and_unknown_order_prevent_new_exposure) ... ok
+test_contradictory_receipt_is_not_rebooked (test_book.BookContracts.test_contradictory_receipt_is_not_rebooked) ... ok
+test_correct_calculation_is_not_sufficient_evidence (test_book.BookContracts.test_correct_calculation_is_not_sufficient_evidence) ... ok
+test_early_retirement_stale_marks_and_stale_revision_refuse (test_book.BookContracts.test_early_retirement_stale_marks_and_stale_revision_refuse) ... ok
+test_fee_aware_allocation_loss_partial_fill_and_replay (test_book.BookContracts.test_fee_aware_allocation_loss_partial_fill_and_replay) ... ok
+test_new_batch_refuses_existing_exposure_or_unfilled_orders (test_book.BookContracts.test_new_batch_refuses_existing_exposure_or_unfilled_orders) ... ok
+test_pause_preserves_real_fills_and_cancels_remaining_buys (test_book.BookContracts.test_pause_preserves_real_fills_and_cancels_remaining_buys) ... ok
+test_required_exit_exceeds_ordinary_limit_without_resetting_cost (test_book.BookContracts.test_required_exit_exceeds_ordinary_limit_without_resetting_cost) ... ok
+test_two_eligible_strategies_share_underlying_and_turnover (test_book.BookContracts.test_two_eligible_strategies_share_underlying_and_turnover) ... ok
+test_continuity (unittest.loader._FailedTest.test_continuity) ... ERROR
+
+======================================================================
+ERROR: test_continuity (unittest.loader._FailedTest.test_continuity)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_continuity
+Traceback (most recent call last):
+  File "/Users/jedgore/.pyenv/versions/3.12.3/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jedgore/.pyenv/versions/3.12.3/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/Users/jedgore/dev/murmuration/tests/test_continuity.py", line 4, in <module>
+    from zugot.governance import Governance,write
+  File "/Users/jedgore/dev/murmuration/src/zugot/governance.py", line 9, in <module>
+    from arh_client import Connection,Principal,Observer,HostControl,Researcher,Execution,ReceiptStore,event_ref,digest,invocation,historical_document
+ImportError: cannot import name 'historical_document' from 'arh_client' (/Users/jedgore/dev/murmuration/.venv/lib/python3.12/site-packages/arh_client/__init__.py)
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.028s
+
+FAILED (errors=1)

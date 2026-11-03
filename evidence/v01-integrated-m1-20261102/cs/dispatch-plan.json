@@ -1,0 +1,18 @@
+{
+  "bootstrap_attempt_maximum": "1.00",
+  "bootstrap_reservation_each": "2.00",
+  "checker_ceiling": "12.00",
+  "checker_measured_expected": "3.00",
+  "checker_remaining_after_maximum_setup_and_measured": "1.00",
+  "checker_setup_ceiling": "8.00",
+  "checker_setup_expected": "2.00",
+  "dependency_commit": "76234ff1816d95432a87de69b3337db5401349d4",
+  "measured_peak_each": "5.75",
+  "notice": "New disposable host; prior settled spending remains separate. No grant or pool increase.",
+  "opening_pending": "0.00",
+  "opening_retained": "0.00",
+  "opening_settled": "0.00",
+  "research_funding_allowances_included": true,
+  "research_lineage_ceiling": "10.00",
+  "revision": "RV-03-C1"
+}

@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 75307
+    }
+  ],
+  "run_id": "b32d1c9b8ac34d0887a9a48934383803",
+  "state": "/private/tmp/zugot-integrated-v01/runtime/cs-75b72e84/state"
+}

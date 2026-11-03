@@ -1,0 +1,323 @@
+[
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "policy-decide",
+    "request_id": "2132d3b6-8b4a-4d07-bca9-abbbd1d50a6e",
+    "service_pid": 51536,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 44,
+          "sha256": "a5802d8e1a59ee47cbc0b4885ba0ec3bf2cabcfaba32f9665fc9926038bda73d"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "apply",
+    "request_id": "2d6c63e6-4de2-48e3-a023-88bcc0563534",
+    "service_pid": 51536,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 45,
+          "sha256": "e195a66dbf5e44b8fd15d44bb14c9421ef73d827ca24d8a64111ea7c1d85e92c"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "d3f2bc55-bd67-4e29-9a65-16917ce14544",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "2253d149-3275-4047-830b-6bfb41b55a72",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "3b4614c9-f493-40ca-a13d-dcefdf902a32",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "decide",
+    "request_id": "398dfb3b-5767-4aab-a75d-8285349b5f4d",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "7c0790dd-3a3b-44ef-86a9-7ab13a5f68fc",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "limits",
+    "request_id": "fbd65fc2-d54d-4027-93a0-775c3c6002c1",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "standard",
+    "request_id": "45bc06b6-901c-42aa-b3ca-1db3c5b020eb",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "ec064b2b-c6c7-4df9-9f13-4d6e95f15f1f",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "tick",
+    "request_id": "1cd19729-0b9c-4a26-9623-64258e35f0dc",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "token-export",
+    "request_id": "865e88fc-059b-475e-9f1a-9db79b39e1c5",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "scope-extension",
+    "request_id": "6404dce3-a72f-42de-850c-66a5fc11751e",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "status",
+    "request_id": "baed12b1-8f82-4909-9b86-13ac0d1da254",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "decide",
+    "request_id": "a5a1a92a-76c9-4b51-874f-be1691c9c8b1",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "ab40d529-6382-4716-927e-547dc4c70f46",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "limits",
+    "request_id": "7f28a986-2f1e-4d7d-8d28-236b912eb721",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "standard",
+    "request_id": "6cb8627e-e93d-4f32-92a9-fdc1b2b64f67",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "a412f794-2096-47a5-9815-990a8a54cb23",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "tick",
+    "request_id": "9a47156a-3bd7-45da-994c-b3af46a571d7",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "token-export",
+    "request_id": "514d2cbd-ed73-41fc-a591-947a16285165",
+    "service_pid": 51536
+  },
+  {
+    "caller": "R-T",
+    "code": "SERVICE_CALLER_REFUSED",
+    "forwarded": false,
+    "operation": "scope-extension",
+    "request_id": "0ef26edc-7c6a-4e65-8f14-c9b0a7a861ee",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_OPERATION_REFUSED",
+    "forwarded": false,
+    "operation": "grant",
+    "request_id": "19b256f2-11b6-4917-8b99-b75243d2af85",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_REQUEST_MISMATCH",
+    "forwarded": false,
+    "operation": "fence",
+    "request_id": "19b256f2-11b6-4917-8b99-b75243d2af85",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "policy-decide",
+    "request_id": "0e10f4f5-cab8-4e5c-91f7-389fb8da0252",
+    "service_pid": 51536,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 65,
+          "sha256": "54d7e34d12ccb40fe1f5bb97aa28b4fea0511bcf76f38008c1e6f57bbaf41936"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "apply",
+    "request_id": "58cbebff-fed4-4bb0-a071-67f0e9b41f13",
+    "service_pid": 51536,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 66,
+          "sha256": "5435db102b9a271bbbdfedd8e2e41b2ef7e5d8acf8ce204abfa3435ba940c0b5"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "6910d839-4b5a-41ea-9be6-895c9ed382c2",
+    "service_pid": 51536
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "policy-decide",
+    "request_id": "c41c8bfa-6f13-4096-bd87-32d6ae2b06ce",
+    "service_pid": 51536,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 68,
+          "sha256": "b1119f76def72732d6358ca842f13279abaffde944aa0b8a80f2fd2fa1c09771"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_REQUEST_MISMATCH",
+    "forwarded": false,
+    "operation": "apply",
+    "request_id": "c41c8bfa-6f13-4096-bd87-32d6ae2b06ce",
+    "service_pid": 51546
+  },
+  {
+    "caller": "TC",
+    "code": "COMMITTED",
+    "forwarded": true,
+    "operation": "apply",
+    "request_id": "6f1fb543-5d2b-4af8-bce8-d56a5e2ad826",
+    "service_pid": 51546,
+    "upstream": {
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 69,
+          "sha256": "c697111b0f366313cc0662a366713682496bfd8fc7a611700b0078d570d346f3"
+        }
+      ],
+      "status": "COMMITTED"
+    }
+  },
+  {
+    "caller": "TC",
+    "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+    "forwarded": false,
+    "operation": "policy-decide",
+    "request_id": "a57a80dd-8556-4b16-803e-241ad7883823",
+    "service_pid": 51546
+  },
+  {
+    "caller": "TC",
+    "code": "HOST_RESPONSE",
+    "forwarded": true,
+    "operation": "quiesce",
+    "request_id": "467494c0-5daa-43af-8684-5303afa648ca",
+    "service_pid": 51546,
+    "upstream": {
+      "proofs": [
+        "/private/tmp/zugot-integrated-v01/runtime/cs-75b72e84/state/supervisor/5ae4fe3bad0106b1a53cde6eb56e72ec582d088f36dcd16f8f8efd37f6c6b6b8.json"
+      ]
+    }
+  }
+]

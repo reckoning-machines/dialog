@@ -1,0 +1,133 @@
+test_both_checkers_accept_recomputed_control (tests.component.test_adaptation.Adaptation.test_both_checkers_accept_recomputed_control) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_both_checkers_reject_forged_control_result (tests.component.test_adaptation.Adaptation.test_both_checkers_reject_forged_control_result) ... ok
+test_changed_evidence_changes_next_experiment (tests.component.test_adaptation.Adaptation.test_changed_evidence_changes_next_experiment) ... ok
+test_no_large_sample_does_not_invent_a_candidate (tests.component.test_adaptation.Adaptation.test_no_large_sample_does_not_invent_a_candidate) ... ok
+test_single_shock_selects_complement_control (tests.component.test_adaptation.Adaptation.test_single_shock_selects_complement_control) ... ok
+test_f16_unreadable_worker_is_not_proven_dead (tests.component.test_audit_regressions.AuditRegressions.test_f16_unreadable_worker_is_not_proven_dead) ... ok
+test_f6_rejected_genesis_preserved_without_poisoning_empty_ledgers (tests.component.test_audit_regressions.AuditRegressions.test_f6_rejected_genesis_preserved_without_poisoning_empty_ledgers) ... ok
+test_f7_reader_rejects_apply_without_its_pass_check (tests.component.test_audit_regressions.AuditRegressions.test_f7_reader_rejects_apply_without_its_pass_check) ... ok
+test_clock_file_rollback_fails_against_durable_receipts (tests.component.test_boundaries.BoundaryComponents.test_clock_file_rollback_fails_against_durable_receipts) ... ok
+test_inventory_detects_modified_artifact (tests.component.test_boundaries.BoundaryComponents.test_inventory_detects_modified_artifact) ... ok
+test_narrower_grant_denies_removed_right (tests.component.test_boundaries.BoundaryComponents.test_narrower_grant_denies_removed_right) ... ok
+test_real_process_death_only_operational_receipts_empty_governed_ledgers (tests.component.test_boundaries.BoundaryComponents.test_real_process_death_only_operational_receipts_empty_governed_ledgers) ... ok
+test_receipt_reconstruction_from_fabricated_commit_envelopes (tests.component.test_boundaries.BoundaryComponents.test_receipt_reconstruction_from_fabricated_commit_envelopes) ... ok
+test_runtime_catalog_has_executable_schedules (tests.component.test_boundaries.BoundaryComponents.test_runtime_catalog_has_executable_schedules) ... ok
+test_supported_source_extraction_and_listing (tests.component.test_boundaries.BoundaryComponents.test_supported_source_extraction_and_listing) ... ok
+test_templates_have_process_isolation_controls (tests.component.test_boundaries.BoundaryComponents.test_templates_have_process_isolation_controls) ... ok
+test_conditional_append_collision (tests.component.test_build.Accounting.test_conditional_append_collision) ... ok
+test_cross_grant_lineage (tests.component.test_build.Accounting.test_cross_grant_lineage) ... ok
+test_duplicate_settlement (tests.component.test_build.Accounting.test_duplicate_settlement) ... ok
+test_exact_prospective_reference (tests.component.test_build.Accounting.test_exact_prospective_reference) ... ok
+test_fence_releases_allowance_but_not_liability (tests.component.test_build.Accounting.test_fence_releases_allowance_but_not_liability) ... ok
+test_frozen_expiry_and_invalidation (tests.component.test_build.Accounting.test_frozen_expiry_and_invalidation) ... ok
+test_invalid_settlement (tests.component.test_build.Accounting.test_invalid_settlement) ... ok
+test_overrun (tests.component.test_build.Accounting.test_overrun) ... ok
+test_pending_close_retains_maximum (tests.component.test_build.Accounting.test_pending_close_retains_maximum) ... ok
+test_pool_competition_pure_order (tests.component.test_build.Accounting.test_pool_competition_pure_order) ... ok
+test_reservation_expiry (tests.component.test_build.Accounting.test_reservation_expiry) ... ok
+test_settle_without_clock_after_fence_and_revocation (tests.component.test_build.Accounting.test_settle_without_clock_after_fence_and_revocation) ... ok
+test_strict_elapsed_equality (tests.component.test_build.Accounting.test_strict_elapsed_equality) ... ok
+test_unauthorized_fence (tests.component.test_build.Accounting.test_unauthorized_fence) ... ok
+test_bad_designs (tests.component.test_build.CheckerCoverage.test_bad_designs) ... ok
+test_bad_hypothesis (tests.component.test_build.CheckerCoverage.test_bad_hypothesis) ... ok
+test_import_independence (tests.component.test_build.CheckerCoverage.test_import_independence) ... ok
+test_missing_setup_fields (tests.component.test_build.CheckerCoverage.test_missing_setup_fields) ... ok
+test_ordinary_both_algorithms (tests.component.test_build.CheckerCoverage.test_ordinary_both_algorithms) ... ok
+test_own_subject_and_second_checker (tests.component.test_build.CheckerCoverage.test_own_subject_and_second_checker) ... ok
+test_startup_16_computed_cases (tests.component.test_build.CheckerCoverage.test_startup_16_computed_cases) ... ok
+test_unsupported_science (tests.component.test_build.CheckerCoverage.test_unsupported_science) ... ok
+test_clock_persistence_and_rollback (tests.component.test_build.EmptyStorageAndClock.test_clock_persistence_and_rollback) ... ok
+test_disposable_development_has_no_manual_permit_gate (tests.component.test_build.EmptyStorageAndClock.test_disposable_development_has_no_manual_permit_gate) ... ok
+test_engine_gate_without_constructing_store (tests.component.test_build.EmptyStorageAndClock.test_engine_gate_without_constructing_store) ... ok
+test_storage_request_transaction_and_concurrency_without_genesis (tests.component.test_build.EmptyStorageAndClock.test_storage_request_transaction_and_concurrency_without_genesis) ... ok
+test_bad_units (tests.component.test_build.Encoding.test_bad_units) ... ok
+test_canonical (tests.component.test_build.Encoding.test_canonical) ... ok
+test_clock_time (tests.component.test_build.Encoding.test_clock_time) ... ok
+test_duplicate_key (tests.component.test_build.Encoding.test_duplicate_key) ... ok
+test_exact_units (tests.component.test_build.Encoding.test_exact_units) ... ok
+test_float (tests.component.test_build.Encoding.test_float) ... ok
+test_formation (tests.component.test_build.Tools.test_formation) ... ok
+test_independent_algorithms_random_inputs (tests.component.test_build.Tools.test_independent_algorithms_random_inputs) ... ok
+test_invalid_rows (tests.component.test_build.Tools.test_invalid_rows) ... ok
+test_provider_that_may_outlive_its_caller_needs_a_disposition (tests.component.test_experiment.CallerExecutedTools.test_provider_that_may_outlive_its_caller_needs_a_disposition) ... ok
+test_replacement_rules_for_caller_tools (tests.component.test_experiment.CallerExecutedTools.test_replacement_rules_for_caller_tools) ... ok
+test_attempts_match_declared_input_shapes_and_measures (tests.component.test_experiment.HistoricalDocuments.test_attempts_match_declared_input_shapes_and_measures) ... ok
+test_design_records_without_an_attempt_and_class_inheritance (tests.component.test_experiment.HistoricalDocuments.test_design_records_without_an_attempt_and_class_inheritance) ... ok
+test_historical_document_rules (tests.component.test_experiment.HistoricalDocuments.test_historical_document_rules)
+A source declared historical refuses synthetic labels and incomplete provenance, and stamps the class it admits. ... ok
+test_profile_loads_with_the_new_shapes (tests.component.test_experiment.HistoricalDocuments.test_profile_loads_with_the_new_shapes) ... ok
+test_both_profiles_load_and_declare_their_shape (tests.component.test_experiment.ProfileLoading.test_both_profiles_load_and_declare_their_shape) ... ok
+test_malformed_profiles_are_refused (tests.component.test_experiment.ProfileLoading.test_malformed_profiles_are_refused) ... ok
+test_tariffs (tests.component.test_experiment.ProfileLoading.test_tariffs) ... ok
+test_finish_refuses_a_different_receipt_for_the_same_claim (tests.component.test_experiment.ReceiptBinding.test_finish_refuses_a_different_receipt_for_the_same_claim)
+Through a real engine and store on a disposable bundle: the caller's first receipt binds; a second differing one is refused. ... ok
+test_headline_returns_extraction (tests.component.test_experiment.RowRatio.test_headline_returns_extraction) ... ok
+test_reproduces_the_src_syn_extraction (tests.component.test_experiment.RowRatio.test_reproduces_the_src_syn_extraction) ... ok
+test_attempt_admission_follows_the_declared_steps_and_tariff (tests.component.test_experiment.RulesReadTheProfile.test_attempt_admission_follows_the_declared_steps_and_tariff) ... ok
+test_observation_route_follows_the_declared_source_rules (tests.component.test_experiment.RulesReadTheProfile.test_observation_route_follows_the_declared_source_rules) ... ok
+test_declared_quarter_and_half_steps_complete (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_declared_quarter_and_half_steps_complete) ... ok
+test_invalid_funding_and_transition_scope_refuse (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_invalid_funding_and_transition_scope_refuse) ... ok
+test_lost_check_and_settlement_responses_reopen_and_replay_once (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_lost_check_and_settlement_responses_reopen_and_replay_once) ... ok
+test_non_checker_step_cannot_be_committed_as_check (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_non_checker_step_cannot_be_committed_as_check) ... ok
+test_unauthorized_actors_and_receipt_reuse_refuse (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_unauthorized_actors_and_receipt_reuse_refuse) ... ok
+test_undeclared_steps_and_mismatched_maxima_refuse (tests.integration.test_checker_steps.DeclaredCheckerSteps.test_undeclared_steps_and_mismatched_maxima_refuse) ... ok
+test_generic_startup_reproduces_the_synthetic_sixteen (tests.integration.test_langgraph_example.GenericStartup.test_generic_startup_reproduces_the_synthetic_sixteen)
+arh_client.startup against the synthetic bundle yields the same sixteen transitions as acceptance.runtime.startup_records. ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_every_demonstration_holds (tests.integration.test_langgraph_example.HeadlineExample.test_every_demonstration_holds) ... ok
+test_example_runs_from_outside_the_checkout (tests.integration.test_langgraph_example.HeadlineExample.test_example_runs_from_outside_the_checkout)
+The package boundary: a copy of the example in a temporary directory, importing only arh_client, against a host started in the checkout. ... ok
+test_local_page_and_routes (tests.integration.test_local_documents.LocalApi.test_local_page_and_routes) ... 4c21c607d1f283339279accf4b8e0670b5b2f56693c30ecba3561569c1ec73d0
+ok
+test_derive_on_empty_ledgers (tests.integration.test_local_documents.LocalDocuments.test_derive_on_empty_ledgers) ... ok
+test_one_usable_workflow_with_stop_and_resume (tests.integration.test_local_documents.LocalDocuments.test_one_usable_workflow_with_stop_and_resume) ... 4c21c607d1f283339279accf4b8e0670b5b2f56693c30ecba3561569c1ec73d0
+ok
+test_a_selection_without_a_rule_names_its_own_question (tests.integration.test_memo_returns.Conclusions.test_a_selection_without_a_rule_names_its_own_question) ... ok
+test_refusals_explain_themselves (tests.integration.test_memo_returns.Conclusions.test_refusals_explain_themselves) ... ok
+test_results_broader_than_metric_and_n (tests.integration.test_memo_returns.Conclusions.test_results_broader_than_metric_and_n) ... ok
+test_keys_persist_before_use_and_a_lost_reply_is_resolved_from_the_core (tests.integration.test_memo_returns.Journal.test_keys_persist_before_use_and_a_lost_reply_is_resolved_from_the_core) ... ok
+test_state_namespaces_merge_by_operation (tests.integration.test_memo_returns.Journal.test_state_namespaces_merge_by_operation) ... ok
+test_project_resolves_analyses_and_budgets (tests.integration.test_memo_returns.ProjectFile.test_project_resolves_analyses_and_budgets) ... ok
+test_setup_files_regenerate_byte_identical_from_project_json (tests.integration.test_memo_returns.ProjectFile.test_setup_files_regenerate_byte_identical_from_project_json) ... ok
+test_every_demonstration_holds (tests.integration.test_memo_returns.TwoSourceExample.test_every_demonstration_holds) ... ok
+test_a_changed_environment_opens_read_only (tests.integration.test_reopen_identity.ReopenIdentity.test_a_changed_environment_opens_read_only) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_an_older_bundle_without_the_identity_falls_back_to_the_full_inventory (tests.integration.test_reopen_identity.ReopenIdentity.test_an_older_bundle_without_the_identity_falls_back_to_the_full_inventory) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_the_inventory_names_what_takes_part (tests.integration.test_reopen_identity.ReopenIdentity.test_the_inventory_names_what_takes_part) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_unrelated_edits_keep_a_run_live_and_execution_edits_do_not (tests.integration.test_reopen_identity.ReopenIdentity.test_unrelated_edits_keep_a_run_live_and_execution_edits_do_not) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_client_analysis_module_uses_only_the_standard_library_and_the_package (tests.integration.test_signal_groups.CandidateRuleThroughTheClient.test_client_analysis_module_uses_only_the_standard_library_and_the_package) ... ok
+test_gather_history_reads_selection_records (tests.integration.test_signal_groups.CandidateRuleThroughTheClient.test_gather_history_reads_selection_records) ... ok
+test_same_conclusion_different_history_different_set (tests.integration.test_signal_groups.CandidateRuleThroughTheClient.test_same_conclusion_different_history_different_set) ... ok
+test_the_whole_demonstration (tests.integration.test_signal_groups.Experience.test_the_whole_demonstration) ... ef936b6534d92cb8f34aa553dd8313048b73b1b2137e9990dd490242621a9181
+ok
+test_own_table_recorded_historical_and_the_loop_completed (tests.integration.test_signal_groups.OwnCsvThroughTheCommandLine.test_own_table_recorded_historical_and_the_loop_completed) ... b14b80f99cfa99f6a715de75e6133eea6ceecfa39c1cbbce7707b36759c06655
+ok
+test_exact_statistics_agree_with_an_independent_float_computation (tests.integration.test_signal_groups.Script.test_exact_statistics_agree_with_an_independent_float_computation) ... ok
+test_hand_computed_case (tests.integration.test_signal_groups.Script.test_hand_computed_case) ... ok
+test_page_cohorts_runs_and_one_live_cycle (tests.workbench.test_workbench.Api.test_page_cohorts_runs_and_one_live_cycle) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_identity_ignores_working_tree_status_and_variants_declare_themselves (tests.workbench.test_workbench.BuildIdentity.test_identity_ignores_working_tree_status_and_variants_declare_themselves) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_control_survives_passes_its_diagnostic (tests.workbench.test_workbench.Cohorts.test_control_survives_passes_its_diagnostic) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_independent_shocks_reproduces_rather_than_controls (tests.workbench.test_workbench.Cohorts.test_independent_shocks_reproduces_rather_than_controls) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_original_matches_e01 (tests.workbench.test_workbench.Cohorts.test_original_matches_e01) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_empty_history_asks_for_research_first (tests.workbench.test_workbench.Records.test_empty_history_asks_for_research_first) ... ok
+test_retained_e01_history_derives_as_complete (tests.workbench.test_workbench.Records.test_retained_e01_history_derives_as_complete) ... ok
+test_completed_run_reopens_with_nothing_permitted_and_core_still_refuses (tests.workbench.test_workbench.Reopen.test_completed_run_reopens_with_nothing_permitted_and_core_still_refuses) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+test_differing_build_opens_read_only (tests.workbench.test_workbench.Reopen.test_differing_build_opens_read_only) ... ok
+test_interrupted_run_resumes_without_duplicate_work (tests.workbench.test_workbench.Reopen.test_interrupted_run_resumes_without_duplicate_work) ... d594d689c294fa7c0d0fadfc10553a491f5eb14afeee927bd5de98ad7109dc9d
+ok
+
+----------------------------------------------------------------------
+Ran 106 tests in 100.472s
+
+OK

@@ -1,3 +1,15 @@
+# Current handoff — ZUGOT local application
+
+Current state: 2026-11-03. The owner authorized merging/pushing ARH, implementing and launching the local synthetic app, renaming it ZUGOT, and publishing this checkout to `https://github.com/reckoning-machines/zugot.git`. These directions supersede the prior domain-build/publication prohibitions for this scope.
+
+Start with [ZUGOT.md](ZUGOT.md), [implementation evidence](validation/local_app/REPORT.md), and [integrated consumer validation](validation/v01_integrated_m1/REPORT.md). ARH main is merged and pushed at `76234ff1816d95432a87de69b3337db5401349d4`; its newer remote README and unrelated work are preserved. ZUGOT pins that exact commit. All 14 unchanged V-01 witnesses passed. The final application has a retained test report and an independent local environment. Browser URL: `http://127.0.0.1:8787/`.
+
+No real providers, brokers, capital, IRIS or public app deployment. The loopback app uses a cooperative trusted service; broad Principal possession is not scoped enforcement. B-02 and old validation evidence remain byte-exact. Root README is the historical document baseline; ZUGOT.md is the application entry point. Git commits and remote confirmation are recorded in the final handoff, outside the commit itself.
+
+## Superseded historical handoff
+
+The following describes the state before the owner's implementation and publication authorization. Its former stop instructions do not govern the authorized ZUGOT local build.
+
 # Current handoff — RV-03-C1 passed; LangGraph selected
 
 Current state: 2026-11-02. The owner-authorized bounded upstream RV-03 repair and unchanged V-01 consumer rerun are complete. **All 14 mandatory consumer witnesses pass**, with no skipped/failed witness or revised acceptance criterion. LangGraph 1.2.19 is selected for the bounded coordinator role; it grants no authority. Domain/portfolio/UI implementation remains outside this authorization.

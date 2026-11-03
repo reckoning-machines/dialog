@@ -1,0 +1,11 @@
+{
+  "attempt": 50,
+  "execution": "registered",
+  "record": {
+    "ledger": "E",
+    "sequence": 52,
+    "sha256": "847c2beafdc8ecdcfcdb71ed4e1cf64db5541e803333436455f7188993cf191a"
+  },
+  "reservation": 48,
+  "status": "recorded"
+}

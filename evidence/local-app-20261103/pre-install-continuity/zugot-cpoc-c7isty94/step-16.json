@@ -1,0 +1,1532 @@
+{
+  "allocations": [
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "T1": 199
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D1",
+      "denominator": "99980.00000",
+      "excluded": {
+        "R1": "Strategy is rejected"
+      },
+      "fee_ceiling": "19.90",
+      "id": "AL-1",
+      "opening_nav": "100000.00",
+      "portfolio_revision": 18,
+      "requested": {
+        "R1": 200,
+        "T1": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    },
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "R2": 99,
+        "T2": 99
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "R2": "199.84040",
+            "T2": "199.84040"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "R2": "124.90025000",
+            "T2": "124.90025000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "R2": "99.96020000000000000000000000",
+            "T2": "99.96020000000000000000000000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D2",
+      "denominator": "99920.20000",
+      "excluded": {},
+      "fee_ceiling": "19.80",
+      "id": "AL-2",
+      "opening_nav": "99960.20",
+      "portfolio_revision": 84,
+      "requested": {
+        "R2": 200,
+        "T2": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    }
+  ],
+  "arh": {
+    "E": 104,
+    "N": 15,
+    "asof": 1793700689.696624,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "86787dcd700540f99b211d26c4c3ed67",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "80140.40",
+    "cash_after_commitments": "80140.40",
+    "commitments": "0.00",
+    "exit_turnover": {
+      "D1": "19900.00"
+    },
+    "fees": "59.60",
+    "nav": "99940.40",
+    "orders": [
+      {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 20,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 54,
+        "side": "SELL",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      },
+      {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 99,
+        "id": "AL-2/T2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "remaining": 0,
+        "revision": 86,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T2",
+        "virtual_time": "D2 18:00"
+      },
+      {
+        "day": "D2",
+        "decision": "AL-2",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 99,
+        "id": "AL-2/R2/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 99,
+        "remaining": 0,
+        "revision": 88,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "R2",
+        "virtual_time": "D2 18:00"
+      }
+    ],
+    "ordinary_turnover": {
+      "D1": "19900.00",
+      "D2": "19800.00"
+    },
+    "pnl": "-59.60",
+    "positions": {
+      "R2": 99,
+      "T1": 0,
+      "T2": 99
+    },
+    "quantity": 198
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793394000000
+    },
+    "G-C1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793394000000
+    },
+    "G-C2": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C2",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793394000000
+    },
+    "G-R1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793394000000
+    },
+    "G-R2": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.25",
+      "grant": "G-R2",
+      "headroom": "7.75",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "7.25",
+      "time_ms": 1793394000000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:15"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2595",
+          "sha256": "ff929dc248446a562922c4c0f66a53be962c7201eed4570b324543cbb86d1fc3"
+        }
+      },
+      "created": 1793700689.1691,
+      "key": "mark/2595",
+      "kind": "MONITOR",
+      "seq": 112,
+      "sha256": "86ba74a2cf5b05ee2b1de05cbaba55e7f366b2007eb54a175f387b394e009d1f"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:20"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2600",
+          "sha256": "819e6b50f061a6d6f9d86058ee014e3812241a11775e774e71a4608f0351a32e"
+        }
+      },
+      "created": 1793700689.175134,
+      "key": "mark/2600",
+      "kind": "MONITOR",
+      "seq": 113,
+      "sha256": "8fa0545eac77430867817a2627cea23059839882b28208483bf34aca5a414047"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:25"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2605",
+          "sha256": "a4a944301c710f4ff4809e20d0f82406f36323c48ac124be9b0f470c1ca7b46f"
+        }
+      },
+      "created": 1793700689.180637,
+      "key": "mark/2605",
+      "kind": "MONITOR",
+      "seq": 114,
+      "sha256": "1ba69b2c00241a978a7c628b671454308b5060fe5620ca420e3b10cbbd07bd0a"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:30"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2610",
+          "sha256": "f382381d22154cd454bbc3cb5d364378dcfbcfe5c1768e4ed237aa0e5f0a163c"
+        }
+      },
+      "created": 1793700689.1924329,
+      "key": "mark/2610",
+      "kind": "MONITOR",
+      "seq": 115,
+      "sha256": "d15f2a12d0f4a325f84f9da652ef5c3acdb5e5a1aa1f98b137677ae22d9ee86f"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:35"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2615",
+          "sha256": "dd185e39b3ae9222baa442548403c98919caef6e7b28adf72c47ba63912b7ccf"
+        }
+      },
+      "created": 1793700689.198281,
+      "key": "mark/2615",
+      "kind": "MONITOR",
+      "seq": 116,
+      "sha256": "22d107036a25fc76810da94f92176307fd6d7bf1a4d8bb09c643552b936b89a1"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:40"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2620",
+          "sha256": "e98e6029f5597b2814996172752d4baf009d839c580494fbee813d6ab7aa1efe"
+        }
+      },
+      "created": 1793700689.203933,
+      "key": "mark/2620",
+      "kind": "MONITOR",
+      "seq": 117,
+      "sha256": "48b8f45e7156ff030c295c943685a1e2ffba0e0938b8ca142d6e9ecf5649ebc3"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:45"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2625",
+          "sha256": "e81aaf403c5d258361032e618abc3b4b77d93c63b3d4d43e0a254e97b6afcf26"
+        }
+      },
+      "created": 1793700689.209898,
+      "key": "mark/2625",
+      "kind": "MONITOR",
+      "seq": 118,
+      "sha256": "89cd6507e7d34ebe56d0a5be39bdfab73899bc38e8c1d956b24ed7314e267b05"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:50"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2630",
+          "sha256": "dcafd1ecc520a9292640e49246cf3e588b25b2d0c250e503e929118111961bce"
+        }
+      },
+      "created": 1793700689.216896,
+      "key": "mark/2630",
+      "kind": "MONITOR",
+      "seq": 119,
+      "sha256": "54f11a5ba6a806bf3135f3e300980a2381082c38ff03a39260f1bed9c87346c6"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 19:55"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2635",
+          "sha256": "839c3329b2b5c305c690f158fd0e990203366100c1aded334b72e2f8551210f3"
+        }
+      },
+      "created": 1793700689.2224529,
+      "key": "mark/2635",
+      "kind": "MONITOR",
+      "seq": 120,
+      "sha256": "775db37752375f2b4924655c511714f2be15fe5ef22b6e2876149b40840ef4f2"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:00"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2640",
+          "sha256": "499d123bdc573a0d56ff2e6b4e32a448ed793336006d1ed4382d8e98c5fe383b"
+        }
+      },
+      "created": 1793700689.227485,
+      "key": "mark/2640",
+      "kind": "MONITOR",
+      "seq": 121,
+      "sha256": "c0f5b4231430f7ac32af4534ff515cda95b73ad7d18d2fd678383ce4f047c0cb"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:05"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2645",
+          "sha256": "3deddbf28254936b5c1821eddfb0bacb0e1cfbd97be23da90cd2af0d30ca022c"
+        }
+      },
+      "created": 1793700689.233123,
+      "key": "mark/2645",
+      "kind": "MONITOR",
+      "seq": 122,
+      "sha256": "f0781fd1113717d1f73b8b80e60cd470d4a74b63289d8b9523f9fb7ddc8596a8"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:10"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2650",
+          "sha256": "737edba53dbf03e5d053b93ddb3d8e1391108175d3c7fd690dd85b3b04dfd590"
+        }
+      },
+      "created": 1793700689.238506,
+      "key": "mark/2650",
+      "kind": "MONITOR",
+      "seq": 123,
+      "sha256": "03bead34cc71a967a651623c799fe4d4d8f1066f738f6b066a79c7dea5bfbc33"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:15"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2655",
+          "sha256": "1167cf9384f2a33ba4091e841e4c94c710ddf62b5fc870048529b4985788f525"
+        }
+      },
+      "created": 1793700689.244212,
+      "key": "mark/2655",
+      "kind": "MONITOR",
+      "seq": 124,
+      "sha256": "4eafe03701c37df2ff735d2b615b418a2e69b4f2233c1045c6193983c55d7d66"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:20"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2660",
+          "sha256": "fc2a6ec9ed558aa69b659f16493c50ba71d61174a0a60745f025e5b5c4ef0b4b"
+        }
+      },
+      "created": 1793700689.250865,
+      "key": "mark/2660",
+      "kind": "MONITOR",
+      "seq": 125,
+      "sha256": "165d5fdf0a1a83410f79bc6f80dd172469b444bf15309d32c67ce023f470462d"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:25"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2665",
+          "sha256": "d0f24fec1179987fda6186327b8c3452804e4817211efed784d316cd71579fd7"
+        }
+      },
+      "created": 1793700689.256824,
+      "key": "mark/2665",
+      "kind": "MONITOR",
+      "seq": 126,
+      "sha256": "39764f428be249dfaa883d55e8793131b15e61b46648151033bd54965afa8f61"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:30"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2670",
+          "sha256": "c07202af8c2f5da39204f4e8e9cdff01b228493dba63fdc94ccd4edffc62a093"
+        }
+      },
+      "created": 1793700689.262135,
+      "key": "mark/2670",
+      "kind": "MONITOR",
+      "seq": 127,
+      "sha256": "fd6c010020396586c280331d335fdfcea8f368ea62cfe5a2214e8f65489c9124"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:35"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2675",
+          "sha256": "441e4de3f860e0fe77a4e21731c0c8d9ee95a8476719f71620ab6bd74b6608fc"
+        }
+      },
+      "created": 1793700689.267871,
+      "key": "mark/2675",
+      "kind": "MONITOR",
+      "seq": 128,
+      "sha256": "0c97f65cf64423bec0c0951e45c9f01cd4722aec9430115c042acf300f17a350"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:40"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2680",
+          "sha256": "0e8f7edd3addf1ebd4a9579f539762cc1b099da20d33c12a4f3dd5dc6dfacf8e"
+        }
+      },
+      "created": 1793700689.283042,
+      "key": "mark/2680",
+      "kind": "MONITOR",
+      "seq": 129,
+      "sha256": "8b19ac58205c5eadcdf4f704ef0b7e259a63a215f01d8a2e58ea4857b33cd4f2"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:45"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2685",
+          "sha256": "81efc01026dddbedd732b950c172114ff0eeced266f36556876cc4a9da996fb2"
+        }
+      },
+      "created": 1793700689.2908301,
+      "key": "mark/2685",
+      "kind": "MONITOR",
+      "seq": 130,
+      "sha256": "32a5eaba59f9784232f29a864e622bc1f3fa89cfee1bfb82f25ee0cb550e29a7"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:50"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2690",
+          "sha256": "a33ca8dd4d3e9511ca23a2da728b7ecb077fa83a36ea80b39a33f32a6c032222"
+        }
+      },
+      "created": 1793700689.296756,
+      "key": "mark/2690",
+      "kind": "MONITOR",
+      "seq": 131,
+      "sha256": "d8ba51e9f123eeeda9af89e91f2e09770042e55d8ec6f244e4e5b47dc491a783"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 20:55"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2695",
+          "sha256": "06164cfe2162ef21a0b540f2c9370e90178be97b93c7b7c2fd4cbb936f0d8193"
+        }
+      },
+      "created": 1793700689.3015301,
+      "key": "mark/2695",
+      "kind": "MONITOR",
+      "seq": 132,
+      "sha256": "aa00400eb589cee00bd383d9b54875d2cb162f6b97b72f1be520568545883687"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D2 21:00"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "R2": 99,
+          "T1": 0,
+          "T2": 99
+        },
+        "source": {
+          "adapter_key": "mark/2700",
+          "sha256": "c7cbb36d52fc12c90d7980b5193584de4b5b0f2281b07408cf168226dd17645d"
+        }
+      },
+      "created": 1793700689.306871,
+      "key": "mark/2700",
+      "kind": "MONITOR",
+      "seq": 133,
+      "sha256": "c63e02272b564ef3dfbde34fff48efdbcf5d48e1612b5bede4b1728f90c48996"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "exit_only_preserved": true,
+        "opening": true,
+        "reason": "Research schedules do not define holding periods"
+      },
+      "created": 1793700689.3740668,
+      "key": "opening-expired",
+      "kind": "AUTHORITY_EXPIRED",
+      "seq": 134,
+      "sha256": "a8badb31871253789e3d94faaadc9421054404b31f36300b9578db002dbaa98f"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Opening authority expires",
+        "step": 16,
+        "virtual_time": "D2 21:00"
+      },
+      "created": 1793700689.709143,
+      "key": "step/16",
+      "kind": "STEP",
+      "seq": 135,
+      "sha256": "f010df5fb3f8689561556d0e44962618cb5974bb121ddc12fd11e0f5b914fcf6"
+    }
+  ],
+  "clock": "D2 21:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "2f8fe818be84afd7cc90efd3f9e181ed42c77774266aae7efe0dc9bf45315a38"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "d492fdb38533247909b6511e8ef1b510aa136eb899253f4e5df147dc22283fdf"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+        },
+        "run": "3482119ee13646458475b082755f473c"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "9a40da534ec34e4105a425cb65397d8cd8b7a6357e70cbb9bf35cf1dcb258f7e"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "94b521515361ba874990d1212ca3df920b121cc216a4a883c2158dd5100cbbf0"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+        },
+        "run": "3482119ee13646458475b082755f473c"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 75,
+        "sha256": "ec020d2ac586b9b2837ec3fbd94b7e87c11890e6bfb4147b7ae09cb434705843"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 59,
+          "sha256": "8294a3c5226cf62198401225abb5ff7454a8746926d438c19733edcf7455bb0b"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 57,
+          "sha256": "8cbb733e6dc927f3670768d76787e45551fe26193bb8a63cadc468630fc7aedf"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 58,
+          "sha256": "4bf1bbf9d48ec50a4702a6ba2df5cbb659a2738118c2ce4a88900bfdc07350b6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 91,
+          "sha256": "ebd71a4ea4d00ac9a0cbec7678db322b622192ab42302c04815533e08c2fac72"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "6cc3eb35b93a5221360863a03c73fbb5a05965ca6e99d63bdce01c633fb0ccc3"
+        },
+        "run": "86787dcd700540f99b211d26c4c3ed67"
+      },
+      "no_forward_support": true,
+      "partition": "V2T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T2"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 77,
+        "sha256": "dadb450cf5c77790def0360fff8ff5735a537abcb6c60caefd365843fcd8b1ec"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 63,
+          "sha256": "a77eeb3ff3b70cb18d515c00374905d0b7ffe38daed338a49bf3c29669fcd526"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 61,
+          "sha256": "2ed106b26a44d5bcb060a60c574829f6f0a10b94343bd6224d748a8cc9fc5640"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 62,
+          "sha256": "a3b87d1fbbc609b18fcacbffd7436e52cf81f0d5bb80d7308c20ffb2dd52b450"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 97,
+          "sha256": "639aa045271331067da8fa5f30ffe5a3a2ac3a5e4c71803f9ee95826493bfc46"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "1deac6bf8388d2678d0867f0c334d6e1c61ddec3388ea7b0398e0ea8954a3f3a"
+        },
+        "run": "86787dcd700540f99b211d26c4c3ed67"
+      },
+      "no_forward_support": true,
+      "partition": "V2R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R2"
+    }
+  ],
+  "error": null,
+  "exits": [
+    {
+      "authority": "DA-X / C-05",
+      "deadline": "D1 20:00",
+      "envelope": "249.95",
+      "pre_exit_nav": "99980.10",
+      "quantity": 199,
+      "revision": 53,
+      "strategy": "T1",
+      "target": 0
+    }
+  ],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "ZUGOT",
+  "next": "Scheduled final exits",
+  "obligations": {
+    "E": 104,
+    "N": 15,
+    "bindings": {
+      "102": "CONSUMED",
+      "65": "CONSUMED",
+      "71": "CONSUMED",
+      "96": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "opening_expired": true,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "aa5b3e937b83e8824240995a8392b1274dc240e53826355f8e5c8f49624ffe95"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "8f44381dc16cae7d90ae96c911d9067274b3c027c6bd5a081ed63a2867cdf975"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 80,
+        "sha256": "1e35e94a205f4d860c61729e63b03765e0fa06c9d2342ae9eddfeddd362569fe"
+      },
+      "name": "T2",
+      "original_attempt": 80,
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "record": {
+        "ledger": "E",
+        "sequence": 82,
+        "sha256": "6cc3eb35b93a5221360863a03c73fbb5a05965ca6e99d63bdce01c633fb0ccc3"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "40",
+        "drawdown": "0",
+        "equity": [
+          "1015",
+          "1025",
+          "1040"
+        ],
+        "gross": "70",
+        "n": 3,
+        "stress_net": "10",
+        "sum_bp": 700
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 87,
+        "sha256": "0d65a1ac97c85489697c44dad541a645bae7c72317fcf4f67004f2ffdb0f86ec"
+      },
+      "name": "R2",
+      "original_attempt": 81,
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "record": {
+        "ledger": "E",
+        "sequence": 88,
+        "sha256": "1deac6bf8388d2678d0867f0c334d6e1c61ddec3388ea7b0398e0ea8954a3f3a"
+      },
+      "recovered": true,
+      "replacement": true,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "50",
+        "drawdown": "0",
+        "equity": [
+          "1020",
+          "1035",
+          "1050"
+        ],
+        "gross": "80",
+        "n": 3,
+        "stress_net": "20",
+        "sum_bp": 800
+      }
+    }
+  ],
+  "revision": 135,
+  "selections": [
+    {
+      "actor": "R-T",
+      "cycle": 1,
+      "next_question": "Does trend persist across volatility conditions?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 72,
+        "sha256": "fba27bebf00293c197ea24b978f6317dd1228a9a489f7abeb363b08c61779f63"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 1,
+      "next_question": "Does reversal work in quiet regimes?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "82aee97e613e600210b275d66ec56fc8a6b7de6edc43aaa1ac4018faf63ad261"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "436844d3c15e606cf1abb039b2df17cd9bda3817ffac7517a9ce293d97244a2f"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 73,
+        "sha256": "be40a819e0fa1f7a0e72c3ce0ec1e64bc55fcda3760d9228dc48113f2cbb72de"
+      }
+    },
+    {
+      "actor": "R-T",
+      "cycle": 2,
+      "next_question": "No third research slot authorized; monitor current holdings",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "6cc3eb35b93a5221360863a03c73fbb5a05965ca6e99d63bdce01c633fb0ccc3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "1deac6bf8388d2678d0867f0c334d6e1c61ddec3388ea7b0398e0ea8954a3f3a"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 103,
+        "sha256": "4a5b3753e15660b68d5006396da8fb24e1c5b8e5f6623b470a1bebeebcd21808"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 2,
+      "next_question": "No third research slot authorized; monitor current holdings",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 82,
+          "sha256": "6cc3eb35b93a5221360863a03c73fbb5a05965ca6e99d63bdce01c633fb0ccc3"
+        },
+        {
+          "ledger": "E",
+          "sequence": 88,
+          "sha256": "1deac6bf8388d2678d0867f0c334d6e1c61ddec3388ea7b0398e0ea8954a3f3a"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 104,
+        "sha256": "65d1da691c61cb2a711d211fe493f5adbfbac7eaa432396b8c1d00d95a6fc018"
+      }
+    }
+  ],
+  "stage": "Opening authority expires",
+  "step": 16,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "R2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 88,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R2",
+      "instrument": "AAA",
+      "label": "Quiet reversal",
+      "method": "MV-R2",
+      "parent": "R1",
+      "question": "Does reversal work in quiet regimes?",
+      "reason": "First lawful allocation under DA-O",
+      "requested_quantity": 200,
+      "status": "active"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 59,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "Flat, no executable order, all receipts reconciled",
+      "requested_quantity": 200,
+      "status": "retired"
+    },
+    "T2": {
+      "deadline": "D3 20:00",
+      "decision_ref": 86,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T2",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T2",
+      "parent": "T1",
+      "question": "Does trend persist across volatility conditions?",
+      "reason": "First lawful allocation under DA-O",
+      "requested_quantity": 200,
+      "status": "active"
+    }
+  }
+}

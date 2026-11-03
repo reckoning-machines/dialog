@@ -1,0 +1,38 @@
+{
+  "CS-02-main": {
+    "fail": {
+      "ledger": "T",
+      "sequence": 47,
+      "sha256": "20921140e526e05459247888882891be44cc09f2268b96d601b1ec39df18cc0b"
+    },
+    "missing_funding": {
+      "detail": "",
+      "reason": "RESERVATION_CLOSED",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 59,
+          "sha256": "c58149160872e03c436f32118c5da3a4aa5e056f617b81bcde992837d8de30f2"
+        }
+      ],
+      "status": "REFUSED"
+    },
+    "stale": {
+      "detail": "",
+      "reason": "STALE_CHECK",
+      "refs": [
+        {
+          "ledger": "T",
+          "sequence": 57,
+          "sha256": "8d87a5cb5c136c9f80e6945ead7bab7fbf7a812376f7bba85ab7693b4d8c268f"
+        }
+      ],
+      "status": "REFUSED"
+    },
+    "stop": {
+      "ledger": "T",
+      "sequence": 50,
+      "sha256": "4cdf3c58ca2c5490e198adf897587b616bbaef068f71b57e840c9d7297c51c78"
+    }
+  }
+}

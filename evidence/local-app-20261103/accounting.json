@@ -1,0 +1,488 @@
+{
+  "live_desk": "separate .local/zugot; starts with 2.75 startup charges; inspect live public budget for current usage",
+  "no_reused_pools": true,
+  "prior_consumer_validation_charges_separate": "205.00",
+  "retained_allowance": "5.25",
+  "runs": [
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 61,
+          "N": 11,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793296799000
+        },
+        "G-C1": {
+          "E": 61,
+          "N": 11,
+          "committed": "0.00",
+          "grant": "G-C1",
+          "headroom": "2.00",
+          "overspent": false,
+          "reserved": "0.00",
+          "spendable": "2.00",
+          "time_ms": 1793296799000
+        },
+        "G-C2": {
+          "E": 61,
+          "N": 11,
+          "committed": "0.00",
+          "grant": "G-C2",
+          "headroom": "2.00",
+          "overspent": false,
+          "reserved": "0.00",
+          "spendable": "2.00",
+          "time_ms": 1793296799000
+        },
+        "G-R1": {
+          "E": 61,
+          "N": 11,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.00",
+          "spendable": "8.00",
+          "time_ms": 1793296799000
+        },
+        "G-R2": {
+          "E": 61,
+          "N": 11,
+          "committed": "0.00",
+          "grant": "G-R2",
+          "headroom": "10.00",
+          "overspent": false,
+          "reserved": "0.00",
+          "spendable": "10.00",
+          "time_ms": 1793296799000
+        }
+      },
+      "obligations": {
+        "E": 61,
+        "N": 11,
+        "bindings": {},
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "4.50",
+      "retained_allowance": "0.25",
+      "run": "6dbb500cff5c46b9bd1b1b9767914ddd",
+      "source": "repair-history/zugot-smoke-jr906xhr/public-before.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 21,
+          "N": 4,
+          "committed": "1.25",
+          "grant": "AU-CK-V",
+          "headroom": "6.75",
+          "overspent": false,
+          "reserved": "1.25",
+          "spendable": "6.75",
+          "time_ms": 1793232001000
+        }
+      },
+      "obligations": {
+        "E": 21,
+        "N": 4,
+        "bindings": {},
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "1.25",
+      "retained_allowance": "0.00",
+      "run": "f85cf66d033d476b97cd1c8c42e06ba9",
+      "source": "repair-history/02-checker-registration/failed-public.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793476800000
+        },
+        "G-C1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C1",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-C2": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C2",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-R1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.25",
+          "spendable": "7.75",
+          "time_ms": 1793476800000
+        },
+        "G-R2": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.25",
+          "grant": "G-R2",
+          "headroom": "7.75",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "7.25",
+          "time_ms": 1793476800000
+        }
+      },
+      "obligations": {
+        "E": 104,
+        "N": 15,
+        "bindings": {
+          "102": "CONSUMED",
+          "65": "CONSUMED",
+          "71": "CONSUMED",
+          "96": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "8.75",
+      "retained_allowance": "1.00",
+      "run": "1b499a24d9744c84bf098a4ab4903277",
+      "source": "first-smoke/zugot-smoke-39mb7y72/public-final.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793476800000
+        },
+        "G-C1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C1",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-C2": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C2",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-R1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.25",
+          "spendable": "7.75",
+          "time_ms": 1793476800000
+        },
+        "G-R2": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.25",
+          "grant": "G-R2",
+          "headroom": "7.75",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "7.25",
+          "time_ms": 1793476800000
+        }
+      },
+      "obligations": {
+        "E": 104,
+        "N": 15,
+        "bindings": {
+          "102": "CONSUMED",
+          "65": "CONSUMED",
+          "71": "CONSUMED",
+          "96": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "8.75",
+      "retained_allowance": "1.00",
+      "run": "d9ca6d0657774f3aa7de493fdd4f6323",
+      "source": "first-continuity/zugot-cpoc-1v4gi_rq/evidence.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793476800000
+        },
+        "G-C1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C1",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-C2": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C2",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-R1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.25",
+          "spendable": "7.75",
+          "time_ms": 1793476800000
+        },
+        "G-R2": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.25",
+          "grant": "G-R2",
+          "headroom": "7.75",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "7.25",
+          "time_ms": 1793476800000
+        }
+      },
+      "obligations": {
+        "E": 104,
+        "N": 15,
+        "bindings": {
+          "102": "CONSUMED",
+          "65": "CONSUMED",
+          "71": "CONSUMED",
+          "96": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "8.75",
+      "retained_allowance": "1.00",
+      "run": "86787dcd700540f99b211d26c4c3ed67",
+      "source": "pre-install-continuity/zugot-cpoc-c7isty94/evidence.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793476800000
+        },
+        "G-C1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C1",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-C2": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C2",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-R1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.25",
+          "spendable": "7.75",
+          "time_ms": 1793476800000
+        },
+        "G-R2": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.25",
+          "grant": "G-R2",
+          "headroom": "7.75",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "7.25",
+          "time_ms": 1793476800000
+        }
+      },
+      "obligations": {
+        "E": 104,
+        "N": 15,
+        "bindings": {
+          "102": "CONSUMED",
+          "65": "CONSUMED",
+          "71": "CONSUMED",
+          "96": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "8.75",
+      "retained_allowance": "1.00",
+      "run": "7e920d9625dd447dbc856b9edcc8a216",
+      "source": "installed-continuity/zugot-cpoc-ouaat0o2/evidence.json"
+    },
+    {
+      "budgets": {
+        "AU-CK-V": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.75",
+          "grant": "AU-CK-V",
+          "headroom": "5.25",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "5.25",
+          "time_ms": 1793476800000
+        },
+        "G-C1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C1",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-C2": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.00",
+          "grant": "G-C2",
+          "headroom": "1.00",
+          "overspent": false,
+          "reserved": "1.00",
+          "spendable": "1.00",
+          "time_ms": 1793476800000
+        },
+        "G-R1": {
+          "E": 104,
+          "N": 15,
+          "committed": "1.75",
+          "grant": "G-R1",
+          "headroom": "8.25",
+          "overspent": false,
+          "reserved": "2.25",
+          "spendable": "7.75",
+          "time_ms": 1793476800000
+        },
+        "G-R2": {
+          "E": 104,
+          "N": 15,
+          "committed": "2.25",
+          "grant": "G-R2",
+          "headroom": "7.75",
+          "overspent": false,
+          "reserved": "2.75",
+          "spendable": "7.25",
+          "time_ms": 1793476800000
+        }
+      },
+      "obligations": {
+        "E": 104,
+        "N": 15,
+        "bindings": {
+          "102": "CONSUMED",
+          "65": "CONSUMED",
+          "71": "CONSUMED",
+          "96": "CONSUMED"
+        },
+        "decided_unapplied": [],
+        "no_authority_conferred": true,
+        "pending_attempts": []
+      },
+      "public_committed": "8.75",
+      "retained_allowance": "1.00",
+      "run": "36c49d5ce60343cf8ced65cfc5184efd",
+      "source": "browser/evidence.json"
+    }
+  ],
+  "total_public_committed": "49.50",
+  "unit": "simulated research units"
+}

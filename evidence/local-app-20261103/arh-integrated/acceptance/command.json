@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+    "-m",
+    "acceptance.local",
+    "--jobs",
+    "4",
+    "--output",
+    "/private/tmp/arh-integrated-76234ff/evidence/acceptance-schedules"
+  ],
+  "cwd": "/Users/jedgore/dev/speedway",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "ARH_LANGGRAPH_PYTHON": "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+    "ARH_RV03_EVIDENCE": "/private/tmp/arh-integrated-76234ff/evidence/acceptance/public-host-regressions"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 125.182,
+  "process_pid": 48834,
+  "core_rules_sha256": "d5c92289c3ac53ab30b76f0c12ed6556ca5e08723c55c2806e81dad474cb8c01"
+}

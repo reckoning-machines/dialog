@@ -1,0 +1,9 @@
+{
+  "commit": "76234ff1816d95432a87de69b3337db5401349d4",
+  "repository": "https://github.com/reckoning-machines/adaptive-research-harness.git",
+  "public_client_version": "0.1.0",
+  "client_source_verified_at_start": true,
+  "langgraph": "1.2.19",
+  "langgraph_checkpoint_sqlite": "3.1.3",
+  "gate": "validation/v01_integrated_m1/REPORT.md"
+}

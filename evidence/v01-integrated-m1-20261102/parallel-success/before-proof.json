@@ -1,0 +1,52 @@
+{
+  "replacement": {
+    "raw": {
+      "detail": "",
+      "input": {
+        "executable_hash": "3b7420c3cd065071d2d92fcccc1506a05831bd9b0f39e7aae9fa50ef5e93330e",
+        "input_refs": [
+          {
+            "ledger": "E",
+            "raw_sha256": "3a7a7766b3320f83e86b3e6713e48c292d00185bef3c56d50e96bde8ec31a7a2",
+            "sequence": 34,
+            "sha256": "e2aba5eb13722bc30601c3760d43035ee9e7df59e7f4f843ee3c7649e37e6f9e"
+          }
+        ],
+        "parameters": {
+          "fixture": "V01"
+        },
+        "schema_version": 1,
+        "step": "research",
+        "tool_id": "CALC-V",
+        "tool_spec_hash": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+      },
+      "reason": "WORKER_NOT_QUIESCENT",
+      "refs": [
+        {
+          "ledger": "E",
+          "sequence": 56,
+          "sha256": "95080eff77a5effc3dbd91a2972a9d109ebb8e4cae8a4535520569b392daf75b"
+        }
+      ],
+      "status": "REFUSED"
+    },
+    "reason": "WORKER_NOT_QUIESCENT",
+    "status": "refused"
+  },
+  "reversal": {
+    "attempt": 51,
+    "reservation": 49,
+    "status": "uncertain"
+  },
+  "trend": {
+    "attempt": 50,
+    "execution": "resumed",
+    "record": {
+      "ledger": "E",
+      "sequence": 52,
+      "sha256": "847c2beafdc8ecdcfcdb71ed4e1cf64db5541e803333436455f7188993cf191a"
+    },
+    "reservation": 48,
+    "status": "recorded"
+  }
+}

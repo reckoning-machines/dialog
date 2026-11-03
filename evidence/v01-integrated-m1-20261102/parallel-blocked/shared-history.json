@@ -1,0 +1,238 @@
+[
+  {
+    "actor": "R-T",
+    "body": {
+      "attempt": null,
+      "claims": [
+        {
+          "document": {
+            "ledger": "E",
+            "raw_sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865",
+            "sequence": 37,
+            "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+          },
+          "kind": "REPORTED",
+          "location": "/",
+          "text": "Cited committed input"
+        },
+        {
+          "kind": "INTERPRETATION",
+          "reported": [
+            0
+          ],
+          "text": "Calculated result; historical reconstruction with no forward standing"
+        }
+      ],
+      "class": "synthetic",
+      "closure": {
+        "E": 44,
+        "N": 8,
+        "refs": [
+          {
+            "ledger": "E",
+            "raw_sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865",
+            "sequence": 37,
+            "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+          },
+          {
+            "ledger": "E",
+            "raw_sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a",
+            "sequence": 42,
+            "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+          }
+        ]
+      },
+      "failure": null,
+      "grant": "G-BR",
+      "kind": "SELECTION",
+      "parameters": {
+        "theme": "TH-V-T"
+      },
+      "question": "Select next investigation from shared history",
+      "reproducibility": {
+        "classification": "Historical Reconstruction",
+        "input_refs": [
+          {
+            "ledger": "E",
+            "raw_sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865",
+            "sequence": 37,
+            "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+          },
+          {
+            "ledger": "E",
+            "raw_sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a",
+            "sequence": 42,
+            "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+          }
+        ],
+        "invocation_hash": null,
+        "result_hash": "30f151af74ea1289693860071c873e2375d458583e450ab28def8c7f4445acb8"
+      },
+      "result": {
+        "analysis": {
+          "ledger": "E",
+          "sequence": 37,
+          "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+        },
+        "candidates": [],
+        "chosen": "own",
+        "next_question": "Volatility robustness",
+        "reason": "Retained both researcher variants; no inherited scientific support",
+        "rejections": [
+          {
+            "id": "unrestricted-repeat",
+            "reason": "Shared observed synthetic cost/failure history; do not claim a reused cohort untouched",
+            "reconsider_when": "new_documents"
+          }
+        ],
+        "shared_failure_reference": {
+          "ledger": "E",
+          "sequence": 42,
+          "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+        }
+      },
+      "snapshot": {
+        "identity": "37",
+        "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+      },
+      "source_cutoff": "2026-10-29T00:00:01.000Z",
+      "synthetic": true,
+      "tool": {
+        "id": "CALC-V",
+        "planned": true
+      },
+      "witness": {
+        "E": 44,
+        "N": 8
+      }
+    },
+    "command": {
+      "actor": "R-T",
+      "position": 0,
+      "request_hash": "358390b758c57f998c20d0f6c88264b25c24ecfc051b86d8e2a2de5dc2206f9e",
+      "request_id": "ff067842-286d-452e-b0b0-e676c1d36d70"
+    },
+    "kind": "RESEARCH_RECORD",
+    "seq": 45,
+    "sha256": "dd5dbcc2892804880bfa6f78589fb7a63a74d3aad5ec95ef53e703d13028c88f",
+    "time_ms": 1793232001000
+  },
+  {
+    "actor": "R-R",
+    "body": {
+      "attempt": null,
+      "claims": [
+        {
+          "document": {
+            "ledger": "E",
+            "raw_sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a",
+            "sequence": 42,
+            "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+          },
+          "kind": "REPORTED",
+          "location": "/",
+          "text": "Cited committed input"
+        },
+        {
+          "kind": "INTERPRETATION",
+          "reported": [
+            0
+          ],
+          "text": "Calculated result; historical reconstruction with no forward standing"
+        }
+      ],
+      "class": "synthetic",
+      "closure": {
+        "E": 45,
+        "N": 8,
+        "refs": [
+          {
+            "ledger": "E",
+            "raw_sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a",
+            "sequence": 42,
+            "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+          },
+          {
+            "ledger": "E",
+            "raw_sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865",
+            "sequence": 37,
+            "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+          }
+        ]
+      },
+      "failure": null,
+      "grant": "G-BR",
+      "kind": "SELECTION",
+      "parameters": {
+        "theme": "TH-V-R"
+      },
+      "question": "Select next investigation from shared history",
+      "reproducibility": {
+        "classification": "Historical Reconstruction",
+        "input_refs": [
+          {
+            "ledger": "E",
+            "raw_sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a",
+            "sequence": 42,
+            "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+          },
+          {
+            "ledger": "E",
+            "raw_sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865",
+            "sequence": 37,
+            "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+          }
+        ],
+        "invocation_hash": null,
+        "result_hash": "2efe953ceb37a4553d0e3fe87183e673cca904cdd203dfd73d7010bda1b32aae"
+      },
+      "result": {
+        "analysis": {
+          "ledger": "E",
+          "sequence": 42,
+          "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+        },
+        "candidates": [],
+        "chosen": "own",
+        "next_question": "Quiet-regime reversal",
+        "reason": "Retained both researcher variants; no inherited scientific support",
+        "rejections": [
+          {
+            "id": "unrestricted-repeat",
+            "reason": "Shared observed synthetic cost/failure history; do not claim a reused cohort untouched",
+            "reconsider_when": "new_documents"
+          }
+        ],
+        "shared_failure_reference": {
+          "ledger": "E",
+          "sequence": 37,
+          "sha256": "6de545411e58db7420d00c53b0e89f309814e6e59d39764adae489ea05837865"
+        }
+      },
+      "snapshot": {
+        "identity": "42",
+        "sha256": "29f0aae008ff4799c49959f51c3417f7c897f0358aebe3cde93870367947056a"
+      },
+      "source_cutoff": "2026-10-29T00:00:01.000Z",
+      "synthetic": true,
+      "tool": {
+        "id": "CALC-V",
+        "planned": true
+      },
+      "witness": {
+        "E": 45,
+        "N": 8
+      }
+    },
+    "command": {
+      "actor": "R-R",
+      "position": 0,
+      "request_hash": "ae80c8ca8c938f9c640b3b280cd857325bda0f67c43ed8409872af3feb6e28fc",
+      "request_id": "5337fa04-e18a-43a5-b0d9-c25d33083c1d"
+    },
+    "kind": "RESEARCH_RECORD",
+    "seq": 46,
+    "sha256": "53c97266f3b9db6c4d5136280993a266f38db837fa6b27f3b527adff219bd2f5",
+    "time_ms": 1793232001000
+  }
+]
