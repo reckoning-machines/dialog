@@ -35,7 +35,7 @@ The execution adapter is a deterministic fixture with a $100 price and $0.10-per
 
 ```sh
 PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python validation/app/audit.py
+.venv/bin/python validation/layout/audit.py
 ```
 
 Tests use disposable local hosts and synthetic accounts. They cover ten portfolio/evidence cases and a complete continuity run with real process termination and core reopening. See [validation results](validation/app/REPORT.md).

@@ -4,7 +4,7 @@ The original B-02 documents and their manifest are retained in [history/B-02](hi
 
 | Current document | Bytes | SHA-256 |
 | --- | ---: | --- |
-| [README.md](../README.md) | 817 | f20427b0bd1e8b9567ba4f75ef480035ce66a29cb8042cf4ded90a1003dddc9b |
+| [README.md](../README.md) | 884 | e9e8b04ebe57af7ab992d76fa745b20d029dac327d81f91b75257b249d1317ff |
 | [docs/arh-assessment.md](arh-assessment.md) | 12011 | ee71b1daafef5929c21823886023064735167e0342f248d61b0ec106fb716f5d |
 | [docs/away-replay.md](away-replay.md) | 20424 | 3ba85859535a4a0add609f7624e8bbc67d709abe928057cc2ca8dc5fce54e7d7 |
 | [docs/baseline-review.md](baseline-review.md) | 14710 | 558331653d405ab197c1eedfc8a83cfe29f58e6a0f334f2f2f47c7024bce14ca |

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "desktop": {
+    "overflow": false,
+    "main": 1106,
+    "side": 300,
+    "slogan": true,
+    "wordmark": "DIALOG"
+  },
+  "views": [
+    {
+      "width": 900,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "page_errors": [],
+  "live_revision_unchanged": true,
+  "live_revision": 3,
+  "fixture": "Retained step-15 public workspace snapshot; visual replay only; mutations blocked",
+  "browser": "156.0.8078.80"
+}

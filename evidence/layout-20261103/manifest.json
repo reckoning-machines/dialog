@@ -1,0 +1,52 @@
+[
+  {
+    "path": "evidence/layout-20261103/browser.cjs",
+    "bytes": 2899,
+    "sha256": "50e7be07253f091c7e2d3178dc14920247b97694bb336661fc5af6be5424bdcb"
+  },
+  {
+    "path": "evidence/layout-20261103/desktop.png",
+    "bytes": 311470,
+    "sha256": "f0e3e50778e83d4a1dc7808e2f5a54fa4dab771ddbefbedc660f92a5cf78a02f"
+  },
+  {
+    "path": "evidence/layout-20261103/mobile-book.png",
+    "bytes": 61221,
+    "sha256": "5b71432adac31d460aff6a459a0d873f1e0c89351be762a97b7d22ba70d303c7"
+  },
+  {
+    "path": "evidence/layout-20261103/mobile-top.png",
+    "bytes": 73802,
+    "sha256": "2527c1ed0424131371532e1e282353b62e15a412b001066ce06073fec34221a0"
+  },
+  {
+    "path": "evidence/layout-20261103/mobile.cjs",
+    "bytes": 1114,
+    "sha256": "a0ec7ca25c194b803f31b56e2d90e5540a24f2aa517cf11be3350571af893f1f"
+  },
+  {
+    "path": "evidence/layout-20261103/open.png",
+    "bytes": 251520,
+    "sha256": "7ac711159282c7dd18aaddbf325e220b8d09423cd55677bd06cff6a25d4d1c16"
+  },
+  {
+    "path": "evidence/layout-20261103/result.json",
+    "bytes": 482,
+    "sha256": "1105df6974cea30f5782aaccca5477f06d89eac8d050c6e25909a266a37d1208"
+  },
+  {
+    "path": "evidence/layout-20261103/surface.json",
+    "bytes": 352,
+    "sha256": "57b4ac52a96a0996a4d93e7a4f8eb813ff8ea7833d15848ab5f4d5ed630009dc"
+  },
+  {
+    "path": "validation/layout/REPORT.md",
+    "bytes": 1194,
+    "sha256": "fb66749e61127b87462d5911e1386167eb7cc51a026d3df52f0608c84aba7dc4"
+  },
+  {
+    "path": "validation/layout/audit.py",
+    "bytes": 1523,
+    "sha256": "719aba9f478a184f7de254dd46cb0d091b78662334b8023b39ecc131ccd40ab4"
+  }
+]
