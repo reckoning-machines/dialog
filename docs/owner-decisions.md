@@ -4,7 +4,7 @@
 
 | Choice | Options | Consequence |
 |---|---|---|
-| D-01 scoped ownership | Accept / revise / decline | Accept ARH research authority and separate proposed Murmur strategy/portfolio/book authority. No capital permission inferred from research grants; future migration needs explicit cutover |
+| D-01 scoped ownership | Accept / revise / decline | Accept ARH research authority and separate proposed Dialog strategy/portfolio/book authority. No capital permission inferred from research grants; future migration needs explicit cutover |
 | V-01 B-02, including all CS/scope tests | Authorize quoted bounded test / revise profile / decline | Authorize only the exact quote: test/control-service source, pinned install, disposable hosts, retained evidence, mandatory CS-01–06 and S-19–21 plus original witnesses. LangGraph selection blocked until all prerequisites pass. Portfolio/UI, providers, brokers, deployment, ARH changes excluded |
 | Trusted service CS-V1 | Accept cooperative broad-credential assumption / require enforced capability isolation first / decline | Accept BC provisioning, separate TC and service identities, private runtime credentials and explicit non-isolation limitation; test allowlist/refusals and broad token negative control. Requiring hardened isolation first blocks current profile pending a new boundary design |
 | Initial Themes | Accept exact TH-V-T/TH-V-R registrations in V-01 / narrow or revise before creation / decline | Exact prospective volatility/quiet scope and grants enable same-root tests. Never amend historical W-2 bytes. Outside/ambiguous scope stops. No DA-T request for ordinary work |

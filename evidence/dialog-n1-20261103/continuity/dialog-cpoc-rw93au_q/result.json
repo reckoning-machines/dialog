@@ -1,0 +1,16 @@
+{
+  "actual_kill_boundaries": 4,
+  "public_interface_only": true,
+  "root": "/private/tmp/dialog-cpoc-rw93au_q",
+  "status": "PASS",
+  "step15": {
+    "cash": "80140.40",
+    "fees": "59.60",
+    "quantity": 198
+  },
+  "step17": {
+    "cash": "99920.60",
+    "fees": "79.40",
+    "quantity": 0
+  }
+}

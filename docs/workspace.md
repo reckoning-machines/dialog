@@ -6,7 +6,7 @@ For the successive desk experience and decisions, read [W-2: two complete cycles
 
 ## Worked fixture W-1
 
-Header: **Murmuration · CY-1 · Historical Reconstruction · M-1 proposed · as-of slot 1**
+Header: **Dialog · CY-1 · Historical Reconstruction · M-1 proposed · as-of slot 1**
 
 Research: 12.00 synthetic units authorized in the fixture; 3.00 settled (trend 1.00, reversal 1.00, evaluator 1.00), 0.00 pending; 9.00 remains (shared Research pool 8.00; Checker pool 1.00). This is a research-unit display, never dollars or portfolio capacity.
 
@@ -47,19 +47,19 @@ Visual grammar: all Mermaid edges equal width and mean labelled dependency/refer
 
 | Displayed fact | Source owner / public evidence | Freshness and missing behavior |
 |---|---|---|
-| Mandate, limits, cycle and next slot | Murmur owner/cycle records, exact version/revision | Missing mandate: unavailable, disable mutations |
-| Question, method, lineage | Murmur method version plus exact ARH design/hypothesis/selection refs via `get/history` | Display pinned historic content; do not substitute latest method |
+| Mandate, limits, cycle and next slot | Dialog owner/cycle records, exact version/revision | Missing mandate: unavailable, disable mutations |
+| Question, method, lineage | Dialog method version plus exact ARH design/hypothesis/selection refs via `get/history` | Display pinned historic content; do not substitute latest method |
 | Attempt, cost, pending maximum, remaining per-grant funds | ARH `budget`, `obligations`, exact attempt/settlement refs | Show ARH E/N/time; no local budget arithmetic used for authorization |
 | Arithmetic status / applied registration | ARH CHECK / APPLIED via public `review/history/get` | “Decided, not applied” stays pending; no acceptance inferred from success response |
-| Scientific/evidence sufficiency and strategy lifecycle | Murmur dossier/strategy events pinned to standard and ARH references | Separate labels: checked, insufficient evidence, paper-exploratory |
-| Requested and admitted allocation / reason | Murmur AL records and limit checks | Target/as-of separate from current holdings |
-| Ordinary / required-exit / total turnover; exit cost envelope | Murmur order/fill and exact C-05 exit-obligation records | Show used and outstanding amounts, cost consumed/reserved/remaining, and residual breaches; restart never resets allowance |
-| Holdings, cash, NAV, returns, fees | Murmur accepted fills/cash events and exact marks; derived formulas | Marks missing/stale: quantity retained, valuation unavailable/stale; never show zero |
+| Scientific/evidence sufficiency and strategy lifecycle | Dialog dossier/strategy events pinned to standard and ARH references | Separate labels: checked, insufficient evidence, paper-exploratory |
+| Requested and admitted allocation / reason | Dialog AL records and limit checks | Target/as-of separate from current holdings |
+| Ordinary / required-exit / total turnover; exit cost envelope | Dialog order/fill and exact C-05 exit-obligation records | Show used and outstanding amounts, cost consumed/reserved/remaining, and residual breaches; restart never resets allowance |
+| Holdings, cash, NAV, returns, fees | Dialog accepted fills/cash events and exact marks; derived formulas | Marks missing/stale: quantity retained, valuation unavailable/stale; never show zero |
 | Confirmed cash versus cash after commitments | Same book plus live/uncertain order commitments and bounded fees; owner-composed projection | Show confirmed, reserved and worst-case post-commitment values separately; unknown response never means free cash |
 | What changed / feedback | Event diff over named prior and current revisions; selection references | No inferred causal claim; gaps show “history incomplete” |
 | Needs owner / command eligibility | Relevant owner’s current precondition evaluation | Pending request is not authorization; revalidate at commit |
 
-Each panel shows run identity, relevant source revision and observed-at time. Projection refresh target is 30 seconds for the proposed local slice; any source older than that or reporting mismatch is labelled stale. Historical panels show historical as-of rather than pretending live freshness. No cross-system snapshot exists: header shows the revision vector (Murmur portfolio revision; ARH E/N) and unresolved reconciliation. Mutations cannot rely on this vector alone.
+Each panel shows run identity, relevant source revision and observed-at time. Projection refresh target is 30 seconds for the proposed local slice; any source older than that or reporting mismatch is labelled stale. Historical panels show historical as-of rather than pretending live freshness. No cross-system snapshot exists: header shows the revision vector (Dialog portfolio revision; ARH E/N) and unresolved reconciliation. Mutations cannot rely on this vector alone.
 
 ## C-10 — user actions
 
@@ -71,11 +71,11 @@ Every mutation supplies durable command ID, exact subject, expected revision, ac
 | Propose question/revision | Researcher under active scoped grant, accepted method, funding available | ARH design/research/proposal records, ancestry; invalid scope/budget → ARH refusal; unsupported → stop |
 | Check | Separate evaluator, own active budget, exact current proposal | ARH CHECK; own lineage/insufficient funding/stale base refuses |
 | Accept/reject research proposal | Owner or narrowly applicable upstream P-1; required current check | Keyed ARH decision then separate apply. UI shows decided until applied; stale/fenced apply refuses |
-| Admit paper strategy | Owner under M-1, ES-M1 dossier complete, exact checked research refs | Murmur eligible event, no order. Missing independent evidence/timing → refusal |
+| Admit paper strategy | Owner under M-1, ES-M1 dossier complete, exact checked research refs | Dialog eligible event, no order. Missing independent evidence/timing → refusal |
 | Rebalance | Delegated allocator; current strategy/mandate/portfolio closure | AL batch and keyed paper orders; stale base, overlap limits or unknown orders → refuse |
 | Suspend / retire | Owner (or mandate's deterministic stop for suspension); exact strategy revision | Suspended/retiring event and exit obligation; flat terminal only after confirmed reconciliation |
 | Resume | Owner, new complete dossier, no unresolved orders | Eligible event; stale dossier or retired version refuses; retired needs successor |
-| Change mandate / budget / fence | Owner only; prospective version and explicit ARH control path | Murmur mandate and separately ARH control records; partial completion displays blocked reconciliation |
+| Change mandate / budget / fence | Owner only; prospective version and explicit ARH control path | Dialog mandate and separately ARH control records; partial completion displays blocked reconciliation |
 | Resolve interrupted work | Authorized operator; durable intent, ARH outcome/obligations and quiescence prerequisites | Resume same keys or explicit replacement; unknown completion never permits blind retry |
 
 Pending: intent durable, no final answer. Interrupted: worker stopped or claim uncertain; liability shown. Stale: known older projection, no mutation authority. Unavailable: authority cannot be reached, retain last-known labelled values and stop dependent actions. A domain refusal cites its owner's reason; transport failure is not falsely recorded as an ARH domain refusal.

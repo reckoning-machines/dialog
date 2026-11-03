@@ -1,4 +1,4 @@
-# W-2 — operate the Murmur desk for two cycles
+# W-2 — operate the Dialog desk for two cycles
 
 **Frozen-baseline routing:** [B-01](baseline-review.md) supplies the final narrow Theme comparison. This replay retains its original formal-Theme choices; those choices do not prove that ordinary follow-ups require new Themes. Existing records/accounts remain fixture evidence, not the mandatory implementation path.
 
@@ -15,15 +15,15 @@ W2-M: AAA/BBB long-only, cash $100,000, gross 40%, underlying 25%, strategy 20%,
 
 R-T researches trend, R-R reversal, CK independently checks, O decides. Scheduler/intake/allocator/executor act only under the proposed mandate. Operator may reconcile outcomes and obtain host quiescence, not waive authority. No providers or IRIS.
 
-E-* denotes ARH evidence; T-* its proposal/check/decision/apply records. M-* denotes Murmur mandate/method/dossier/lifecycle/exit; O-* orders; F-* accepted fills. Listed pairs are distinct records, not a cross-system atomic transaction. Each hypothetical proposal follows: check exact current base → owner decision → ARH Apply → next proposal's check at its new base. Unsupported runtime choreography remains a finding.
+E-* denotes ARH evidence; T-* its proposal/check/decision/apply records. M-* denotes Dialog mandate/method/dossier/lifecycle/exit; O-* orders; F-* accepted fills. Listed pairs are distinct records, not a cross-system atomic transaction. Each hypothetical proposal follows: check exact current base → owner decision → ARH Apply → next proposal's check at its new base. Unsupported runtime choreography remains a finding.
 
-B0 assumes an already initialized hypothetical desk: M-OPEN cash 100,000; M-MANDATE enumerates both slots; T-SETUP carries checked controls. Historical setup grant G-SETUP cap 1.00 settled 0.50, pending 0, closed unused 0.50. Setup is visible, not free. G-R1/G-R2 each 10.00, G-C1/G-C2 each 2.00; both cycles already admitted/applied upstream, with cycle 2 withheld from Murmur dispatch until its slot and prior closure. ARH may report that future grant spendable; the local schedule does not change its budget. Research lineage ceiling 10.00 spans both cycles; W2-M Checker lineage ceiling 4.50 spans setup and both cycles without enlarging grant pools. These fixture settings are not proof of supported external startup.
+B0 assumes an already initialized hypothetical desk: M-OPEN cash 100,000; M-MANDATE enumerates both slots; T-SETUP carries checked controls. Historical setup grant G-SETUP cap 1.00 settled 0.50, pending 0, closed unused 0.50. Setup is visible, not free. G-R1/G-R2 each 10.00, G-C1/G-C2 each 2.00; both cycles already admitted/applied upstream, with cycle 2 withheld from Dialog dispatch until its slot and prior closure. ARH may report that future grant spendable; the local schedule does not change its budget. Research lineage ceiling 10.00 spans both cycles; W2-M Checker lineage ceiling 4.50 spans setup and both cycles without enlarging grant pools. These fixture settings are not proof of supported external startup.
 
 Metering: every research reservation 2.00, attempt maximum 1.00. Cycle 1 actual T0.75/R1.00. Cycle 2 T0.75/R-original UNKNOWN 1.00/R-replacement 0.50. Each calculation/registration check costs 0.50; each successor-Theme check 0.25. Checker reservation/maximum equals actual. Record viewing, recovery and deterministic portfolio mechanics are unmetered in this fixture; no hidden research attempt or provider bill.
 
 ## W2-01 — open the desk
 
-> **Murmuration · D1 18:00 · Historical Reconstruction · Ready to start**
+> **Dialog · D1 18:00 · Historical Reconstruction · Ready to start**
 >
 > **10.00 shared research units available; 2.00 separate checking units.** Future cycle 12.00 committed in the fixture, not available today. Prior setup spent 0.50.
 >
@@ -31,7 +31,7 @@ Metering: every research reservation 2.00, attempt maximum 1.00. Cycle 1 actual 
 >
 > **Cash $100,000; holdings none; orders none.**
 >
-> **Needs you:** confirm the Murmur two-slot mandate/delegates against the already-applied ARH grants. No new upstream grant is created here; no dispatch until both owners permit it.
+> **Needs you:** confirm the Dialog two-slot mandate/delegates against the already-applied ARH grants. No new upstream grant is created here; no dispatch until both owners permit it.
 >
 > Sources: M-MANDATE/M-OPEN, T-SETUP/E-BUDGET-OPEN; P0.
 

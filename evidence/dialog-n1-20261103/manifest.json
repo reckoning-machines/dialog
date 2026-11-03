@@ -1,0 +1,277 @@
+[
+  {
+    "path": "evidence/dialog-n1-20261103/browser/dialog-browser.cjs",
+    "bytes": 1367,
+    "sha256": "5a6278b2c0cfa8b4a843ab83702ef36681d7179c070fd84563d0639ba10c7df9"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/browser/dialog-browser.json",
+    "bytes": 148,
+    "sha256": "9b1ee95786084ad7831857df63fbcd83bcca852ea6a9e03df3a423226de3e7ba"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/browser/dialog-desktop.png",
+    "bytes": 322089,
+    "sha256": "16b8f41bb6fc9ea3e986f070b46a2a1d5a9e81dd67ed4dc62069ae3b97e7bcc3"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/browser/dialog-mobile.png",
+    "bytes": 316366,
+    "sha256": "2b78391a92333313387c03e7461b43e03f89dceab7d68013e6e186bf2543ac16"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/boundaries.json",
+    "bytes": 530,
+    "sha256": "72fa2e3e23a184d7a1bca473b87fc4370829aef923a40cd0191413822c4743ec"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/evidence.json",
+    "bytes": 3281449,
+    "sha256": "34c9d8bc6f4adc018ebc2b3ee4f869c0c65733e982912a9c447f8355ae8eef18"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/opened.json",
+    "bytes": 5719,
+    "sha256": "f61b7108b0f0a13eb2e7a0596f25ab389b81ca5ab74d05133e97b825c9d2eba7"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/result.json",
+    "bytes": 299,
+    "sha256": "67ef5f064dad73330e2034457d92acd8bd3bfd1e049f29cd94d38a51a194f73c"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-01.json",
+    "bytes": 9874,
+    "sha256": "4ec7f846acc56d065ecf3a1b8047c0a77568032caac20e8398936f1233a09f88"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-02.json",
+    "bytes": 24208,
+    "sha256": "f1da9928acbfafd6e935bcd0a052657d6cb7d6fa86ee17b3298bef639db743a1"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-03.json",
+    "bytes": 28037,
+    "sha256": "cff82bcd5748838b0c8e5e933f9c7e02bcc8840a482fdd934d47a34be4ab3546"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-04.json",
+    "bytes": 28817,
+    "sha256": "4e54c79c05a0b8ea8c229e9aad2e610eae6e7edc043d3746e01368dd41f23606"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-05.json",
+    "bytes": 27985,
+    "sha256": "fdd634ccacdd2b62c971479e888f5a9e9a1b40ff892a9cfc1de911f5ca607129"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-06.json",
+    "bytes": 27332,
+    "sha256": "d6e2e349318667be7c0d399d16955c145b53ec4cd6b5c083b356c3e26f4ac164"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-07.json",
+    "bytes": 28685,
+    "sha256": "208fbdc1d54eca324e466d20a394decd8aac9abf788d6ccc0aa8c2c1a4c17046"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-08.json",
+    "bytes": 27754,
+    "sha256": "f3d0e17a08e5459c973f432484499afc5ac3195f1eecd82505af90e31d61c645"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-09.json",
+    "bytes": 28630,
+    "sha256": "007d0f36e6d4ae5325c25c60a7a0aee526f620dc34079a5ff4194a45921151c1"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-10.json",
+    "bytes": 28539,
+    "sha256": "b7bd1c84bc52f097609b59f814678b69a0f4a4858448adf45423f8e413d0331d"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-11.json",
+    "bytes": 30426,
+    "sha256": "561c2b59db8abf895de85d1c1c055d1e7496f81fe6fbdae72337c5717b9f0278"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-12.json",
+    "bytes": 37706,
+    "sha256": "12e2f2bc567feaee220065ee46f35361c99c364483a985bb1c1be6d65fe7e109"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-13.json",
+    "bytes": 39113,
+    "sha256": "f5db883deefda1f6dcef344b5e14d0fa24f3bd15c1ecf7ec723f4897fb5e3d61"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-14.json",
+    "bytes": 38086,
+    "sha256": "f7d0458a3097e62990671ab48dbbe4b4b9a9ff93cd8a34424b1b72b9b316dc72"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-15.json",
+    "bytes": 39038,
+    "sha256": "e325bb2bcc85fe11ff485e3b17df6879bc27d31f0506e5799b830eba64d4a3ea"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-16.json",
+    "bytes": 40847,
+    "sha256": "ca5d8d12dc1ded763378e9c30e35bc718a73541475b76be0d2d562866584bd90"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/continuity/dialog-cpoc-rw93au_q/step-17.json",
+    "bytes": 39658,
+    "sha256": "31b4e1ec8dd4360e8ba03101dcb16527ec38be045cae20f53781b3634383acd9"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/redaction.json",
+    "bytes": 155,
+    "sha256": "5707c67da07e9aed4414e27f142cba8c2e34a2b82e2262a9359c56807eeeb437"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/APP.md",
+    "bytes": 7601,
+    "sha256": "59476728338d9073fa8d22913c66ae56f81c006c4713ef025fc5494523ce5ccf"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/README.md",
+    "bytes": 1509,
+    "sha256": "0735852ec3421f799c1ebd403589d78076ddb3128953c417a99a096ec9bdba35"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/arh-dependency.json",
+    "bytes": 344,
+    "sha256": "879b59824d0cb73e2f859203d37f9f58f021a9d2dfe047ec7c382f7b3ca2b608"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/pyproject.toml",
+    "bytes": 557,
+    "sha256": "0673a2c658b9903df292be3a2e1329eaa7808c5875f9ed1f9de4fbf4ea4146e9"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/requirements.lock",
+    "bytes": 894,
+    "sha256": "896697ede6766639fbd28ebe8456c38063009f189fbea8a4a751400602f7a8c2"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/run.py",
+    "bytes": 372,
+    "sha256": "bb3290d33415b1cf9c97f8dc8d5e6fc5b58e8ae5a6320cf3f217f397cce4744a"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/scripts/install_arh_client.py",
+    "bytes": 2297,
+    "sha256": "985c75611def4e5515d8da149786a65899c8b6c9e60097c2f621a13d230a96ba"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/__init__.py",
+    "bytes": 67,
+    "sha256": "5c674121b710e0e9623dc8147238998746053664ef872e472609a731dc8ee6de"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/__main__.py",
+    "bytes": 5329,
+    "sha256": "3eea62e031667482c86c364f96f17983cb755a7b66beb96028fa3256d194b219"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/book.py",
+    "bytes": 12175,
+    "sha256": "dd156b74656af760899b5842e423008bd033ca32b3eaf2a8742a2e8991cd4b3c"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/desk.py",
+    "bytes": 14284,
+    "sha256": "56cbeadfa4e9d8a759ffa4718a3082cc3540ea7f891d87757ef3cb53ce8561f4"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/evidence.py",
+    "bytes": 746,
+    "sha256": "c4ac97890735d7ac9ee1beb98130cd10eef8456e89d4075554a89227b485a04d"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/execution.py",
+    "bytes": 2388,
+    "sha256": "f35a7b3a791fef4e0f1b08b6fc1efcf8ba2f262164dee280d8a4d18077701ad1"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/fixtures.py",
+    "bytes": 2512,
+    "sha256": "4cc88eabed9eb3dca7c1fbcf25b3f38ae24f8530239e3ec75cc082c4e495785b"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/governance.py",
+    "bytes": 13640,
+    "sha256": "09ab978e92e1b1b87da0f5f3cdd261e7f4de28b08adc797195ed1211220d1c3f"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/designs_and_methods.json",
+    "bytes": 13449,
+    "sha256": "04e34b16c8f176f7f3fc962f75d5629fb63a640f01eb898170b5218a012af586"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/evaluator.py",
+    "bytes": 1078,
+    "sha256": "c1620f03e2b3a5b4a9ffe25217a026d221bb656f599d4e31caa43c9507f5bfd8"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/experiment.json",
+    "bytes": 2115,
+    "sha256": "2ea5445c710600f08fe173ab63c79f7111b6151738efcb4b7dac94031207a2a8"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/setup.json",
+    "bytes": 11757,
+    "sha256": "8957b044d308ed8067b23c358c7c23fae16b43bb06fc1565f4ed275c772089fe"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/tools.py",
+    "bytes": 207,
+    "sha256": "dacc929fe63c48087b1411d185daf827e9d365785a270f8f288d2d35da48935f"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/spec/v01.json",
+    "bytes": 743,
+    "sha256": "66b08b0afab051dda393fce6933b07932529546a6c478dc2f235492547e47d37"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/store.py",
+    "bytes": 3808,
+    "sha256": "f415ea20008fec4b22c8d961874abbc9e1ddf69844ee2cb109ded25d6b390a86"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/worker.py",
+    "bytes": 5081,
+    "sha256": "355e7b9d335abcce003944c8d5ed2f5c06ca21b44a2eb5d50963ccd3c8214703"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/src/dialog/workspace.html",
+    "bytes": 18728,
+    "sha256": "20fd739b07e296d632f30096710a4fde6a156bef7aa9f41ebafe26fa7f3014ed"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/tests/test_book.py",
+    "bytes": 6052,
+    "sha256": "9d08193dc741227c57701c372b68a341235ab44cac6284d58262532c140da4f9"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tested-source/tests/test_continuity.py",
+    "bytes": 4930,
+    "sha256": "6c1e708e7233d7bfc6ea601970ba507e5ebc8634748ccdee89120b6367dae867"
+  },
+  {
+    "path": "evidence/dialog-n1-20261103/tests.txt",
+    "bytes": 1709,
+    "sha256": "7c166748cfd26020cd173c9841f7b46f8e1c7e78817b53592264e87e9ceed96a"
+  },
+  {
+    "path": "validation/dialog/REPORT.md",
+    "bytes": 3006,
+    "sha256": "e49010c20ad3a3020e73723ad002fc52c649c3a233374acfc661e030eb1925a2"
+  },
+  {
+    "path": "validation/dialog/audit.py",
+    "bytes": 1000,
+    "sha256": "16daaee3f2c0c0bc7f15d40e694de943c289299b1c6c94306759b219fd9b0083"
+  }
+]

@@ -1,0 +1,15 @@
+# Dialog D-N1 — 2026-11-03
+
+Dialog runs at **http://127.0.0.1:8787/**. The owner-directed rename covers the browser title/brand, API name, Python package and CLI, environment variables, request header, default data path, source comments, current documentation and Git remote. README now explains the application and its use directly. The remote is `https://github.com/reckoning-machines/dialog.git`.
+
+The earlier implementation is commit `c4f84521fc0bdbeb8d4c8574e27ea781af0f9f08`. Its evidence and all prior validation trees are unchanged. The original B-02 files and manifest are archived byte-for-byte under `docs/history/B-02`; the current document manifest records the naming revision. Historical names, absolute paths and authoritative IDs remain historical facts, not current product branding. The physical checkout stays at `/Users/jedgore/dev/murmuration`.
+
+No authority, budget, evaluation criterion, portfolio rule, ARH pin or consumer acceptance outcome changed. ARH remains `76234ff1816d95432a87de69b3337db5401349d4`; its integrated 106-unit/77-schedule results and all 14 V-01 outcomes are retained in the [consumer report](../v01_integrated_m1/REPORT.md). [Original implementation results and limitations](../local_app/REPORT.md) remain historical evidence. RV-02 and RV-04 remain open; the public clean-source installer is still required for the observed ARH packaging defect.
+
+**Observed:** all 11 application tests pass in 59.436 seconds with the renamed package. This includes the complete two-cycle workflow, four actual coordinator kills, core reopening, and unchanged final accounts. Browser title/visible-name checks pass on desktop/mobile with zero script errors or horizontal overflow. The existing live desk reopened as Dialog at step 0 with exactly the same public budgets and $100,000 cash, without bootstrap or research replay. `.local/dialog` is the active data directory; a private compatibility path preserves the original host's immutable absolute references.
+
+The fresh rename-regression run spends 8.75 simulated research/checking units and retains 1.00 funding allowance. Earlier app runs remain 49.50 charges / 5.25 allowances, for **58.25 charges / 6.25 allowances across eight retained app runs**. The live inspection desk is separate and starts with 2.75 setup charges. Consumer validation's 205.00 historical charges are separate again. No real billing.
+
+At cycle 2 close: 198 AAA, cash 80,140.40, NAV 99,940.40, fees 59.60. After final exits: flat, cash/NAV 99,920.60, total fees 79.40. This remains a finite synthetic reconstruction using a trusted local service and bounded flat-book allocations; it does not establish profitability, live trading readiness or OS isolation.
+
+Retained [test source, public records, browser evidence and hashes](../../evidence/dialog-n1-20261103) identify the current bytes. Run `.venv/bin/python validation/dialog/audit.py` for read-only integrity checks. Old evidence is not rewritten to make new names appear in past records.

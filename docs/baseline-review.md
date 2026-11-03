@@ -29,7 +29,7 @@ Narrowing an experiment is usually compatible with a domain, but not if the regi
 
 ## NC-03 — classify the actual two follow-ups without retroactive broadening
 
-Known documentary evidence: C-12's proposed initial grammar already names predeclared volatility cohorts and a quiet-regime filter on the same instruments. W-2 prints short assignments (“continuation,” “recovery after a fall”), not complete immutable upstream Theme statements/selection bases. That omission prevents a verified claim about the original W-2 Theme scope. Existing grants and Theme bytes are not available as an executed Murmur run.
+Known documentary evidence: C-12's proposed initial grammar already names predeclared volatility cohorts and a quiet-regime filter on the same instruments. W-2 prints short assignments (“continuation,” “recovery after a fall”), not complete immutable upstream Theme statements/selection bases. That omission prevents a verified claim about the original W-2 Theme scope. Existing grants and Theme bytes are not available as an executed Dialog run.
 
 For the frozen **prospective** baseline, the initial approval must identify exact original Theme records and grants and confirm the already-proposed grammar fits them. The following content is a proposed initial scope specification, not a retrospective amendment or assertion that W-2's missing bytes said this:
 
@@ -54,7 +54,7 @@ Initial: roots/grants above are legitimately approved/current and cover both slo
 2. Record supported SELECTION evidence for next volatility/quiet investigation, linking both researchers' history and excluded reused validation candidates.
 3. Record immutable EXPERIMENT DESIGN under the same root, including next cohort and expectation; revised method recipe cites predecessor. No new ThemeId or Theme-standing event.
 4. Fund and execute using original authorized roots/grants. Preserve interruption/replacement and budget rules.
-5. Independently check/register any new testable Hypothesis via P-1 with current scope/funding/BIND/Apply. Murmur eligibility still uses the proposed DA-S domain contract and independent dossier.
+5. Independently check/register any new testable Hypothesis via P-1 with current scope/funding/BIND/Apply. Dialog eligibility still uses the proposed DA-S domain contract and independent dossier.
 6. Continue shared paper allocation and holding/exit rules. Reopen reads exact unchanged Theme and new records; no reliance on a graph's current “question.”
 
 Expected: zero routine Theme approvals in this in-scope path; one initial mandate group still required, and all other DA-1/trusted-service assumptions remain. No claim that the application or its external setup is runtime validated.

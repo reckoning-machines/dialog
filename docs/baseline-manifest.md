@@ -1,22 +1,20 @@
-# B-02 frozen document manifest
+# Dialog naming revision D-N1
 
-Review identity only; constitution, profiles and implementation remain proposed. Supersedes B-01 manifest at commit be12c89d23e69856f5d5047971d43fb00476f3df. B-02 commit SHA is recorded externally in the handoff, avoiding self-reference.
+The owner-directed app rename changes presentation, not authority, budgets or acceptance criteria. The original B-02 files and manifest remain in [history/B-02](history/B-02/README.md). Historical run results refer to those original bytes.
 
-Inventory: fourteen substantive Markdown documents plus this manifest (fifteen files). The manifest excludes itself; the local Git commit pins it. ARH inspected commit:93436406c8a1fd2c06e5713b1def09d90104db54.
-
-| Document | Bytes | SHA-256 |
-|---|---:|---|
-| [README.md](../README.md) | 4642 | 3828f63209296e3b7606b9d056db46a628a3c5b65758e6cdaa2d6f24c305851c |
-| [docs/arh-assessment.md](arh-assessment.md) | 12011 | 28f701ddd1eebd4498ffb8cfbaea305f220e49af80edb9942e067f9346deee77 |
-| [docs/away-replay.md](away-replay.md) | 20424 | 0849f1d04c002403cedc345ae62c2c19d3e3fa7e2fcd08e679d782e6aeb1316e |
-| [docs/baseline-review.md](baseline-review.md) | 14710 | be9b65a04048ede67a2252bf9e49ca8e4c4f87fd285cf49db1feb1ae5d17b595 |
-| [docs/build-gate.md](build-gate.md) | 16434 | 12140350b4317929ce8511f72ac6c19d8816d93750f145f063fbe01f24d7ca6b |
-| [docs/constitution.md](constitution.md) | 11239 | b2c328b4cb8f85761eaedb73ee4d6c4ed01d3f06f9cd3b5f83bf061414938da4 |
-| [docs/contracts.md](contracts.md) | 35385 | f07792024cadd78a9a30fef2b107ee512737a9498e081076c9396af02a01edac |
-| [docs/current-work.md](current-work.md) | 11511 | 66f906e92910727e69c51b3ea1680d0bf350a19ee63d591f5118437163cf8c98 |
-| [docs/desk-walkthrough.md](desk-walkthrough.md) | 28801 | a30e03003a6db4de44551b6fea6ebb00078d345c43dc213429a270fd6ef1de9a |
+| Current document | Bytes | SHA-256 |
+| --- | ---: | --- |
+| [README.md](../README.md) | 1509 | 0735852ec3421f799c1ebd403589d78076ddb3128953c417a99a096ec9bdba35 |
+| [docs/arh-assessment.md](arh-assessment.md) | 12011 | ee71b1daafef5929c21823886023064735167e0342f248d61b0ec106fb716f5d |
+| [docs/away-replay.md](away-replay.md) | 20424 | 3ba85859535a4a0add609f7624e8bbc67d709abe928057cc2ca8dc5fce54e7d7 |
+| [docs/baseline-review.md](baseline-review.md) | 14710 | 558331653d405ab197c1eedfc8a83cfe29f58e6a0f334f2f2f47c7024bce14ca |
+| [docs/build-gate.md](build-gate.md) | 16429 | c83cf8de5e99171470a9919fad55599b6f7fa44e662c3b35c299193b6b9cce2c |
+| [docs/constitution.md](constitution.md) | 11239 | ae6ebab80839ab6cc91d0a0215ec04ea831517bfc1ca38bca379aedad66df6d0 |
+| [docs/contracts.md](contracts.md) | 35385 | c1d9e2393ab11fa8fd179aa5bbf934d1a7c978a24ffe3e9c52d236a9dbb2969d |
+| [docs/current-work.md](current-work.md) | 11499 | c10d539dd6834cc6e0e39ce2dbd00c17930ad0b1eedc44126fb815cbfaa81d21 |
+| [docs/desk-walkthrough.md](desk-walkthrough.md) | 28796 | 9dbbd109c794599ef3d5da19b6bcc30e9583ee7d5be2f7ac15ac5f503dec900d |
 | [docs/findings.md](findings.md) | 7836 | 9a65129963624e78fd449736dce56b03a8f772333c154dc72c476b0621fe219c |
-| [docs/owner-decisions.md](owner-decisions.md) | 3775 | 20358a11d3f4d34c24090c4e9107a65d68902e4af526807adf371b1abba4a137 |
-| [docs/review.md](review.md) | 30114 | 8953f4f01b82f7b45c7bd1aa8140b98a63dd3b7ba2c3cea4307c987797043e53 |
-| [docs/scenarios.md](scenarios.md) | 38088 | f4ce526d7d360cfeeec1737371b297cb223e25e73d0c68b52ebcfaea0241f22d |
-| [docs/workspace.md](workspace.md) | 11480 | e9a08439efc556fbd9efcb80180c7740da1b50c671634a6be6dde4d3f29abbc2 |
+| [docs/owner-decisions.md](owner-decisions.md) | 3775 | a9b21a2c4f0b5b4588321f92d642095daf0b6a0d7b292aba1affba8fb203b720 |
+| [docs/review.md](review.md) | 30114 | 946e338cde066dbc4ca18396f0d77d3f75b16c0d0921a4be357f48029fc1d674 |
+| [docs/scenarios.md](scenarios.md) | 38088 | 8a309f68852a7b1e42b90a1cdd6792025c007957875ae449ae5bbc62a7fa3fc1 |
+| [docs/workspace.md](workspace.md) | 11475 | c67b3f766cc7acf83b4a7e527004bae41cb80a740246bddde07b542455567739 |

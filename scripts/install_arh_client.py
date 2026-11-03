@@ -7,11 +7,11 @@ import hashlib, json, os, subprocess, sys, tempfile
 from pathlib import Path
 repo = Path(__file__).resolve().parents[1]
 pin = json.loads((repo / "arh-dependency.json").read_text())["commit"]
-arh = Path(os.environ.get("ZUGOT_ARH_ROOT", "/Users/jedgore/dev/speedway"))
+arh = Path(os.environ.get("DIALOG_ARH_ROOT", "/Users/jedgore/dev/speedway"))
 if subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=arh, text=True).strip() != pin:
     raise SystemExit("ARH checkout must match pinned commit " + pin)
 paths = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", pin, "client/arh_client", "client/pyproject.toml", "client/README.md"], cwd=arh, text=True).splitlines()
-with tempfile.TemporaryDirectory(prefix="zugot-client-source-") as temporary:
+with tempfile.TemporaryDirectory(prefix="dialog-client-source-") as temporary:
     source = Path(temporary)
     hashes = {}
     for path in paths:

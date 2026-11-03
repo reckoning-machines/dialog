@@ -1,22 +1,22 @@
 """Actual process death, fresh coordinator and public-host recovery; no ARH DB reads."""
 import json,os,signal,socket,subprocess,sys,tempfile,time,unittest,urllib.request,urllib.error,uuid
 from pathlib import Path
-from zugot.governance import Governance,write
+from dialog.governance import Governance,write
 class LocalDeskContinuity(unittest.TestCase):
  def test_two_cycles_process_death_and_final_exit(self):
-  root=Path(tempfile.mkdtemp(prefix='zugot-cpoc-',dir='/private/tmp'));out=Path(os.environ.get('ZUGOT_TEST_EVIDENCE','/private/tmp/zugot-app-evidence'))/root.name;out.mkdir(parents=True);process=None;boundaries=[]
+  root=Path(tempfile.mkdtemp(prefix='dialog-cpoc-',dir='/private/tmp'));out=Path(os.environ.get('DIALOG_TEST_EVIDENCE','/private/tmp/dialog-app-evidence'))/root.name;out.mkdir(parents=True);process=None;boundaries=[]
   with socket.socket() as sock:sock.bind(('127.0.0.1',0));port=sock.getsockname()[1]
   base='http://127.0.0.1:'+str(port)
   def state():return json.load(urllib.request.urlopen(base+'/api/state',timeout=30))
   def start():
-   log=open(root/'web.log','ab');p=subprocess.Popen([sys.executable,'-m','zugot','--data',str(root),'--port',str(port)],stdout=log,stderr=log,env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'));log.close()
+   log=open(root/'web.log','ab');p=subprocess.Popen([sys.executable,'-m','dialog','--data',str(root),'--port',str(port)],stdout=log,stderr=log,env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'));log.close()
    for _ in range(1200):
     if p.poll() is not None:raise AssertionError((root/'web.log').read_text()[-3500:])
     try:state();return p
     except Exception:time.sleep(.05)
    raise AssertionError('Server readiness timeout')
   def action(name,expected=None,key=None):
-   s=state();payload={'action':name,'expected':s['revision'] if expected is None else expected,'key':key or str(uuid.uuid4())};req=urllib.request.Request(base+'/api/action',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','X-Zugot':'local-desk'});return json.load(urllib.request.urlopen(req,timeout=30))
+   s=state();payload={'action':name,'expected':s['revision'] if expected is None else expected,'key':key or str(uuid.uuid4())};req=urllib.request.Request(base+'/api/action',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','X-Dialog':'local-desk'});return json.load(urllib.request.urlopen(req,timeout=30))
   def next_step():
    before=state()['step'];action('next')
    for _ in range(1200):
@@ -30,7 +30,7 @@ class LocalDeskContinuity(unittest.TestCase):
    with self.assertRaises(urllib.error.HTTPError) as invalid:action('next',expected=-1)
    self.assertEqual(invalid.exception.code,409)
    # A second coordinator is refused by the process lock before new governance work.
-   second=subprocess.run([sys.executable,'-m','zugot','--data',str(root),'--port',str(port+1)],capture_output=True,text=True,env=os.environ)
+   second=subprocess.run([sys.executable,'-m','dialog','--data',str(root),'--port',str(port+1)],capture_output=True,text=True,env=os.environ)
    self.assertNotEqual(second.returncode,0);self.assertIn('active coordinator',second.stderr)
    for target in (4,7,10):
     while state()['step']<target:next_step()

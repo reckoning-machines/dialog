@@ -17,14 +17,14 @@ Independent checks remain CK-H-T1/R1 at 0.50 each, CK-NEXT-T2/R2 at 0.25 each, C
 |---|---|---|---|
 | OD-01 mandate/grants/delegates | Owner before departure, A/M-DA1 | Existing owner control/setup path; exact setup feasibility still runtime work | One initial group |
 | OD-02 H-T1/H-R1 | ARH P-1 DECISION then APPLIED | Implemented policy; Principal-only public trigger by separate trusted control service | No routine human decision under accepted cooperative-service assumption |
-| OD-03 T1 eligibility | Murmur DA-S / A/M-POL-ADMIT-T1 | Proposed Murmur domain behavior, not upstream trading API | None if dossier complete |
-| OD-04 T1 retirement | DA-X / A/M-POL-RETIRE-T1 at declared window end | Proposed Murmur domain behavior | None; discretionary retirement still owner |
+| OD-03 T1 eligibility | Dialog DA-S / A/M-POL-ADMIT-T1 | Proposed Dialog domain behavior, not upstream trading API | None if dossier complete |
+| OD-04 T1 retirement | DA-X / A/M-POL-RETIRE-T1 at declared window end | Proposed Dialog domain behavior | None; discretionary retirement still owner |
 | OD-05 successor questions/methods/fence | DA-T Theme decisions; DA-M method successors; no routine FENCE | **DA-T missing upstream**; methods proposed locally; grant CLOSE/expiry already supported | One batched human Theme decision currently; zero only after upstream extension |
 | OD-06 H-T2/H-R2 | ARH P-1 DECISION/APPLIED | Same existing policy/trigger route | None |
-| OD-07 T2/R2 eligibility | DA-S / A/M-POL-ADMIT-T2/R2 | Proposed Murmur domain behavior | None |
+| OD-07 T2/R2 eligibility | DA-S / A/M-POL-ADMIT-T2/R2 | Proposed Dialog domain behavior | None |
 | OD-08 cycle 2 fence/holding choice | Reservation CLOSE, local batch completion; grant expiry, C-13 monitoring/deadlines | Expiry supported; no unauthorized automated FENCE | None |
 
-Count: W-2 eight groups including opening. DA-1 target one initial group + **zero routine in-run owner interruptions** on the successful exact fixture. Current ARH on this same Theme-preserving journey: one initial group + **one in-run interruption group containing two Theme approvals**, assuming the proposed Murmur policies and trusted service. Without an owner response at that point, cycle 2 does not run. A single notification containing two approvals is not counted as two interruptions, but both decision records remain mandatory.
+Count: W-2 eight groups including opening. DA-1 target one initial group + **zero routine in-run owner interruptions** on the successful exact fixture. Current ARH on this same Theme-preserving journey: one initial group + **one in-run interruption group containing two Theme approvals**, assuming the proposed Dialog policies and trusted service. Without an owner response at that point, cycle 2 does not run. A single notification containing two approvals is not counted as two interruptions, but both decision records remain mandatory.
 
 If the owner declines the privileged cooperative control-service assumption, Principal-only policy/quiescence ingress introduces further blocked operational tasks. The zero/one counts do not apply under that different assumption. Names/tokens/processes alone do not establish isolation.
 
@@ -175,13 +175,13 @@ Inspected again at ARH 93436406c8a1fd2c06e5713b1def09d90104db54, no tracked diff
 | Successor Theme | Public THEME proposal/check/Principal decision/apply | P1_CLASS on policy request; needs admitted upstream policy/class implementation, tests, scope and STOP controls. No such change made |
 | Operational recovery | Public outcome/obligations/settle/retry; HostControl.quiesce uses Principal control token | Host truth/termination proof still required. Scoped recovery credentials lacking; cooperative control service assumption explicit |
 | End of finite work | Reservation close and grant expiry | Natural expiry avoids invented automated fence. Early FENCE/grant amendment remains Principal decision |
-| Eligibility, windows, monitoring, portfolio | No upstream implemented trading authority | Proposed Murmur policies/domain behavior; no claim that ARH admission grants paper capital |
+| Eligibility, windows, monitoring, portfolio | No upstream implemented trading authority | Proposed Dialog policies/domain behavior; no claim that ARH admission grants paper capital |
 
 ## Test result and count — historical formal-Theme branch
 
 **B-01/B-02 supersede the general inference below.** These counts apply only to this replay’s explicit new-Theme choices. Recommended same-root continuation is S-19/W-4 and can have zero routine in-run interruptions given accepted DA-1/service, exact scope fit and checks. No upstream Theme policy is required for ordinary in-scope work.
 
-Under proposed Murmur DA-1 and accepted trusted-service assumption, current ARH reduces eight manual decision groups to **one initial group plus one mid-run Theme approval interruption (two decisions)**. Unattended continuation fails at that gate. If owner supplies those approvals, identical full-run financial/research totals follow.
+Under proposed Dialog DA-1 and accepted trusted-service assumption, current ARH reduces eight manual decision groups to **one initial group plus one mid-run Theme approval interruption (two decisions)**. Unattended continuation fails at that gate. If owner supplies those approvals, identical full-run financial/research totals follow.
 
 With the explicitly proposed upstream DA-T extension, the same complete successful fixture has **one initial group and zero in-run owner interruptions**, while preserving all six independent check operations, five research attempt charges, decisions/applications, orders/fills, failures and ancestry. This is a conditional documentary result, not implemented autonomy. Owner approval burden and policy eligibility still need runtime witnesses.
 

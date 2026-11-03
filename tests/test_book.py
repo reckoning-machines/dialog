@@ -1,11 +1,11 @@
 import tempfile,unittest
 from decimal import Decimal
 from pathlib import Path
-from zugot.store import Store,Refused
-from zugot.book import Book
-from zugot.execution import SyntheticExecution
-from zugot.fixtures import calculate,cohort,manifest
-from zugot.evidence import assess
+from dialog.store import Store,Refused
+from dialog.book import Book
+from dialog.execution import SyntheticExecution
+from dialog.fixtures import calculate,cohort,manifest
+from dialog.evidence import assess
 
 class BookContracts(unittest.TestCase):
  def setUp(self):
