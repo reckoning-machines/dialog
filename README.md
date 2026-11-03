@@ -12,4 +12,4 @@ Dialog is a trading research and paper-trading workspace. Competing research app
 
 Built with Python, LangGraph, and [Adaptive Research Harness](https://github.com/reckoning-machines/adaptive-research-harness). The current version uses synthetic data and paper execution.
 
-[Development guide](APP.md) · [Architecture and contracts](docs/contracts.md) · [Validation](validation/app/REPORT.md)
+[Development guide](APP.md) · [Architecture](architecture.md) · [Validation](validation/app/REPORT.md)

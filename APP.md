@@ -23,13 +23,7 @@ The clock advances through declared historical slots. Research deadlines do not 
 
 ## Architecture
 
-ARH owns research authorizations, budgets, evidence, independent checks and acceptance records. Dialog owns strategy admission, allocation, orders, fills, portfolio accounts and exits. LangGraph coordinates execution and resumes work; it grants no authority.
-
-The application uses the public ARH client and records authoritative references. It never reads ARH ledgers directly. Public projections carry their observed closure and time. Dialog's journal and execution-adapter receipts reconstruct portfolio state; graph checkpoints do not authorize trades.
-
-Researchers and the evaluator run in separate processes with role credentials. The trusted local coordinator holds a broad Principal credential. This is cooperative role separation, not operating-system isolation. The browser exposes finite actions with revision and origin checks, not arbitrary Principal commands.
-
-The execution adapter is a deterministic fixture with a $100 price and $0.10-per-share fee. Its replaceable protocol supports stable order IDs, lookup, partial fills and cancellation. Allocation opens competing strategies from a flat, reconciled book; general rebalancing is outside this version. Exits retain their original cost limits and cannot oversell.
+See [architecture.md](architecture.md) for the implemented components, ownership boundaries, persistence, recovery and current limits.
 
 ## Tests
 
