@@ -1,0 +1,38 @@
+{
+  "CPOC": "PASS for Check/settlement keyed outcomes through forced caller/core replacement; broader suite limitations retained",
+  "OSA": "PASS for bounded RV-03 contract",
+  "deployment": "NOT APPLICABLE; not authorized",
+  "full_unittest": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 106,
+    "skips": 0,
+    "tests": 106
+  },
+  "global_certification": "NOT CLAIMED",
+  "native_acceptance": {
+    "errors": 0,
+    "excluded": "T06: Linux peer/isolation, unchanged",
+    "failures": 0,
+    "limitations": {
+      "B10": "SUBSTITUTED: whole-core outage, not a Transition-ledger-only failure",
+      "R14_STOP": "UNREACHABLE: no supported input with missing constitutional meaning",
+      "peer_identity_cases": "Cooperative attribution only; R01/R12/R13/T07 OS enforcement unverified"
+    },
+    "passed": 77,
+    "selected": 77
+  },
+  "pre_repair_reproduction": {
+    "failures": 1,
+    "reason": "UNFUNDED_CHECK for admitted check-half/0.50; complete real charge retained",
+    "tests": 1
+  },
+  "source_inventory": "9cdc44f5749846dd147075eca2d185d5391018622261f117962a8df37f32c44f",
+  "targeted": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 6,
+    "skips": 0,
+    "tests": 6
+  }
+}

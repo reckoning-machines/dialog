@@ -1,0 +1,225 @@
+{
+  "0939e06f-71d5-4c48-bb22-7b8dc8eeda0c": {
+    "fingerprint": "c35b6149cb5fead55c0b9b9806808aba2cfb63327be4f59b907b1a261d727e34",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "0939e06f-71d5-4c48-bb22-7b8dc8eeda0c",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 44,
+            "sha256": "a5802d8e1a59ee47cbc0b4885ba0ec3bf2cabcfaba32f9665fc9926038bda73d"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "09e265c4-7862-42a9-8d65-d01a2ab67119": {
+    "fingerprint": "7bd3aa380c021aa3678269ead357f2733b391b31891ad932365648351c0576ec",
+    "response": {
+      "code": "SERVICE_REQUEST_MISMATCH",
+      "forwarded": false,
+      "request_id": "09e265c4-7862-42a9-8d65-d01a2ab67119"
+    }
+  },
+  "0cb796fe-d944-4741-8dd0-0d62d1d0cbe9": {
+    "fingerprint": "7725a19bc9da792bfe18cbe8743eef1ab7b6dfda23af12fd4aa8a19b5572728e",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "0cb796fe-d944-4741-8dd0-0d62d1d0cbe9",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 66,
+            "sha256": "5435db102b9a271bbbdfedd8e2e41b2ef7e5d8acf8ce204abfa3435ba940c0b5"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "11656bbd-c337-43c4-b340-6998f9a15c1c": {
+    "fingerprint": "51accaf6d0ab30e6584db796e7cde56aee5b2f8f0712622a534af3f52f495a62",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "11656bbd-c337-43c4-b340-6998f9a15c1c"
+    }
+  },
+  "2093eac3-64e1-4298-b9fb-1be07a2c7e2f": {
+    "fingerprint": "fa2741f415ea120bcaed855833876b8111504b730b5118554955df3c6f444d94",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "2093eac3-64e1-4298-b9fb-1be07a2c7e2f"
+    }
+  },
+  "2d50ddd7-0331-4922-8536-bb6befb76842": {
+    "fingerprint": "fc1b636b717a686a7807d755f146659defd8ac6a3e908cd8b4325ecaea435af4",
+    "response": {
+      "code": "HOST_RESPONSE",
+      "forwarded": true,
+      "request_id": "2d50ddd7-0331-4922-8536-bb6befb76842",
+      "upstream": {
+        "proofs": [
+          "/private/tmp/murmur-rv03-h694t7nc/runtime/cs-a271d12d/state/supervisor/e4d59a481e4af6dfb962010855018d1202ad09b475a731df8e98265f580ba8e0.json"
+        ]
+      }
+    }
+  },
+  "37829fff-0665-46c6-b56d-d90d6a858e42": {
+    "fingerprint": "5807a4c9f729b1a5ee6c906aedd50ba3b66a6cbb1eb0e987839db066dedfd93e",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "37829fff-0665-46c6-b56d-d90d6a858e42"
+    }
+  },
+  "39f72022-d3f6-46dd-b6e3-21105d817f10": {
+    "fingerprint": "8482c4cf76d1d42bed95baf4b7b25e38253de01d1718c5ee3838f53b7bae18a4",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "39f72022-d3f6-46dd-b6e3-21105d817f10",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 65,
+            "sha256": "54d7e34d12ccb40fe1f5bb97aa28b4fea0511bcf76f38008c1e6f57bbaf41936"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "4bfbb2be-7c57-4ab9-9497-09e53675d8f2": {
+    "fingerprint": "782468220895e076eedc5ac6157f6d741ac652a86eb609875e07fab40099e3dd",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "4bfbb2be-7c57-4ab9-9497-09e53675d8f2"
+    }
+  },
+  "4f0899c4-5b3c-4019-8e1c-e07284871239": {
+    "fingerprint": "1c85b981768fe941f03423bfb5207bdbc7771cd7a95236dc89593fe2174f00cc",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "4f0899c4-5b3c-4019-8e1c-e07284871239",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 69,
+            "sha256": "c697111b0f366313cc0662a366713682496bfd8fc7a611700b0078d570d346f3"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "6e4b340a-3bfb-4dff-b22f-bf6652cd9f26": {
+    "fingerprint": "401e76b95d3dafaddbdc141202c69790eb6fe6dadb87c161388d81e6b1ed0807",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "6e4b340a-3bfb-4dff-b22f-bf6652cd9f26"
+    }
+  },
+  "7af6ef5e-9bd7-427c-8257-0f135cdec357": {
+    "fingerprint": "bb61cc0f28739e08d0730deeff5cce3b47ebc3f37ac5f6205b5674cb3e3d8c74",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "7af6ef5e-9bd7-427c-8257-0f135cdec357"
+    }
+  },
+  "7bd59de5-55ab-45a2-889c-cc6e844caff5": {
+    "fingerprint": "4a816206abb3f2783e0f93825e5940b178761c4a9eb2638412c44a8aa4b8bb73",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "7bd59de5-55ab-45a2-889c-cc6e844caff5"
+    }
+  },
+  "92e42566-cfd3-4866-a19d-8d2fd857cce3": {
+    "fingerprint": "2fb3dcca6d677e73250c37a26223ba48a4cc8cb0fe31231dd7b2037f81280cc5",
+    "response": {
+      "code": "SERVICE_REQUEST_MISMATCH",
+      "forwarded": false,
+      "request_id": "92e42566-cfd3-4866-a19d-8d2fd857cce3"
+    }
+  },
+  "a4893873-6abf-4f00-9ae1-65d29cbee95b": {
+    "fingerprint": "cc2825d3c30e379b630c3791061551eeb2fa894441d1c63d224d602aa305e9c8",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "a4893873-6abf-4f00-9ae1-65d29cbee95b"
+    }
+  },
+  "a68bf645-0bbc-4576-831d-08183b25083b": {
+    "fingerprint": "51bb85e8efc5fa91cfb5b0e17c50b9f5487762fdd3814586730f01c705d9dad7",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "a68bf645-0bbc-4576-831d-08183b25083b"
+    }
+  },
+  "a7eef3f5-3139-4c55-8c28-391c71a71a82": {
+    "fingerprint": "9b47abb652135d25849d07204f199e2853abb2cbfc828f535f2ea9daf5d09bdb",
+    "response": {
+      "code": "COMMITTED",
+      "forwarded": true,
+      "request_id": "a7eef3f5-3139-4c55-8c28-391c71a71a82",
+      "upstream": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 45,
+            "sha256": "e195a66dbf5e44b8fd15d44bb14c9421ef73d827ca24d8a64111ea7c1d85e92c"
+          }
+        ],
+        "status": "COMMITTED"
+      }
+    }
+  },
+  "ad8fd759-cd1e-4880-8f09-d005c0da6629": {
+    "fingerprint": "0545a4fd3751d637427e096ea99399c158506f49e3c2abdadf2989c3a958c5b7",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "ad8fd759-cd1e-4880-8f09-d005c0da6629"
+    }
+  },
+  "d281dd23-7154-4297-8f57-2ec76d47f91d": {
+    "fingerprint": "597fb719cdad0ed5c56a4b1cc78f14c4d3f127cd8ff698f53003b28b38da50d1",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "d281dd23-7154-4297-8f57-2ec76d47f91d"
+    }
+  },
+  "e7f6db82-6103-46e6-ae06-910fe118fcf7": {
+    "fingerprint": "f3c63fb0f3db772f50cbdcc72b65fdc24764cd6a62e10477e4a554c66b4a3a08",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "e7f6db82-6103-46e6-ae06-910fe118fcf7"
+    }
+  },
+  "fd6e5e81-ffc4-49bc-b042-ecf425d2d8d6": {
+    "fingerprint": "5f102b261e7429b1953a4594c44efdef3284481803496f4546738d5fc42a8ed1",
+    "response": {
+      "code": "SERVICE_OPERATION_REFUSED",
+      "forwarded": false,
+      "request_id": "fd6e5e81-ffc4-49bc-b042-ecf425d2d8d6"
+    }
+  }
+}

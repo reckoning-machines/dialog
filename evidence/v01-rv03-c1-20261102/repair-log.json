@@ -1,0 +1,21 @@
+{
+  "earlier_evidence_unchanged": true,
+  "fresh_hosts": 7,
+  "repairs": [
+    {
+      "change": "Pin repaired ARH commit; require actual CS-01 and S-09 half-unit completion instead of retaining predecessor failure dispositions. Reuse original DRIFT proposal funding for S-09. Keep all 14 expected outcomes and all profile/budget/source specs unchanged.",
+      "stage": "before fresh dispatch"
+    },
+    {
+      "change": "Packaging scanner classified SQLite page-split SHA256 references, not credentials; separate locally ignored native state manifest from versioned public evidence. No runtime assertion changed or acceptance rerun omitted.",
+      "stage": "upstream retention"
+    },
+    {
+      "change": "Extend recorded process-ID audit to custodian/controller identities. Remove one inherited whitespace-only source line flagged by git diff --check. Contemporaneous source-at-start snapshots remain byte-exact; no executable statement, fixture expectation, limit or outcome changed.",
+      "stage": "after runtime, retention only"
+    }
+  ],
+  "runtime_fixture_failures": 0,
+  "successor": "RV-03-C1",
+  "upstream_expected_red_failure": "Pre-repair half-unit Check returned UNFUNDED_CHECK; actual charge retained. Red is historical reproduction, not part of repaired pass totals."
+}

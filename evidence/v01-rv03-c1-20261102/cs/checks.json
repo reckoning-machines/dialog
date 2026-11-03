@@ -1,0 +1,102 @@
+[
+  {
+    "amount": "0.50",
+    "record": {
+      "ledger": "T",
+      "sequence": 37,
+      "sha256": "89b791274f538bc9661d218d9e23e24c3f04a1b5993581a2a3fbcb856b8f849a"
+    },
+    "result": "PASS",
+    "transition": "P-CS1"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 47,
+      "sha256": "3b4feb1221195fa39e1d53d5d1c63a4d2cc21f1801161edb13fc5d9c34e09a39"
+    },
+    "result": "FAIL",
+    "transition": "P-FAIL"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 50,
+      "sha256": "3ee247ab432b42a2241fa2146ea5f8e3ee2dc6b1c8ccd83378ddb3a924425af6"
+    },
+    "result": "STOP",
+    "transition": "P-STOP"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 52,
+      "sha256": "92a64babdc77193b0ec4067efddfcfc2647912710355d00d674187274f8588d0"
+    },
+    "result": "PASS",
+    "transition": "P-STALE"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 54,
+      "sha256": "da7e84fb1d818c3702f41bb08ae20f178bedf0386275f59e1fdaa287a3e4be30"
+    },
+    "result": "PASS",
+    "transition": "P-RAW"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 58,
+      "sha256": "1aa55af9f95f6eb0b6ae8861da0d8451e344efdce8977caa22be1776bbc5f5a0"
+    },
+    "result": "PASS",
+    "transition": "P-STALE"
+  },
+  {
+    "amount": "0.50",
+    "record": {
+      "ledger": "T",
+      "sequence": 61,
+      "sha256": "fe4bd26d98b03b42e78ee12ea14bc00857d854a76ff81ff7a8de7d3090871114"
+    },
+    "result": "PASS",
+    "transition": "P-DRIFT"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 62,
+      "sha256": "5443e3d6bb57ae500f65e0e122e6432236328a6e9a2da317e5bc3ad4243caecf"
+    },
+    "result": "PASS",
+    "transition": "P-DRIFT"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 64,
+      "sha256": "2489c1c0c9c904405aed8bb62808669bc68042a27163625a43d28a3c4aafd588"
+    },
+    "result": "PASS",
+    "transition": "P-S19"
+  },
+  {
+    "amount": "0.25",
+    "record": {
+      "ledger": "T",
+      "sequence": 67,
+      "sha256": "120a14fcc0341b622e469f1182ba66b6e6c39d64d85dbba83513380285e31dff"
+    },
+    "result": "PASS",
+    "transition": "P-DRIFT"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "60ac8f03-b315-44b2-a3d0-85b501cd7cff": {
+    "fingerprint": "859b902650c01f349121547dcb7a493a7bd73d96d2b2ca462c7a63befff9d1f6",
+    "response": {
+      "code": "REFUSED",
+      "forwarded": true,
+      "request_id": "60ac8f03-b315-44b2-a3d0-85b501cd7cff",
+      "upstream": {
+        "detail": "",
+        "reason": "POLICY_SUSPENDED",
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 45,
+            "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+          }
+        ],
+        "status": "REFUSED"
+      }
+    }
+  },
+  "6af8b09b-bb8a-4ba3-9a8e-e6a7dc4483ba": {
+    "fingerprint": "a6b8c8be56c3d11867ab4cb3c5a33826fffb0ae3bb91cb42965a0d1381153e9d",
+    "response": {
+      "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+      "forwarded": false,
+      "request_id": "6af8b09b-bb8a-4ba3-9a8e-e6a7dc4483ba"
+    }
+  }
+}

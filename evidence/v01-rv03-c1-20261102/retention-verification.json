@@ -1,0 +1,19 @@
+{
+  "finalize_command": [
+    "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+    "/private/tmp/murmur-rv03-h694t7nc/source/finish_evidence.py",
+    "finalize"
+  ],
+  "finalize_returncode": 0,
+  "credential_files_removed": 40,
+  "current_secret_values_compared": 38,
+  "matches": 0,
+  "ambiguous_live_pids": 0,
+  "structural_audit_command": [
+    "/private/tmp/murmur-v01.1dUJI5/venv/bin/python",
+    "/private/tmp/murmur-rv03-h694t7nc/source/audit_retained.py"
+  ],
+  "initial_structural_audit_returncode": 0,
+  "initial_files_verified": 778,
+  "notice": "This retention metadata is subsequently included by audit_retained --refresh and reverified after copying; no host rerun or spending."
+}

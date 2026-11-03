@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 40489
+    }
+  ],
+  "run_id": "43d9850723f84c488959be7b5cbe826c",
+  "state": "/private/tmp/murmur-rv03-h694t7nc/runtime/parallel-blocked-f15e0e16/state"
+}

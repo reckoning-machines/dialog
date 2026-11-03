@@ -1,0 +1,31 @@
+{
+  "head": 8,
+  "new_processes": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 39730
+      }
+    ],
+    "run_id": "a5f9cdf6dd784f2fa4d73b29e2a70168",
+    "state": "/private/tmp/murmur-rv03-h694t7nc/runtime/reopen-45b0a8ed/state"
+  },
+  "old_processes": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 39726
+      }
+    ],
+    "run_id": "643e21987dce4dc6bff23b5ec24c986d",
+    "state": "/private/tmp/murmur-rv03-h694t7nc/runtime/reopen-45b0a8ed/state"
+  },
+  "same_budgets": true,
+  "same_closure": true
+}

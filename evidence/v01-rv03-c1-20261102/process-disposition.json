@@ -1,0 +1,125 @@
+{
+  "notice": "A currently allocated historical PID is not presumed to be the original process. Forced-death witnesses retain wait returncodes and host proofs.",
+  "retained_known_processes": [
+    {
+      "gone": true,
+      "pid": 38922
+    },
+    {
+      "gone": true,
+      "pid": 38951
+    },
+    {
+      "gone": true,
+      "pid": 38954
+    },
+    {
+      "gone": true,
+      "pid": 38956
+    },
+    {
+      "gone": true,
+      "pid": 38957
+    },
+    {
+      "gone": true,
+      "pid": 38973
+    },
+    {
+      "gone": true,
+      "pid": 39029
+    },
+    {
+      "gone": true,
+      "pid": 39031
+    },
+    {
+      "gone": true,
+      "pid": 39032
+    },
+    {
+      "gone": true,
+      "pid": 39034
+    },
+    {
+      "gone": true,
+      "pid": 39049
+    },
+    {
+      "gone": true,
+      "pid": 39052
+    },
+    {
+      "gone": true,
+      "pid": 39056
+    },
+    {
+      "gone": true,
+      "pid": 39062
+    },
+    {
+      "gone": true,
+      "pid": 39063
+    },
+    {
+      "gone": true,
+      "pid": 39127
+    },
+    {
+      "gone": true,
+      "pid": 39131
+    },
+    {
+      "gone": true,
+      "pid": 39133
+    },
+    {
+      "gone": true,
+      "pid": 39134
+    },
+    {
+      "gone": true,
+      "pid": 39145
+    },
+    {
+      "gone": true,
+      "pid": 39713
+    },
+    {
+      "gone": true,
+      "pid": 39726
+    },
+    {
+      "gone": true,
+      "pid": 39730
+    },
+    {
+      "gone": true,
+      "pid": 40481
+    },
+    {
+      "gone": true,
+      "pid": 40483
+    },
+    {
+      "gone": true,
+      "pid": 40486
+    },
+    {
+      "gone": true,
+      "pid": 40489
+    },
+    {
+      "gone": true,
+      "pid": 40491
+    },
+    {
+      "gone": true,
+      "pid": 40493
+    },
+    {
+      "gone": true,
+      "pid": 40496
+    }
+  ]
+}

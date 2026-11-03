@@ -1,0 +1,597 @@
+{
+  "CS-01": {
+    "details": {
+      "actual": "0.50",
+      "check": {
+        "ledger": "T",
+        "sequence": 37,
+        "sha256": "89b791274f538bc9661d218d9e23e24c3f04a1b5993581a2a3fbcb856b8f849a"
+      },
+      "funding_retained": {
+        "ledger": "E",
+        "sequence": 48,
+        "sha256": "9181fb051e709c806a8241cfc0463437f27a8f73eaaed9d68c56a749b234ff71"
+      },
+      "policy_and_apply": {
+        "applied": {
+          "code": "COMMITTED",
+          "forwarded": true,
+          "request_id": "a7eef3f5-3139-4c55-8c28-391c71a71a82",
+          "upstream": {
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 45,
+                "sha256": "e195a66dbf5e44b8fd15d44bb14c9421ef73d827ca24d8a64111ea7c1d85e92c"
+              }
+            ],
+            "status": "COMMITTED"
+          }
+        },
+        "decision": {
+          "code": "COMMITTED",
+          "forwarded": true,
+          "request_id": "0939e06f-71d5-4c48-bb22-7b8dc8eeda0c",
+          "upstream": {
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 44,
+                "sha256": "a5802d8e1a59ee47cbc0b4885ba0ec3bf2cabcfaba32f9665fc9926038bda73d"
+              }
+            ],
+            "status": "COMMITTED"
+          }
+        }
+      },
+      "result": "PASS"
+    },
+    "status": "PASS"
+  },
+  "CS-02": {
+    "details": {
+      "aux_checker_setup": {
+        "E": 60,
+        "N": 9,
+        "committed": "2.75",
+        "grant": "AU-CK-V",
+        "headroom": "9.25",
+        "overspent": false,
+        "reserved": "2.75",
+        "spendable": "9.25",
+        "time_ms": 1793232001000
+      },
+      "auxiliary_theme_refusal": {
+        "detail": "",
+        "reason": "P1_CLASS",
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 38,
+            "sha256": "211cf2e4c7ec5c53afbee871f8d7693b08d5bf553da3af5e5ab08f707c253135"
+          }
+        ],
+        "status": "REFUSED"
+      },
+      "main_run": {
+        "fail": {
+          "ledger": "T",
+          "sequence": 47,
+          "sha256": "3b4feb1221195fa39e1d53d5d1c63a4d2cc21f1801161edb13fc5d9c34e09a39"
+        },
+        "missing_funding": {
+          "detail": "",
+          "reason": "RESERVATION_CLOSED",
+          "refs": [
+            {
+              "ledger": "T",
+              "sequence": 59,
+              "sha256": "c58149160872e03c436f32118c5da3a4aa5e056f617b81bcde992837d8de30f2"
+            }
+          ],
+          "status": "REFUSED"
+        },
+        "stale": {
+          "detail": "",
+          "reason": "STALE_CHECK",
+          "refs": [
+            {
+              "ledger": "T",
+              "sequence": 57,
+              "sha256": "8d87a5cb5c136c9f80e6945ead7bab7fbf7a812376f7bba85ab7693b4d8c268f"
+            }
+          ],
+          "status": "REFUSED"
+        },
+        "stop": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "3ee247ab432b42a2241fa2146ea5f8e3ee2dc6b1c8ccd83378ddb3a924425af6"
+        }
+      },
+      "suspended": {
+        "code": "REFUSED",
+        "forwarded": true,
+        "request_id": "60ac8f03-b315-44b2-a3d0-85b501cd7cff",
+        "upstream": {
+          "detail": "",
+          "reason": "POLICY_SUSPENDED",
+          "refs": [
+            {
+              "ledger": "T",
+              "sequence": 45,
+              "sha256": "5de9eee2b8fe1e8d9ceb5ae8aac5bebbd271cef0eba5e8f44c1c254d91fed78d"
+            }
+          ],
+          "status": "REFUSED"
+        }
+      }
+    },
+    "status": "PASS"
+  },
+  "CS-03": {
+    "details": {
+      "before_proof": {
+        "raw": {
+          "detail": "",
+          "input": {
+            "executable_hash": "3b7420c3cd065071d2d92fcccc1506a05831bd9b0f39e7aae9fa50ef5e93330e",
+            "input_refs": [
+              {
+                "ledger": "E",
+                "raw_sha256": "7f6d3387591eeee7d548f105073e608e7e2f14394e2fc3f12585efad497319cc",
+                "sequence": 91,
+                "sha256": "1ddc4c46c4a106f83630e550da2208f97282c6bf620a66c31fdd881a0deb2da0"
+              }
+            ],
+            "parameters": {
+              "fixture": "V01"
+            },
+            "schema_version": 1,
+            "step": "research",
+            "tool_id": "CALC-V",
+            "tool_spec_hash": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+          },
+          "reason": "WORKER_NOT_QUIESCENT",
+          "refs": [
+            {
+              "ledger": "E",
+              "sequence": 112,
+              "sha256": "dfd2753997d0d2a0bd94f0cfa3d1c86f5858c485d10f7ce9038ec3152ebebc22"
+            }
+          ],
+          "status": "REFUSED"
+        },
+        "reason": "WORKER_NOT_QUIESCENT",
+        "status": "refused"
+      },
+      "proof": {
+        "code": "HOST_RESPONSE",
+        "forwarded": true,
+        "request_id": "2d50ddd7-0331-4922-8536-bb6befb76842",
+        "upstream": {
+          "proofs": [
+            "/private/tmp/murmur-rv03-h694t7nc/runtime/cs-a271d12d/state/supervisor/e4d59a481e4af6dfb962010855018d1202ad09b475a731df8e98265f580ba8e0.json"
+          ]
+        }
+      },
+      "replacement": {
+        "attempt": 113,
+        "record": {
+          "ledger": "E",
+          "sequence": 114,
+          "sha256": "5b403561ffe0d403ee81da0e3c69b711f1254f6dcd9f8b06b52dae87156f2579"
+        },
+        "status": "recorded"
+      },
+      "returncode": -9,
+      "uncertain": {
+        "attempt": 110,
+        "reservation": 109,
+        "status": "uncertain"
+      },
+      "worker_pid": 39063
+    },
+    "status": "PASS"
+  },
+  "CS-04": {
+    "details": {
+      "assertions": 17,
+      "responses": [
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "a68bf645-0bbc-4576-831d-08183b25083b"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "37829fff-0665-46c6-b56d-d90d6a858e42"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "6e4b340a-3bfb-4dff-b22f-bf6652cd9f26"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "2093eac3-64e1-4298-b9fb-1be07a2c7e2f"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "4bfbb2be-7c57-4ab9-9497-09e53675d8f2"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "fd6e5e81-ffc4-49bc-b042-ecf425d2d8d6"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "11656bbd-c337-43c4-b340-6998f9a15c1c"
+        },
+        {
+          "code": "SERVICE_OPERATION_REFUSED",
+          "forwarded": false,
+          "request_id": "e7f6db82-6103-46e6-ae06-910fe118fcf7"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "436373a4-119d-4306-a9f7-89f7b6cdb807"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "145fc847-e0ae-4b58-9a30-972c42cdf6f7"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "632e9711-958e-45c4-be93-c6c098de5644"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "4dcc6e60-8297-4fd4-a6ac-f38723762eb8"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "626be5d2-a37f-4546-9c70-e8de4eb38322"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "8f70da46-6849-4db4-84ef-33aa295fa348"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "0da07cf5-2fee-4041-b3df-f8e72d0077c8"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "44dd4396-ce7a-4de5-8a39-f29aa9ae7684"
+        },
+        {
+          "code": "SERVICE_CALLER_REFUSED",
+          "forwarded": false,
+          "request_id": "1235207f-7511-4199-9220-b3a9ca643f44"
+        }
+      ]
+    },
+    "status": "PASS"
+  },
+  "CS-05": {
+    "details": {
+      "actor": "Principal",
+      "apply": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 56,
+            "sha256": "66d6a02b18d7e67eaec9714be2ea9628f3a4a5890c63fb8163010e4e63e639c0"
+          }
+        ],
+        "status": "COMMITTED"
+      },
+      "decision": {
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 55,
+            "sha256": "285d396af729e5ddba1bb0a12be6185e30ffaf376c33661e5fc7bbfb94a9914d"
+          }
+        ],
+        "status": "COMMITTED"
+      },
+      "narrow_credential_enforcement": false,
+      "pid": 39056,
+      "separate_from_TC": true
+    },
+    "status": "PASS"
+  },
+  "CS-06": {
+    "details": {
+      "decision_count": 1,
+      "fresh_service": {
+        "new_pid": 39062,
+        "old_pid": 39052,
+        "old_terminated": true
+      },
+      "same_response": true,
+      "stale": {
+        "code": "SERVICE_POLICY_PRECONDITION_REFUSED",
+        "forwarded": false,
+        "request_id": "ad8fd759-cd1e-4880-8f09-d005c0da6629"
+      }
+    },
+    "status": "PASS"
+  },
+  "S-05": {
+    "details": {
+      "evidence": "contention/race.json; contention/final/budgets.json"
+    },
+    "status": "PASS"
+  },
+  "S-09": {
+    "details": {
+      "actual": "0.50",
+      "independent_check": {
+        "ledger": "T",
+        "sequence": 61,
+        "sha256": "fe4bd26d98b03b42e78ee12ea14bc00857d854a76ff81ff7a8de7d3090871114"
+      },
+      "result": "PASS",
+      "role_refusals_passed": [
+        {
+          "actor": "R-T",
+          "operation": "check-commit",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 38,
+                "sha256": "a152009550962d596cbd690bcb633aa824506c16b815d161f32ce74552e26bc9"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        },
+        {
+          "actor": "R-T",
+          "operation": "decide",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 39,
+                "sha256": "a7756f400118e3e04e49159e6b884caf0d70c741310b05ba69920aff3cbbedb4"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        },
+        {
+          "actor": "R-T",
+          "operation": "policy-decide",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 40,
+                "sha256": "5c73cb1515fbe7d0bcd61995d02113d33dd2a31f5269f893d322cc225feebff1"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        },
+        {
+          "actor": "R-R",
+          "operation": "check-commit",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 41,
+                "sha256": "a152009550962d596cbd690bcb633aa824506c16b815d161f32ce74552e26bc9"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        },
+        {
+          "actor": "R-R",
+          "operation": "decide",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 42,
+                "sha256": "a7756f400118e3e04e49159e6b884caf0d70c741310b05ba69920aff3cbbedb4"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        },
+        {
+          "actor": "R-R",
+          "operation": "policy-decide",
+          "response": {
+            "detail": "",
+            "reason": "UNAUTHORIZED",
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 43,
+                "sha256": "5c73cb1515fbe7d0bcd61995d02113d33dd2a31f5269f893d322cc225feebff1"
+              }
+            ],
+            "status": "REFUSED"
+          }
+        }
+      ]
+    },
+    "status": "PASS"
+  },
+  "S-15A": {
+    "details": {
+      "evidence": "parallel-success",
+      "graph_state": {
+        "reversal": {
+          "attempt": 57,
+          "record": {
+            "ledger": "E",
+            "sequence": 58,
+            "sha256": "7d71debad2c75e5fe19d38759fbab6bc1b05769b520739b3027cd3292ca84d7d"
+          },
+          "status": "recorded"
+        },
+        "trend": {
+          "attempt": 50,
+          "execution": "registered",
+          "record": {
+            "ledger": "E",
+            "sequence": 52,
+            "sha256": "f702c6a1220cc7bf0a0023334f415e24474c6591310789dae93996519cb679fe"
+          },
+          "reservation": 48,
+          "status": "recorded"
+        }
+      },
+      "settled": "2.25",
+      "spendable": "7.75"
+    },
+    "status": "PASS"
+  },
+  "S-15B": {
+    "details": {
+      "evidence": "parallel-blocked",
+      "graph_state": {
+        "__interrupt__": [
+          "Interrupt(value={'actor': 'R-R', 'operation': 'R-R-parallel', 'requires': 'authoritative quiescence/replacement', 'status': 'blocked'}, id='df321c8f9f83e680a52c38403fd2d699', response_schema=None)"
+        ],
+        "trend": {
+          "attempt": 50,
+          "execution": "registered",
+          "record": {
+            "ledger": "E",
+            "sequence": 52,
+            "sha256": "f5c8b353e027ec9bd0d7586edd6c45f08efb1fdebcc364d14e552dd29b9ed864"
+          },
+          "reservation": 48,
+          "status": "recorded"
+        }
+      },
+      "settled": "1.75",
+      "spendable": "7.25"
+    },
+    "status": "PASS"
+  },
+  "S-16": {
+    "details": {
+      "compatible_and_incompatible": true,
+      "evidence": "reopen"
+    },
+    "status": "PASS"
+  },
+  "S-19": {
+    "details": {
+      "design": {
+        "ledger": "E",
+        "sequence": 92,
+        "sha256": "ed68988076c5f9e08c26dacf7223c83eaad3e4a5b317ae7da121a0e7ce4ac0ce"
+      },
+      "policy": {
+        "applied": {
+          "code": "COMMITTED",
+          "forwarded": true,
+          "request_id": "0cb796fe-d944-4741-8dd0-0d62d1d0cbe9",
+          "upstream": {
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 66,
+                "sha256": "5435db102b9a271bbbdfedd8e2e41b2ef7e5d8acf8ce204abfa3435ba940c0b5"
+              }
+            ],
+            "status": "COMMITTED"
+          }
+        },
+        "decision": {
+          "code": "COMMITTED",
+          "forwarded": true,
+          "request_id": "39f72022-d3f6-46dd-b6e3-21105d817f10",
+          "upstream": {
+            "refs": [
+              {
+                "ledger": "T",
+                "sequence": 65,
+                "sha256": "54d7e34d12ccb40fe1f5bb97aa28b4fea0511bcf76f38008c1e6f57bbaf41936"
+              }
+            ],
+            "status": "COMMITTED"
+          }
+        }
+      },
+      "same_roots": true,
+      "work": {
+        "attempt": 94,
+        "execution": "executed",
+        "record": {
+          "ledger": "E",
+          "sequence": 95,
+          "sha256": "52f8fe3ca72de152ccd0ae15d266598000ad2e7ac8113ec680dd656f4b073d61"
+        },
+        "reservation": 93,
+        "status": "recorded"
+      }
+    },
+    "status": "PASS"
+  },
+  "S-20": {
+    "details": {
+      "local": "TB_SCOPE_CHANGE_REQUIRED",
+      "no_dispatch": true,
+      "upstream": {
+        "detail": "",
+        "reason": "SCOPE_VIOLATION",
+        "refs": [
+          {
+            "ledger": "T",
+            "sequence": 70,
+            "sha256": "92ecf16328b80c352e581af82db27776121dfb8e81679db6a87b8cc1ae030ce5"
+          }
+        ],
+        "status": "REFUSED"
+      }
+    },
+    "status": "PASS"
+  },
+  "S-21": {
+    "details": {
+      "local": "TB_SCOPE_UNRESOLVED",
+      "lookup": {
+        "code": "INVALID_REFERENCE",
+        "detail": "INVALID_REFERENCE: INVALID_REFERENCE"
+      },
+      "no_rewrite": true
+    },
+    "status": "PASS"
+  }
+}

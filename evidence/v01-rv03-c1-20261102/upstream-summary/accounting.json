@@ -1,0 +1,1035 @@
+{
+  "unit": "simulated_research_units",
+  "native_acceptance_runs": [
+    {
+      "case": "R01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [
+        69
+      ],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R06",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R07",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R08",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R09",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "601.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R10",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R11",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.75",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R12",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R13",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R14",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "5.00",
+        "AU-CK-B": "1.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "PARTIAL",
+        "tested": "Known scientific failures",
+        "unreachable": "Constitutional NOT DETERMINABLE/STOP branch in this bounded language"
+      }
+    },
+    {
+      "case": "R15",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "R16",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.50",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B06",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.50",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B07",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B08",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B09",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.50",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B10",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "SUBSTITUTED",
+        "tested": "Whole-core outage and exact reconstruction",
+        "unexecuted": "Transition-ledger-only outage; shared SQLite carrier has no independent ledger service"
+      }
+    },
+    {
+      "case": "B11",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "B12",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.50",
+        "AU-CK-B": "0.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C06",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "C07",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "5.00",
+        "AU-CK-B": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "5.25"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "5.00",
+        "AU-CK-B": "1.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S06",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-CK-B": "0.25"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S07",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "S08",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [
+        80
+      ],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [
+        69
+      ],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "T07",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "E01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-before_reserve_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_reserve_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-before_attempt_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_attempt_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_dispatch_claim_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-tool_before_execution",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-tool_after_execution_before_reply",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_research-commit_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_settle_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-checker_during_computation",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-checker_after_result",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_check-commit_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_decide_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_bind_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-before_apply_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_invalidate-request_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-after_apply_commit",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-principal_control_continuation",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-clock_unavailable",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-all_components_restart",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-terminal-apply",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "D-terminal-invalidate",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "X01",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.50",
+        "AU-RP-1": "2.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "X02",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "X03",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.25",
+        "AU-RP-1": "1.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "X04",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    },
+    {
+      "case": "X05",
+      "status": "PASS",
+      "committed_units": {
+        "AU-CK-A": "4.00"
+      },
+      "pending_attempts": [],
+      "coverage": {
+        "status": "COOPERATIVE"
+      }
+    }
+  ],
+  "native_acceptance_committed_total": "991.00",
+  "new_regression_runs": [
+    {
+      "phase": "red",
+      "run": "test_declared_quarter_and_half_steps_complete-593dcc45-a032-4d78-951f-68a69e780458",
+      "settled": "1.00",
+      "usage": "1.00",
+      "pending_attempts": [],
+      "source": "red/public-host-regressions/test_declared_quarter_and_half_steps_complete-593dcc45-a032-4d78-951f-68a69e780458/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_unauthorized_actors_and_receipt_reuse_refuse-bd6b8602-4f38-4b94-b163-193ed030a6c4",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_unauthorized_actors_and_receipt_reuse_refuse-bd6b8602-4f38-4b94-b163-193ed030a6c4/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_undeclared_steps_and_mismatched_maxima_refuse-bc3c1b45-85fb-4cc0-8ad3-403a06623308",
+      "settled": "0.25",
+      "usage": "0.25",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_undeclared_steps_and_mismatched_maxima_refuse-bc3c1b45-85fb-4cc0-8ad3-403a06623308/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_non_checker_step_cannot_be_committed_as_check-cd3fcae2-451b-4a70-a9e1-c383b6f1b3ec",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_non_checker_step_cannot_be_committed_as_check-cd3fcae2-451b-4a70-a9e1-c383b6f1b3ec/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_invalid_funding_and_transition_scope_refuse-abd510f3-66ce-4856-a70f-0575590b5e05",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_invalid_funding_and_transition_scope_refuse-abd510f3-66ce-4856-a70f-0575590b5e05/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_lost_check_and_settlement_responses_reopen_and_replay_once-d1820cbe-4e54-424b-a3f1-ba5bc35106c4",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_lost_check_and_settlement_responses_reopen_and_replay_once-d1820cbe-4e54-424b-a3f1-ba5bc35106c4/budget.json"
+    },
+    {
+      "phase": "targeted",
+      "run": "test_declared_quarter_and_half_steps_complete-fc8d1d8a-8640-42dd-ac7e-98c176c33a39",
+      "settled": "1.00",
+      "usage": "1.00",
+      "pending_attempts": [],
+      "source": "targeted/public-host-regressions/test_declared_quarter_and_half_steps_complete-fc8d1d8a-8640-42dd-ac7e-98c176c33a39/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_undeclared_steps_and_mismatched_maxima_refuse-55288f1f-03dd-4fb8-bc0c-bc78924f142d",
+      "settled": "0.25",
+      "usage": "0.25",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_undeclared_steps_and_mismatched_maxima_refuse-55288f1f-03dd-4fb8-bc0c-bc78924f142d/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_declared_quarter_and_half_steps_complete-a9f2d8eb-4f59-49e7-bada-b6cd3d0b8379",
+      "settled": "1.00",
+      "usage": "1.00",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_declared_quarter_and_half_steps_complete-a9f2d8eb-4f59-49e7-bada-b6cd3d0b8379/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_non_checker_step_cannot_be_committed_as_check-193d9fd1-a3c1-4500-ae52-a846083a632b",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_non_checker_step_cannot_be_committed_as_check-193d9fd1-a3c1-4500-ae52-a846083a632b/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_unauthorized_actors_and_receipt_reuse_refuse-23165d63-3bb4-4b19-b14e-5593949a6299",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_unauthorized_actors_and_receipt_reuse_refuse-23165d63-3bb4-4b19-b14e-5593949a6299/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_invalid_funding_and_transition_scope_refuse-6cf8a56b-fd8a-4038-9cbb-50995861f3c3",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_invalid_funding_and_transition_scope_refuse-6cf8a56b-fd8a-4038-9cbb-50995861f3c3/budget.json"
+    },
+    {
+      "phase": "full-unit",
+      "run": "test_lost_check_and_settlement_responses_reopen_and_replay_once-f931c61b-38fc-4d28-86d6-ba1e743c53fe",
+      "settled": "0.75",
+      "usage": "0.75",
+      "pending_attempts": [],
+      "source": "full-unit/public-host-regressions/test_lost_check_and_settlement_responses_reopen_and_replay_once-f931c61b-38fc-4d28-86d6-ba1e743c53fe/budget.json"
+    }
+  ],
+  "new_regression_settled_total": "9.50",
+  "notes": "Native acceptance reader reports committed liabilities including any pending maxima. New regression runs settle all attempts. These are separate fixture profiles, not Murmur V-01 pools. Other existing unittest fixtures have their normal transient reports; their synthetic charges are not presented as part of V-01 or this ledger."
+}

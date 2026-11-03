@@ -1,0 +1,9 @@
+{
+  "G_CONSUMER": "PASS",
+  "LangGraph": "SELECTED within the bounded synthetic profile",
+  "boundary": "Cooperative separation observed; same-UID credential access remains possible.",
+  "failed": 0,
+  "kind": "assertions against retained exports, not a new host run",
+  "passed": 14,
+  "required": 14
+}

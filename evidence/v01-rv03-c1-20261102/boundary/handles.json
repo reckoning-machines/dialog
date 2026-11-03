@@ -1,0 +1,25 @@
+{
+  "bootstrap_pid": 39134,
+  "check": {
+    "ledger": "T",
+    "sequence": 37,
+    "sha256": "ba23bde8fe9224808c6ac61180cffb34963d56e564588afb02b96c03b9b0ac22"
+  },
+  "funding": {
+    "ledger": "E",
+    "sequence": 48,
+    "sha256": "7a828fe07eef16b40e72dbff106b651058745d95d32fac000ed51e6c0d4efa71"
+  },
+  "identity_boundary": "cooperative same-user process separation; no OS isolation",
+  "mode_0600": {
+    "checker": "0o600",
+    "reversal": "0o600",
+    "service": "0o600",
+    "trend": "0o600"
+  },
+  "raw_principal_file_readable_by_same_uid": true,
+  "run_name": "boundary-35d185b0",
+  "service_pid": 39713,
+  "tc_only_file": "/private/tmp/murmur-rv03-h694t7nc/runtime/boundary-35d185b0/private/tc-only.json",
+  "transition": "P-BOUNDARY"
+}

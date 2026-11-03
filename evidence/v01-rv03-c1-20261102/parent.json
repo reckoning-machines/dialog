@@ -1,0 +1,11 @@
+{
+  "successor": "RV-03-C1",
+  "parent_Murmur_commit": "e9070259d7abda5e21a7cbddff6b38df86be8d71",
+  "historical_gate": "12 PASS, CS-01 and S-09 FAIL",
+  "historical_charges": {
+    "initial_checker": "1.25",
+    "RV01_A1_successor_total": "112.75"
+  },
+  "historical_allowance_retained": "5.25",
+  "authorization": "Bounded upstream RV-03 repair, exact pin review and unchanged V-01 rerun; same caps/scope/acceptance."
+}

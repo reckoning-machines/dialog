@@ -1,0 +1,19 @@
+{
+  "custodian_pid": 39714,
+  "status_before": {
+    "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+    "processes": [
+      {
+        "alive": true,
+        "label": null,
+        "mode": "core",
+        "pid": 39145
+      }
+    ],
+    "run_id": "baaba68ef04746c68c8e146d317465ac",
+    "state": "/private/tmp/murmur-rv03-h694t7nc/runtime/boundary-35d185b0/state"
+  },
+  "stop": {
+    "status": "STOPPING"
+  }
+}

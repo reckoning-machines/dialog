@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "run": "boundary-35d185b0",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "contention-9d9d72b5",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "cs-a271d12d",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "parallel-blocked-f15e0e16",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "parallel-success-63dd54fa",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "policy-edges-a6af78d4",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    },
+    {
+      "run": "reopen-45b0a8ed",
+      "fresh_reopen_preserves_original_closure": true,
+      "before_after_closure_and_budget_equal": true,
+      "new_reconciliation_commands": 0
+    }
+  ],
+  "source_at_start": "Every archived file matches its contemporaneous source hash. Post-run reporting does not relabel these bytes."
+}

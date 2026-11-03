@@ -1,0 +1,13 @@
+{
+  "inventory_sha256": "502dbd622371e82ee2b03efd591ae29b48205d6e168fbcad1e3720e1ae899d72",
+  "processes": [
+    {
+      "alive": true,
+      "label": null,
+      "mode": "core",
+      "pid": 40486
+    }
+  ],
+  "run_id": "20161f4e7cbc4e7cbdb2877fb6f059f0",
+  "state": "/private/tmp/murmur-rv03-h694t7nc/runtime/cs-a271d12d/state"
+}

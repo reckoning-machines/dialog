@@ -1,0 +1,516 @@
+{
+  "N": 9,
+  "active": [
+    "AU-CK-V",
+    "AU-OBS-V",
+    "G-BR",
+    "G-R"
+  ],
+  "designs": {
+    "AD-CK-V1.0": {
+      "AgentDesignLineageId": "AD-CK-V1",
+      "AgentDesignVersionId": "AD-CK-V1.0",
+      "entrypoint": "evaluator:evaluate",
+      "evaluation_inputs": [
+        "exact proposal",
+        "Transition lifecycle and Applied History",
+        "Evidence closure",
+        "pinned CV1 and ES-1.0",
+        "own grant",
+        "referenced artifacts"
+      ],
+      "evidence_outputs": [
+        "verification Research Record",
+        "own reservation/attempt/settlement/close"
+      ],
+      "executable_closure_sha256": "6094119b21025b8ec6a4df3501fde1748c308688add35836359a73b8906b8a2b",
+      "initial_method": {
+        "id": "MC-CHECKER-V1",
+        "sha256": "b318fe6edacb5795d2631b118a5d0f5e92183466a2b0c18b55ad5be8696e64af"
+      },
+      "instructions": "Execute every common and class criterion on a committed closure through the client checking toolkit. Public independent full criteria evaluator, with exact sum recomputation. Fund verification from own Checker grant. Never propose, decide or waive a criterion. Missing capability never becomes PASS.",
+      "method_class": "CHECKER",
+      "predecessor": null,
+      "program": "evaluator.py",
+      "program_sha256": "ab083f81bdf715ec50cc7b6412253f3785f17143b270202c8dccd827db07b468",
+      "proposable_outputs": [
+        "own Agent Design successor"
+      ],
+      "provenance": {
+        "execution_kind": "deterministic synthetic program",
+        "model": null,
+        "model_version": null,
+        "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+        "provider": null,
+        "spec_version": "generated-design-v1",
+        "training_cutoff": null
+      },
+      "step_catalog": [
+        "check-transition",
+        "check-half"
+      ],
+      "tool_specs": {
+        "CHECK-V-1": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+        "CHECK-V-1-HALF": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18"
+      }
+    },
+    "R-R": {
+      "AgentDesignLineageId": "L-R",
+      "AgentDesignVersionId": "R-R",
+      "entrypoint": "tools:researcher",
+      "evaluation_inputs": [
+        "own Research Records",
+        "active grant and population",
+        "declared source observations"
+      ],
+      "evidence_outputs": [
+        "EXPERIMENT DESIGN",
+        "plain Research Record",
+        "SELECTION"
+      ],
+      "executable_closure_sha256": "178d369236b2aaf68c3586690fff42bda96f6fb1ec26f1b0e7b8265b9c2d7caf",
+      "initial_method": {
+        "id": "MC-RESEARCH-V1",
+        "sha256": "9255e8f41fa493d238f291e971ba86d0d1877e7266598d12448b9329bf77f4be"
+      },
+      "instructions": "Investigate negative-return reversal and predeclared quiet regimes on AAA/BBB, record failures/revisions, never check or admit.",
+      "method_class": "RESEARCH",
+      "ordinary_cycle_enabled": true,
+      "predecessor": null,
+      "program": "tools.py",
+      "program_sha256": "3b7420c3cd065071d2d92fcccc1506a05831bd9b0f39e7aae9fa50ef5e93330e",
+      "proposable_outputs": [
+        "Theme registration",
+        "Agent Design successor registration without grant request"
+      ],
+      "provenance": {
+        "execution_kind": "deterministic synthetic program",
+        "model": null,
+        "model_version": null,
+        "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+        "provider": null,
+        "spec_version": "generated-design-v1",
+        "training_cutoff": null
+      },
+      "research_question": {
+        "difference_basis": "Each design states its own question and expectation.",
+        "predicate": "declared per design record",
+        "scope": "TH-V0",
+        "target": "Bounded continuation/reversal research on synthetic AAA/BBB."
+      },
+      "scope_profile": "TH-V-R",
+      "step_catalog": [
+        "research"
+      ],
+      "tool_specs": {
+        "CALC-V": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+      }
+    },
+    "R-T": {
+      "AgentDesignLineageId": "L-T",
+      "AgentDesignVersionId": "R-T",
+      "entrypoint": "tools:researcher",
+      "evaluation_inputs": [
+        "own Research Records",
+        "active grant and population",
+        "declared source observations"
+      ],
+      "evidence_outputs": [
+        "EXPERIMENT DESIGN",
+        "plain Research Record",
+        "SELECTION"
+      ],
+      "executable_closure_sha256": "e67b276aa39916f009ef4a7e28d5f251a5be3d310b1ef4bd6b35d6e429c6771c",
+      "initial_method": {
+        "id": "MC-RESEARCH-V1",
+        "sha256": "9255e8f41fa493d238f291e971ba86d0d1877e7266598d12448b9329bf77f4be"
+      },
+      "instructions": "Research only within declared original Theme and grant; record all revisions; never check or approve.",
+      "method_class": "RESEARCH",
+      "ordinary_cycle_enabled": true,
+      "predecessor": null,
+      "program": "tools.py",
+      "program_sha256": "3b7420c3cd065071d2d92fcccc1506a05831bd9b0f39e7aae9fa50ef5e93330e",
+      "proposable_outputs": [
+        "Theme registration",
+        "Agent Design successor registration without grant request"
+      ],
+      "provenance": {
+        "execution_kind": "deterministic synthetic program",
+        "model": null,
+        "model_version": null,
+        "not_applicable_reason": "Deterministic program; no trained model or model provider is invoked; no diversity claim.",
+        "provider": null,
+        "spec_version": "generated-design-v1",
+        "training_cutoff": null
+      },
+      "research_question": {
+        "difference_basis": "Each design states its own question and expectation.",
+        "predicate": "declared per design record",
+        "scope": "TH-V0",
+        "target": "Bounded continuation/reversal research on synthetic AAA/BBB."
+      },
+      "scope_profile": "TH-V-T",
+      "step_catalog": [
+        "research"
+      ],
+      "tool_specs": {
+        "CALC-V": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572"
+      }
+    }
+  },
+  "grants": {
+    "AU-CK-V": {
+      "AuthorizationId": "AU-CK-V",
+      "binding_interval_ms": null,
+      "capital_permission": false,
+      "class": "Checker",
+      "constitutional_budget": {
+        "delta_A": 0,
+        "delta_O": 0,
+        "delta_S": 0
+      },
+      "default_reservation_duration_ms": 604800000,
+      "expiry": "2027-04-30T00:00:00.000Z",
+      "forbidden_subjects": [
+        "AD-CK-V1 lineage and every successor",
+        "AU-CK-V and its successor chain"
+      ],
+      "grantee": [
+        "AD-CK-V1.0"
+      ],
+      "grantor": "Principal",
+      "may_check": [
+        "every supported Transition class except own subjects"
+      ],
+      "may_commit_evidence": [
+        "Research Record for verification",
+        "RESERVATION",
+        "attempt",
+        "settlement",
+        "CLOSED"
+      ],
+      "may_propose": [
+        "own Agent Design successor",
+        "Constitutional proposal STOPPED until Principal decides"
+      ],
+      "per_lineage_cap_units": "12.00",
+      "provider_calls_permitted": false,
+      "provider_diversity": "No provider diversity claimed: deterministic program under the A1 synthetic-only exception.",
+      "research_budget_units": "12.00",
+      "tools": [
+        {
+          "id": "CHECK-V-1",
+          "spec_sha256": "7079746fa932175adfe811fc93c73bd497c4de1c2baa5afb4a18c3eda3ced19b",
+          "tier": 1
+        },
+        {
+          "id": "CHECK-V-1-HALF",
+          "spec_sha256": "f1dfe78191a29faa9e6141d9458e4cb58aa9b4efa02f82344b73432410394c18",
+          "tier": 1
+        }
+      ],
+      "uncapped_calls_permitted": false
+    },
+    "AU-OBS-V": {
+      "AuthorizationId": "AU-OBS-V",
+      "capital_permission": false,
+      "class": "Observation",
+      "constitutional_budget": {
+        "delta_A": 0,
+        "delta_O": 0,
+        "delta_S": 0
+      },
+      "expiry": "2027-04-30T00:00:00.000Z",
+      "grantee": [
+        "Observation function"
+      ],
+      "grantor": "Principal",
+      "may_check": [],
+      "may_commit_evidence": [
+        "DOCUMENT Observation",
+        "feed retrieval COMPLETE/PARTIAL/RETRIEVAL_FAILED",
+        "Market Observation VALUE/ABSENT/NOT_EXTRACTABLE/RETRIEVAL_FAILED"
+      ],
+      "may_propose": [],
+      "observation_plan": {
+        "SRC-V-DATA": {
+          "period_dates_inclusive": [
+            "2026-10-28",
+            "2027-04-29"
+          ],
+          "retrieval_slot": "when the Principal imports a file",
+          "stop_rule": "No slot at or after grant expiry."
+        }
+      },
+      "provider_calls_permitted": false,
+      "source_declarations": [
+        {
+          "SourceId": "SRC-V-DATA",
+          "SourceRevision": "356bf4707275bd3ca377b3f6e6a9d3435ccaefb3de6609153a243d695519176c",
+          "content": {
+            "SourceId": "SRC-V-DATA",
+            "access_method": "Read from the local filesystem by the Observation function; no network",
+            "claimed_time_field": "claimed_publication_time",
+            "dataset": "Immutable synthetic AAA/BBB DEV/V1/V2 inputs.",
+            "endpoint": "file://local/{sha256}",
+            "enumeration_contract": {
+              "complete_set": "Every file the generator produced.",
+              "completeness": "Not listed; many items per period.",
+              "item_identity": "v-YYYY-MM-DD-<content hash>",
+              "window": "Daily periods in the declared window."
+            },
+            "extraction_rule": "Exact fraction of positive return_bp over row_id cohort.",
+            "field": "positive_return_fraction",
+            "field_definition": "One committed file with its rows or text.",
+            "parsing": "UTF-8 text; CSV, TSV and JSON parsed to rows with exact integers.",
+            "print_rule": "FIRST_RELEASE",
+            "provider": "A deterministic generator in the experiment directory",
+            "resolution_grace_ms": 600000,
+            "source_kind": "DOCUMENT_FEED",
+            "structural_availability_bound": "Available from the declared receipt time.",
+            "synthetic": true,
+            "unit": "exact numerator/denominator"
+          }
+        }
+      ],
+      "tools": [],
+      "uncapped_calls_permitted": false
+    },
+    "G-BR": {
+      "AuthorizationId": "G-BR",
+      "binding_interval_ms": 300000,
+      "capital_permission": false,
+      "class": "Research",
+      "constitutional_budget": {
+        "delta_A": 0,
+        "delta_O": 0,
+        "delta_S": 0
+      },
+      "default_reservation_duration_ms": 604800000,
+      "discovery_scope": {
+        "SearchFamily": "SF-V-DISCOVERY",
+        "expected_screening_cadence": "One analysis per design the Principal commits; no cadence is imposed.",
+        "feed_sources": [
+          "SRC-V-DATA"
+        ],
+        "fixed_subgrant_units": "10.00",
+        "followup_count": 0,
+        "included_in_pool": true,
+        "max_hop_depth": 1,
+        "shared_across_grantees": true
+      },
+      "expiry": "2027-04-30T00:00:00.000Z",
+      "grantee": [
+        "R-T",
+        "R-R"
+      ],
+      "grantor": "Principal",
+      "may_check": [],
+      "may_commit_evidence": [
+        "plain Research Record",
+        "EXPERIMENT DESIGN",
+        "SELECTION",
+        "RESERVATION",
+        "attempt",
+        "settlement",
+        "CLOSED"
+      ],
+      "may_propose": [
+        "Hypothesis registration",
+        "Theme registration",
+        "Agent Design successor registration without grant request",
+        "Constitutional proposal STOPPED until Principal decides"
+      ],
+      "per_lineage_cap_units": "10.00",
+      "provider_calls_permitted": false,
+      "research_budget_units": "10.00",
+      "scope_by_grantee": {
+        "R-R": {
+          "empirical_search_families": [],
+          "themes": [
+            "TH-V-R"
+          ]
+        },
+        "R-T": {
+          "empirical_search_families": [],
+          "themes": [
+            "TH-V-T"
+          ]
+        }
+      },
+      "tools": [
+        {
+          "id": "CALC-V",
+          "spec_sha256": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572",
+          "tier": 1
+        }
+      ],
+      "uncapped_calls_permitted": false
+    },
+    "G-R": {
+      "AuthorizationId": "G-R",
+      "binding_interval_ms": 300000,
+      "capital_permission": false,
+      "class": "Research",
+      "constitutional_budget": {
+        "delta_A": 0,
+        "delta_O": 0,
+        "delta_S": 0
+      },
+      "default_reservation_duration_ms": 604800000,
+      "discovery_scope": {
+        "SearchFamily": "SF-V-DISCOVERY",
+        "expected_screening_cadence": "One analysis per design the Principal commits; no cadence is imposed.",
+        "feed_sources": [
+          "SRC-V-DATA"
+        ],
+        "fixed_subgrant_units": "10.00",
+        "followup_count": 0,
+        "included_in_pool": true,
+        "max_hop_depth": 1,
+        "shared_across_grantees": true
+      },
+      "expiry": "2027-04-30T00:00:00.000Z",
+      "grantee": [
+        "R-T",
+        "R-R"
+      ],
+      "grantor": "Principal",
+      "may_check": [],
+      "may_commit_evidence": [
+        "plain Research Record",
+        "EXPERIMENT DESIGN",
+        "SELECTION",
+        "RESERVATION",
+        "attempt",
+        "settlement",
+        "CLOSED"
+      ],
+      "may_propose": [
+        "Hypothesis registration",
+        "Theme registration",
+        "Agent Design successor registration without grant request",
+        "Constitutional proposal STOPPED until Principal decides"
+      ],
+      "per_lineage_cap_units": "10.00",
+      "provider_calls_permitted": false,
+      "research_budget_units": "10.00",
+      "scope_by_grantee": {
+        "R-R": {
+          "empirical_search_families": [],
+          "themes": [
+            "TH-V-R"
+          ]
+        },
+        "R-T": {
+          "empirical_search_families": [],
+          "themes": [
+            "TH-V-T"
+          ]
+        }
+      },
+      "tools": [
+        {
+          "id": "CALC-V",
+          "spec_sha256": "9af03da5b407ceaa78c45a219488f9f0280a318a2e63edf6d5bcada37358f572",
+          "tier": 1
+        }
+      ],
+      "uncapped_calls_permitted": false
+    }
+  },
+  "hypotheses": {},
+  "limits": {
+    "exploratory_pool_units": "0.00",
+    "factor_exposure_units": "0.00",
+    "interpretation": "Research-only zero-capital state.",
+    "per_instrument_exposure_units": "0.00",
+    "per_strategy_allocation_cap_units": "0.00",
+    "per_strategy_lifetime_exploratory_cap_units": "0.00",
+    "portfolio_absolute_net_exposure_units": "0.00",
+    "portfolio_capital_units": "0.00",
+    "portfolio_drawdown_loss_units": "0.00",
+    "portfolio_gross_exposure_units": "0.00",
+    "strategy_versions": []
+  },
+  "suspended": [
+    "G-R"
+  ],
+  "themes": {
+    "TH-V-R": {
+      "ThemeId": "TH-V-R",
+      "motivation_closure": {
+        "N": 6,
+        "refs": [
+          {
+            "ledger": "E",
+            "sequence": 5,
+            "sha256": "c63f3831fad62b9afc0f851fd4116eb72058518dcd7c01f99534149c56ae2c5d"
+          }
+        ]
+      },
+      "predecessor": null,
+      "selection_basis": {
+        "cost_estimate_units": "10.00",
+        "decision_it_could_change": "Which investigation to design next.",
+        "experiment": "Designs with recorded expectations, analysed by the declared tool and checked independently.",
+        "horizon": "Two named research slots",
+        "origin": "discovery-scope initiative",
+        "stopping_rule": "Both slots complete or authority/budget/required evidence unavailable.",
+        "time_estimate_ms": "UNESTIMATED",
+        "uncertainty": "Robustness within predeclared volatility/quiet cohorts.",
+        "value_basis": "No investment-economic inference from reconstruction alone.",
+        "value_estimate": "UNESTIMATED"
+      },
+      "statement": "Research recovery after negative price returns on synthetic AAA/BBB at the same declared horizon, including the predeclared quiet-regime filter and DEV/V1/V2 cohorts, unchanged feature availability, cost and validation rules; stop after the two named research slots.",
+      "typed_claims": [
+        {
+          "kind": "QUESTION",
+          "text": "Bounded continuation/reversal research on synthetic AAA/BBB."
+        },
+        {
+          "kind": "ASSUMPTION",
+          "text": "Analyses are reconstruction of committed inputs and earn no forward standing."
+        }
+      ]
+    },
+    "TH-V-T": {
+      "ThemeId": "TH-V-T",
+      "motivation_closure": {
+        "N": 7,
+        "refs": [
+          {
+            "ledger": "E",
+            "sequence": 5,
+            "sha256": "c63f3831fad62b9afc0f851fd4116eb72058518dcd7c01f99534149c56ae2c5d"
+          }
+        ]
+      },
+      "predecessor": null,
+      "selection_basis": {
+        "cost_estimate_units": "10.00",
+        "decision_it_could_change": "Which investigation to design next.",
+        "experiment": "Designs with recorded expectations, analysed by the declared tool and checked independently.",
+        "horizon": "Two named research slots",
+        "origin": "discovery-scope initiative",
+        "stopping_rule": "Both slots complete or authority/budget/required evidence unavailable.",
+        "time_estimate_ms": "UNESTIMATED",
+        "uncertainty": "Robustness within predeclared volatility/quiet cohorts.",
+        "value_basis": "No investment-economic inference from reconstruction alone.",
+        "value_estimate": "UNESTIMATED"
+      },
+      "statement": "Research price-return continuation on synthetic AAA/BBB at the declared toy-trade horizon, including predeclared volatility cohorts DEV/V1/V2, unchanged feature availability, cost and validation rules; stop after the two named research slots.",
+      "typed_claims": [
+        {
+          "kind": "QUESTION",
+          "text": "Bounded continuation/reversal research on synthetic AAA/BBB."
+        },
+        {
+          "kind": "ASSUMPTION",
+          "text": "Analyses are reconstruction of committed inputs and earn no forward standing."
+        }
+      ]
+    }
+  }
+}

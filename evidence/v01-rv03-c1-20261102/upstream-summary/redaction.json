@@ -1,0 +1,778 @@
+{
+  "authentication_headers_included": false,
+  "binary_SHA256_fragments": [
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 18,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 2,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 11,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B10/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B10/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-checker_during_computation/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-checker_during_computation/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-terminal-invalidate/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-terminal-invalidate/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_research-commit_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_research-commit_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-all_components_restart/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-all_components_restart/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B11/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B11/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 18,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R14/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 2,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R14/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-clock_unavailable/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-clock_unavailable/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R13/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R13/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_attempt_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_attempt_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C06/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C06/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_settle_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_settle_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R12/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R12/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R15/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R15/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C07/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C07/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-tool_after_execution_before_reply/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-tool_after_execution_before_reply/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R08/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R08/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 6,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R06/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R06/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_reserve_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_reserve_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R07/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R07/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R09/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R09/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 7,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_check-commit_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_check-commit_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_apply_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_apply_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-checker_after_result/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-checker_after_result/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S06/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 4,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S06/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S08/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S08/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B12/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 7,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B12/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-terminal-apply/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-terminal-apply/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_reserve_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_reserve_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S07/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/S07/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_apply_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_apply_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_decide_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_decide_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R10/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R10/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_dispatch_claim_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_dispatch_claim_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/C03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_invalidate-request_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_invalidate-request_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R16/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R16/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/E01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/E01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R11/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 8,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R11/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R02/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R02/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R05/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R05/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T07/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T07/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/R03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-tool_before_execution/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-tool_before_execution/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X04/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X04/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X03/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/X03/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/T01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_bind_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-after_bind_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B01/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B01/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_attempt_commit/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-before_attempt_commit/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B06/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 7,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B06/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-principal_control_continuation/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/D-principal_control_continuation/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B08/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B08/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B09/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 6,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B09/harness.sqlite-wal"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 3,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B07/harness.sqlite"
+    },
+    {
+      "classification": "SQLite page split of separately observed full SHA-256, or an explicitly labelled immutable ledger-reference sha256 field",
+      "fragments": 5,
+      "path": "acceptance-schedules/b8a4c8f1ed6249caa53e217063094515/state/B07/harness.sqlite-wal"
+    }
+  ],
+  "host_48_hex_token_candidates": 0,
+  "notice": "Native acceptance retains its standard disposable SQLite histories; consumer integration uses public exports only. No token values or token hashes retained.",
+  "raw_connection_or_fixture_files_included": false
+}

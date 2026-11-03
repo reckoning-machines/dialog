@@ -1,0 +1,13 @@
+{
+  "Murmur_published": false,
+  "branch": "fix/rv03-declared-checker-steps",
+  "owner_authorized_ARH_push": true,
+  "owner_requested_changelog": true,
+  "post_test_changed_paths": [
+    "changelog.md"
+  ],
+  "remote": "https://github.com/reckoning-machines/adaptive-research-harness.git",
+  "remote_main_preserved": "7083ec05d3e9aff8634679d7b49913d31029eb8f",
+  "tested_repair_and_Murmur_pin": "301492667eeaaeaf34c93daaad4cef375c2d04fe",
+  "verified_remote_branch_head": "da5dd3f59de84df309cb5adf3c6c89065259ae33"
+}
