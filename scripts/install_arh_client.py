@@ -7,9 +7,14 @@ import hashlib, json, os, subprocess, sys, tempfile
 from pathlib import Path
 repo = Path(__file__).resolve().parents[1]
 pin = json.loads((repo / "arh-dependency.json").read_text())["commit"]
-arh = Path(os.environ.get("DIALOG_ARH_ROOT", "/Users/jedgore/dev/speedway"))
+arh = repo / ".local" / "dependencies" / "arh"
+if not arh.exists():
+    arh.parent.mkdir(parents=True, exist_ok=True)
+    remote = json.loads((repo / "arh-dependency.json").read_text())["repository"]
+    subprocess.run(["git", "clone", "--no-checkout", remote, str(arh)], check=True)
+    subprocess.run(["git", "checkout", "--detach", pin], cwd=arh, check=True)
 if subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=arh, text=True).strip() != pin:
-    raise SystemExit("ARH checkout must match pinned commit " + pin)
+    raise SystemExit("Managed ARH dependency does not match pinned commit " + pin)
 paths = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", pin, "client/arh_client", "client/pyproject.toml", "client/README.md"], cwd=arh, text=True).splitlines()
 with tempfile.TemporaryDirectory(prefix="dialog-client-source-") as temporary:
     source = Path(temporary)

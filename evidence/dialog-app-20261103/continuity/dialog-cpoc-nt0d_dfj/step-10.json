@@ -1,0 +1,1061 @@
+{
+  "allocations": [
+    {
+      "absolute_targets": true,
+      "admitted": {
+        "T1": 199
+      },
+      "constraints": [
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "strategy 20%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "AAA aggregate 25%"
+        },
+        {
+          "quantities": {
+            "T1": "199.96000"
+          },
+          "rule": "gross / cash / daily turnover"
+        }
+      ],
+      "day": "D1",
+      "denominator": "99980.00000",
+      "excluded": {
+        "R1": "Strategy is rejected"
+      },
+      "fee_ceiling": "19.90",
+      "id": "AL-1",
+      "opening_nav": "100000.00",
+      "portfolio_revision": 18,
+      "requested": {
+        "R1": 200,
+        "T1": 200
+      },
+      "rounding": "Down once to whole shares; residual remains cash"
+    }
+  ],
+  "arh": {
+    "E": 81,
+    "N": 13,
+    "asof": 1793702296.400727,
+    "pin": "76234ff1816d95432a87de69b3337db5401349d4",
+    "run": "a496ef7476df43e29fe493cbc9a5663d",
+    "stale": false,
+    "unavailable": false
+  },
+  "book": {
+    "cash": "99960.20",
+    "cash_after_commitments": "99960.20",
+    "commitments": "0.00",
+    "exit_turnover": {
+      "D1": "19900.00"
+    },
+    "fees": "39.80",
+    "nav": "99960.20",
+    "orders": [
+      {
+        "day": "D1",
+        "decision": "AL-1",
+        "exit": null,
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "AL-1/T1/BUY",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 20,
+        "side": "BUY",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 18:00"
+      },
+      {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "filled": 199,
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "remaining": 0,
+        "revision": 54,
+        "side": "SELL",
+        "status": "FILLED",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      }
+    ],
+    "ordinary_turnover": {
+      "D1": "19900.00"
+    },
+    "pnl": "-39.80",
+    "positions": {
+      "T1": 0
+    },
+    "quantity": 0
+  },
+  "budgets": {
+    "AU-CK-V": {
+      "E": 81,
+      "N": 13,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793383200000
+    },
+    "G-C1": {
+      "E": 81,
+      "N": 13,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793383200000
+    },
+    "G-C2": {
+      "E": 81,
+      "N": 13,
+      "committed": "0.00",
+      "grant": "G-C2",
+      "headroom": "2.00",
+      "overspent": false,
+      "reserved": "0.00",
+      "spendable": "2.00",
+      "time_ms": 1793383200000
+    },
+    "G-R1": {
+      "E": 81,
+      "N": 13,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793383200000
+    },
+    "G-R2": {
+      "E": 81,
+      "N": 13,
+      "committed": "2.00",
+      "grant": "G-R2",
+      "headroom": "8.00",
+      "overspent": false,
+      "reserved": "4.00",
+      "spendable": "6.00",
+      "time_ms": 1793383200000
+    }
+  },
+  "busy": false,
+  "changes": [
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:15"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1155",
+          "sha256": "6bc8c5c55ef6c6f6873d165bb50ac029d75d5d0acd3846862300cf4e9523ae64"
+        }
+      },
+      "created": 1793702286.728108,
+      "key": "mark/1155",
+      "kind": "MONITOR",
+      "seq": 43,
+      "sha256": "fc07c5408625e6b190f195d29b3eda77a84ffac6a0aecab65d5b4767f78739df"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:20"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1160",
+          "sha256": "35a9bbd6c3aab2725f96b520af2e2d235f07ca8f775d01fa5615947681178bab"
+        }
+      },
+      "created": 1793702286.7322922,
+      "key": "mark/1160",
+      "kind": "MONITOR",
+      "seq": 44,
+      "sha256": "ce140dfa70e2749410ffa968f98886a506461c514b981b9018a26ec50569461e"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:25"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1165",
+          "sha256": "705d3e4de88c2cad9934bd22e30b5c0357e4b65d5c6226bdc7eeff5ba3d0b7d6"
+        }
+      },
+      "created": 1793702286.7361531,
+      "key": "mark/1165",
+      "kind": "MONITOR",
+      "seq": 45,
+      "sha256": "6cfb08cc5f446f0f88c2a7b1f7ab91aa1bd4c63ea596cda6774e12c12f134506"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:30"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1170",
+          "sha256": "ef6cffa047736b0fdae5696d4be4220ba91226b495c141af10aebb5c03f2476a"
+        }
+      },
+      "created": 1793702286.740049,
+      "key": "mark/1170",
+      "kind": "MONITOR",
+      "seq": 46,
+      "sha256": "11f76688f7d60d86c1572635c894c0bba3408e36198336e4f99b4945b092ad4c"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:35"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1175",
+          "sha256": "341e3668e8877bbb181ca73d3426f07a7f803a01a7dba72c1ecdc799ad3c7f3d"
+        }
+      },
+      "created": 1793702286.744729,
+      "key": "mark/1175",
+      "kind": "MONITOR",
+      "seq": 47,
+      "sha256": "2aa5bc8e9c4363adce1057b53c70bdb6be564699a4ebd952e2234695a4593a4e"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:40"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1180",
+          "sha256": "a94c6ebf2c615f037366153a6c4b3ea7078eeaa7790dfcf86ff6a541f97a7506"
+        }
+      },
+      "created": 1793702286.749384,
+      "key": "mark/1180",
+      "kind": "MONITOR",
+      "seq": 48,
+      "sha256": "6ee83eb8dddac97108ca4da4016802ccc5eccd7d76fd6455ca3da70a10f6c8b6"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:45"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1185",
+          "sha256": "ccc6bb76f9a5502ea231da24ec2b55cefb6d5a5345807b502af37d9ee5404af9"
+        }
+      },
+      "created": 1793702286.75404,
+      "key": "mark/1185",
+      "kind": "MONITOR",
+      "seq": 49,
+      "sha256": "cefb165ef9101fee262a3cb01a569e7d3614f1ae70291cde05710328eebd52c8"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:50"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1190",
+          "sha256": "8df054acaf15710c0741950d3a18598183c8af4c18027da38b6dec97eade8c42"
+        }
+      },
+      "created": 1793702286.7587352,
+      "key": "mark/1190",
+      "kind": "MONITOR",
+      "seq": 50,
+      "sha256": "77ea1b4fc579ae98d8c86dcc1e8843eaab7bee20d5b8f2f871a2ed6712eb7e7a"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 19:55"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1195",
+          "sha256": "73db378cfe169280193a39d830eadafa8a0d181312833dcecc9ad7ad333396f7"
+        }
+      },
+      "created": 1793702286.76378,
+      "key": "mark/1195",
+      "kind": "MONITOR",
+      "seq": 51,
+      "sha256": "27e1bd9982524c7c0f02316baafe0cbdf9fd3ca0c22a0b53c9e9bc6ed18495c8"
+    },
+    {
+      "actor": "monitor",
+      "body": {
+        "cadence_minutes": 5,
+        "mark": {
+          "class": "Historical Reconstruction",
+          "instrument": "AAA",
+          "model": "fixed-AAA-100-v1",
+          "price": "100.00",
+          "synthetic": true,
+          "time": "D1 20:00"
+        },
+        "opening_blocked": false,
+        "positions": {
+          "T1": 199
+        },
+        "source": {
+          "adapter_key": "mark/1200",
+          "sha256": "2219bd4ea164b6d3bc020a19a14438cdcbe4c558cf74a8f46492a5c7cb70a735"
+        }
+      },
+      "created": 1793702286.773893,
+      "key": "mark/1200",
+      "kind": "MONITOR",
+      "seq": 52,
+      "sha256": "57c9b03908386fe1de6cb01ab5f76adf644e53578baa1afa535edf634064c224"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Immutable holding window ended; DA-X; exit-only authority survives research/opening expiry",
+        "status": "retiring"
+      },
+      "created": 1793702286.81627,
+      "key": "retiring/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 53,
+      "sha256": "8c090a69370d490ad9f5b71174721a1721c0df40e2f33d2b6869859912661d70"
+    },
+    {
+      "actor": "portfolio",
+      "body": {
+        "authority": "DA-X / C-05",
+        "deadline": "D1 20:00",
+        "envelope": "249.95",
+        "pre_exit_nav": "99980.10",
+        "quantity": 199,
+        "revision": 53,
+        "strategy": "T1",
+        "target": 0
+      },
+      "created": 1793702286.819128,
+      "key": "EXIT/T1",
+      "kind": "EXIT",
+      "seq": 54,
+      "sha256": "c376d77b8e1be5781cac3582d53143381910f138a83789b8fd46232ed7daa1e8"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "decision": "EXIT/T1",
+        "exit": "EXIT/T1",
+        "fee_per_share": "0.10",
+        "id": "EXIT/T1/SELL",
+        "instrument": "AAA",
+        "price": "100.00",
+        "quantity": 199,
+        "revision": 54,
+        "side": "SELL",
+        "strategy": "T1",
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793702286.826551,
+      "key": "order/EXIT/T1/SELL",
+      "kind": "ORDER",
+      "seq": 55,
+      "sha256": "aeee9a59eef7e83ab5c941accc38bf9dd1ea68af4d0bd878f88ba6f10e4a374c"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": "EXIT/T1",
+        "fee": "7.90",
+        "id": "EXIT/T1/SELL/F79",
+        "model": "synthetic-fixed-price-v1",
+        "order": "EXIT/T1/SELL",
+        "price": "100.00",
+        "quantity": 79,
+        "side": "SELL",
+        "strategy": "T1",
+        "timestamp": "D1 20:00"
+      },
+      "created": 1793702286.85486,
+      "key": "fill/EXIT/T1/SELL/F79",
+      "kind": "FILL",
+      "seq": 56,
+      "sha256": "c125f11abaf6031598a13623df615fba655853bb071bc389d969dbafb65a1273"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Scheduled exit begins",
+        "step": 7,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793702287.075716,
+      "key": "step/7",
+      "kind": "STEP",
+      "seq": 57,
+      "sha256": "48dae8a1974e32821d798aea5d2b844d02027ee874438138505f80d9eab8d46f"
+    },
+    {
+      "actor": "paper-book",
+      "body": {
+        "day": "D1",
+        "exit": "EXIT/T1",
+        "fee": "12.00",
+        "id": "EXIT/T1/SELL/F199",
+        "model": "synthetic-fixed-price-v1",
+        "order": "EXIT/T1/SELL",
+        "price": "100.00",
+        "quantity": 120,
+        "side": "SELL",
+        "strategy": "T1",
+        "timestamp": "D1 20:00"
+      },
+      "created": 1793702290.939681,
+      "key": "fill/EXIT/T1/SELL/F199",
+      "kind": "FILL",
+      "seq": 58,
+      "sha256": "54008957b66e0716c8b7866e70250601dd64e37bad7985038b444492cb5346d4"
+    },
+    {
+      "actor": "policy",
+      "body": {
+        "id": "T1",
+        "policy": "DA-1 / ES-M1 / C-05",
+        "reason": "Flat, no executable order, all receipts reconciled",
+        "status": "retired"
+      },
+      "created": 1793702290.970034,
+      "key": "retired/T1",
+      "kind": "STRATEGY_STATE",
+      "seq": 59,
+      "sha256": "d53b640be2c9086cf1924d153dfa8fcf1fd42750befefd4e9ff73c17e905b1be"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Recover exit remainder",
+        "step": 8,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793702291.184142,
+      "key": "step/8",
+      "kind": "STEP",
+      "seq": 60,
+      "sha256": "fed8e0849cffb0fd952bd331faeb5ccfdb96e6dab36a2ac23f726cdbe0f2257b"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-T",
+        "cycle": 1,
+        "next_question": "Does trend persist across volatility conditions?",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 54,
+            "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+          },
+          {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 72,
+          "sha256": "9576bb625c09945b6e6335887e2548b39fcbf6f678b76019df05882c768cc55e"
+        }
+      },
+      "created": 1793702293.045974,
+      "key": "selection/R-T1",
+      "kind": "SELECTION",
+      "seq": 61,
+      "sha256": "ce5ea2acc47033715b0d0acb5e0862d870a0de2eb50f51de411b9a2b33ac2ed5"
+    },
+    {
+      "actor": "research-plan",
+      "body": {
+        "actor": "R-R",
+        "cycle": 1,
+        "next_question": "Does reversal work in quiet regimes?",
+        "parent_results": [
+          {
+            "ledger": "E",
+            "sequence": 54,
+            "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+          },
+          {
+            "ledger": "E",
+            "sequence": 55,
+            "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+          }
+        ],
+        "reference": {
+          "ledger": "E",
+          "sequence": 73,
+          "sha256": "2cb36796900cb6f95d4a8b1e56d4ee7823f8642ece8f126077c66a306def3d63"
+        }
+      },
+      "created": 1793702293.237181,
+      "key": "selection/R-R1",
+      "kind": "SELECTION",
+      "seq": 62,
+      "sha256": "8da6557888e0e1c2f2b759cc4fd4d8ddb3e2d3798ab4df28f7484c339c61ad06"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "cycle": 1,
+        "local_dispatch_stopped": true,
+        "no_fence_or_refill": true,
+        "research_expiry": "D1 23:00"
+      },
+      "created": 1793702293.256396,
+      "key": "closed/1",
+      "kind": "CYCLE_CLOSED",
+      "seq": 63,
+      "sha256": "39c9206dbf57275dfc13b7b33ab14a2847eeaff3d108881e9a7752a15e8177d2"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Close first research cycle",
+        "step": 9,
+        "virtual_time": "D1 20:00"
+      },
+      "created": 1793702293.476641,
+      "key": "step/9",
+      "kind": "STEP",
+      "seq": 64,
+      "sha256": "8e9ddd81081df2771bcd164f32007711e70685c67ac2ca0464d0d7c3b89463ae"
+    },
+    {
+      "actor": "operator",
+      "body": {
+        "reason": "Both research workers terminated: trend has durable receipt; reversal claim has no receipt. Maximum liabilities remain authoritative in ARH.",
+        "recovery": "Resolve original attempts, settle unknown maximum; require host proof before one replacement.",
+        "returncodes": {
+          "R2": -9,
+          "T2": -9
+        },
+        "workers": {
+          "R2": {
+            "attempt": 81,
+            "boundary": "claimed-no-receipt",
+            "pid": 82778,
+            "run": "a496ef7476df43e29fe493cbc9a5663d"
+          },
+          "T2": {
+            "attempt": 80,
+            "boundary": "durable-receipt",
+            "pid": 82777,
+            "run": "a496ef7476df43e29fe493cbc9a5663d"
+          }
+        }
+      },
+      "created": 1793702296.187466,
+      "key": "parallel-interrupted",
+      "kind": "INTERRUPTION",
+      "seq": 65,
+      "sha256": "8fc52e342a834f814c14ec192808b772358587ed418022b3a31246740651be65"
+    },
+    {
+      "actor": "scheduler",
+      "body": {
+        "authority": "Z-M1 / DA-1",
+        "label": "Parallel research interrupted",
+        "step": 10,
+        "virtual_time": "D2 18:00"
+      },
+      "created": 1793702296.411477,
+      "key": "step/10",
+      "kind": "STEP",
+      "seq": 66,
+      "sha256": "dce3e4d10c9ecc0af039f3724a41ada31c94f045973b7b784a76e0ecd08a04a1"
+    }
+  ],
+  "clock": "D2 18:00",
+  "decisions": [],
+  "dossiers": [
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": true,
+        "drawdown_within_2_percent": true,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": true,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 47,
+        "sha256": "2ca494f703a096955628ace25aab195a703a61952b2c6412417714bb3b9f3bb4"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 51,
+          "sha256": "b6e0d0c420af32cc2de507805184e5eea6d2bcbd4e656a13beb8c9434db8746c"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 49,
+          "sha256": "391107a33bf31ed793c9dfeea59f9f1716a90eb5d9891da725d2a1e2a0392572"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 50,
+          "sha256": "1cb3279c03be79a88930d039925f484890ac34a8cdf72d2aa7652ebd69008dc6"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 60,
+          "sha256": "7e0e3a908265b32cdf1bc335cedad43c82dd56e82311ef6101be2c2e1c3d9be5"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+        },
+        "run": "a496ef7476df43e29fe493cbc9a5663d"
+      },
+      "no_forward_support": true,
+      "partition": "V1T",
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "T1"
+    },
+    {
+      "criteria": {
+        "availability_valid": true,
+        "base_positive": false,
+        "drawdown_within_2_percent": false,
+        "exact_input": true,
+        "independent_arithmetic": true,
+        "predeclared_partition": true,
+        "stress_positive": false,
+        "unexposed_partition": true
+      },
+      "design": {
+        "ledger": "E",
+        "sequence": 49,
+        "sha256": "298ee78d59a57bdef8159ace6f0b099c0a34bc666752c9fdc3f10c479b53c1a0"
+      },
+      "independent_check": {
+        "applied": {
+          "ledger": "T",
+          "sequence": 55,
+          "sha256": "1f8b710aa45ce43378aecb9edfa9eb707f338f2388d09a99de18937368921be8"
+        },
+        "arithmetic": "PASS",
+        "check": {
+          "ledger": "T",
+          "sequence": 53,
+          "sha256": "b1b7e986cfbce2481a6f77f513c03df9b9b70fadf893573242567f62a0e8481d"
+        },
+        "decision": {
+          "ledger": "T",
+          "sequence": 54,
+          "sha256": "31f19e0a129df2d87e3326a6d4ffe246a4c4501acb64c55c7a6f3f04de209574"
+        },
+        "funding": {
+          "ledger": "E",
+          "sequence": 66,
+          "sha256": "9a73f077222800c1ffaf4cd7ff66c7c512b897c297aa61e7006d9c1d90775757"
+        },
+        "research": {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+        },
+        "run": "a496ef7476df43e29fe493cbc9a5663d"
+      },
+      "no_forward_support": true,
+      "partition": "V1R",
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      },
+      "reviewer": "AD-CK-D1.0",
+      "standard": "ES-M1",
+      "strategy": "R1"
+    }
+  ],
+  "error": null,
+  "exits": [
+    {
+      "authority": "DA-X / C-05",
+      "deadline": "D1 20:00",
+      "envelope": "249.95",
+      "pre_exit_nav": "99980.10",
+      "quantity": 199,
+      "revision": 53,
+      "strategy": "T1",
+      "target": 0
+    }
+  ],
+  "mandate": {
+    "authority": "Owner instruction: build and launch first working local synthetic app using documented mandate and bounded policies.",
+    "cash": "100000.00",
+    "cash_floor": "0.60",
+    "checker_per_cycle": "2.00",
+    "cooperative_identity": true,
+    "evidence_class": "Historical Reconstruction",
+    "exit_cost_fraction": "0.0025",
+    "fee_per_share": "0.10",
+    "forward_observations": 0,
+    "gross": "0.40",
+    "holding_deadlines": {
+      "R2": "D3 20:00",
+      "T1": "D1 20:00",
+      "T2": "D3 20:00"
+    },
+    "id": "Z-M1",
+    "mark_stale_minutes": 30,
+    "monitor_minutes": 5,
+    "name": "Two-cycle synthetic desk",
+    "opening_expiry": "D2 21:00",
+    "ordinary_turnover": "0.20",
+    "policy": "DA-1 / ES-M1 / C-05",
+    "price": "100.00",
+    "research_expiry": [
+      "D1 23:00",
+      "D2 23:00"
+    ],
+    "research_lineage_combined_cap": "10.00",
+    "research_per_cycle": "10.00",
+    "setup_checker_cap": "8.00",
+    "slots": [
+      "D1 18:00",
+      "D2 18:00"
+    ],
+    "strategy": "0.20",
+    "underlying": "0.25",
+    "universe": [
+      "AAA",
+      "BBB"
+    ]
+  },
+  "name": "Dialog",
+  "next": "Recover both researchers",
+  "obligations": {
+    "E": 81,
+    "N": 13,
+    "bindings": {
+      "65": "CONSUMED",
+      "71": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": [
+      80,
+      81
+    ]
+  },
+  "opening_expired": false,
+  "paused": false,
+  "research": [
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 52,
+        "sha256": "ed819b732e2a2e7a89a76251efd6e00b69748292c10a9daee67935437f182f7d"
+      },
+      "name": "T1",
+      "original_attempt": 52,
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "record": {
+        "ledger": "E",
+        "sequence": 54,
+        "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-T",
+      "result": {
+        "base_net": "70",
+        "drawdown": "0",
+        "equity": [
+          "1030",
+          "1030",
+          "1070"
+        ],
+        "gross": "100",
+        "n": 3,
+        "stress_net": "40",
+        "sum_bp": 1000
+      }
+    },
+    {
+      "attempt": {
+        "ledger": "E",
+        "sequence": 53,
+        "sha256": "1c36bca53f405d3567cc1a8199a1e5a570f43ed98b32e7a48ce503922354604d"
+      },
+      "name": "R1",
+      "original_attempt": 53,
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "record": {
+        "ledger": "E",
+        "sequence": 55,
+        "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+      },
+      "recovered": false,
+      "replacement": false,
+      "researcher": "R-R",
+      "result": {
+        "base_net": "-50",
+        "drawdown": "0.05",
+        "equity": [
+          "970",
+          "970",
+          "950"
+        ],
+        "gross": "-20",
+        "n": 3,
+        "stress_net": "-80",
+        "sum_bp": -200
+      }
+    }
+  ],
+  "revision": 66,
+  "selections": [
+    {
+      "actor": "R-T",
+      "cycle": 1,
+      "next_question": "Does trend persist across volatility conditions?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 72,
+        "sha256": "9576bb625c09945b6e6335887e2548b39fcbf6f678b76019df05882c768cc55e"
+      }
+    },
+    {
+      "actor": "R-R",
+      "cycle": 1,
+      "next_question": "Does reversal work in quiet regimes?",
+      "parent_results": [
+        {
+          "ledger": "E",
+          "sequence": 54,
+          "sha256": "43073d5feb118cb66f0503c43818f1324352827220e89d8af11e60e768b9c30d"
+        },
+        {
+          "ledger": "E",
+          "sequence": 55,
+          "sha256": "74724a68ed044ad9e74bc4085a60b6fe435002820c15e3a631b2af9a300c197f"
+        }
+      ],
+      "reference": {
+        "ledger": "E",
+        "sequence": 73,
+        "sha256": "2cb36796900cb6f95d4a8b1e56d4ee7823f8642ece8f126077c66a306def3d63"
+      }
+    }
+  ],
+  "stage": "Parallel research interrupted",
+  "step": 10,
+  "strategies": {
+    "R1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 16,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "R1",
+      "instrument": "AAA",
+      "label": "Reversal",
+      "method": "MV-R1",
+      "parent": null,
+      "question": "Do negative returns reverse?",
+      "reason": "Failed base_positive, stress_positive, drawdown_within_2_percent",
+      "requested_quantity": 200,
+      "status": "rejected"
+    },
+    "T1": {
+      "deadline": "D1 20:00",
+      "decision_ref": 59,
+      "evidence_class": "Historical Reconstruction",
+      "forward_observations": 0,
+      "id": "T1",
+      "instrument": "AAA",
+      "label": "Trend",
+      "method": "MV-T1",
+      "parent": null,
+      "question": "Do positive returns persist?",
+      "reason": "Flat, no executable order, all receipts reconciled",
+      "requested_quantity": 200,
+      "status": "retired"
+    }
+  }
+}

@@ -1,11 +1,9 @@
 # Current state — Dialog
 
-2026-11-03. Dialog is implemented and runs locally at **http://127.0.0.1:8787/**. Start with [README](README.md), [APP.md](APP.md), and [the current validation record](validation/dialog/REPORT.md).
+2026-11-03. Checkout: `/Users/jedgore/dev/dialog`. Remote: `https://github.com/reckoning-machines/dialog.git`. Local workspace: `http://127.0.0.1:8787/`.
 
-ARH main is merged and pushed at `76234ff1816d95432a87de69b3337db5401349d4`. The unchanged 14-witness consumer gate passed against that pin. The application uses Python, the public ARH client and LangGraph 1.2.19. Runtime authority remains in the relevant authoritative records.
+Read [README](README.md), [development guide](APP.md), and [validation results](validation/app/REPORT.md). Setup manages the exact ARH dependency and public client automatically. Runtime state is `.local/dialog`; credentials and generated state stay out of Git.
 
-The owner renamed the application and remote repository to Dialog. Current source, package, CLI, UI, settings, README and design prose use that name. Prior evidence is immutable and retains the names and paths that actually existed. B-02's original 14 document bytes and manifest are archived under `docs/history/B-02`; prior implementation instructions are archived under `docs/history/pre-dialog`. Those historical stop instructions do not supersede the owner's implementation authorization.
+ARH main is merged and pushed at `76234ff1816d95432a87de69b3337db5401349d4`. All 14 unchanged consumer witnesses passed. Dialog uses Python, the public ARH client and LangGraph 1.2.19; authority remains in the relevant authoritative records. RV-03 is resolved. RV-02 and RV-04 remain recorded limitations.
 
-The local checkout remains at `/Users/jedgore/dev/murmuration` to preserve workspace paths. The remote is `https://github.com/reckoning-machines/dialog.git`. Runtime state is `.local/dialog`; a private compatibility path preserves references in the original host's immutable records. Tokens and runtime stores are ignored by Git.
-
-RV-03 is resolved. RV-02 (client helper usability) and RV-04 (stale wheel build artifacts) remain recorded. The clean-source installer verifies public module hashes without modifying ARH. This remains a finite synthetic demonstration, with no paid providers, brokers, real capital, deployment, or IRIS.
+The authorized scope is the local synthetic application and publishing its source. No paid providers, brokers, real capital, public app deployment or IRIS. Historical evidence and original B-02 documents are retained unchanged in their archives. Do not overwrite prior runs or interpret old stop instructions as overriding the later implementation authorization.

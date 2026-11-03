@@ -1,0 +1,77 @@
+{
+  "budgets": {
+    "AU-CK-V": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.75",
+      "grant": "AU-CK-V",
+      "headroom": "5.25",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "5.25",
+      "time_ms": 1793476800000
+    },
+    "G-C1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C1",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793476800000
+    },
+    "G-C2": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.00",
+      "grant": "G-C2",
+      "headroom": "1.00",
+      "overspent": false,
+      "reserved": "1.00",
+      "spendable": "1.00",
+      "time_ms": 1793476800000
+    },
+    "G-R1": {
+      "E": 104,
+      "N": 15,
+      "committed": "1.75",
+      "grant": "G-R1",
+      "headroom": "8.25",
+      "overspent": false,
+      "reserved": "2.25",
+      "spendable": "7.75",
+      "time_ms": 1793476800000
+    },
+    "G-R2": {
+      "E": 104,
+      "N": 15,
+      "committed": "2.25",
+      "grant": "G-R2",
+      "headroom": "7.75",
+      "overspent": false,
+      "reserved": "2.75",
+      "spendable": "7.25",
+      "time_ms": 1793476800000
+    }
+  },
+  "obligations": {
+    "E": 104,
+    "N": 15,
+    "bindings": {
+      "102": "CONSUMED",
+      "65": "CONSUMED",
+      "71": "CONSUMED",
+      "96": "CONSUMED"
+    },
+    "decided_unapplied": [],
+    "no_authority_conferred": true,
+    "pending_attempts": []
+  },
+  "charged": "8.75",
+  "funding_retained": "1.00",
+  "previous_app_charges": "58.25",
+  "previous_app_allowances": "6.25",
+  "consumer_historical_charges_separate": "205.00"
+}

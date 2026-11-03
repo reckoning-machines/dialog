@@ -1,0 +1,29 @@
+[
+  {
+    "boundary": 4,
+    "core_reopened": false,
+    "fresh_pid": 82758,
+    "old_pid": 82715,
+    "old_returncode": -9,
+    "same_book": true,
+    "same_budgets": true
+  },
+  {
+    "boundary": 7,
+    "core_reopened": false,
+    "fresh_pid": 82768,
+    "old_pid": 82758,
+    "old_returncode": -9,
+    "same_book": true,
+    "same_budgets": true
+  },
+  {
+    "boundary": 10,
+    "core_reopened": true,
+    "fresh_pid": 82781,
+    "old_pid": 82768,
+    "old_returncode": -9,
+    "same_book": true,
+    "same_budgets": true
+  }
+]

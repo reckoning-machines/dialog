@@ -1,0 +1,16 @@
+test_allocation_survives_death_between_batch_and_children (test_book.BookContracts.test_allocation_survives_death_between_batch_and_children) ... ok
+test_authority_expiry_and_unknown_order_prevent_new_exposure (test_book.BookContracts.test_authority_expiry_and_unknown_order_prevent_new_exposure) ... ok
+test_contradictory_receipt_is_not_rebooked (test_book.BookContracts.test_contradictory_receipt_is_not_rebooked) ... ok
+test_correct_calculation_is_not_sufficient_evidence (test_book.BookContracts.test_correct_calculation_is_not_sufficient_evidence) ... ok
+test_early_retirement_stale_marks_and_stale_revision_refuse (test_book.BookContracts.test_early_retirement_stale_marks_and_stale_revision_refuse) ... ok
+test_fee_aware_allocation_loss_partial_fill_and_replay (test_book.BookContracts.test_fee_aware_allocation_loss_partial_fill_and_replay) ... ok
+test_new_batch_refuses_existing_exposure_or_unfilled_orders (test_book.BookContracts.test_new_batch_refuses_existing_exposure_or_unfilled_orders) ... ok
+test_pause_preserves_real_fills_and_cancels_remaining_buys (test_book.BookContracts.test_pause_preserves_real_fills_and_cancels_remaining_buys) ... ok
+test_required_exit_exceeds_ordinary_limit_without_resetting_cost (test_book.BookContracts.test_required_exit_exceeds_ordinary_limit_without_resetting_cost) ... ok
+test_two_eligible_strategies_share_underlying_and_turnover (test_book.BookContracts.test_two_eligible_strategies_share_underlying_and_turnover) ... ok
+test_two_cycles_process_death_and_final_exit (test_continuity.LocalDeskContinuity.test_two_cycles_process_death_and_final_exit) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 60.248s
+
+OK

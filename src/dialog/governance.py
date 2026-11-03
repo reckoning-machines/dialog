@@ -9,7 +9,7 @@ from decimal import Decimal as D
 from arh_client import Connection,Principal,Observer,HostControl,Researcher,Execution,ReceiptStore,event_ref,digest,invocation,historical_document
 from .store import Store,Refused
 from .fixtures import cohort,manifest,QUESTIONS,calculate
-ARH=Path(os.environ.get('DIALOG_ARH_ROOT','/Users/jedgore/dev/speedway'))
+ARH=Path(__file__).resolve().parents[2]/'.local/dependencies/arh'
 PIN='76234ff1816d95432a87de69b3337db5401349d4'
 CHECKER='AD-CK-D1.0'
 def read(p):return json.loads(Path(p).read_text())
