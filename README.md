@@ -2,6 +2,8 @@
 
 Dialog is a trading research and paper-trading workspace. Competing research approaches develop hypotheses, an independent evaluator checks their results, and eligible strategies share a portfolio.
 
+![Dialog workspace showing agent research, the paper portfolio, and research spending](docs/images/dialog-workspace.png)
+
 - Retain experiments, rejected ideas, and the evidence behind each decision.
 - Use prior findings to choose the next investigation.
 - Allocate shared exposure and account for orders, partial fills, cash, and fees.
